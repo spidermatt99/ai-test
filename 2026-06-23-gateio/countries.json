@@ -1,0 +1,1262 @@
+[
+    {
+        "country": "Afghanistan",
+        "code": "AF",
+        "id": "260",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Albania",
+        "code": "AL",
+        "id": "3",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Algeria",
+        "code": "DZ",
+        "id": "4",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Andorra",
+        "code": "AD",
+        "id": "5",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Angola",
+        "code": "AO",
+        "id": null,
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Anguilla",
+        "code": "AI",
+        "id": "6",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Antigua and Barbuda",
+        "code": "AG",
+        "id": "7",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Argentina",
+        "code": "AR",
+        "id": "8",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Armenia",
+        "code": "AM",
+        "id": "9",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Aruba",
+        "code": "AW",
+        "id": "194",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Ascension",
+        "code": "AC",
+        "id": "10",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Australia",
+        "code": "AU",
+        "id": "11",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Australian overseas territories",
+        "code": "AAT",
+        "id": "195",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Austria",
+        "code": "AT",
+        "id": "12",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Azerbaijan",
+        "code": "AZ",
+        "id": "13",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Bahamas",
+        "code": "BS",
+        "id": "14",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Bahrain",
+        "code": "BH",
+        "id": "15",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Bangladesh",
+        "code": "BD",
+        "id": "233",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Barbados",
+        "code": "BB",
+        "id": "17",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Belarus",
+        "code": "BY",
+        "id": "258",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Belgium",
+        "code": "BE",
+        "id": "19",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Belize",
+        "code": "BZ",
+        "id": "20",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Benin",
+        "code": "BJ",
+        "id": "21",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Bermuda",
+        "code": "BM",
+        "id": "22",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Bhutan",
+        "code": "BT",
+        "id": "196",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Bolivia",
+        "code": "BO",
+        "id": "255",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "code": "BA",
+        "id": "197",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Botswana",
+        "code": "BW",
+        "id": "24",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Brazil",
+        "code": "BR",
+        "id": "25",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "British Virgin Islands",
+        "code": "VI",
+        "id": "229",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Brunei",
+        "code": "BN",
+        "id": "26",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Bulgaria",
+        "code": "BG",
+        "id": "27",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Burkina Faso",
+        "code": "BF",
+        "id": "28",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Burundi",
+        "code": "BI",
+        "id": "30",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Cambodia",
+        "code": "KH",
+        "id": "85",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Cameroon",
+        "code": "CM",
+        "id": "247",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Cape Verde",
+        "code": "CV",
+        "id": "198",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Cayman Islands",
+        "code": "CYM",
+        "id": "33",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Central African Republic",
+        "code": "CF",
+        "id": "240",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Chad",
+        "code": "TD",
+        "id": "241",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Chile",
+        "code": "CL",
+        "id": "36",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "China",
+        "code": "CN",
+        "id": "37",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Colombia",
+        "code": "CO",
+        "id": "38",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Comoros Islands",
+        "code": "KM",
+        "id": "199",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Cook Islands",
+        "code": "CK",
+        "id": "40",
+        "prediction_market_restriction": "Banned / Restricted on Polymarket"
+    },
+    {
+        "country": "Costa Rica",
+        "code": "CR",
+        "id": "41",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Coted’Ivoire",
+        "code": "CI",
+        "id": "246",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Croatia",
+        "code": "HR",
+        "id": "200",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Cyprus",
+        "code": "CY",
+        "id": "43",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Czech Republic",
+        "code": "CZ",
+        "id": "44",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Democratic Republic of Congo",
+        "code": "CD",
+        "id": "250",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Denmark",
+        "code": "DK",
+        "id": "45",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Diego Garcia",
+        "code": "IO",
+        "id": "201",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Djibouti",
+        "code": "DJ",
+        "id": "46",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Dominica",
+        "code": "DM",
+        "id": "254",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Dominican Republic",
+        "code": "DO",
+        "id": "47",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "East Timor",
+        "code": "TL",
+        "id": "202",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Ecuador",
+        "code": "EC",
+        "id": "253",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Egypt",
+        "code": "EG",
+        "id": "49",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "El Salvador",
+        "code": "SV",
+        "id": "50",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Emirate of Dubai",
+        "code": "UAE",
+        "id": "230",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Equatorial Guinea",
+        "code": "GQ",
+        "id": "203",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Eritrea",
+        "code": "ER",
+        "id": "204",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Estonia",
+        "code": "EE",
+        "id": "51",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Ethiopia",
+        "code": "ET",
+        "id": "52",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Falkland Islands",
+        "code": "FK",
+        "id": "205",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Faroe Islands",
+        "code": "FO",
+        "id": "206",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Fiji",
+        "code": "FJ",
+        "id": "53",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Finland",
+        "code": "FI",
+        "id": "54",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "France",
+        "code": "FR",
+        "id": "55",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Gabon",
+        "code": "GA",
+        "id": "57",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Gambia",
+        "code": "GM",
+        "id": "58",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Georgia",
+        "code": "GE",
+        "id": "59",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Germany",
+        "code": "DE",
+        "id": "60",
+        "prediction_market_restriction": "Banned / Restricted on Polymarket"
+    },
+    {
+        "country": "Ghana",
+        "code": "GH",
+        "id": "61",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Gibraltar",
+        "code": "GI",
+        "id": "62",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Greece",
+        "code": "GR",
+        "id": "63",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Greenland",
+        "code": "GL",
+        "id": "207",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Grenada",
+        "code": "GD",
+        "id": "64",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Guatemala",
+        "code": "GT",
+        "id": "66",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Guinea",
+        "code": "GN",
+        "id": "248",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Guinea-Bissau",
+        "code": "GW",
+        "id": "209",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Guyana",
+        "code": "GY",
+        "id": "68",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Haiti",
+        "code": "HT",
+        "id": "69",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Honduras",
+        "code": "HN",
+        "id": "70",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Hungary",
+        "code": "HU",
+        "id": "72",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Iceland",
+        "code": "IS",
+        "id": "73",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Indonesia",
+        "code": "ID",
+        "id": "75",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Iraq",
+        "code": "IQ",
+        "id": "243",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Ireland",
+        "code": "IE",
+        "id": "78",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Israel",
+        "code": "IL",
+        "id": "79",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Italy",
+        "code": "IT",
+        "id": "80",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Jamaica",
+        "code": "JM",
+        "id": "82",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Jersey",
+        "code": "JE",
+        "id": "264",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Jordan",
+        "code": "JO",
+        "id": "84",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Kenya",
+        "code": "KE",
+        "id": "87",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Kiribati",
+        "code": "KI",
+        "id": "210",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Korea",
+        "code": "KR",
+        "id": "88",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Kosovo",
+        "code": "XK",
+        "id": "263",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Kuwait",
+        "code": "KW",
+        "id": "89",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Kyrgyzstan",
+        "code": "KG",
+        "id": "90",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Laos",
+        "code": "LA",
+        "id": "91",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Latvia",
+        "code": "LV",
+        "id": "92",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Lebanon",
+        "code": "LB",
+        "id": "245",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Lesotho",
+        "code": "LS",
+        "id": "94",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Liberia",
+        "code": "LR",
+        "id": "261",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Libya",
+        "code": "LY",
+        "id": "262",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Liechtenstein",
+        "code": "LI",
+        "id": "97",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Lithuania",
+        "code": "LT",
+        "id": "98",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Luxembourg",
+        "code": "LU",
+        "id": "99",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Macao",
+        "code": "MO",
+        "id": "259",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Macedonia",
+        "code": "MK",
+        "id": "211",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Madagascar",
+        "code": "MG",
+        "id": "101",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Malawi",
+        "code": "MW",
+        "id": "102",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Malaysia",
+        "code": "MY",
+        "id": "103",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Maldives",
+        "code": "MV",
+        "id": "104",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Mali",
+        "code": "ML",
+        "id": "105",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Malta",
+        "code": "MT",
+        "id": "106",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Marshall Islands",
+        "code": "MH",
+        "id": "212",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Mauritania",
+        "code": "MR",
+        "id": "213",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Mauritius",
+        "code": "MU",
+        "id": "109",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Mexico",
+        "code": "MX",
+        "id": "110",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Micronesia",
+        "code": "FM",
+        "id": "214",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Moldova",
+        "code": "MD",
+        "id": "111",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Monaco",
+        "code": "MC",
+        "id": "112",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Mongolia",
+        "code": "MN",
+        "id": "113",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Montenegro",
+        "code": "ME",
+        "id": "215",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Montserrat",
+        "code": "MS",
+        "id": "114",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Morocco",
+        "code": "MA",
+        "id": "115",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Mozambique",
+        "code": "MZ",
+        "id": "116",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Namibia",
+        "code": "NA",
+        "id": "117",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Nauru",
+        "code": "NR",
+        "id": "118",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Nepal",
+        "code": "NP",
+        "id": "119",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Netherlands",
+        "code": "NL",
+        "id": "121",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Netherlands Antilles",
+        "code": "BQ",
+        "id": "120",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "New Zealand",
+        "code": "NZ",
+        "id": "122",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Nicaragua",
+        "code": "NI",
+        "id": "123",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Niger",
+        "code": "NE",
+        "id": "124",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Nigeria",
+        "code": "NG",
+        "id": "125",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Niue",
+        "code": "NU",
+        "id": "217",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Norway",
+        "code": "NO",
+        "id": "127",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Oman",
+        "code": "OM",
+        "id": "128",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Pakistan",
+        "code": "PK",
+        "id": "256",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Palau",
+        "code": "PW",
+        "id": "218",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Palestine",
+        "code": "PS",
+        "id": "219",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Panama",
+        "code": "PA",
+        "id": "130",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Papua New Guinea",
+        "code": "PG",
+        "id": "131",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Paraguay",
+        "code": "PY",
+        "id": "132",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Peru",
+        "code": "PE",
+        "id": "133",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Philippines",
+        "code": "PH",
+        "id": "134",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Poland",
+        "code": "PL",
+        "id": "135",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Portugal",
+        "code": "PT",
+        "id": "137",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Qatar",
+        "code": "QA",
+        "id": "139",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Romania",
+        "code": "RO",
+        "id": "141",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Russia",
+        "code": "RU",
+        "id": "142",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Rwanda",
+        "code": "RW",
+        "id": "220",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Saint Kitts and Nevis",
+        "code": "KN",
+        "id": "235",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Saint Lucia",
+        "code": "LC",
+        "id": "143",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Saint Vincent",
+        "code": "VC",
+        "id": "144",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Samoa Western",
+        "code": "WS",
+        "id": "146",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "San Marino",
+        "code": "SM",
+        "id": "147",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Sao Tome and Principe",
+        "code": "ST",
+        "id": "148",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Saudi Arabia",
+        "code": "SA",
+        "id": "149",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Senegal",
+        "code": "SN",
+        "id": "150",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Serbia",
+        "code": "RS",
+        "id": "223",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Seychelles",
+        "code": "SC",
+        "id": "151",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Sierra Leone",
+        "code": "SL",
+        "id": "152",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Slovakia",
+        "code": "SK",
+        "id": "154",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Slovenia",
+        "code": "SI",
+        "id": "155",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Solomon Islands",
+        "code": "SB",
+        "id": "156",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Somalia",
+        "code": "SO",
+        "id": "236",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "South Africa",
+        "code": "ZA",
+        "id": "158",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Spain",
+        "code": "ES",
+        "id": "159",
+        "prediction_market_restriction": "Banned / Restricted on Polymarket"
+    },
+    {
+        "country": "Sri Lanka",
+        "code": "LK",
+        "id": "160",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "St.Helena",
+        "code": "SH",
+        "id": "221",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "St.Lucia",
+        "code": "LC",
+        "id": "161",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "St.Vincent",
+        "code": "VCT",
+        "id": "162",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Suriname",
+        "code": "SR",
+        "id": "164",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Swaziland",
+        "code": "SZ",
+        "id": "165",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Sweden",
+        "code": "SE",
+        "id": "166",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Switzerland",
+        "code": "CH",
+        "id": "167",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Syria",
+        "code": "SY",
+        "id": "238",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Taiwan (China)",
+        "code": "TW",
+        "id": "169",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Tajikistan",
+        "code": "TJ",
+        "id": "170",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Tanzania",
+        "code": "TZ",
+        "id": "171",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Thailand",
+        "code": "TH",
+        "id": "172",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "The Republic of Congo",
+        "code": "CG",
+        "id": "251",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Togo",
+        "code": "TG",
+        "id": "173",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Tokelau",
+        "code": "TK",
+        "id": "224",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Tonga",
+        "code": "TO",
+        "id": "174",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Trinidad and Tobago",
+        "code": "TT",
+        "id": "175",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Tunisia",
+        "code": "TN",
+        "id": "176",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Turkey",
+        "code": "TR",
+        "id": "177",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Turkmenistan",
+        "code": "TM",
+        "id": "178",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Turks and Caicos Islands",
+        "code": "TC",
+        "id": "237",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Tuvalu",
+        "code": "TV",
+        "id": "225",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Uganda",
+        "code": "UG",
+        "id": "179",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Ukraine",
+        "code": "UA",
+        "id": "180",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "United Arab Emirates",
+        "code": "AE",
+        "id": "181",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "United Kingdom",
+        "code": "GB",
+        "id": "182",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "United States of America",
+        "code": "US",
+        "id": "232",
+        "prediction_market_restriction": "Banned on Polymarket; Allowed on Kalshi"
+    },
+    {
+        "country": "Uruguay",
+        "code": "UY",
+        "id": "184",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Vanuatu",
+        "code": "VU",
+        "id": "226",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Vatican City",
+        "code": "VA",
+        "id": "227",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Venezuela",
+        "code": "VE",
+        "id": "186",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Vietnam",
+        "code": "VN",
+        "id": "187",
+        "prediction_market_restriction": "Allowed on Both"
+    },
+    {
+        "country": "Yemen",
+        "code": "YE",
+        "id": "242",
+        "prediction_market_restriction": "Banned / Restricted on Both"
+    },
+    {
+        "country": "Zaire",
+        "code": "ZR",
+        "id": "192",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Zambia",
+        "code": "ZM",
+        "id": "193",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    },
+    {
+        "country": "Zimbabwe",
+        "code": "ZW",
+        "id": "249",
+        "prediction_market_restriction": "Banned / Restricted on Kalshi"
+    }
+]

@@ -1,0 +1,43 @@
+#+TITLE: SpaceX Daily Trading & Volume Report (Stock vs Hyperliquid Perp)
+#+DATE: [2026-06-23 Tue 09:30]
+#+AUTHOR: SpaceX Market Analyzer
+#+DESCRIPTION: Daily comparison of SpaceX (NASDAQ: SPCX) stock and Hyperliquid synthetic perp (xyz:SPCX) prices and volume split.
+#+OPTIONS: toc:nil num:nil
+
+* Overview
+This report contains a comparative daily breakdown of Space Exploration Technologies Corp. (SpaceX) assets starting from the NASDAQ IPO debut on June 12, 2026 to the present date. 
+
+It tracks:
+1. *Hyperliquid SPCX Perp (xyz:SPCX)*: Synthetic perpetual futures contract trading 24/7.
+2. *NASDAQ SpaceX Stock (SPCX)*: Official equity traded on public markets during standard exchange hours.
+
+** Buy and Sell Volume Methodology
+Since the Hyperliquid API's historical public endpoints do not store a pre-computed daily buy/sell breakdown, this report derives the split by analyzing intra-day price pressure:
+- *Buy Ratio* is estimated as: 0.5 + 0.5 * (Close - Open) / (High - Low) (clamped between 10% and 90% to manage range anomalies).
+- *Sell Ratio* is 1.0 - Buy Ratio.
+- Daily Buy and Sell volumes are calculated by multiplying these ratios by the daily total candlestick volume.
+
+* Daily Price and Volume Comparison Table
+
+| Date | HL Open | HL High | HL Low | HL Close | HL Buy Vol | HL Sell Vol | Stock Open | Stock High | Stock Low | Stock Close |
+|------+---------+---------+--------+----------+------------+-------------+------------+------------+-----------+-------------|
+| 2026-06-12 | 172.85 | 185.00 | 152.34 | 166.72 | 3341408.62 | 4885534.88 | 150.00 | 176.52 | 149.34 | 160.95 |
+| 2026-06-13 | 166.71 | 166.79 | 162.27 | 164.91 | 115232.11 | 267745.20 |  |  |  |  |
+| 2026-06-14 | 165.03 | 169.60 | 164.69 | 167.94 | 210511.79 | 53839.33 |  |  |  |  |
+| 2026-06-15 | 168.01 | 202.17 | 166.94 | 199.18 | 3131453.66 | 347939.29 | 171.74 | 193.00 | 168.35 | 192.50 |
+| 2026-06-16 | 199.27 | 228.74 | 195.26 | 206.11 | 4744090.39 | 3134488.30 | 200.51 | 225.64 | 199.98 | 211.39 |
+| 2026-06-17 | 206.10 | 213.98 | 187.46 | 195.29 | 1344408.14 | 3194573.89 | 209.84 | 213.80 | 187.01 | 191.82 |
+| 2026-06-18 | 195.27 | 195.56 | 172.44 | 181.76 | 1003211.80 | 3823896.79 | 188.39 | 190.00 | 172.11 | 185.00 |
+| 2026-06-19 | 181.79 | 184.00 | 176.30 | 180.15 | 300820.26 | 463640.47 |  |  |  |  |
+| 2026-06-20 | 180.13 | 181.90 | 178.83 | 181.62 | 163698.50 | 56720.10 |  |  |  |  |
+| 2026-06-21 | 181.57 | 181.95 | 175.32 | 175.91 | 24224.13 | 218017.21 |  |  |  |  |
+| 2026-06-22 | 175.91 | 181.32 | 153.00 | 156.87 | 933754.38 | 4765367.20 | 176.04 | 176.69 | 154.00 | 154.60 |
+| 2026-06-23 | 156.87 | 157.27 | 149.86 | 153.86 | 175613.55 | 415884.83 |  |  |  |  |
+|------+---------+---------+--------+----------+------------+-------------+------------+------------+-----------+-------------|
+| Average | 179.13 | 187.36 | 169.56 | 177.53 | 1290702.28 | 1802303.96 | 182.75 | 195.94 | 171.80 | 182.71 |
+#+TBLFM: @>$2=vmean(@2..@-1);format("%.2f")::@>$3=vmean(@2..@-1);format("%.2f")::@>$4=vmean(@2..@-1);format("%.2f")::@>$5=vmean(@2..@-1);format("%.2f")::@>$6=vmean(@2..@-1);format("%.2f")::@>$7=vmean(@2..@-1);format("%.2f")::@>$8=vmean(@2..@-1);format("%.2f")::@>$9=vmean(@2..@-1);format("%.2f")::@>$10=vmean(@2..@-1);format("%.2f")::@>$11=vmean(@2..@-1);format("%.2f")
+
+* Analysis and Interpretation
+- *Off-Hours Action*: The Hyperliquid perpetual contract continues to trade on weekends and holidays (like June 13-14, June 19, and June 20-21) when traditional public markets are closed.
+- *Volume Split*: Daily buy and sell volumes fluctuate based on price movements. Days with a large positive close-open spread reflect stronger buy-side pressure and higher buy volumes.
+- *Average Values*: The bottom row displays the arithmetic mean of all trading days. Averages for the stock columns are computed only over the days traditional stock trading was available (business days).

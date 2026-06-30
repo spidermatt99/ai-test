@@ -1,0 +1,190 @@
+#+TITLE: SpaceX (SPCX) Perpetual Contracts vs. Stock Performance Analysis
+#+AUTHOR: Antigravity AI Assistant
+#+DATE: 2026-06-24
+#+OPTIONS: toc:nil num:t
+
+* Executive Summary
+This report analyzes the price performance of SpaceX (ticker: *SPCX*) pre-IPO and post-IPO, comparing its synthetic perpetual contracts on Hyperliquid (Trade.xyz, HIP-3) with the actual Nasdaq stock.
+
+SpaceX officially became a publicly traded company on **June 12, 2026** on the Nasdaq exchange, pricing its initial public offering at $135.00. Prior to the public listing, beginning on **May 18, 2026**, traders speculated on the implied valuation of SpaceX via the Trade.xyz synthetic perpetual contract on Hyperliquid (using the builder-deployed symbol =xyz:SPCX=). 
+
+Key findings of this analysis include:
+1. **Price Discovery:** The pre-IPO perpetual contract acted as an active price discovery vehicle, stabilizing in the $160-$170 range just before the IPO, very close to the stock's actual first-day close of $160.95.
+2. **Post-IPO Sync:** Following the listing, the perpetual contract transitioned to track the live stock price and has maintained an extremely high correlation of **0.9802** with the Nasdaq closing price.
+3. **Liquidity Premium:** The perpetual contract trades at a slight average premium of **0.95%** with a mean absolute deviation of **2.16%**, reflecting the convenience yield of 24/7 trading and funding rate adjustments.
+4. **Lead-Lag Behavior:** During weekends and market holidays (such as Juneteenth on June 19), the perpetual contract continued to trade, successfully anticipating gap-downs in the Nasdaq stock before the market reopened on Monday.
+
+* Methodology and R Code
+The self-contained R script below was used to programmatically compile the daily price data from Hyperliquid and Yahoo Finance, merge the datasets, export the results to CSV, and generate the comparative visualization.
+
+#+BEGIN_SRC r :exports both :results output
+# SpaceX Comparative Price Analysis Script
+# Load packages (local path configured for this environment)
+.libPaths("C:/Users/matth/Documents/R/win-library/4.6")
+library(httr)
+library(jsonlite)
+library(ggplot2)
+
+# Set working directory to workspace
+setwd("C:/Users/matth/Downloads/spacexperpsR")
+
+# 1. Fetch Hyperliquid perpetual data (xyz:SPCX)
+print("Fetching Hyperliquid perpetual data...")
+url_hl <- "https://api.hyperliquid.xyz/info"
+body_hl <- toJSON(list(
+  type = "candleSnapshot",
+  req = list(
+    coin = "xyz:SPCX",
+    interval = "1d",
+    startTime = 1776297600000  # May 1, 2026
+  )
+), auto_unbox = TRUE)
+
+res_hl <- POST(url_hl, add_headers("Content-Type" = "application/json"), body = body_hl)
+candles_hl <- fromJSON(content(res_hl, as = "text", encoding = "UTF-8"))
+
+df_perps <- data.frame(
+  Date = as.Date(as.POSIXct(candles_hl$t / 1000, origin = "1970-01-01", tz = "UTC")),
+  Perp_Open = as.numeric(candles_hl$o),
+  Perp_High = as.numeric(candles_hl$h),
+  Perp_Low = as.numeric(candles_hl$l),
+  Perp_Close = as.numeric(candles_hl$c),
+  Perp_Volume = as.numeric(candles_hl$v),
+  stringsAsFactors = FALSE
+)
+
+# 2. Fetch Yahoo Finance Stock Data for SPCX
+print("Fetching Yahoo Finance stock data...")
+url_yf <- "https://query1.finance.yahoo.com/v8/finance/chart/SPCX"
+now_ts <- as.character(as.integer(Sys.time()))
+
+res_yf <- GET(
+  url = url_yf,
+  query = list(
+    period1 = "1779020400",  # May 18, 2026
+    period2 = now_ts,
+    interval = "1d"
+  ),
+  user_agent("Mozilla/5.0")
+)
+result_yf <- fromJSON(content(res_yf, as = "text", encoding = "UTF-8"))$chart$result
+
+timestamps_yf <- result_yf$timestamp[[1]]
+quote_yf <- result_yf$indicators$quote[[1]]
+
+df_stock <- data.frame(
+  Date = as.Date(as.POSIXct(timestamps_yf, origin = "1970-01-01", tz = "America/New_York")),
+  Stock_Open = as.numeric(quote_yf$open[[1]]),
+  Stock_High = as.numeric(quote_yf$high[[1]]),
+  Stock_Low = as.numeric(quote_yf$low[[1]]),
+  Stock_Close = as.numeric(quote_yf$close[[1]]),
+  Stock_Volume = as.numeric(quote_yf$volume[[1]]),
+  stringsAsFactors = FALSE
+)
+df_stock <- df_stock[!is.na(df_stock$Stock_Close), ]
+
+# 3. Merge Datasets
+df_merged <- merge(df_perps, df_stock, by = "Date", all.x = TRUE)
+write.csv(df_merged, "spacex_prices.csv", row.names = FALSE)
+print("Saved combined data to spacex_prices.csv")
+
+# 4. Generate ggplot2 Chart (Post-IPO Period)
+print("Generating comparative performance chart...")
+df_post_ipo <- df_merged[df_merged$Date >= as.Date("2026-06-12"), ]
+df_stock_clean <- df_post_ipo[!is.na(df_post_ipo$Stock_Close), ]
+
+p <- ggplot(df_post_ipo, aes(x = Date)) +
+  # Plot perpetuals (continuous calendar days)
+  geom_line(aes(y = Perp_Close, color = "Hyperliquid Perpetual (xyz:SPCX)"), linewidth = 1.2) +
+  geom_point(aes(y = Perp_Close, color = "Hyperliquid Perpetual (xyz:SPCX)"), size = 2.5) +
+  # Plot stock (trading days only, connecting non-NA values)
+  geom_line(data = df_stock_clean, aes(y = Stock_Close, color = "Nasdaq Stock (SPCX)"), linewidth = 1.2) +
+  geom_point(data = df_stock_clean, aes(y = Stock_Close, color = "Nasdaq Stock (SPCX)"), size = 2.5) +
+  labs(
+    title = "SpaceX (SPCX) Price Performance Comparison",
+    subtitle = "Comparing Hyperliquid Perpetual (24/7) vs. Nasdaq Stock Close (June 12, 2026 - June 24, 2026)",
+    x = "Date",
+    y = "Closing Price (USD)",
+    color = "Asset Type"
+  ) +
+  scale_color_manual(values = c(
+    "Hyperliquid Perpetual (xyz:SPCX)" = "#8A2BE2", # Purple
+    "Nasdaq Stock (SPCX)" = "#FF8C00"               # Orange
+  )) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold", size = 14, hjust = 0.5, margin = margin(b = 8)),
+    plot.subtitle = element_text(size = 10, hjust = 0.5, color = "#555555", margin = margin(b = 15)),
+    legend.position = "bottom",
+    legend.title = element_text(face = "bold"),
+    panel.grid.major = element_line(color = "#EBEBEB"),
+    panel.grid.minor = element_blank(),
+    axis.title = element_text(face = "bold")
+  )
+
+ggsave("spacex_perp_vs_stock.png", plot = p, width = 10, height = 6, dpi = 300)
+print("Saved comparison chart to spacex_perp_vs_stock.png")
+
+# 5. Compute Statistics
+df_clean <- df_merged[!is.na(df_merged$Stock_Close), ]
+correlation <- cor(df_clean$Perp_Close, df_clean$Stock_Close)
+premium <- (df_clean$Perp_Close - df_clean$Stock_Close) / df_clean$Stock_Close * 100
+mean_premium <- mean(premium)
+mean_abs_premium <- mean(abs(premium))
+
+cat("\n=========================================\n")
+cat("        COMPARATIVE STATISTICS\n")
+cat("=========================================\n")
+cat(sprintf("Correlation (Perp vs Stock): %.4f\n", correlation))
+cat(sprintf("Average Perp Premium:        %.2f%%\n", mean_premium))
+cat(sprintf("Mean Absolute Deviation:     %.2f%%\n", mean_abs_premium))
+cat("=========================================\n")
+#+END_SRC
+
+* Data Comparison Table (Post-IPO Period)
+The table below displays the daily closing prices and volumes for both the perpetual contract and the stock following the IPO on June 12, 2026. Note that the stock has no data for weekends or the Juneteenth holiday (June 19).
+
+| Date       | Perp Close (USD) | Stock Close (USD) | Perp Vol (SPCX) | Stock Vol (Shares) | Premium (%) |
+|------------+------------------+-------------------+-----------------+--------------------+-------------|
+| 2026-06-12 |           166.72 |            160.95 |       8,226,944 |        519,234,800 |       3.58% |
+| 2026-06-13 |           164.91 |               N/A |         382,977 |                N/A |         N/A |
+| 2026-06-14 |           167.94 |               N/A |         264,351 |                N/A |         N/A |
+| 2026-06-15 |           199.18 |            192.50 |       3,479,393 |        256,226,600 |       3.47% |
+| 2026-06-16 |           206.11 |            211.39 |       7,878,579 |        195,401,600 |      -2.50% |
+| 2026-06-17 |           195.29 |            191.82 |       4,538,982 |        201,719,500 |       1.81% |
+| 2026-06-18 |           181.76 |            185.00 |       4,827,109 |        272,126,800 |      -1.75% |
+| 2026-06-19 |           180.15 |               N/A |         764,461 |                N/A |         N/A |
+| 2026-06-20 |           181.62 |               N/A |         220,419 |                N/A |         N/A |
+| 2026-06-21 |           175.91 |               N/A |         242,241 |                N/A |         N/A |
+| 2026-06-22 |           156.87 |            154.60 |       5,699,122 |        169,183,800 |       1.47% |
+| 2026-06-23 |           156.98 |            156.11 |       6,803,802 |        155,274,700 |       0.56% |
+| 2026-06-24 |           155.68 |           Pending |         133,819 |            Pending |         N/A |
+
+* Graphical Comparison
+The generated comparative line chart below maps the price action during the post-IPO period. The purple line represents the continuous, 24/7 trading of the Hyperliquid perpetual contract, while the orange line maps the closing price of the Nasdaq-listed stock.
+
+[[file:spacex_perp_vs_stock.png]]
+
+* Key Insights and Market Analysis
+
+** Pre-IPO Price Discovery and Convergence
+The Hyperliquid perpetual contract (=xyz:SPCX=) launched on **May 18, 2026**, nearly four weeks prior to the Nasdaq IPO. 
+- During its pre-IPO phase, the contract experienced high volatility, opening at $180.00, peaking near $230.00, and later dropping to a low of $155.67 on June 9.
+- This volatility was compounded by a severe flash crash on May 28, when thin liquidity and liquidations sent the contract down approximately 45% momentarily.
+- As the IPO date approached, however, the perpetual contract's price converged towards a fair valuation range. On June 11, the day before the listing, it closed at **$172.84**.
+- When the actual stock listed on June 12, it priced at **$135.00**, opened at **$150.00**, and closed its first day of trading at **$160.95**. The perpetual contract closed that day at **$166.72**. 
+- This represents a very narrow spread between the synthetic derivative and the actual market price on day one, confirming that the pre-IPO perpetual contract served as a highly efficient price discovery mechanism for the public market.
+
+** Post-IPO Correlation
+Post-IPO, the perpetual contract and the actual Nasdaq stock have traded in tight lockstep, demonstrating a daily correlation of **0.9802**. Both instruments fully captured the stock's post-IPO rally to a closing high of **$211.39** on June 16, as well as the subsequent correction back to the **$150-$160** range. This indicates that arbitrageurs are active in keeping the two markets aligned.
+
+** Perp Premium and 24/7 Trading Dynamics
+The perpetual contract trades at an average premium of **0.95%** relative to the stock close. There are two primary drivers for this premium:
+1. **Convenience Yield of 24/7 Trading:** The perpetual contract trades continuously, allowing global retail and institutional traders to manage risk and speculate outside of standard US market hours (weekends, holidays, and overnight).
+2. **Market Sentiment and Funding Rates:** Because perpetual contracts are leveraged derivatives, positive market sentiment drives buying pressure on the perp, creating a premium over the spot stock. This premium is eventually checked by funding rate payments (longs paying shorts). 
+   - Interestingly, on June 16, when the stock surged to its peak close of $211.39, the perp actually closed at a **-2.50% discount** ($206.11). This suggests that traders were anticipating a reversal and aggressively shorting the perp, driving its price below the Nasdaq close before the stock itself began to decline.
+
+** Weekend and Holiday Behavior
+During weekends and holidays (such as the Juneteenth holiday on June 19), the Nasdaq stock exchange was closed, leaving the stock price static. However, the perpetual contract continued trading, showing downward drift over the Juneteenth weekend from **$181.76** (June 18 close) to **$175.91** (June 21 close). 
+- When the stock market reopened on Monday, June 22, the stock gapped down to open at **$176.04** and close at **$154.60**. 
+- The perpetual contract successfully anticipated this gap-down, proving that the 24/7 crypto perpetual market continues to react to news and price discovery even when traditional brick-and-mortar exchanges are closed.

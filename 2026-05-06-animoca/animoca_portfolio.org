@@ -1,0 +1,570 @@
+| Company Name                          | Website                                | Twitter                       | Category                     |
+|---------------------------------------+----------------------------------------+-------------------------------+------------------------------|
+| 021                                   | https://021.xyz                        | https://x.com/zero_to_one_gg  | Web3/Other                   |
+| 0G (Zero Gravity)                     | https://0g.ai/                         | https://x.com/0G_labs         | AI                           |
+| 0xAstra                               | https://0xastra.xyz/                   | https://x.com/0xAstra_xyz     | Web3/Other                   |
+| 111% (Gomble)                         | https://gomble.io                      | https://x.com/gomblegames     | Web3/Other                   |
+| 6th Man Ventures LP                   | https://6thman.ventures/               | https://x.com/6thmanventures  | Venture Capital / Investment |
+| ActiMirror                            | https://actimirror.com/                |                               | Web3/Other                   |
+| Aethir (Meta One)                     | https://aethir.com/                    | https://x.com/AethirCloud     | Web3/Other                   |
+| Age of Dino                           | https://app.xter.io/games/55f9d090bdb6 | https://x.com/ageofdino       | Gaming                       |
+| Age of Dino (Xterio)                  | https://app.xter.io/games/55f9d090bdb6 | https://x.com/ageofdino       | Gaming                       |
+| Aimonica                              | https://aimonicabrands.ai              | https://x.com/AimonicaBrands  | AI                           |
+| AIT Protocol                          | https://aitprotocol.ai                 | https://x.com/AITProtocol     | AI                           |
+| AiVeronica                            | https://aiveronica.ai                  | https://x.com/Aiveronica_     | AI                           |
+| Ajuna Network                         | https://ajuna.io                       | https://x.com/AjunaNetwork    | Infrastructure               |
+| Alliance Cayman Feeder III LP         |                                        |                               | Web3/Other                   |
+| Alliance Games                        | https://alliancegames.xyz/             | https://x.com/alliancegamesx  | Gaming                       |
+| Alt Atlas                             | https://alt-atlas.com                  | https://x.com/Alt_Atlas_AI    | Web3/Other                   |
+| Altava                                | https://altava.ai                      | https://x.com/altavagroup     | AI                           |
+| Amasa                                 | https://amasa.io/                      | https://x.com/Amasa_io        | Web3/Other                   |
+| Ambrosia Bio                          | https://ambrosia.bio/                  |                               | RWA (Real World Assets)      |
+| Amulet                                | https://amulet.org/                    | https://x.com/AmuletProtocol  | Web3/Other                   |
+| Ancient8                              | https://ancient8.gg/                   | https://x.com/Ancient8_gg     | Web3/Other                   |
+| Andromeda                             | https://andromedaprotocol.io/          | https://x.com/andromedaprot   | Infrastructure               |
+| Angelic                               | https://angelicthegame.com/            | https://x.com/AngelicTheGame  | Gaming                       |
+| Animoca Brands Japan                  | https://animocabrands.co.jp/           | https://x.com/animocabrandskk | Venture Capital / Investment |
+| Another-1                             | https://another-1.io/                  | https://x.com/another1_io     | Web3/Other                   |
+| AOFVerse                              | https://aofverse.com                   | https://x.com/aofverse        | Web3/Other                   |
+| ApeCoin                               | https://apecoin.com/                   | https://x.com/apecoin         | Digital Ownership / NFTs     |
+| Aptero                                | https://aptero.co                      | https://x.com/Aptero3D        | Web3/Other                   |
+| Aptos                                 | https://aptoslabs.com/                 | https://x.com/aptoslabs       | Infrastructure               |
+| Aquis Farm                            | https://aquisfarm.com/                 | https://x.com/AquisFarm       | Metaverse                    |
+| Arena of Faith                        | https://aof.global                     | https://x.com/moba_aof        | AI                           |
+| Aria                                  | https://playariagame.com/              | https://x.com/PlayAriaGame    | Gaming                       |
+| Aria Health                           | https://myaria.health/                 | https://x.com/MyAriaHealth    | Metaverse                    |
+| Ark Rivals (Topebox)                  | https://arkrivals.com/                 | https://x.com/Ark_Rivals      | Metaverse                    |
+| ARPA Network                          | https://arpanetwork.io/                | https://x.com/arpaofficial    | Infrastructure               |
+| Artem                                 | https://artemcoin.com/                 | https://x.com/artem_coin      | Digital Ownership / NFTs     |
+| Artifact Labs                         | https://artifactlabs.com               | https://x.com/ArtifactLabs_   | Digital Ownership / NFTs     |
+| Artizen                               | https://artizen.fund/                  | https://x.com/ArtizenFund     | Digital Ownership / NFTs     |
+| AstroX                                | https://astrox.network                 | https://x.com/Astrox_Network  | Infrastructure               |
+| Atari                                 | https://atari.com                      | https://x.com/atariX          | Gaming                       |
+| Atmos                                 | https://planetatmos.com                | https://x.com/Planet_Atmos    | Metaverse                    |
+| Atomic Form                           | https://atomicform.com                 | https://x.com/atomicform      | Web3/Other                   |
+| Auki Labs                             | https://auki.com                       | https://x.com/AukiLabs        | Venture Capital / Investment |
+| Aurory                                | https://aurory.io/                     | https://x.com/AuroryProject   | Web3/Other                   |
+| Avocado Guild                         | https://avocadodao.io/                 | https://x.com/Avocadoguild    | Web3/Other                   |
+| Avy Entertainments                    | https://tempostorm.com/                | https://x.com/Tempo_Storm     | AI                           |
+| Axie Infinity                         | https://axieinfinity.com               | https://x.com/AxieInfinity    | Gaming                       |
+| Azarus                                | https://azarus.io/                     | https://x.com/azarusio        | Metaverse                    |
+| BADMAD Robots                         | https://badmadrobots.com/              | https://x.com/badmadrobots    | AI                           |
+| Benji Banana                          | https://benjibananas.com/              | https://x.com/BenjiBananas    | Web3/Other                   |
+| Bentley Records                       | https://bentleyrecords.io/             | https://x.com/bentleyrecordsx | Web3/Other                   |
+| Beoble                                | https://beoble.io/                     | https://x.com/beoble_official | Social / Community           |
+| Berachain                             | https://berachain.com/                 | https://x.com/berachain       | Infrastructure               |
+| BeraTone                              | https://beratone-game.com/             | https://x.com/BeratoneGame    | Gaming                       |
+| Bilby AI                              | https://bilby.ai/                      | https://x.com/chinaregulation | AI                           |
+| Bio Protocol                          | https://bio.xyz                        | https://x.com/bioprotocoll    | Infrastructure               |
+| Bitbrawl                              | https://brawlailayer.org               | https://x.com/BitBrawlGame    | AI                           |
+| Bit Country                           | https://bit.country/                   | https://x.com/bitdotcountry   | Web3/Other                   |
+| bitsCrunch                            | https://bitscrunch.com/                | https://x.com/bitsCrunch      | Data / Analytics             |
+| Bitte.ai                              | https://bitte.ai/                      | https://x.com/BitteProtocol   | AI                           |
+| Black Tower                           | https://blacktower.jp/                 |                               | Web3/Other                   |
+| Blade Games                           | https://bladedao.games/                | https://x.com/BladeGamesHQ    | Gaming                       |
+| Blast Royale (First Light Games)      | https://blastroyale.com/               | https://x.com/blastroyale     | Gaming                       |
+| Blep Technologies                     | https://nakji.network/                 | https://x.com/nakjinetwork    | Infrastructure               |
+| BLIFE                                 | https://blifeprotocol.com/             | https://x.com/BLIFEProtocol   | Infrastructure               |
+| Blinkmoon                             | https://blinkmoon.com/                 | https://x.com/BlinkmoonGames  | Web3/Other                   |
+| Blockade Labs                         | https://blockadelabs.com/              | https://x.com/BlockadeLabs    | Venture Capital / Investment |
+| Blockchain Space                      | https://blockchainspace.asia/          | https://x.com/Blockchain_SPC  | AI                           |
+| Blocklords                            | https://blocklords.com/                | https://x.com/BLOCKLORDS      | Web3/Other                   |
+| Blockparty                            | https://blockparty.co/                 | https://x.com/Blockparty      | Digital Ownership / NFTs     |
+| BlockPass                             | https://blockpass.org                  | https://x.com/BlockpassOrgg   | Identity / KYC               |
+| Blocto                                | https://blocto.io/                     | https://x.com/BloctoApp       | Payments / Fintech           |
+| Bloktopia                             | https://bloktopia.com/                 | https://x.com/bloktopia       | Metaverse                    |
+| Blowfish Studios                      | https://phantomgalaxies.com/           | https://x.com/the_phantom_g   | Gaming                       |
+| BNB Attestation Service               | https://bascan.io                      | https://x.com/BASCAN_io       | Web3/Other                   |
+| BNV                                   | https://bnv.me/                        | https://x.com/bnv_foundation  | Web3/Other                   |
+| Bondex                                | https://bondex.app/                    | https://x.com/bondexapp       | DeFi                         |
+| Bonk                                  | https://bonkcoin.com                   | https://x.com/bonk_inu        | Web3/Other                   |
+| Bounty Bay (Trade OS)                 | https://tradeos.xyz/                   | https://x.com/TradeOS_ai      | DeFi                         |
+| Brinc                                 | https://brinc.io/                      | https://x.com/brincvc         | Venture Capital / Investment |
+| Bsquared Network                      | https://bsquared.network/              | https://x.com/BsquaredNetwork | Infrastructure               |
+| Bullish                               | https://bullish.com/                   | https://x.com/Bullish         | Web3/Other                   |
+| Burve Protocol                        | https://app.burve.io/?chainId=56       | https://x.com/BurveProtocol   | AI                           |
+| C2X (XPLA Games)                      | https://xpla.io/                       | https://x.com/XPLA_GAMES      | Gaming                       |
+| CafeCosmos                            | https://linktr.ee/CafeCosmos           | https://x.com/CafeCosmosHQ    | Web3/Other                   |
+| Calaxy                                | https://calaxy.com/                    | https://x.com/CalaxyApp       | Social / Community           |
+| Cantina Royale                        | https://cantinaroyale.io/              | https://x.com/CantinaRoyale   | Gaming                       |
+| Carv.io                               | https://carv.io/                       | https://x.com/carv_official   | Metaverse                    |
+| Catizen                               | https://catizen.ai                     | https://x.com/CatizenAI       | AI                           |
+| CEA Industries Inc                    | https://ceaindustries.com/             |                               | AI                           |
+| Celestia                              | https://celestia.org/                  | https://x.com/Celestia        | Infrastructure               |
+| Cellivate Technologies                | https://cellivatetech.com/             | https://x.com/CellivateTech   | Web3/Other                   |
+| Ceramic                               | https://ceramic.network/               | https://x.com/ceramicnetwork  | Infrastructure               |
+| Cetus                                 | https://cetus.zone/                    | https://x.com/cetusprotocol   | DeFi                         |
+| Chillchat Games                       | https://chillchat.com/                 | https://x.com/chillchatgames  | Gaming                       |
+| Clozer                                | https://clozer.io/                     |                               | Web3/Other                   |
+| CoinFund                              | https://coinfund.io/                   | https://x.com/coinfund_io     | Venture Capital / Investment |
+| Collectiv                             | https://collectiv.co/                  | https://x.com/collectivgroup  | Web3/Other                   |
+| Colossal                              | https://colossal.com                   | https://x.com/colossal        | RWA (Real World Assets)      |
+| Community Gaming                      | https://communitygaming.io/            | https://x.com/CommunityGaming | Gaming                       |
+| Co-Museum                             | https://co-museum.com/                 | https://x.com/co_museum       | Web3/Other                   |
+| Concept Labs                          | https://conceptlabs.xyz                | https://x.com/conceptlabsxyz  | Venture Capital / Investment |
+| Conductive                            | https://conductive.ai/                 |                               | AI                           |
+| Consensys                             | https://consensys.net/                 | https://x.com/ConsenSys       | Infrastructure               |
+| Cookie3                               | https://cookie3.com/                   | https://x.com/cookiedotfun    | Data / Analytics             |
+| Cool Cats                             | https://coolcats.com/                  | https://x.com/coolcats        | Web3/Other                   |
+| Core DAO                              | https://coredaofoundation.org          | https://x.com/Coredao_Org     | Web3/Other                   |
+| Cotobox                               | http://corp.cotobox.com/               | https://x.com/CotoboxJP       | Web3/Other                   |
+| Credmark                              | https://credmark.com/                  | https://x.com/credmarkhq      | Metaverse                    |
+| Cross The Ages                        | https://crosstheages.com/              | https://x.com/CrossTheAges    | Web3/Other                   |
+| Crucible Networks                     | https://crucible.network/              | https://x.com/CrucibleNetwork | Infrastructure               |
+| Cryowar                               | https://cryowar.com/                   | https://x.com/CryowarDevs     | Gaming                       |
+| CryptoGames                           | https://cryptogames.co.jp/             | https://x.com/crypto_spells   | Gaming                       |
+| CryptoSlam                            | https://cryptoslam.io/                 | https://x.com/cryptoslamio    | Data / Analytics             |
+| CTRL                                  | https://ctrl.xyz/                      | https://x.com/ctrl_wallet     | Payments / Fintech           |
+| Cudo Ventures                         | https://cudos.org/                     | https://x.com/CUDOS_          | Venture Capital / Investment |
+| Cyan                                  | https://usecyan.com/                   | https://x.com/usecyan         | Web3/Other                   |
+| Cyber                                 | https://cyber.co/                      | https://x.com/BuildOnCyber    | Web3/Other                   |
+| Dapper Labs                           | https://dapperlabs.com/                | https://x.com/dapperlabs      | Digital Ownership / NFTs     |
+| Dark Times                            | https://playdarktimes.com/             | https://x.com/playdarktimes   | Gaming                       |
+| Dataland                              | https://dataland.art/                  | https://x.com/datalandmuseum  | Digital Ownership / NFTs     |
+| DAT Corporation                       | https://datcoin.finance/               | https://x.com/DAT_Treasury    | DeFi                         |
+| Datum                                 | https://datum.org/                     | https://x.com/datumnetwork    | Web3/Other                   |
+| deBridge                              | https://debridge.finance/              | https://x.com/deBridgeFinance | DeFi                         |
+| Deepsight                             | https://deepsightlabs.com/             | https://x.com/DeepSightAILabs | AI                           |
+| DeFi Land                             | https://defiland.app/                  | https://x.com/defi_land       | DeFi                         |
+| Deviants&#39; Factions                | https://deviantsfactions.com/          | https://x.com/DeviantsNFT     | Web3/Other                   |
+| Dialectic LP                          | https://dialectic.ky/                  |                               | Web3/Other                   |
+| Dogami                                | https://dogami.com/                    | https://x.com/dogami          | Web3/Other                   |
+| DOGAMÍ                                | https://dogami.com                     | https://x.com/Dogami          | Web3/Other                   |
+| Domi                                  | https://domionline.io/                 | https://x.com/DomiOnline      | Web3/Other                   |
+| Domin Network                         | https://domin.foundation/              | https://x.com/Domin_Network   | Infrastructure               |
+| DT42                                  | http://dt42.io/                        | https://x.com/dt42io          | Web3/Other                   |
+| Dubpro.ai                             | https://dubpro.ai/                     | https://x.com/dubpro_ai       | AI                           |
+| DUX                                   | https://wearedux.com/                  | https://x.com/wearedux_       | Metaverse                    |
+| E14 Fund LP                           | https://e14fund.com/                   | https://x.com/e14fund         | Venture Capital / Investment |
+| Earn Alliance                         | https://earnalliance.com/              | https://x.com/earnalliance    | Metaverse                    |
+| EarnOS                                | https://earnos.io/                     | https://x.com/earnos_io       | Metaverse                    |
+| Easeflow                              | https://easeflow.io                    | https://x.com/easeflowHQ      | Web3/Other                   |
+| Eden Games                            | https://edengames.com/                 | https://x.com/EdenGames       | Gaming                       |
+| Edge of Company                       | https://edgeof.xyz/                    | https://x.com/EdgeofNFT       | Web3/Other                   |
+| Eesee                                 | https://eesee.io/                      | https://x.com/eesee_io        | Web3/Other                   |
+| Efficient Frontier                    | https://efrontier.io/                  | https://x.com/efrontier_io    | Web3/Other                   |
+| Eliza Finance                         | https://defai.gg                       | https://x.com/defaiza         | AI                           |
+| Elumia                                | https://elumia.io/                     | https://x.com/PlayElumia      | Web3/Other                   |
+| Ember Sword                           | https://embersword.com/                | https://x.com/PlayEmberSword  | Gaming                       |
+| Engine of Fury                        | https://eof.gg                         | https://x.com/EnginesOfFuryy  | Web3/Other                   |
+| Engines of Fury                       | https://eof.gg/                        | https://x.com/EnginesOfFury   | Web3/Other                   |
+| Enjin Network                         | https://enjin.io/                      | https://x.com/enjin           | Infrastructure               |
+| Enklu                                 | https://enklu.com/                     | https://x.com/experienceenklu | Web3/Other                   |
+| Envelop                               | https://envelop.is/                    | https://x.com/Envelop_project | Web3/Other                   |
+| E-PAL                                 | https://epal.gg/                       | https://x.com/epalgg          | Web3/Other                   |
+| Epik Prime                            | https://epikprime.com/                 | https://x.com/EpikPrime       | Web3/Other                   |
+| Ethereal Ventures LP                  | http://ethereal.xyz                    | https://x.com/etherealvc      | Venture Capital / Investment |
+| EVAA                                  | https://evaa.finance/                  | https://x.com/evaaprotocol    | DeFi                         |
+| EVE CONCORD                           | https://ccpgames.com/                  | https://x.com/EVEOnline       | Gaming                       |
+| Everyrealm                            | https://everyrealm.com/                | https://x.com/Everyrealm      | Metaverse                    |
+| EVG                                   | https://evg.co/                        | https://x.com/EVGHQ           | Venture Capital / Investment |
+| Evolv                                 | https://evolv.world/                   | https://x.com/evolvplatform   | Metaverse                    |
+| Evosverse (Play3)                     | https://evo-verse.com/                 |                               | Gaming                       |
+| Exotic Market                         | https://exotic.markets/                | https://x.com/exotic_markets_ | Digital Ownership / NFTs     |
+| Exto Partners LP                      | https://extopartners.com/              | https://x.com/extopartners    | Digital Ownership / NFTs     |
+| Fableborne (Pixion)                   | https://pixiongames.com                | https://x.com/pixiongames     | Gaming                       |
+| Fan Controlled Football               | https://fcf.io/                        | https://x.com/fancontrolled   | Gaming                       |
+| Fano Labs                             | https://fano.ai/                       | https://x.com/fanolabs        | AI                           |
+| Fanton                                | https://fan-ton.com/                   | https://x.com/FantasyFanton   | Infrastructure               |
+| Farcana                               | https://farcana.com/                   | https://x.com/FarcanaOfficial | Metaverse                    |
+| Fasal                                 | https://fasal.co/                      | https://x.com/FasalOfficial   | Web3/Other                   |
+| Finhay                                | https://finhay.com.vn/                 |                               | Web3/Other                   |
+| FLock.io                              | https://flock.io/                      | https://x.com/flock_io        | AI                           |
+| Flooring Protocol                     | https://fp.io/                         | https://x.com/floorprotocol   | Infrastructure               |
+| Footium                               | https://footium.club/                  | https://x.com/Footium         | Web3/Other                   |
+| Forest Knight                         | https://forestknight.io/               | https://x.com/forestknight_io | Web3/Other                   |
+| Forge                                 | http://forge.gg                        | https://x.com/Forge           | Web3/Other                   |
+| Forj                                  | https://forj.network/                  | https://x.com/forjofficial    | Infrastructure               |
+| Forte                                 | https://forte.io/                      | https://x.com/forteplatform   | Web3/Other                   |
+| Fosun International Limited           | https://en.fosun.com                   |                               | Web3/Other                   |
+| Foundry Six                           | https://foundrysix.com/                |                               | Web3/Other                   |
+| Fragcolor                             | https://fragcolor.com/                 | https://x.com/fragcolor       | Web3/Other                   |
+| Fresco Capital LP (Education Venture) | https://fresco.vc/                     | https://x.com/frescocap       | Infrastructure               |
+| Fresco Capital LP (Strive Higher)     | https://fresco.vc/                     | https://x.com/frescocap       | Infrastructure               |
+| Futureverse                           | https://futureverse.com/               | https://x.com/futureverse     | Metaverse                    |
+| GAIB                                  | https://gaib.ai/                       | https://x.com/gaib_ai         | AI                           |
+| Galactic Holdings                     | https://galactic.holdings/             |                               | Venture Capital / Investment |
+| Gala Games                            | https://games.gala.com                 | https://x.com/GoGalaGames     | Gaming                       |
+| Galaxy Fight Club                     | https://galaxyfightclub.com/           | https://x.com/GalaxyFight_NFT | Web3/Other                   |
+| GAMEE                                 | https://gamee.com/                     | https://x.com/GAMEEToken      | Gaming                       |
+| GameFi Ventures Fund LP               | https://gamefiventures.com/            | https://x.com/gamefiventures  | Gaming                       |
+| Gamespad                              | https://gamespad.io/                   | https://x.com/gamespad_vc     | Gaming                       |
+| Gametaverse                           | https://gametaverse.io/                | https://x.com/GametaverseDAO  | Gaming                       |
+| GameVault                             | https://gamevault.app/                 |                               | Gaming                       |
+| Gelato                                | https://gelato.network/                | https://x.com/gelatonetwork   | Infrastructure               |
+| Genopets                              | https://genopets.me/                   | https://x.com/genopets        | Web3/Other                   |
+| GENU.N                                | https://skymeta.io/                    | https://x.com/genun_tech      | Web3/Other                   |
+| Geodnet                               | https://geodnet.com/                   | https://x.com/GEODNET_        | Web3/Other                   |
+| GhostDrive                            | https://ghostdrive.com                 |                               | Web3/Other                   |
+| Go!                                   | http://gohealthhero.com/               | https://x.com/HealthHeroAI    | Web3/Other                   |
+| GoJoe                                 | https://gojoe.com/                     | https://x.com/readysetgojoe   | Web3/Other                   |
+| Golden Moments                        | https://momentibles.co/                | https://x.com/momentibles     | Web3/Other                   |
+| Good Games Guild                      | https://goodgamesguild.com/            | https://x.com/goodgamesguild  | Gaming                       |
+| GoPlus                                | https://gopluslabs.io/                 | https://x.com/GoplusSecurity  | Venture Capital / Investment |
+| GoQii                                 | https://goqii.com/                     | https://x.com/goqii           | Web3/Other                   |
+| Graffle                               | https://graffle.io/                    | https://x.com/graffle_io      | Data / Analytics             |
+| Grease Monkey Games                   | https://greasemonkeygames.com/         | https://x.com/gmgstudios      | Gaming                       |
+| Growfitter                            | https://growfitter.com/                | https://x.com/growfitter      | Web3/Other                   |
+| GrowYourBase                          | https://growyourbase.co/               | https://x.com/growyourbase_   | Web3/Other                   |
+| Gryfyn                                | https://gryfyn.io/                     | https://x.com/gryfynapp       | Web3/Other                   |
+| Gummi Finance                         | https://x.com/GummiFi                  | https://x.com/GummiFi         | DeFi                         |
+| Gunzilla                              | https://gunzillagames.com/en/          | https://x.com/GunzillaGames   | Gaming                       |
+| Gusto Collective                      | https://thisisgusto.com/               | https://x.com/gustolabs       | Web3/Other                   |
+| Hackquest                             | https://hackquest.io/                  | https://x.com/HackQuest_      | Gaming                       |
+| Haedal                                | https://haedal.xyz                     | https://x.com/haedalprotocol  | DeFi                         |
+| Hailstone Labs                        | https://hailstonelabs.com/             | https://x.com/HailstoneLabs   | AI                           |
+| Handle.fi                             | https://handle.fi/                     | https://x.com/handle_fi       | Web3/Other                   |
+| HarmoniXX                             | https://harmonixx.io/                  | https://x.com/HMXNFT          | Metaverse                    |
+| Harmony                               | https://harmony.one/                   | https://x.com/harmonyprotocol | Metaverse                    |
+| Hela / GameHiro / Razer Inc           | https://helalabs.com                   | https://x.com/Hela_Network    | Gaming                       |
+| Heroes of Mavia                       | https://mavia.com/                     | https://x.com/MaviaGame       | Web3/Other                   |
+| Hex Trust                             | https://hextrust.com/                  | https://x.com/Hex_Trust       | Payments / Fintech           |
+| Highstreet                            | https://highstreet.market/             | https://x.com/highstreetworld | Digital Ownership / NFTs     |
+| Hivello                               | https://hivello.com/                   | https://x.com/hivelloofficial | Web3/Other                   |
+| Holograph                             | https://holograph.xyz                  | https://x.com/holographxyz    | Digital Ownership / NFTs     |
+| Hooked Protocol                       | https://hooked.io/                     | https://x.com/HookedProtocol  | Infrastructure               |
+| Humanity Protocol                     | https://humanity.org                   | https://x.com/Humanityprot    | Infrastructure               |
+| Hunch                                 | https://hunch.in/                      | https://x.com/hunch_social    | Social / Community           |
+| Hydrogen Labs                         | https://hydrogenlabs.xyz/              | https://x.com/Hydrogen_Labs   | Venture Capital / Investment |
+| iCandy                                | https://icandy.io/                     | https://x.com/icandyinteract  | Web3/Other                   |
+| Igloo (Pudgy Penguins)                | https://pudgypenguins.com/             | https://x.com/pudgypenguins   | Web3/Other                   |
+| Ignite Tournaments                    | https://ignitetournaments.com/         | https://x.com/igniteyourgames | Identity / KYC               |
+| Illuvium                              | https://illuvium.io/                   | https://x.com/illuviumio      | Gaming                       |
+| Imaginary Ones                        | https://imaginaryones.com/             | https://x.com/Imaginary_Ones  | AI                           |
+| Immerso Networks                      | https://erosinvest.com/                |                               | Infrastructure               |
+| Immutable X                           | https://immutable.com/                 | https://x.com/Immutable       | Infrastructure               |
+| Impress.ai                            | http://impress.ai/                     | https://x.com/impressai       | AI                           |
+| Index Game                            | https://indexgame.hk/en/               | https://x.com/indexgamehk     | Gaming                       |
+| InfiniGods                            | https://infinigods.com                 | https://x.com/InfiniGods      | Web3/Other                   |
+| Infinity Ground                       | https://infinityg.ai                   | https://x.com/infinityg_ai    | AI                           |
+| Infinity Ventures Crypto LP           | https://ivcrypto.io/                   | https://x.com/ivcryptofund    | Venture Capital / Investment |
+| Intella X (Neowiz)                    | https://neowiz.com/neowiz/             | https://x.com/NEOWIZofficial  | Web3/Other                   |
+| IO.net                                | https://io.net/                        | https://x.com/ionet           | Web3/Other                   |
+| IoTex                                 | https://iotex.io                       | https://x.com/iotex_io        | Infrastructure               |
+| IPX                                   | https://ipxcorp.com/                   | https://x.com/_LINEFRIENDS    | Web3/Other                   |
+| Iskra                                 | https://iskra.world/                   | https://x.com/iskra_world     | Metaverse                    |
+| IVX                                   | https://hyper.ivx.fi/                  | https://x.com/ivx_fi          | Web3/Other                   |
+| Joyride Games                         | https://onjoyride.com/                 | https://x.com/onjoyride       | Gaming                       |
+| Kaia                                  | https://kaia.io                        | https://x.com/kaiachain       | AI                           |
+| KAMI                                  | https://kamiunlimited.com/             | https://x.com/kamiunlimited   | Web3/Other                   |
+| Katana                                | https://kanata.tech/                   | https://x.com/YGGJapan        | Web3/Other                   |
+| K Hub / W Hub                         |                                        |                               | Web3/Other                   |
+| Kikitrade                             | https://kikitrade.com/                 | https://x.com/KikitradeHQ     | DeFi                         |
+| Kingdom Karnage                       | https://kingdomkarnage.com/            | https://x.com/Kingdom_Karnage | Gaming                       |
+| Kingdom Raids                         | https://kingdomraids.io/               | https://x.com/KingdomRaids    | Gaming                       |
+| Kintsu                                | https://kintsu.xyz/                    | https://x.com/Kintsu_xyz      | Web3/Other                   |
+| KIP Protocol                          | https://kip.pro                        | https://x.com/KIPprotocol     | Infrastructure               |
+| Klang Games                           | https://klang-games.com/               | https://x.com/KlangGames      | Gaming                       |
+| KLKTN                                 | https://klktn.com/                     | https://x.com/klktnofficialjp | Web3/Other                   |
+| Kraken                                | https://kraken.com/                    | https://x.com/krakenfx        | Payments / Fintech           |
+| Kuroro Beasts                         | https://kuroro.com/                    | https://x.com/kurorobeast     | Web3/Other                   |
+| Kyoko Finance                         | https://kyoko.finance/                 | https://x.com/kyokoFinance    | DeFi                         |
+| Laboratik                             | https://laboratik.com/                 | https://x.com/laboratik       | Web3/Other                   |
+| LabTrade                              | https://about.lab.pro                  | https://x.com/LABtrade_       | DeFi                         |
+| Last Odyssey                          | https://lastodyssey.io/                | https://x.com/LastOdyssey_io  | Web3/Other                   |
+| Launchblock                           | https://launchblock.com                | https://x.com/launchblockcom  | Web3/Other                   |
+| LaunchMyNFT                           | https://launchmynft.io/                | https://x.com/LaunchMyNFT     | Digital Ownership / NFTs     |
+| Lava Labs                             | https://lavalabs.gg/                   | https://x.com/playafar        | Venture Capital / Investment |
+| LayerZero                             | https://layerzero.network/             | https://x.com/LayerZero_Core  | Infrastructure               |
+| LCX                                   | https://lcx.com/                       | https://x.com/lcx             | Web3/Other                   |
+| Ledger                                | https://ledger.com/                    | https://x.com/Ledger          | Payments / Fintech           |
+| Leela AI                              | https://leela.ai/                      | https://x.com/Leela_AI        | AI                           |
+| Legend of Arcadia                     | https://legendofarcadia.io/            | https://x.com/LegendofArcadia | Metaverse                    |
+| Legends of Elumia                     | https://elumia.io                      | https://x.com/PlayElumia      | Web3/Other                   |
+| Lemon 22 LP                           |                                        |                               | Web3/Other                   |
+| Levana Finance                        | https://levana.finance/                | https://x.com/Levana_protocol | DeFi                         |
+| Liberty Gaming                        | https://libertygaming.io/              | https://x.com/LibertyGaming   | Gaming                       |
+| LightLink                             | https://lightlink.io/                  | https://x.com/lightlinkchain  | Infrastructure               |
+| Likecoin                              | https://dao.like.co/                   | https://x.com/likecoin        | Web3/Other                   |
+| Liqwid Finance                        | https://liqwid.finance/                | https://x.com/liqwidfinance   | DeFi                         |
+| LiveArtX                              | https://liveart.xyz/                   | https://x.com/LiveArtX        | Digital Ownership / NFTs     |
+| Lorenzo                               | https://lorenzo-protocol.xyz/home      | https://x.com/LorenzoProtocol | Infrastructure               |
+| Lost Club Toys                        | https://lostclubtoys.com/              | https://x.com/lostclubtoys    | Web3/Other                   |
+| Lumiere Project                       | https://lumiereproject.io/             | https://x.com/Lumingproject   | Web3/Other                   |
+| Madskil Gaming (Rebel Bots)           | https://xoilium.com/                   | https://x.com/REBEL_BOTS      | Gaming                       |
+| MADWorld                              | https://madworld.io/                   | https://x.com/madworldnft     | Metaverse                    |
+| Magic Eden                            | https://magiceden.io/                  | https://x.com/MagicEden       | Digital Ownership / NFTs     |
+| Magic Valley                          | https://magicvalley.com.au/            | https://x.com/MagicValleyFood | AI                           |
+| Masa                                  | https://masa.ai/                       |                               | AI                           |
+| Mask Network                          | https://mask.io/                       | https://x.com/masknetwork     | Infrastructure               |
+| Matr1x                                | https://matr1x.io/                     | https://x.com/Matr1x_io       | Web3/Other                   |
+| Matrix One                            | https://matrix.one/                    | https://x.com/MatrixOneAI     | Web3/Other                   |
+| Matrixport Venture LP                 | https://matrixport.com/                | https://x.com/realMatrixport  | Venture Capital / Investment |
+| Matterless                            | https://matterless.com/                | https://x.com/MatterlessAR    | Web3/Other                   |
+| MC² Finance                           | https://mc2.fi/                        | https://x.com/mcsquaredfi     | DeFi                         |
+| MEET48                                | https://meet48.com/                    | https://x.com/meet_48         | Web3/Other                   |
+| MEMEbot                               | https://kyoko.finance/                 | https://x.com/kyokoFinance    | AI                           |
+| Memecoin                              | https://memeland.com/                  | https://x.com/Memeland        | Metaverse                    |
+| Meta Carbon                           | https://meta-carbon.com/               | https://x.com/metacarbon      | Metaverse                    |
+| (Metacene) in Pangu Software          | https://metacene.io/                   | https://x.com/MetaCeneGame    | Gaming                       |
+| Metagood                              | https://metagood.com/                  | https://x.com/metagoodnft     | Digital Ownership / NFTs     |
+| Metajuice                             | https://metajuice.com/                 | https://x.com/themetajuice    | Web3/Other                   |
+| Metakey                               | https://themetakey.com/                | https://x.com/themetakey      | Web3/Other                   |
+| Metalcore                             | https://metalcore.gg/                  | https://x.com/playmetalcore   | Gaming                       |
+| Metaplex                              | https://metaplex.com/                  | https://x.com/metaplex        | Web3/Other                   |
+| Metaprints                            | https://metaprints.com/                | https://x.com/Metaprints      | Web3/Other                   |
+| MetaSill                              | https://lagoframe.com/                 | https://x.com/lagoframe       | Web3/Other                   |
+| Metastreet                            | https://metastreet.xyz/                | https://x.com/metastreetxyz   | Web3/Other                   |
+| Mikelegal                             | http://mikelegal.com/                  | https://x.com/MikeLegalAI     | Web3/Other                   |
+| Mind Network                          | https://mindnetwork.xyz/               | https://x.com/mindnetwork_xyz | Infrastructure               |
+| Mines of Dalarnia                     | https://minesofdalarnia.com/           | https://x.com/MinesOfDalarnia | Metaverse                    |
+| Mintable                              | https://mintable.app/                  | https://x.com/mintable_app    | Digital Ownership / NFTs     |
+| Mobox                                 | https://mobox.io/#/                    | https://x.com/MOBOX_Official  | Web3/Other                   |
+| Modular Capital Fund                  | https://modularcapital.xyz/            | https://x.com/Modular_Capital | Infrastructure               |
+| Monad                                 | https://monad.xyz/                     | https://x.com/monad           | Infrastructure               |
+| Monoswap                              | https://monox.finance/home             | https://x.com/MonoXFinance    | DeFi                         |
+| Mon Protocol                          | https://monprotocol.ai                 |                               | AI                           |
+| Moonfrost                             | https://moonfrost.io/                  | https://x.com/MoonfrostGame   | Web3/Other                   |
+| MoonPay                               | https://moonpay.com/                   | https://x.com/moonpay         | Payments / Fintech           |
+| Moonray                               | https://moonray.game/                  | https://x.com/moonraygame     | Gaming                       |
+| Moonveil                              | https://moonveil.gg/                   | https://x.com/Moonveil_Studio | Web3/Other                   |
+| Motorverse                            | https://motorverse.com                 | https://x.com/TheMotorverse   | Web3/Other                   |
+| Move AI                               | https://move.ai/                       | https://x.com/MoveAI_         | AI                           |
+| Movie Pass                            | https://moviepass.com/                 | https://x.com/MoviePass       | Web3/Other                   |
+| MPCH                                  | https://mpch.io/                       | https://x.com/mpch_labs       | Web3/Other                   |
+| My Master War                         | https://mymasterwar.com/               | https://x.com/mymasterwar     | Gaming                       |
+| My Pet Hooligan                       | https://mypethooligan.com/en           | https://x.com/mypethooligan   | Web3/Other                   |
+| MyShell                               | https://myshell.ai/                    | https://x.com/myshell_ai      | AI                           |
+| Narwhal Finance                       | https://narwhal.finance/               | https://x.com/Narwhal_Finance | DeFi                         |
+| National Carrier Exchange             | https://nationalcarrierexchange.com/   | https://x.com/NCXLogistics    | DeFi                         |
+| nCore Games                           | https://ncoregames.com/                | https://x.com/nCore_games     | Gaming                       |
+| Nefertiti                             | https://nefertiti.tech/#/              | https://x.com/nefertiti_tech  | Web3/Other                   |
+| Neuphoria                             |                                        | https://x.com/playneuphoria   | Web3/Other                   |
+| Newform Foods                         | https://newformfoods.com/              | https://x.com/Newform_Foods   | Web3/Other                   |
+| NFTfi                                 | https://nftfi.com/                     | https://x.com/NFTfi           | Digital Ownership / NFTs     |
+| Ngram                                 | https://ngram.com/                     | https://x.com/ngramdata       | Data / Analytics             |
+| Niftyz.io                             | https://niftyz.io                      | https://x.com/Niftyz_io       | Digital Ownership / NFTs     |
+| Nillion                               | https://nillion.com                    | https://x.com/nillion         | Identity / KYC               |
+| Nine Chronicles                       | https://nine-chronicles.com/           | https://x.com/NineChronicles  | Web3/Other                   |
+| Nodepay                               | https://nodepay.ai/                    | https://x.com/nodepay_ai      | AI                           |
+| Nothing                               | https://us.nothing.tech/               | https://x.com/nothing         | Web3/Other                   |
+| Notre Game                            | https://notre-game.com/                | https://x.com/notregamestudio | Gaming                       |
+| Nuva                                  |                                        |                               | Web3/Other                   |
+| OliveX                                | https://olivex.ai/                     | https://x.com/olivexai        | AI                           |
+| OMA3                                  | https://oma3.org                       | https://x.com/oma3dao         | Web3/Other                   |
+| Omnicharge                            | https://omnicharge.co/                 | https://x.com/omni_charge     | Metaverse                    |
+| Omnichat                              | https://omnichat.ai/                   |                               | AI                           |
+| OneFootball                           | https://onefootball.com/               | https://x.com/OneFootball     | Social / Community           |
+| OP3N                                  | https://op3n.world/                    | https://x.com/opensuperapp    | Metaverse                    |
+| OP Crypto Venture Capital LP          | https://opcrypto.vc/                   | https://x.com/OPCryptoVC      | Infrastructure               |
+| OPEN LOOT Ecosystem Fund LP           | https://openloot.com/                  | https://x.com/OpenLoot        | Venture Capital / Investment |
+| OpenMind                              | https://openmind.org                   | https://x.com/openmind_agi    | Web3/Other                   |
+| OpenSea                               | https://opensea.io/                    | https://x.com/opensea         | Digital Ownership / NFTs     |
+| OpenStamp                             | https://openstamp.io/                  | https://x.com/btcopenstamp    | Web3/Other                   |
+| OPEN Ticketing Ecosystem              | https://get-protocol.io/               | https://x.com/getprotocol     | Infrastructure               |
+| Open World                            | https://openworld.dev/                 | https://x.com/_openworld      | Metaverse                    |
+| OpenZK                                | https://openzk.net                     | https://x.com/OpenZkNetwork   | Web3/Other                   |
+| Opinion Labs                          | https://app.opinion.trade/macro        | https://x.com/Opinionlabsxyz  | DeFi                         |
+| Optimum                               | https://getoptimum.xyz/                | https://x.com/get_optimum     | Web3/Other                   |
+| OrbCity                               | https://orbcity.io/                    | https://x.com/OrbCity_AI      | Metaverse                    |
+| Otrafy                                | https://otrafy.com/                    | https://x.com/Otrafy          | Web3/Other                   |
+| Outlier Ventures                      | https://outlierventures.io/            | https://x.com/outlierventures | Venture Capital / Investment |
+| Over (Under)                          | https://over.network/                  | https://x.com/OverProtocol    | Infrastructure               |
+| OZERS Nutrition                       | https://ozersnutrition.com/            | https://x.com/ozersnutrition  | Web3/Other                   |
+| OZU (Blank Network)                   | https://blanknetwork.com/              | https://x.com/blankdotart     | Infrastructure               |
+| P.A.I.N.T. Inc                        | https://limits.jp                      | https://x.com/limits_daba     | Web3/Other                   |
+| Parachute                             | http://coinmiles.io/                   | https://x.com/getcoinmiles    | Metaverse                    |
+| Param Labs                            | https://paramgaming.com/               | https://x.com/ParamLaboratory | Gaming                       |
+| Parasail                              | https://parasail.network               | https://x.com/parasailnetwork | AI                           |
+| Particle Ink                          | https://particleink.com                | https://x.com/particleink     | Digital Ownership / NFTs     |
+| Particle Network                      | https://particle.network/              | https://x.com/ParticleNtwrk   | Infrastructure               |
+| Pear (Magent)                         | https://pear.garden/                   | https://x.com/pear_protocol   | Metaverse                    |
+| Pencils Protocol                      | https://pencilsprotocol.io/            | https://x.com/pencilsprotocol | Infrastructure               |
+| Piggycell                             | https://piggycell.io/home              | https://x.com/piggycell       | Web3/Other                   |
+| Pixelmon                              | https://pixelmon.ai/                   | https://x.com/Pixelmon        | Gaming                       |
+| Pixels                                | https://pixels.xyz/                    | https://x.com/pixels_online   | Gaming                       |
+| Pixelynx                              | https://pixelynx.io/                   | https://x.com/pixelynx_io     | Web3/Other                   |
+| Planet Mojo (Mystic Moose)            | https://planetmojo.io/                 | https://x.com/WeArePlanetMojo | Gaming                       |
+| Playcraft                             | https://bebop.games                    | https://x.com/Playcraft_Dev   | Gaming                       |
+| PlayEmber                             | https://playember.com/                 | https://x.com/play_ember      | Gaming                       |
+| Playground                            | https://playgroundapp.com/             | https://x.com/meet_playground | Gaming                       |
+| Plume                                 | https://plume.org                      | https://x.com/plumenetwork    | Web3/Other                   |
+| POC Lab                               | https://peopleofcrypto.io/             | https://x.com/POClab_io       | Web3/Other                   |
+| Poglin Slam                           | https://poglin.com/                    | https://x.com/Poglin_Official | Gaming                       |
+| Polaris                               | https://polarise.org/                  | https://x.com/Polariseorg     | Metaverse                    |
+| PolkaPet World                        | https://polkapet.world/                | https://x.com/polkapets       | Metaverse                    |
+| Polygon                               | https://polygon.technology/            | https://x.com/0xPolygon       | Infrastructure               |
+| Polyhedra                             | https://polyhedra.network/             | https://x.com/PolyhedraZK     | Infrastructure               |
+| Polyverse                             | https://polyverse.network/             | https://x.com/polyverse_ai    | Infrastructure               |
+| Pontem Network                        | https://pontem.network/                | https://x.com/PontemNetwork   | Infrastructure               |
+| PortalOne                             | https://portalone.com/                 | https://x.com/PortalOneHG     | Web3/Other                   |
+| Prenetics                             | https://prenetics.com/                 | https://x.com/prenetics       | RWA (Real World Assets)      |
+| PRISM                                 | https://rmg.io/                        | https://x.com/Gamegptofficial | Web3/Other                   |
+| Project Dash                          | https://ddc.xyz/                       | https://x.com/ddcbtc_         | Web3/Other                   |
+| Prosper                               | https://prosper.so/                    | https://x.com/prosperfi_BTC   | Web3/Other                   |
+| Provenance Blockchain Labs            | https://provlabs.io                    | https://x.com/ProvLabs        | AI                           |
+| Puffer Finance                        | https://puffer.fi/                     | https://x.com/Puffer_Finance  | DeFi                         |
+| Puffverse                             | https://puffverse.pro/                 | https://x.com/Puffverse       | Web3/Other                   |
+| Pump Market                           | https://pump.markets/                  | https://x.com/pumpmarkets     | Digital Ownership / NFTs     |
+| PyratzLabs                            | https://pyratzlabs.com/                | https://x.com/PyraTzLabs      | Venture Capital / Investment |
+| Qooverse                              | https://qooverse.com/                  | https://x.com/PlayQoomon      | Web3/Other                   |
+| Questflow                             | https://questflow.ai/                  | https://x.com/questflow       | Gaming                       |
+| Quranium                              | https://quranium.org                   | https://x.com/quranium_org    | Web3/Other                   |
+| Rario                                 | https://rario.com/                     | https://x.com/rariohq         | Metaverse                    |
+| Ratex.ai                              | https://ratex.network/                 | https://x.com/RateX_Network   | AI                           |
+| Ready                                 | https://ready.co                       | https://x.com/ready_co        | Web3/Other                   |
+| Real Player DAO                       | https://realplayer.io/#/home           | https://x.com/realplayerdao   | Gaming                       |
+| Real World Gaming                     | https://brawl3rs.ai/                   | https://x.com/rwg_official    | Gaming                       |
+| ReBase GG                             | https://rebase.gg/                     | https://x.com/REBASEgg        | Web3/Other                   |
+| Recho                                 | https://recho.io                       | https://x.com/rechosocial     | Social / Community           |
+| Redacted Coin                         | https://quest.redactedairways.com/     | https://x.com/redactedcoin    | Gaming                       |
+| Red Beard Ventures LP                 | https://redbeard.ventures/             | https://x.com/RedBeardVC      | Metaverse                    |
+| Redpill                               | https://red-pill.ai/                   | https://x.com/redpill_gpt     | AI                           |
+| Replikant                             | https://replikant.com/                 | https://x.com/ReplikantStudio | Web3/Other                   |
+| Republic Realm                        | https://republicrealm.com              |                               | RWA (Real World Assets)      |
+| Request Finance                       | https://request.finance/               | https://x.com/RequestFinance  | Gaming                       |
+| Resolv Labs                           | https://resolv.xyz/                    | https://x.com/ResolvLabs      | DeFi                         |
+| Revolving Games                       | https://revolvinggames.com/            | https://x.com/Revolving_Games | Gaming                       |
+| Riema Labs (Nubit)                    | https://nubit.org/                     | https://x.com/nubit_org       | Infrastructure               |
+| Roboken                               | https://robo-ken.jp                    | https://x.com/roboken_project | Web3/Other                   |
+| Roboto Games                          | https://robotogames.com/               | https://x.com/RobotoGames     | Gaming                       |
+| Ronin                                 | https://roninchain.com                 | https://x.com/Ronin_Network   | AI                           |
+| Roolz                                 | https://roolz.ai/                      | https://x.com/Roolznft        | AI                           |
+| Root                                  | https://nft3.com/                      | https://x.com/0xRootLabs      | Digital Ownership / NFTs     |
+| Root Kitchen                          | https://rootkitchen.uk/                | https://x.com/rootkitchen_uk  | Web3/Other                   |
+| Root Network                          | https://therootnetwork.com             | https://x.com/TheRootNetwork  | Infrastructure               |
+| Rosebud AI                            | https://rosebud.ai/                    | https://x.com/Rosebud_AI      | AI                           |
+| Rosetta.ai                            | https://rosetta.ai/                    | https://x.com/rosetta_ai      | AI                           |
+| RugbyDAO                              | https://therugbydao.com                | https://x.com/TheRugbyDao     | Gaming                       |
+| Rumble Kong (Rumble League Studios)   | https://rumblekongleague.com/          | https://x.com/RumbleKongs     | Gaming                       |
+| Saakuru                               | https://saakuru.com/                   | https://x.com/saakuru_labs    | Infrastructure               |
+| Safepal                               | https://safepal.com/                   | https://x.com/isafepal        | Payments / Fintech           |
+| Sailfish Finance                      | https://sailfish.finance               | https://x.com/SailfishFinance | AI                           |
+| Sapien                                | https://sapien.network/                | https://x.com/sapien_network  | Infrastructure               |
+| Scallop                               | https://scallop.io                     | https://x.com/Scallop_io      | DeFi                         |
+| SecondSwap                            | https://secondswap.io                  | https://x.com/secondswap_io   | DeFi                         |
+| Sensibo                               | https://sensibo.com/                   | https://x.com/sensibo         | Web3/Other                   |
+| Seoul Robotics                        | https://seoulrobotics.org/             |                               | AI                           |
+| Sfermion LP (Metaverse One)           | https://sfermion.io/                   | https://x.com/Sfermion_       | Metaverse                    |
+| Sfermion LP (Snowcrash)               | https://sfermion.io                    | https://x.com/Sfermion_       | Web3/Other                   |
+| Sharpe AI                             | https://sharpe.ai/                     | https://x.com/SharpeLabs      | AI                           |
+| Shiba Inu                             | https://shib.io/                       | https://x.com/shibtoken       | Web3/Other                   |
+| Shrapnel                              | https://shrapnel.com/                  | https://x.com/playShrapnel    | Gaming                       |
+| Sidekick                              | https://sidekick.fans/                 | https://x.com/Sidekick_Labs   | Social / Community           |
+| Sidus Heroes                          | https://sidusheroes.com/               | https://x.com/galaxy_sidus    | Identity / KYC               |
+| Sign Protocol                         | https://sign.global/                   | https://x.com/ethsign         | Infrastructure               |
+| SimWin Sports                         | https://simwinsports.io/               | https://x.com/simwinsports    | Gaming                       |
+| SkyArk Chronicles                     | https://skyarkchronicles.com/          | https://x.com/SkyarkS         | Gaming                       |
+| Sky Mavis                             | https://axieinfinity.com/              | https://x.com/axieinfinity    | Gaming                       |
+| Skytree                               | https://skytree.com.hk/                |                               | Web3/Other                   |
+| Slinky                                | https://slinkylayer.ai/                | https://x.com/SlinkyLayer     | AI                           |
+| Smartpeep                             | https://smartpeep.ai/                  | https://x.com/SmartPeep       | AI                           |
+| Snack Club                            | https://beacons.ai/snackclubgg         | https://x.com/SNACKCLUBgg     | AI                           |
+| SNT                                   | https://matarstars.co                  |                               | Metaverse                    |
+| Solforge Fusion                       | https://solforgefusion.com/            | https://x.com/solforgefusion  | Web3/Other                   |
+| Solice                                | https://solice.io/                     | https://x.com/solice_io       | Metaverse                    |
+| Soma Finance                          | https://soma.finance/                  | https://x.com/SOMA_finance    | DeFi                         |
+| Soundbrenner                          | https://soundbrenner.com/              | https://x.com/soundbrenner    | Web3/Other                   |
+| Soundmint                             | https://soundmint.xyz/                 | https://x.com/soundmintxyz    | Digital Ownership / NFTs     |
+| Spark Era                             | https://firework.games/                | https://x.com/SparkeraGame    | Gaming                       |
+| Sparkle Ventures GP                   | https://sparkleventures.vc/            | https://x.com/Sparkle_VC      | Metaverse                    |
+| Sparkle Ventures LP                   | https://sparkleventures.vc/            | https://x.com/Sparkle_VC      | Metaverse                    |
+| Spencer Ventures Fund II LP           | https://spencer.vc/                    | https://x.com/SpencerVentures | Venture Capital / Investment |
+| Sperm Racing                          | https://spermracing.com                | https://x.com/spermracing     | Web3/Other                   |
+| Splinterlands                         | https://splinterlands.com/             | https://x.com/splinterlands   | Metaverse                    |
+| Sportpass                             | https://sportpass.co/                  | https://x.com/SportPassCo     | Web3/Other                   |
+| Stacking DAO                          | https://stackingdao.com/               | https://x.com/stackingdao     | Web3/Other                   |
+| StakeStone                            | https://stakestone.io/                 | https://x.com/Stake_stone     | DeFi                         |
+| Star Atlas                            | https://staratlas.com/                 | https://x.com/staratlas       | Metaverse                    |
+| Starly                                | https://starly.io/                     | https://x.com/StarlyNFT       | Digital Ownership / NFTs     |
+| Stash                                 | https://dev.stash.gg/                  |                               | Web3/Other                   |
+| Stashh Labs                           | https://stashh.io/                     | https://x.com/StashhApp       | Venture Capital / Investment |
+| Sugar Glider                          | https://sugarglider.digital/           | https://x.com/sugarglider_dig | Digital Ownership / NFTs     |
+| SuperFarm                             | https://superverse.cool/               | https://x.com/SuperVerse      | Metaverse                    |
+| Superplastic                          | https://superplastic.co/               | https://x.com/superplastic    | DeFi                         |
+| Super Protocol                        | https://superprotocol.com              | https://x.com/super__protocol | DeFi                         |
+| SupraOracles                          | https://supraoracles.com/              | https://x.com/SupraOracles    | Infrastructure               |
+| Swap Kiwi (Niftyhorde)                | https://niftyhorde.com                 | https://x.com/swapkiwi        | DeFi                         |
+| Sweet                                 | https://sweet.io/                      | https://x.com/sweet           | Web3/Other                   |
+| Sygnum Bank                           | https://sygnum.com/                    | https://x.com/sygnumofficial  | DeFi                         |
+| Tabi NFT                              | https://tabichain.com/                 | https://x.com/Tabichain       | AI                           |
+| TAC                                   | https://tac.build/                     | https://x.com/TacBuild        | Web3/Other                   |
+| Talewind                              | https://talewind.co.uk/                | https://x.com/talewindgames   | Web3/Other                   |
+| Talon Esports                         | https://talon.gg/                      | https://x.com/Talon_esports   | Gaming                       |
+| Talus                                 | https://talus.network/                 | https://x.com/TalusNetwork    | Infrastructure               |
+| Tatsu Works                           | https://tatsumeeko.com/                | https://x.com/tatsumeeko      | Web3/Other                   |
+| Tempo                                 | https://tempostorm.com/                | https://x.com/Tempo_Storm     | Web3/Other                   |
+| Termina                               | https://nitro.technology/              | https://x.com/Nitro_Labs      | Web3/Other                   |
+| The 14th Factory                      | https://the14thfactory.com             | https://x.com/the14thfactory  | Web3/Other                   |
+| The Crypto Prophecies                 | https://thecryptoprophecies.com/       | https://x.com/crypto_prophets | Web3/Other                   |
+| The Grapes                            | https://poweredbygrapes.com/           | https://x.com/joingrapes      | Web3/Other                   |
+| The Sandbox                           | https://sandbox.game/                  | https://x.com/TheSandboxGame  | Metaverse                    |
+| Thetan Arena                          | https://thetanarena.com                | https://x.com/ThetanArena     | Metaverse                    |
+| The Unfettered                        | https://theunfettered.io/              | https://x.com/unfetteredgame  | Web3/Other                   |
+| Thirdverse                            | https://thirdverse.io/en/              | https://x.com/Thirdverse_US   | Web3/Other                   |
+| Thirdwave                             | https://thirdwavelabs.com/             | https://x.com/thirdwavelabs   | Venture Capital / Investment |
+| TinyTap                               | https://tinytap.com/                   | https://x.com/TinyTapAB       | Social / Community           |
+| Titan                                 | https://houseoftitans.io/              | https://x.com/HouseofTitans   | Web3/Other                   |
+| TON                                   | https://ton.org/                       | https://x.com/ton_blockchain  | Infrastructure               |
+| TON Play                              | https://tonplay.io/                    | https://x.com/PlayDeckGames   | Gaming                       |
+| Trala Lab                             | https://tralalab.me/                   | https://x.com/TRALA_Official  | Gaming                       |
+| Tranching Protocol                    | https://tranching.com/                 | https://x.com/tranchingpro    | Infrastructure               |
+| Transak                               | https://transak.com/                   | https://x.com/transak         | Payments / Fintech           |
+| Treeverse                             | https://treeverse.net/                 | https://x.com/TheTreeverse    | Web3/Other                   |
+| TrendX                                | https://trendx.tech                    | https://x.com/TrendX_official | Web3/Other                   |
+| Tribe Capital                         | https://tribecap.co/                   | https://x.com/tribecap        | Infrastructure               |
+| TR Lab                                | https://trlab.com/                     | https://x.com/trlab_          | Digital Ownership / NFTs     |
+| True Global Ventures 4 Plus LP        | https://tgv4plus.com/                  | https://x.com/TrueGlobalVCs   | Venture Capital / Investment |
+| Tune.fm                               | https://tune.fm/                       | https://x.com/tunefmofficial  | Web3/Other                   |
+| Ubiquity DAO                          | https://ubq.fi/                        | https://x.com/UbiquityDAO     | Web3/Other                   |
+| Ucollex                               | https://ucollex.io/                    | https://x.com/ucollex         | Digital Ownership / NFTs     |
+| Ultiverse                             | https://ultiverse.io/home              | https://x.com/UltiverseDAO    | Web3/Other                   |
+| Undead Blocks (Wagyu Games)           | https://undeadblocks.com/              | https://x.com/UndeadBlocks    | Gaming                       |
+| Unique Network                        | https://unique.network/                | https://x.com/Unique_NFTchain | Infrastructure               |
+| Unreal AI                             | https://unrealai.xyz/                  |                               | AI                           |
+| Untamed Planet                        | https://untamedplanet.earth/           | https://x.com/untamed_planet  | Digital Ownership / NFTs     |
+| UNXD                                  | https://unxd.com/                      | https://x.com/unxd_nft        | Web3/Other                   |
+| Upbit                                 | https://sg.upbit.com/home              | https://x.com/upbitglobal     | Payments / Fintech           |
+| Upland                                | https://upland.me                      | https://x.com/uplandme        | Metaverse                    |
+| Up Network                            | https://upnetwork.xyz/                 | https://x.com/upnetworkhq     | Infrastructure               |
+| UpRock                                | https://uprock.com/                    | https://x.com/uprockcom       | Web3/Other                   |
+| Urban Electronics                     | http://urbanelectronicgames.com        |                               | Gaming                       |
+| Utonic                                | https://utonic.org/                    | https://x.com/UTONIC_uTON     | Infrastructure               |
+| UTU                                   | https://utu.io/                        | https://x.com/ututrust        | Web3/Other                   |
+| UXLINK                                | https://uxlink.io                      | https://x.com/UXLINKofficial  | Social / Community           |
+| Valeria Games                         | https://valeriagames.com               | https://x.com/ValeriaStudios  | Gaming                       |
+| Veda                                  | https://veda.tech/                     | https://x.com/veda_labs       | Web3/Other                   |
+| Veloce Esports                        | https://veloce.gg/                     | https://x.com/VeloceEsports   | Gaming                       |
+| Veremark                              | https://veremark.com/                  | https://x.com/veremarkltd     | Metaverse                    |
+| Verifoxx                              | https://verifoxx.com/                  | https://x.com/getverifoxx     | Web3/Other                   |
+| Versus Systems                        | https://versussystems.com/             | https://x.com/VersusSystems   | Web3/Other                   |
+| Viker                                 | https://viker.co.uk/                   | https://x.com/vikergames      | Gaming                       |
+| Village Studio                        | https://playken.xyz/                   | https://x.com/playkens        | Gaming                       |
+| Virtual Arts                          | https://dancefightapp.com/             | https://x.com/dancefightapp   | Digital Ownership / NFTs     |
+| Virtue Alliance                       | https://medium.com/@VirtueDAO          | https://x.com/kagi__xyz       | Web3/Other                   |
+| Volareo                               | https://volareo.live                   | https://x.com/volareolive     | Metaverse                    |
+| W3GG                                  | https://w3gg.io/                       | https://x.com/w3ggofficial    | Web3/Other                   |
+| WAGMI                                 | https://wagmi.com                      | https://x.com/wagmicom        | Web3/Other                   |
+| Wanderers                             | https://wanderers.ai/                  | https://x.com/wanderers       | AI                           |
+| Wanderverse                           | https://wanderverse.org                |                               | Web3/Other                   |
+| Warena                                | https://warena.io                      | https://x.com/WarenaOfficial  | Gaming                       |
+| WATI                                  | https://wati.io                        | https://x.com/Wati_io         | Web3/Other                   |
+| Wayfinder                             | https://wayfinder.ai                   | https://x.com/AIWayfinder     | AI                           |
+| WELL3                                 | https://well3.com/                     | https://x.com/well3official   | Web3/Other                   |
+| we.rich                               | https://we.rich                        | https://x.com/WeRich_         | Web3/Other                   |
+| Wilder World                          | https://wilderworld.com                | https://x.com/wilderworld     | Metaverse                    |
+| Wild Forest                           | https://playwildforest.io/             | https://x.com/playwildforest  | Gaming                       |
+| Wild Meta Earth                       | https://wildmeta.earth/                | https://x.com/WildMetaEarth   | Digital Ownership / NFTs     |
+| WingRiders                            | https://wingriders.com/                | https://x.com/wingriderscom   | Identity / KYC               |
+| Wink                                  | https://only1.app/                     | https://x.com/JoinOnly1       | Web3/Other                   |
+| WolvesDAO                             | https://wolvesdao.io                   | https://x.com/WolvesDAO       | Web3/Other                   |
+| Wombat                                | https://wombat.exchange                | https://x.com/WombatExchange  | DeFi                         |
+| World3.ai                             | https://matrixworld.org                | https://x.com/WORLD3_AI       | AI                           |
+| Wristcheck                            | https://wristcheck.com/                | https://x.com/wristcheckhq    | Web3/Other                   |
+| XAI                                   | https://xai.games                      | https://x.com/XAI_GAMES       | Gaming                       |
+| XION                                  | https://xion.burnt.com                 | https://x.com/burnt_xion      | Web3/Other                   |
+| XY Finance                            | https://xy.finance                     | https://x.com/xyfinance       | DeFi                         |
+| Xyro                                  | https://xyro.io                        | https://x.com/xyro_io         | Web3/Other                   |
+| Yuga Labs                             | https://yuga.com/                      | https://x.com/yugalabs        | Digital Ownership / NFTs     |
+| Yuliverse                             | https://yuliverse.com                  | https://x.com/TheYuliverse    | Web3/Other                   |
+| Zebec                                 | https://zebec.io/                      | https://x.com/Zebec_HQ        | Payments / Fintech           |
+| Zeek                                  | https://deek.network/login             | https://x.com/deek_network    | Infrastructure               |
+| Zentry                                | https://zentry.com                     | https://x.com/zentry          | Web3/Other                   |
+| Zeus Network                          | https://zeusnetwork.xyz                | https://x.com/zeusnetworkhq   | Infrastructure               |
+| Zigazoo                               | https://zigazoo.com                    | https://x.com/ZigazooApp      | Web3/Other                   |
+| zk.me                                 | https://zk.me                          | https://x.com/zkme_           | Web3/Other                   |
+| zkMe                                  | https://zk.me                          | https://x.com/zkme_           | Identity / KYC               |
+| zkPass                                | https://zkpass.org                     | https://x.com/zkPass          | Identity / KYC               |
+| zkRace                                | https://zkrace.com                     | https://x.com/zk_Race         | Gaming                       |
+| ZkSync                                | https://zksync.io                      | https://x.com/zksync          | Infrastructure               |
+| Zona                                  | https://zona.finance                   | https://x.com/zona_io         | DeFi                         |

@@ -1,0 +1,618 @@
+[
+  {
+    "feed": "CoinDesk",
+    "title": "Bitcoin developers want to fix the 'replace this transaction with a higher fee' button. Here's why",
+    "link": "https://www.coindesk.com/tech/2026/06/22/bitcoin-developers-want-to-fix-the-replace-this-transaction-with-a-higher-fee-button-here-s-why",
+    "date": "2026-06-22T06:19:13+00:00",
+    "summary": "A helpful feature of speeding up transactions has become redundant and a \"fingerprint\" for tracking. Developers now want to do away with it."
+  },
+  {
+    "feed": "CoinDesk",
+    "title": "Ethereum validators asked to fund projects with up to 10% of staking rewards under new proposal",
+    "link": "https://www.coindesk.com/tech/2026/06/22/ethereum-validators-asked-to-fund-projects-with-up-to-10-of-staking-rewards-under-new-proposal",
+    "date": "2026-06-22T05:43:26+00:00",
+    "summary": "A new governance proposal would let validators redirect part of their staking income toward ecosystem funding, raising questions about coordination, incentives and who gets to decide where the money goes."
+  },
+  {
+    "feed": "CoinDesk",
+    "title": "XRP briefly loses $1.14 support before buyers drive sharp rebound",
+    "link": "https://www.coindesk.com/markets/2026/06/22/xrp-briefly-loses-usd1-14-support-before-buyers-drive-sharp-rebound",
+    "date": "2026-06-22T05:17:18+00:00",
+    "summary": "Heavy selling pushed XRP to its lowest level of the weekend session, but strong buying quickly erased most of the decline and returned the token to its recent trading range."
+  },
+  {
+    "feed": "CoinDesk",
+    "title": "Bitcoin holds near $64,000 as US-Iran talks progress but crypto sits out the rally",
+    "link": "https://www.coindesk.com/markets/2026/06/22/bitcoin-holds-near-usd64-000-as-us-iran-talks-progress-but-crypto-sits-out-the-rally",
+    "date": "2026-06-22T04:58:49+00:00",
+    "summary": "sian stocks and tech climbed as the US and Iran agreed a roadmap to a final peace deal, sending oil below $80. Crypto stayed soft, with bitcoin down 2% on the week and the memecoins leading the losses."
+  },
+  {
+    "feed": "CoinDesk",
+    "title": "Are perps swaps? A quick look at that CME suit: State of Crypto",
+    "link": "https://www.coindesk.com/policy/2026/06/21/are-perps-swaps-a-quick-look-at-that-cme-suit-state-of-crypto",
+    "date": "2026-06-21T18:30:00+00:00",
+    "summary": "CME Group sued the CFTC on Thursday, alleging that the agency was wrong in how it approved Kalshi's first U.S. perpetual futures product."
+  },
+  {
+    "feed": "CoinDesk",
+    "title": "Ethereum's biggest 'sandwich' bot drained of $7.5 million in ironic exploit",
+    "link": "https://www.coindesk.com/tech/2026/06/21/ethereum-s-biggest-sandwich-bot-drained-of-usd7-5-million-in-ironic-exploit",
+    "date": "2026-06-21T07:12:35+00:00",
+    "summary": "Blockaid said an attacker tricked Jaredfromsubway.eth into approving fake trading routes, then used those approvals to drain WETH, USDC and USDT."
+  },
+  {
+    "feed": "CoinDesk",
+    "title": "Bitcoin holds near $64,000 as a renewed Hormuz threat clouds US-Iran ceasefire talks",
+    "link": "https://www.coindesk.com/markets/2026/06/21/bitcoin-holds-near-usd64-000-as-a-renewed-hormuz-threat-clouds-us-iran-ceasefire-talks",
+    "date": "2026-06-21T06:46:28+00:00",
+    "summary": "Crypto firmed over the weekend after Friday's sell-off, with bitcoin recovering toward $64,000. Permanent ceasefire talks open in Switzerland, but Iran's order to close the Strait of Hormuz again revives the risk the deal was meant to settle."
+  },
+  {
+    "feed": "CoinTelegraph",
+    "title": "Here’s what happened in crypto today",
+    "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "date": "2026-06-22T06:00:00+00:00",
+    "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation."
+  },
+  {
+    "feed": "CoinTelegraph",
+    "title": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
+    "link": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "date": "2026-06-22T05:40:26+00:00",
+    "summary": "ETF analyst Eric Balchunas says Morgan Stanley’s plan to charge 0.14% fees on two upcoming crypto ETFs makes them “the cheapest in [the] US and world.”"
+  },
+  {
+    "feed": "CoinTelegraph",
+    "title": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
+    "link": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "date": "2026-06-22T05:31:18+00:00",
+    "summary": "Taiko’s bridge and ERC20 Vault on Ethereum suffered a compromise in its chain state verification mechanism, allowing forged proofs and unauthorized withdrawals."
+  },
+  {
+    "feed": "CoinTelegraph",
+    "title": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+    "link": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "date": "2026-06-22T03:49:49+00:00",
+    "summary": "An exploit of the Secret Network went undiscovered for a week as the hacker moved the loot into Ethereum and then to exchanges."
+  },
+  {
+    "feed": "CoinTelegraph",
+    "title": "Bitcoin tipped for $66K top as trader flags 'suspicious' BTC price gains",
+    "link": "https://cointelegraph.com/markets/bitcoin-tipped-for-66k-top-as-trader-flags-suspicious-btc-price-gains?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "date": "2026-06-21T14:50:55+00:00",
+    "summary": "Bitcoin pushed for a $64,000 reclaim despite the US-Iran war making a partial comeback and Binance spot sellers keeping up pressure from earlier in the week."
+  },
+  {
+    "feed": "CoinTelegraph",
+    "title": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
+    "link": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "date": "2026-06-21T14:21:06+00:00",
+    "summary": "Bitcoin’s drop to $23,980 remains the worst-case scenario as weaker ETF flows and low US demand show big investors are still cautious."
+  },
+  {
+    "feed": "CoinTelegraph",
+    "title": "Dash eyes Philippines as market for crypto payments",
+    "link": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "date": "2026-06-21T12:25:12+00:00",
+    "summary": "Dash is assessing the Philippines for a crypto payments push as regulators promote easier business registration, though industry participants say compliant market entry can still take years."
+  },
+  {
+    "feed": "CoinTelegraph",
+    "title": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+    "link": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "date": "2026-06-21T10:15:57+00:00",
+    "summary": "STRC’s slide below par has emboldened critics, slowed Strategy’s Bitcoin buys and sparked debate over whether Michael Saylor’s BTC flywheel is still fine."
+  },
+  {
+    "feed": "CoinTelegraph",
+    "title": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
+    "link": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "date": "2026-06-21T08:54:41+00:00",
+    "summary": "A Japanese corporate pension fund with about 1,200 participating small and medium-sized businesses plans to allocate roughly 1% of its assets to crypto."
+  },
+  {
+    "feed": "Decrypt",
+    "title": "Inception Labs' Mercury 2 AI Beats Google's DiffusionGemma at Its Own Game",
+    "link": "https://decrypt.co/371722/inception-labs-mercury-2-ai-beats-googles-diffusiongemma",
+    "date": "2026-06-21T16:01:03+00:00",
+    "summary": "Both models trade word-by-word generation for parallel denoising. Only one of them does it without losing intelligence in the trade."
+  },
+  {
+    "feed": "Decrypt",
+    "title": "AI 'Amplification Spiral' May Be Causing Delusions Among Users, Study Suggests",
+    "link": "https://decrypt.co/371648/ai-amplification-spiral-causing-delusions-among-users-study",
+    "date": "2026-06-21T13:01:03+00:00",
+    "summary": "New research outlines how chatbot behaviors, including personalization, mirroring, and excessive agreement, reinforce delusions."
+  },
+  {
+    "feed": "Wu Blockchain",
+    "title": "Asia's weekly TOP10 crypto news: Oman Launches State BTC Mining Pool, BOJ Hikes Interest Rates, Russia Plans USDC Whitelist and Top10 News",
+    "link": "https://wublock.substack.com/p/asias-weekly-top10-crypto-news-oman",
+    "date": "2026-06-21T11:35:19+00:00",
+    "summary": "1."
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Republicans buy crypto more than Democrats, data shows — what's driving the divide - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObTBDRVdpWHIzcF84LVNlY2h1Rm5EcGFRTUdYcXhWc2NJWExKRXhOWm5PZkMzZkczUkp5cDRVMGl1aWJIQ0N5eks0b2Rsc2JsUXd5cmNWYW52dzVCRzQ0VFI2WG05cUMydEs0aHFmQUU4c2s5TUhUalV2bnRPSGtSN2d6QdIBiAFBVV95cUxQNjFxeVBueVhic042Yldrc2RoZWRoM09ONDIybmtmSGpUbjI3WjJlZEFiS2wwTzBKUDl5eTVCbl9PV3BISFhwMnJGQUxySVBPeHNMSm50NGNoZ2UySlFZZTcxcTNfczlGVDRGTXRrQWtOeXgybHlKQW5JRDVMRGkzRENlUHAtSHpH?oc=5",
+    "date": "2026-06-21T13:30:01+00:00",
+    "summary": "Republicans buy crypto more than Democrats, data shows — what's driving the divide&nbsp;&nbsp;CNBC"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "BTC, ETH, SOL price: What next as bitcoin drifts under $64,000 - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdUhGcklFcFNqRzJwYW13bFVVM0ZLZzI2U3NOTm9vOE1vdzJNNF91aEdrQU1qWGZDMFREcGtSTnlvSEt0T0hMTkpyRnEybHkxcXJVQWFuUVBTWUl4d0VOdVRTOXltbzg4SHVUdEVFcmJhTzdNVE9wWV9vMGFYcnpacExiUlQwRjZYb09oOGg0N2Vfc2R6aGtXc3NDdkZLNFBvRWE3T21KeGV2VWRkaW1MSWpjYWFjWXFDQUUtdkwwb1h3Ul82WDZR?oc=5",
+    "date": "2026-06-22T05:01:41+00:00",
+    "summary": "BTC, ETH, SOL price: What next as bitcoin drifts under $64,000&nbsp;&nbsp;CoinDesk"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Pro-Israel and crypto money become central issue in Democratic primary - The Washington Post",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaW9ndHNHMW5Ual9LNDl1WDUtM1NjMVYwYmtwbTI1eVk3VUxVekppa0JvOFEyRmdMS0FlQ0xWMm5YUUI3bHMtem1qZ2phUE9GTnlvc3luaGVPODVEcVZrZm5obGlMcjRIQmxCUnBfTXhqdnhxWFh1WTRab1RLLXBXcHl6X2RlbWl2TjZhYkpmVk1pd1VNaUVmR0dMT2JNcWlLanhPR1BLbGE4bW9WR05Tc01Ta2p4Wl9STnNuby1RUQ?oc=5",
+    "date": "2026-06-21T16:00:00+00:00",
+    "summary": "Pro-Israel and crypto money become central issue in Democratic primary&nbsp;&nbsp;The Washington Post"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Chinese fentanyl network suspected of crypto fraud via Japan base - Nikkei Asia",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUFppMWxpekpFcGRDNGdyUThwMWI3VXpEUVBENVFmSk4wME96TllJcUxaekxvOGpjUGpvYWZ5MXhSc2x3V2wzY1M0OGtzRGdFNUo2OTExcmF4LW9KdzZwZDlmSTFSN1NCV01qXzh1RXJDZlhHM0JkMlpKd2d0Y3dWUl93dEdzSG1qTlM2YjlFTXNfZHBCYk0yYTFlSTV1SjFLM0dua3VoMHhtY3hrNUNjTHQ2VDlUN0Z2ZURlb0JUMnF2WXBJMnNOTTljN3M?oc=5",
+    "date": "2026-06-21T17:00:00+00:00",
+    "summary": "Chinese fentanyl network suspected of crypto fraud via Japan base&nbsp;&nbsp;Nikkei Asia"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Could Keir Starmer’s Exit Open the Door to Britain’s Most Crypto-Friendly Labour Leader? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS3NkZ0pmQTI5bnIzOElNa29EQ3FjNlJHcDVab1lOVDVKVDhGWDdFZkJyaEl3TER3M0c1aTl5RENJVzlxLUJxY2lXdHRfSm9iVTBQVkJoMk5FSmhmUEJmQkpKVm9PSTJ5R3lpSXRid3BTRTNua3czZHg5Z2g5Q2l3X0ZyZGxMX2pvdVVlLWo2bjdIb2x5T0MxNA?oc=5",
+    "date": "2026-06-21T16:51:18+00:00",
+    "summary": "Could Keir Starmer’s Exit Open the Door to Britain’s Most Crypto-Friendly Labour Leader?&nbsp;&nbsp;Yahoo Finance"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "What would a stablecoin run look like? - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oTXhQZE9RTWYyVXdETnZERGpkaFpyempRSllaYXVDSkE2Wm9GY1RtTVhNOHd1V2JDTjB5d0NPRm1URHd5d1JHekYxQ3FGdUZHbl96R2xBdFRNb0V3WUZmTTdaR2tTRTJMTHBONEdsLVc?oc=5",
+    "date": "2026-06-22T04:03:43+00:00",
+    "summary": "What would a stablecoin run look like?&nbsp;&nbsp;Financial Times"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Minnesota bans crypto ATMs after scam surge - Fox News",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11ZTllQjZmYTdDSW4ya2JkbnNsTDlKenc0ODlFaFNDY1NwNUFuSDJhcDlIMndFYU1WOElPRTkxeUFrMWVTM3l1Nk1MRTc2UW5HcE9vcW5kUi1kMVNyM1lkRkd4MkN6b1ZOajVWY0g5V1UtNnlU0gF6QVVfeXFMTVBCZGU0WVdyeGpITi0tRVRPT012SGNMdkIzeDBCMlhIS0ZpWG5kZG1zeTBYaEZKZjNuYjU2UE5QNHp3UF9yNnRqc2NENVpFWFRyWGoyNVFmWjVDbHNvSkdWdnMyUFI2dXd3akdHb0Zxam5ub1pCd0dmV0E?oc=5",
+    "date": "2026-06-21T12:19:19+00:00",
+    "summary": "Minnesota bans crypto ATMs after scam surge&nbsp;&nbsp;Fox News"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Kraken Fed account fight could shape how crypto firms get direct payment access - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9EWTNQZnFTTWdMVVlFOVBsQnRRNFd6dU9ld1BsN2ZGdl9jdWVLOTZ0X09VSUNNV1hlX0djQnMxOHc0YXlwWUVTTHNmTHZuZlp2aVllN3lPcjROWlpnLUxYazVaNzNRMlB5M1c3M3ZJUQ?oc=5",
+    "date": "2026-06-22T02:15:30+00:00",
+    "summary": "Kraken Fed account fight could shape how crypto firms get direct payment access&nbsp;&nbsp;CryptoSlate"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "The CLARITY Act's Biggest Obstacle Isn't Crypto Regulation — It's Trump's Crypto Ties - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNODB5QVE1TEpyT2RCemlQOWJqenZaR0dxY3hHd1NFSlhUTzdpUGNYXzFzSmhnSGV3Mk9KZTJfMndDWDVaZWh2ZVp6ZGxBZU13Mm9yTldSVXN2TWc1ZE9TQ1NkRWFPbnFjMFpOdWRzNU14b1ZvbmhqWGY0MWFIVjhHM2JHZWFvV3psbUxrTXkwRzF6VkpVM01wRFh5NENTZWhO?oc=5",
+    "date": "2026-06-21T20:30:40+00:00",
+    "summary": "The CLARITY Act's Biggest Obstacle Isn't Crypto Regulation — It's Trump's Crypto Ties&nbsp;&nbsp;Yahoo Finance"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Vault: Crypto trade moves and more - Punchbowl News",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05WlpQeFA0R2FQS2xmS1hSbF9iV2cwN1dCb09peXB6ZUxieWNrUTAtSnR0SGlWeUNNX3dpNG5DMnVqS2ZqcFNxNUt6OURMLV94OV8xUDUzbW5wQ1ZFOWQ0YTF3NEJCbnM?oc=5",
+    "date": "2026-06-21T21:17:10+00:00",
+    "summary": "Vault: Crypto trade moves and more&nbsp;&nbsp;Punchbowl News"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Crypto perps’ US future to be defined by what regulators decide to call them - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pajVac2ZqTkJRbE15VE9ydkJiVFFmX1QtZ0REZEIwN0dVMEVfc3o1dDBrem85enlRTkpIazVSTVM1ajJlaExmZDE0Rm5zcERIeXdCYW5Jb3ByQ3d3cnJ0MC1qTWtYT24wWlJreg?oc=5",
+    "date": "2026-06-21T22:05:13+00:00",
+    "summary": "Crypto perps’ US future to be defined by what regulators decide to call them&nbsp;&nbsp;CryptoSlate"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "The Real Deposit Threat Isn't Crypto—It's The One-Stop-Shop - CUToday",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNU2Uxd0l2OUNINVRFNFpVd1RReDB1Q3RRVWY2WnBFLWtkbkJud1cxVkZxaDllT0JnZTJjRmZUWlRvU3hiZlU2ZmlHVXJPM09sZTJhVzJfM3plSmxqb09wMnJvTWhqcEF1MWotNDVhT1hMTHVJQjltXzhzdFlRRTJhYVNXNkJRNDJvTW00UTBNajRLMmZvbHl1NTZuRVk?oc=5",
+    "date": "2026-06-21T12:23:46+00:00",
+    "summary": "The Real Deposit Threat Isn't Crypto—It's The One-Stop-Shop&nbsp;&nbsp;CUToday"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "4 Things That Could Move Crypto Markets This Week - CryptoPotato",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNndlWWpmRzlLSHdfMWhXblJJZmxTYTJrXzJ1RnpxRElJSFhpRlVObkR3aDFKbUFKNFl0dUxtOWlFeUgwRFFEV0FjMmlyM2xTWG1Wb2hlNm54bUZ2OXRmbEVpcDBBa0tlbFRWY1VVcVdLQUN0ekRsZmpuN0E0WHhWMU5hcw?oc=5",
+    "date": "2026-06-22T05:15:00+00:00",
+    "summary": "4 Things That Could Move Crypto Markets This Week&nbsp;&nbsp;CryptoPotato"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Taiko Exploit Adds to June Tally of Over 20 Crypto Hacks - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOTNhQWI0QncxOHI1enh6WWlqRy1tSk5PTkFQWDNqQXdyNzlmb1NXOG1wQ0xwclVoc1hLd1d4WnhpUEVTNjdoMUdOajBjVm5KM3l3UE1oaldrMzMzbThJY0FSdW1TMFZIWlRXSDJPZG5aeXNkQVRvM3VrY3BqYWF4X0hWZmE1Rk5yZFptUU9CakZNc2k3U3A0d0R3?oc=5",
+    "date": "2026-06-22T02:31:00+00:00",
+    "summary": "Taiko Exploit Adds to June Tally of Over 20 Crypto Hacks&nbsp;&nbsp;Yahoo Finance"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Vault: Where the Senate stands on crypto tax - Punchbowl News",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13MkpDX0xvbE5yU0VaZjd1Vm5rZE9vNU9ObTZERHhrVUdhRjJTcm55V1R2a1pvNGt1Q1NvTVkxb19relJNYWM4a2lLSkRFTmVoVjVnUEFma0FXLS1Hc2x6TTBKTkFFTjdk?oc=5",
+    "date": "2026-06-21T21:12:10+00:00",
+    "summary": "Vault: Where the Senate stands on crypto tax&nbsp;&nbsp;Punchbowl News"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Africa’s crypto crackdown is really a remittance revolution - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUVhxenQ5dnFSazNmeU5KVXZlMUY2a3dYY3d6NGZIU29jdHAyejk5MjhrWDdnZHZVLTktQTQ0QW9TUUZ5UVAydjlyMDZTTFc0Zkt6WndHSTU5RldIRUlVWlhpRHlFZzczVWQ3eGN6SHNOYVJtU0U2MlpwUGZzWmV6QkVFOXNVUHAtcFQ0?oc=5",
+    "date": "2026-06-21T18:05:34+00:00",
+    "summary": "Africa’s crypto crackdown is really a remittance revolution&nbsp;&nbsp;CryptoSlate"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Former CFTC Commissioner Carolyn Pham Warns Crypto Has 2.5 Years To Become 'Too Big To Fail' - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa1JEeG9fYWlvbjBfOHVOa21ZRGZKcXVSZy1tOVhtbTdkWURrUHZqWlBtb1BXa0JNMENGc2ZYVHlmZV9GUWNOaWFrUm9QYWV1c0lsbmFQNl9qN2xuQy0xdEFoTGRmYlRvNE1SeUVJUVhfa2F0MjhGX0FEVlVFY2E0TVRJc0lEVFVOWUFVdDVsdkNqc21pU2JJUUYzTzgzX21MOXN3ag?oc=5",
+    "date": "2026-06-21T15:24:50+00:00",
+    "summary": "Former CFTC Commissioner Carolyn Pham Warns Crypto Has 2.5 Years To Become 'Too Big To Fail'&nbsp;&nbsp;Yahoo Finance"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Get Fast, Reliable Research for the Modern Crypto Market for Just $40 - entrepreneur.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeVlzeklCbWtNbUxrWlIzblNIbWVxcV9Rd0pkZ3VUbHNkOGk0cTEtSUxOMVRTMnUtSS1tOFJ5WFJacENxLUd2RkZYay12eVM0Z1ViUkg0dC1DTS1tdjdLSlhnY2lvX3RWTEMwNGpYY0hSWk8zaVZMbzREemNKekdyS3VCM3JpMndtYkNnLWtkbkdqQmdYTlB6RnVMTFpsS016NS1XSTFuazQ?oc=5",
+    "date": "2026-06-21T17:05:12+00:00",
+    "summary": "Get Fast, Reliable Research for the Modern Crypto Market for Just $40&nbsp;&nbsp;entrepreneur.com"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "MiCA deadline likely to shift smaller crypto apps into licensed custody rails - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LandTQmRPNkdEV0NUaHdBNExlVHRaM0hQdVVtYjJOcEhFQlJ4VnY5MGN3UjhzTDZJeXB6S1NNTzZuUWJham5kY08yYkFJdmNSRzFkSWRzSWRHd3RIU2lJR3IyQkgyLVJIbTBhNXZiVW1mZw?oc=5",
+    "date": "2026-06-21T23:45:34+00:00",
+    "summary": "MiCA deadline likely to shift smaller crypto apps into licensed custody rails&nbsp;&nbsp;CryptoSlate"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Do gold and crypto belong in a Canadian RRSP or TFSA — or is more diversification too risky? - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRlFvWkxyUFp2dndnNkdjWnNVTkREZ0tZVGJNak1GRGRqZmpOdjV3QkpkeTNha2s0NG9NS1hIRWhMdS1DZE1OaVBlb29yZlpmWnp0X00tUFhNZExwT1phZENWVUZ2NHg5Zzd1RTZPMmppVnlSaFJiNTRHZkdGQzBuNFY1UTBIdkps?oc=5",
+    "date": "2026-06-21T16:30:00+00:00",
+    "summary": "Do gold and crypto belong in a Canadian RRSP or TFSA — or is more diversification too risky?&nbsp;&nbsp;Yahoo! Finance Canada"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Bitget Adds Real US Stock Ownership to Crypto Accounts With Stock+ Launch - Finance Magnates",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObUgxN3pwUVRHTVFXNlAyUlpVUUNRRzA5eHRFTzZPV0JOSzVmWDBPRkdqaXdjNjJqdE1BcjhpVldmdXpaa3E1eTA5WWQxNGg3aVUwYWZZcE1GWV84dFpINERtbjhBNGNUUjVMUW1JLVQzTmcwVFZsaDhZaEo2SF9CaV9CdlZCYWtEdnMtVDBpMTV2SG1sZGpXVDl5QVo1YTU2b0RaR2x0NGdXS2plTnd5LUJXTGpfd3BuQldYRw?oc=5",
+    "date": "2026-06-22T05:57:51+00:00",
+    "summary": "Bitget Adds Real US Stock Ownership to Crypto Accounts With Stock+ Launch&nbsp;&nbsp;Finance Magnates"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Crypto Trading has become Mainstream in Retail FX - Finance Magnates",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORW1LM0lIRGlmUnNxRmxLMFhXVFd6ZEJEZGNJbDZ2dzhHV1hXQWtiVVdXSzk5Yzk1Nk1BakR2cWVlYk5tZGRRdVZqVS1iVUQ5d094VkdzTEJpcGt5OU1XNUR0VGZDVTlvLWVmVGlFUUpjQW5oQ3FSVUtxXzVXQ2N3aUhsZFlhZ2ZKaFF0UXI1cXQtOS1BdnNNNHNSdHc0cTlaeUIw?oc=5",
+    "date": "2026-06-22T05:00:00+00:00",
+    "summary": "Crypto Trading has become Mainstream in Retail FX&nbsp;&nbsp;Finance Magnates"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "US regulators open crypto perps review - grafa.com",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4tQzJkV1pmenZSbXYxUU55VmhYVXIyaDJRMno3R0R4LURuUlFFQ1Y0b09ldzJ4SVVrQ09tWElxMGNLSVZmR2ZVSlJLVmV5SDItWU44Y3AzUjl6eC1JUVpvaC1fQ0p5bjU5OC1ES0xsaXZuQUJRVWNkRUtnRQ?oc=5",
+    "date": "2026-06-21T23:43:00+00:00",
+    "summary": "US regulators open crypto perps review&nbsp;&nbsp;grafa.com"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Lummis Says CLARITY Act Will End Crypto Developer Prosecution for Writing Code - BeInCrypto",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBKUS1yMXVEUW1yRmdSbWI2d0FwVGQ0ZkFYaWF0aGtjWkl5RE1JaV82UGVBUVJVcDM5WEZ5ZnlSbW9ZbDRhczR0T3E5U1VEckJvd0Q3MFR0R01QSzFTaFFfWElnMExWNmVRYzYxaklQU3VwaXAtREpqZw?oc=5",
+    "date": "2026-06-22T02:31:00+00:00",
+    "summary": "Lummis Says CLARITY Act Will End Crypto Developer Prosecution for Writing Code&nbsp;&nbsp;BeInCrypto"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "FCC robocall rule could make phone accounts a richer target for crypto attackers - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tTWVfRndCN2ZSREZXU1RVTlNmUUcyZEdlTVJ3aWwycGlJMjgydk9lNEhReDJBYWV0dWdJRGpIVkNWVE5ZVEpKcmZkYWNtTDFIcDRDU0ZPaUhhaHdzaFE4cWhLUWo?oc=5",
+    "date": "2026-06-21T14:15:30+00:00",
+    "summary": "FCC robocall rule could make phone accounts a richer target for crypto attackers&nbsp;&nbsp;CryptoSlate"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "The CLARITY Act – Crypto Has One Chance Left at Legal Clarity - Brave New Coin",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOXk4TEoyZl93bndDZEZXWWo0RW01aFVWQ2d3dUpXemczaFo4SWRnQ3VXUVI3c1p5aEhKVDI2YzFzOU5ZcTZyWTNFWDBZUUN1b1FhYTlkMTJHaHZHRVZPWDhwS2VnYVZiLWF6aTFNYm9oTXVrdnlpc0VNWnJqemxDRTRONFNyT190ZTJnU2pPS0t5VnNCNlIzZw?oc=5",
+    "date": "2026-06-21T22:49:11+00:00",
+    "summary": "The CLARITY Act – Crypto Has One Chance Left at Legal Clarity&nbsp;&nbsp;Brave New Coin"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Taiko Exploit Adds to June Tally of Over 20 Crypto Hacks - BeInCrypto",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZYmZuQWpCR1JkZHlrYXlITWNFdGlabVFXWC1Bdjk0RjZKRy1kd1VPdkQyNHZCcmZlZXNYaU40eFI2cXFZN1JNeDM3NlA2MVhNUEtHUjdmVnFHT1g5SVBRZWRSQWljcnFVUUpONTFfTQ?oc=5",
+    "date": "2026-06-22T02:31:00+00:00",
+    "summary": "Taiko Exploit Adds to June Tally of Over 20 Crypto Hacks&nbsp;&nbsp;BeInCrypto"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Charles Hoskinson defends Cardano’s AI push as Midnight City expands - crypto.news",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVEVPZTgydFQ0RUJ0a0xSbVBrVGpMREdxY0J5SUtkWmY5RnhVeDhKUUFqQVJ5enBVZ3B4WWNUY0d4anBxWDExdlhzQXVfeU1oZjRnaWhCZDNnMGNZMjY4S2dlSU5FdGRxcEg2V3hPc182VmNSUlRna0d1TDBhejZXVkFsdDZCQzkySjdoazlQUG5jZw?oc=5",
+    "date": "2026-06-22T04:26:00+00:00",
+    "summary": "Charles Hoskinson defends Cardano’s AI push as Midnight City expands&nbsp;&nbsp;crypto.news"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Three World Cup betting crypto wallets have cashed out more than $24 Million - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSUFzbEZyQ1NCblVvMi0xdTNsUGQ3Vm53QUhkOVE2bjlLeEpkeGp6VW1BemZVUEFKNldhZXdYN1dSUkY2QlhBSHZ2b25taDhmWWYzQjhKeWVZekd0RW41VUlZYXdNSkZNNzdISUJSd19XelNQX2dUOGhGY21GOFEyU3c4amIyeGtvWkxQcC1FLU5wUWl1MHJNVEY5VEVBSUpzd2c?oc=5",
+    "date": "2026-06-21T20:35:10+00:00",
+    "summary": "Three World Cup betting crypto wallets have cashed out more than $24 Million&nbsp;&nbsp;CryptoSlate"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Crypto Money Floods Maryland Primary — $5.5 Million Backs Steny Hoyer's Handpicked Successor Adrian Boafo - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWXEyTFRCVy0xWGtFS2pESVlOVkxsekRtd3VfREZibkFYTnlVMzAyS2QtSDJNYzhJU3ZSazdFOHV5a05OUmM1UkpGd1hybzFqZFJKcmVOUUN1ejZsTm14QXlLX0RrV1MxbDBtYlRYaFJDRnBkcmMwaEJfamxyUzdKSlRxME9NZlViRk90dXN4bEJ6c0p1N0V1eV9pSVVHdUdFZzU4S0psQ05EeVpGYzhpczdqbnNuYWl0VVRz?oc=5",
+    "date": "2026-06-22T05:48:14+00:00",
+    "summary": "Crypto Money Floods Maryland Primary — $5.5 Million Backs Steny Hoyer's Handpicked Successor Adrian Boafo&nbsp;&nbsp;Benzinga"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Bitwise CEO: Crypto Market Entering Value Validation Phase - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSnpjcmRYX3BXN1pMRFR6Sy1HWG8tc0lPc0JDVlJKRlJ4VlY2Q3l0eE4wN09rRzdzdDQzMzE4SXF6b0ZKTWNweGF3eXgyZ3VJUFNsNjU4a0NrcThmNzJybWQ5NlF0TkZscXVtOXAwcWFZV0YtZl9ydXNYSG1LcmNEam9pRTIyUk83cWFEbi1jQjBoLTRfM3c?oc=5",
+    "date": "2026-06-22T05:33:13+00:00",
+    "summary": "Bitwise CEO: Crypto Market Entering Value Validation Phase&nbsp;&nbsp;KuCoin"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "‘Radical reshaping’: $3.5b unicorn Immutable scraps crypto gaming teams - Forbes Australia",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUWRkVVVXakYzcUR0TU5wdkJ1YVFVeTc0VG1Hejh4UkxjWEVvcGJ1SEN6ajcyRm43Z2l5UXhBWERxa0VObGZZR2p4c3JMLUdkSENZMERlY3o3RFNBbVVvaXJ6dDhSMVRhMU9xYjJ4M2toQjdkcW92VFFERFNMNGttdElTUWFOUHJNTHU0WmJudndvcG9XUGV1QkpYZGFUY2dsSTJ2WHZCdko4V1J1VHZr?oc=5",
+    "date": "2026-06-22T04:54:01+00:00",
+    "summary": "‘Radical reshaping’: $3.5b unicorn Immutable scraps crypto gaming teams&nbsp;&nbsp;Forbes Australia"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Authorities Dismantle AudiA6, the Ransomware Crypto Laundering Service Behind $380M - Cybersecurity Insiders",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcjdMWk9Yc29ZTDhxd1BTVWh4Y0VrcnBTMzR5aVBtYzI0SDNqZDBtNzZIRWJmM0h0MEE3RDFzQzlQaDlMekNHd0thZlRhS0ZiSkRSQUZNRHIzZGNvY0FYMlJ5ZmhpR2pXeFJLNVZ1dVZBLW9JUDRMdEg4WFdFMWJVYS11OXg2ZVREMjJOLW1GRQ?oc=5",
+    "date": "2026-06-21T19:10:55+00:00",
+    "summary": "Authorities Dismantle AudiA6, the Ransomware Crypto Laundering Service Behind $380M&nbsp;&nbsp;Cybersecurity Insiders"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Morgan Stanley (MS) Stock Could Be 17.3% Overvalued After Its Crypto ETF Push - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRkhkZTk1WnhaTzRxdEVvU2c0X0p2a2p0N0VzNlZucGZtS2YwWTZJbUhLbXhIZjdSaGNkWXFUT2hMS1l5RDZTdVJXa3pxX2duR1NfNHJqUTZodEZXZnhiYURtTGZhYnVubmZwVkMzclpyalhzRzkwdTBIVmpoZk43aFpFNWV6RURmbTJnbk8tR0RDUmFWQUxSYXNnUDN3R0lXUzF0R3JCQTd4YjhNeXNRQUFlNWVvcVNFd3pYQWEzRHFwd012YjlEdzc4WExjTjBFLU05VFZGMTBkZmfSAeABQVVfeXFMTm1HUll6U1hHa1VnMHhZS2lvTl9POHhFcjdxMkhoU1U1Ri1tc0xrRTlxN2RuX3hjSGxVTE9KeXpRREJabjJ2c183VlVSM21DdFhrOUtDSnVuZ0MwYlpiZ0RYZHZFQTMxZ0pqd1V2OE9EbERycUpueGZHMk1RcGd5THZfcHNxRjBWOWlPbUxUQ0NTRlRzSm95NzRMOE16b2hMcVlGNFpyWnBXRW5kNXNlamc4WTkybXg1V1h0VWVPM0UtM29aSmY1Q3NPSjh0LVpUWTB0Z2RPaDJaWEUzeklEelE?oc=5",
+    "date": "2026-06-21T23:25:34+00:00",
+    "summary": "Morgan Stanley (MS) Stock Could Be 17.3% Overvalued After Its Crypto ETF Push&nbsp;&nbsp;simplywall.st"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "FCA Stablecoin Issuance and Cryptoasset Custody Regime - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUTZIbC1JN0ZfR3hkVlNuclFTS0I4bVY2WVFmV0MyVFkyanZmdWRiUnVod0JZcXcwc25JZ1ZjLThuYmxzSzdEUmVaTy1KTmEtbU9RT2cxSnp2aWdJTVYwMjdhNF9NUVR6TlM2eUlUSUY3amFmXzludmY3aW10SWVWWi1yb2FWbU1NaW1VY21KVVE?oc=5",
+    "date": "2026-06-22T05:30:19+00:00",
+    "summary": "FCA Stablecoin Issuance and Cryptoasset Custody Regime&nbsp;&nbsp;CryptoSlate"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Commentary: Crypto bill is bad for small businesses - Post and Courier",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNOVV0Nmd5R3lZU1otYTRhck1NS2RiUW5EY2F5d19hQU9SYlRWWkdEamVrYmE1ME8zZWtFMy1TN2ctMW9zZUpjVjJnZWdYeFJ5TkwySHhFOVpaRnRCc0xuYmlmVXBuZDVhTVhTc0NTRDFWcHdEU3VZMmFNelQtQXpUbUZOX1ROZXBKbjM0b0pqSTJYaVJhWFVFYWR1TnVrTDFWMWpnMGE5VDJjeGFtbEhsUGFVSEc3ZWMyMVM0YUlCOWdFM2tBQXUxR0JTZ0paY0hMQTFqVkhxcF9LWWEyNS1NZmZxQmdGSnFz?oc=5",
+    "date": "2026-06-21T21:15:00+00:00",
+    "summary": "Commentary: Crypto bill is bad for small businesses&nbsp;&nbsp;Post and Courier"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "MiCA deadline likely to shift smaller crypto apps into licensed custody rails - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0xRWQyQnYySFptdmpFSXFVRHcyMFRQR0RvNTlkdHNBdWJDVlhVLUhWWlAyMlNPbmo5bHRsZnlKa2txTmRwMl9VN2IwOF8wcU9HbXN5dF9OWQ?oc=5",
+    "date": "2026-06-22T00:48:38+00:00",
+    "summary": "MiCA deadline likely to shift smaller crypto apps into licensed custody rails&nbsp;&nbsp;Cryptonews.net"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "MAS Adds Crypto Exchange Bybit to Investor Alert List - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcXNJY0MzZU8zWlJIQXJGWl85QmtXRmJzT2ZsUlRJOF9PMDd4NEYxS1IyRVljNWNRZE5HZmtSTXpkWmxzSElJcFlLeGhheFNTN1FsNXFiOG9jX1lpODZDYVFDOEtQUFJmY0xTY05IX1h4d1dENG15RzBvcW1zZUpHQU43a2Q0V29Jek9yUnFFWEhUcExxTlZVc01zZw?oc=5",
+    "date": "2026-06-22T01:41:48+00:00",
+    "summary": "MAS Adds Crypto Exchange Bybit to Investor Alert List&nbsp;&nbsp;Moomoo"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "STRC is cracking. Saylor’s Bitcoin dividend machine faces its first real test - crypto.news",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80bFBQaTd0MnZ6anJTRFZvcEpyeW1NYTB0UEo2OXNGcUtHUm91d29INTJobktSZG1BelFneV95Q3BKckpMeDl5OC1NSk5ZV1RZUUJyckpaY0tRTG1ScS1Ud0hZYzZqc25pTHc?oc=5",
+    "date": "2026-06-21T13:00:00+00:00",
+    "summary": "STRC is cracking. Saylor’s Bitcoin dividend machine faces its first real test&nbsp;&nbsp;crypto.news"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Tech, crypto firms to help tackle illegal wildlife trade - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaXBwQTR5dzJOVW84VWl3TXg3YjgxelhXbW1VT182bnFWbEozSnRZLWhDOXBVSS1iOHpmNEFndExIWllkWHI5YldISGlTZ09vUDN5MFVPeE1jbU1FRTlLbUVDRU9ENHI4VzlOVzg0ekJQSDlPT2lMdGNfSnpVdUtwQ0p1bWZZRHktNEhKT1ZveDdSaW1OaFRJbEFELW5GVXNLaENZNHFINkY5QUtTOXhaZVQ0Uk1iMzg4bW5DZHEzXzhnc3M?oc=5",
+    "date": "2026-06-21T23:01:00+00:00",
+    "summary": "Tech, crypto firms to help tackle illegal wildlife trade&nbsp;&nbsp;TradingView"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Son of crypto-friendly senator raises $30 million for derivative exchange startup - Washington Times",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbThuXy1VQnFlam1CcUtCVGI2M0dsRlE1YmFuRm51SEk5eFpTdnRZRWM3NEEtZzV4cWNCTkIwUmVoWWR5SmNHbEtTUnQzcDU2VUlpU21NVnBIZVZiTjhvNmlxbEk1eE1ZSFBBdURVV2E0NmdQOF92V242NzN3VDIwTkJxLVRVdFQ1X0NNZHZLOUVPWVQ1U01qVk02UllEWlcybnJpaXpnLTZyNE00bVFza1RyQVZVUQ?oc=5",
+    "date": "2026-06-21T20:40:55+00:00",
+    "summary": "Son of crypto-friendly senator raises $30 million for derivative exchange startup&nbsp;&nbsp;Washington Times"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Best Crypto Casinos: Top Bitcoin Gambling Sites 2026 - Muddy River News",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONkZ0OE4zNk1LQmZFWGdXbGFpSGFtYmFPTFE4MHhrTUhUOUh4c2hnNnBGQUowWjRsaWlJM1Roa1NjU0x5Y2dRMXp3RU1ncmtKRl9wYUFzT1dyT3NtVHR0MGRzS2xhYW1ES3dIaGE5dXFjSGhjZjZSWmVWTFd4MG1yYzlLcXUxNWJuanBFX0tSRksySGJ1UlFLVm52cnhtSGlmbHByMVFlZG94UQ?oc=5",
+    "date": "2026-06-21T22:50:54+00:00",
+    "summary": "Best Crypto Casinos: Top Bitcoin Gambling Sites 2026&nbsp;&nbsp;Muddy River News"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Japan's National Business Corporate Pension Fund plans 1% crypto allocation by fiscal 2026 - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1WNk1uV05CQjBlU0NXZ3pNNTljUmg0T2M4MjRqM09zTi1VbDc1QmQ5UEpqUjlFVXhoN2g5eDA1Z2luZzFLSEQ4dWFHalV6bmhhZUFCek9VN0FCREl1UGYxb3FkQzhMRzVyT01XdzgtVm9ZNGM4QXotcg?oc=5",
+    "date": "2026-06-22T05:26:25+00:00",
+    "summary": "Japan's National Business Corporate Pension Fund plans 1% crypto allocation by fiscal 2026&nbsp;&nbsp;Crypto Briefing"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Senate Finance Committee makes bipartisan progress on crypto tax reform - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LSlRFa0dsVGtnUWtjZ0ttM21mdW5MVi0xdjJOaWUtUHFfRVN2eEpfVXgwNkFGbVczSnloVzU5U3Z4b1FZVUI4LUFpaVhpNFZTOEpKcFZzdHBkX3Q0ZURhOHBQNzFGZDg0NFBMNW1OOTBOMDZ4UllxM2RPRDU?oc=5",
+    "date": "2026-06-21T23:05:57+00:00",
+    "summary": "Senate Finance Committee makes bipartisan progress on crypto tax reform&nbsp;&nbsp;Crypto Briefing"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "UK Sanctions Crypto Exchange HTX In Key Move Against Russian Evasion Networks : Analysis - Crowdfund Insider",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaDNRdjNvbDE3WkstMEVuMWtqYU81T3puREs1eTFwQllCNnBZd1hIenYxdUI3ZE9zN2t6dlVMTVBhcVRVcU95SkF2bldad1RGMVRhd0UxZzItMG5Hd1RNemVaYlQ0NWl1V01IOHFieVNyVU1hRmZlVkY1UTdNSEM1VmlDdVcyRk1nSlV2ZTFwUFhhc0pKT3plZ0k3cDhBelBsY0tOdkpwYjFnZHJsc0kxUTlUelpXczlMUVM3SHJsdHo3RDV0aHVfLVo4dlZEVktY?oc=5",
+    "date": "2026-06-22T02:35:13+00:00",
+    "summary": "UK Sanctions Crypto Exchange HTX In Key Move Against Russian Evasion Networks : Analysis&nbsp;&nbsp;Crowdfund Insider"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "World Cup underdogs Cabo Verde highlight crypto’s blind spot in global football - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rZFR1Qmd5SlFFV1dHZ0MwVkxkWWpMc0pyVllYeDFYd3JYMlRSZXJfMkhUajd3aWF1N1F0S2FrR01aN3JFUzdzbkpsbThnWFI5aFVBSU5zdWFhZlp2UWZKTkZZdVB3dGRURlBYb0g2SmQtNEdW?oc=5",
+    "date": "2026-06-22T02:49:16+00:00",
+    "summary": "World Cup underdogs Cabo Verde highlight crypto’s blind spot in global football&nbsp;&nbsp;Crypto Briefing"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "FIFA World Cup meets crypto as Kraken sponsorship brings digital assets to the global stage - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBDZ0dxM0s4dFoxMFpvaEdEcFFuYkg2bC1VeG1PcDZPdHdsbGxVVGt2YWFDZjVlbEtwS2xsdWxnX2lmYjBMOWlCR3dRU1NPb0QycVZsTFd3a0JWNUo5UW90UWlBSTAtY0pwN0E5TjM3YktNdGRpUllN?oc=5",
+    "date": "2026-06-22T01:58:14+00:00",
+    "summary": "FIFA World Cup meets crypto as Kraken sponsorship brings digital assets to the global stage&nbsp;&nbsp;Crypto Briefing"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Senate advances bipartisan crypto tax reforms - grafa.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV0taaEM2X05iUm9hdVRNTk1UakwyQ21PQXJJWXQyMWhfblJYemkwbFRIekVLMXgwSEJPVk1mNVlnZnJISDhHTE9NY3pPaXJVS1BNVlJlZDMteTkwbnc3emJWcWRCcHJFWVBaUHF4Q1VaVXA3MTQxZXJ2ZjdCU1JBN3VvaC0?oc=5",
+    "date": "2026-06-22T03:21:32+00:00",
+    "summary": "Senate advances bipartisan crypto tax reforms&nbsp;&nbsp;grafa.com"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Former CFTC Commissioner Carolyn Pham Warns Crypto Has 2.5 Years To Become 'Too Big To Fail' - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeU9qaHlwTzd4OU5tX1NqMTNXYTRUV0RLejlzMjJpbTFVRGI3RF9HM0E3NlNGZ01La2xrUHc0TGUtRTJVc1Z2dHRPdEFUa1pPaUxGR2JkVzRhdFAtdzRFMVA1RDhyWjFadXJkZ1YwV19fNEx4Nl9HSTV5OFJnSEJMOC1QQnBfTkpSa01Kb2xkS0VoSnF1ZTBSWmczUDhzWlo5V0xWS2Exc0J1WDREbnFLRXFBZXRlUG1k?oc=5",
+    "date": "2026-06-21T15:24:00+00:00",
+    "summary": "Former CFTC Commissioner Carolyn Pham Warns Crypto Has 2.5 Years To Become 'Too Big To Fail'&nbsp;&nbsp;Stocktwits"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Jordan vs Algeria World Cup match draws attention from crypto prediction markets - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPelI2SVllWjJrcmhTNC0xSFQ4cHQ2ZE1BdUx2dzI3cjNzbXpnZXlDZ2FkQkVVT2tzZ1EtYm9JU21IX2hVNkVCSl9oQmJWNjQzeWUwVVc2eUFoZWdVRTI5bHNrOVpmVHFianowV2R0czZNY0N4YlhjZHY3RkpmQnBnM0M2YjA?oc=5",
+    "date": "2026-06-22T01:57:38+00:00",
+    "summary": "Jordan vs Algeria World Cup match draws attention from crypto prediction markets&nbsp;&nbsp;Crypto Briefing"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Ireland strengthens AML framework with focus on crypto-asset risks - Digital Watch Observatory",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42Z1ZqX0JPNUh2c05wWDFQbzBuNjBqVlpHNnJHTUg2QU9nYkwwMWlrQ3YzcXRTN0I3SE5LdHZlZ3JXdi1mcmZuQ213bWhJYU9aVkh3VUlfQ3l4dEZFUkltOGNvWkZSTWs?oc=5",
+    "date": "2026-06-21T10:00:00+00:00",
+    "summary": "Ireland strengthens AML framework with focus on crypto-asset risks&nbsp;&nbsp;Digital Watch Observatory"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Crypto News: Pepeto Announces Second Major Exchange Listing Beside Binance, Backed By The Most Bullish BNB Price Prediction Today - markets.businessinsider.com",
+    "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNYUtxX2p5cHk2VUp3WHk0eWtLa0tTcjhtSGpBX0ZmYW5NeG9jVjRLWnhQa3pCTnlWcXRLSEYybng4X3ZsTGF1clBFZkJWQkNxRjZSUEdqRTVHYWhjWHhIQ3hGZFhxTzRidDYtMHlSOXZLWF9qWHhTS2dENXVzdG1yMnFNTHJtOTZvejk4Y0hJS3R3ZF9tQ2Z1TElEYTNkX29jR2REYzBUZUVyZEI4eEtDTHpyZlBOZlhpUHJJSDRabTJ3MGhsYnlrWmFSaEFWMWxaM2VsaTN6b3JEYTRKWDhMc0loemxfX1p0a2RwZ2RMS3AxU0kzdk9RVEJSY1laRW5hWHV0QWdjaFpvZ3prMXQ3ZklKNlo?oc=5",
+    "date": "2026-06-21T11:11:36+00:00",
+    "summary": "Crypto News: Pepeto Announces Second Major Exchange Listing Beside Binance, Backed By The Most Bullish BNB Price Prediction Today&nbsp;&nbsp;markets.businessinsider.com"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Are perps swaps? A quick look at that CME suit: State of Crypto - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVlFBY1NTR0hKWUNxSTBTVTJKUzdVMmdiUUxHTWhEUmlGQWV1OTJzZjFoZXhZOWRVM1psOWpMdEJGQ2pJWERTS21aX1JFSXpONFNITFBGblMtYS1yaFJwRFgyc1J1MVNVUW1jejNFRk85WDVBaTI4TEZvN2JiME1GTFJtUk9IUHNDYWJwdTk1MlNUUTI0YVlPcURuVVhkUVllUjNEWTZYQQ?oc=5",
+    "date": "2026-06-21T18:31:38+00:00",
+    "summary": "Are perps swaps? A quick look at that CME suit: State of Crypto&nbsp;&nbsp;CoinDesk"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Eli Ben-Sasson urges Ethereum to prioritize tec... | Pluang – Crypto, Stocks, Gold & Funds - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcWg0Z05GVk1Pa0NjTVhtOVFCMmJLZXBkSVhOLXYzWTdwbmlWQ01XRU5JQjczMWQwTjA3NGxUenV1aFNMRUhOMllJa1U4OEdrV3hwVUNxXzFGQ2dCV183M2ROQldxTS0xRXlvWDNfVHdGTWp3R05Uc2FZeW1kNHhYTkZhUnRhcXpRcHc?oc=5",
+    "date": "2026-06-22T05:46:59+00:00",
+    "summary": "Eli Ben-Sasson urges Ethereum to prioritize tec... | Pluang – Crypto, Stocks, Gold & Funds&nbsp;&nbsp;Pluang"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Crypto market mixed with selective rallies; Aerodrome Finance leads gains, Audiera faces sharp drop. - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcndCZTBhVnFwTE9ObFl6T05SdDZ3STlyclVGWGh2c1JQQlZRd3lhLW1GVXB5dTZyYjBkaTl6eXFVUXVuRFFKdmhULXNuT2NENUdQa2tOc1hka0k3RHVLSnJqT1BoU1RhY0U1TkxlalJZWVZ4dHlMaW9aSmozLUoyM2NVeUVseFVCWHpBekx3?oc=5",
+    "date": "2026-06-21T22:56:13+00:00",
+    "summary": "Crypto market mixed with selective rallies; Aerodrome Finance leads gains, Audiera faces sharp drop.&nbsp;&nbsp;Pluang"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "US-Iran talks enter day 2 as Trump threats and Hormuz closure rattle crypto markets - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE04eVAyN00xMEZOeTlld1VpM2s4OFRFZFV5MkJ2YjdtRm83NWxwNmRRV2xNRk9oSHJELXdCQnlydWdhT0hFRHFVWWx1NllRR20yREh3YWNGbFk0ajYzZVgycnNDZ1gzOW9DcU5WMVFWdw?oc=5",
+    "date": "2026-06-22T00:59:10+00:00",
+    "summary": "US-Iran talks enter day 2 as Trump threats and Hormuz closure rattle crypto markets&nbsp;&nbsp;Crypto Briefing"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Iran holds Belgium to 0-0 draw at World Cup as crypto exchange Kraken makes FIFA debut - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1wSUx0M0JJSDFGZDB6VVRmMFoxNFNUU1Nkb1l1cTk1WjNIVUJfbDBhNnVqS2FRVWpHMXZVTXFhc0VrX2RGQWtNV21DY282RS1kZm4yb191ZU10azZDdmZTS1FSaGRnSERNejByWVhtZ0xhbXJURmc?oc=5",
+    "date": "2026-06-22T05:56:19+00:00",
+    "summary": "Iran holds Belgium to 0-0 draw at World Cup as crypto exchange Kraken makes FIFA debut&nbsp;&nbsp;Crypto Briefing"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Top crypto price predictions: Aerodrome, Jupiter, Aster - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HRHNhNy00NVctTXFTVWdlbHVQOElMd1dOcXlQaVBkdnBlNG02LUxJZkdjQmRzMjhDVm81aTdpVmpvRDVwaXZIS2ZvR21haFdrR2ptS0t6R1U4QWM?oc=5",
+    "date": "2026-06-21T19:12:13+00:00",
+    "summary": "Top crypto price predictions: Aerodrome, Jupiter, Aster&nbsp;&nbsp;Cryptonews.net"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Is Global Trust Fund System a Good Investment in 2026? GTFS Crypto Risk Review and Price Outlook - WEEX",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORlByT3E3dGdQUFI2cl9TbENLY3VDc2VXOGF5TW12eVFCT29rNXh5VmVEQWVuUVZNMktmODlZUE54Vk54OU1wVWJXYjVjOHhHRVI5aVpJN3pYQy1MRWI4aUM0OEhmVHZ0SjBXd185ZklpWEE1QzBPN1kzN1J4UUt3S2Z1RTlKblVmQUNfREV4bkFGYnlrUERla1J4MXIyN0stVVZxYTN6MWczSVdXTzRSOWZpdVRjUzJfNGN5X3pSNjI1OWZ2LTRVVEVqUXJNTGhYeUY5RkFuc0hfMHVEX3hLTXVwTHptYmpJLUE?oc=5",
+    "date": "2026-06-22T05:09:36+00:00",
+    "summary": "Is Global Trust Fund System a Good Investment in 2026? GTFS Crypto Risk Review and Price Outlook&nbsp;&nbsp;WEEX"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Fentanyl-linked crypto fraud tied to fake Zksync.jp token: Nikkei - crypto.news",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORWtxUWtIMEViLWtDbVVLZkFjVDY5ckxTSy14LXdMeXRUa09BMktMQ3YwbWYydk9WMWdwV1IzR09sUDdUUUtfZXJHSEY5MERQXzU4V0dFMFU1bmV3V2JrRnlKMnRtYkI2YldKd0JYSUhvdlNCNzhNODcyLWQtQ3hTVGZ3NlN1WEpGczZVLWJR?oc=5",
+    "date": "2026-06-22T06:26:00+00:00",
+    "summary": "Fentanyl-linked crypto fraud tied to fake Zksync.jp token: Nikkei&nbsp;&nbsp;crypto.news"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "LAB crypto jumps 28% – Can bulls reclaim $18 without fresh demand? - AMBCrypto",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWFJSLWRVMFVCbDNkWVlyZ01ubFpTSFpZS0d0ZXJWWTNnUzEwZ1UzRldURUVyT1k4cjFuU3lFc3REMU9QQWhXYmF4SzV1MUlGd1ZqZDF1eFhOdW1ZaFN5VlJRb1lLUkJ3bkZ4czFLYUpvX29ZbEhYazNZLV9XYktkR1BwYnVGclZpdnFnVS02SGTSAZYBQVVfeXFMUEN3UmVTSWR5Y3ktNXZ4a1BLc1NFQjUtYXM4d3Z2OVRacExMWjNyOFd0OFBsTEdvbnlsRllLQW1MSmh0bGdnZG5uN3ZWMG1ZZVFzY1NnOTM1MENZM1FuakFFTERfbEQ0T3EwQlhVeS1sOFpYTFFMN2U2cDctTmhPQVlVVG9lRVRtb0Z6WVZpanh0c3ZNSmlB?oc=5",
+    "date": "2026-06-22T02:00:01+00:00",
+    "summary": "LAB crypto jumps 28% – Can bulls reclaim $18 without fresh demand?&nbsp;&nbsp;AMBCrypto"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Dash eyes Philippines as market for crypto payments - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYbllhSDJVRmtZbXRiRDd2N0FvWWlSZGthN2dwaXRTbURfNjhtT0ZKT3BoelZXeFdZUktwdWlmdnRVVDhPdXNGbnF0eEhQOUE3Wm1PUGN5VkJIdw?oc=5",
+    "date": "2026-06-21T19:23:38+00:00",
+    "summary": "Dash eyes Philippines as market for crypto payments&nbsp;&nbsp;Cryptonews.net"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Africa’s crypto crackdown is really a remittance revolution - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BdngxMmtZbEoyTE1VZ3VGYk4tSG5BbGQ1bjdsamQzaHV4RUtkNEVrRG9VdFQwUkhwM0VNMDc0dktMSVBJSUNjd1plTmc4STV4UmxDWHBn?oc=5",
+    "date": "2026-06-21T19:33:55+00:00",
+    "summary": "Africa’s crypto crackdown is really a remittance revolution&nbsp;&nbsp;Cryptonews.net"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "V.I.T.R.I.O.L. Network (VIT) Officially Listed on WEEX Crypto Exchange - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa1VHcDVQSUIyUUNUVm9FaU5ETEJXd3hQRFp6TElmbnk0amc3dURoTEpCSnhiOTNqbEdmZndvUk9MbW4zTGdJNTZmZFVlQjFfdVdITzlCcTJBYjAwOU5vS0Zmc0ZKVVVhZjVXTWluT1FVbGl0cWxjOGJFQlROWTV3YjZHeEpHYTl6ZFpFWkJVczBuOVd5SEpGV1JDSHlRdUlpLWxPdEdYM2hSSW8?oc=5",
+    "date": "2026-06-21T23:56:49+00:00",
+    "summary": "V.I.T.R.I.O.L. Network (VIT) Officially Listed on WEEX Crypto Exchange&nbsp;&nbsp;CryptoSlate"
+  },
+  {
+    "feed": "General Crypto",
+    "title": "Altura shuts USDT vault after $9M withdrawals amid stablecoin panic triggered by msUSD collapse - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYlNxaGZKTHE4SF8wc2x3aEFlT1JmOF9Fb3ZpdVJWc0Q0UEYyMDlMYmhCOW1ad3VfS2JzeEdpTFdJLWoyTjN1ZzgtTC1wSHBxckNYOXlsZENhRjlqMlBuZklKdUU4MmNjZ19oUS0zOUVlSHVwSFBtTDVQby1zYl82NXd1cjdNWVUxRzMyd1JELXl6aTF0T25NSg?oc=5",
+    "date": "2026-06-22T05:46:59+00:00",
+    "summary": "Altura shuts USDT vault after $9M withdrawals amid stablecoin panic triggered by msUSD collapse&nbsp;&nbsp;Pluang"
+  },
+  {
+    "feed": "Web3 General",
+    "title": "Raonsecure digitizes Korea school credentials with Web3 badges and IDs - CHOSUNBIZ - Chosunbiz",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vRXhKWUFoVUNfOWo4Rkg3ZVRHV3ViNEtZX3dFR1p2ZkYzbHJ6ZlJHb1FpTnlaaUd5UUNNNlNPWnBlVVRRd1QyS1lkaTlyTkpPcjJ6aHZaekJMTzc4VUpVNGVELVpKV0JUUnNiZEpfNENHM3JOTndBM1BR0gGOAUFVX3lxTE93amhEYWdmdXFERF9OQk1HWHRIQ012d2JqcENXdk5IclFSdUxrUzFMMlFHbVVjRVFKVEFuTktCUzNPV25wbEE2UWpETktQY3BUNWo4R3FkVGdQU2FnbjhtY19DUmR4MlJwRFpuUkRUNVJ3dXhHZU5CSE1nZ0xyLUN1ZkJNTjlJZS1uYTZFQ1E?oc=5",
+    "date": "2026-06-22T01:14:00+00:00",
+    "summary": "Raonsecure digitizes Korea school credentials with Web3 badges and IDs - CHOSUNBIZ&nbsp;&nbsp;Chosunbiz"
+  },
+  {
+    "feed": "Web3 General",
+    "title": "OKX vs Bitget 2026: Which Crypto Exchange Is Better? - Memeburn",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE16SkFDeHF0dmZHZmJfZmRGbHRaU0RuN01qaUtRZ3R2ZS1MWHRqdEMzVVYwWDR5end1THhQS2ZwdnNJc05OUjlXdHZYcw?oc=5",
+    "date": "2026-06-22T02:01:18+00:00",
+    "summary": "OKX vs Bitget 2026: Which Crypto Exchange Is Better?&nbsp;&nbsp;Memeburn"
+  },
+  {
+    "feed": "Web3 General",
+    "title": "Global Blockchain Show Riyadh Unveils World-Class Speakers Redefining the Future of Web3 and Digital Assets - The Cryptonomist",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONVJJUEJLMGVCTW0tdXVmVHJ5Q0s0U2lnMXhYYlltbnN3eXlvQWV4SHpQdW1KTG1SclRVdDJYV1FVYXE1bHI1YU5lRWFIY1RJdUx3SWljM3dha3VNbDFSczRVQ2hEMXVKX3JvdzVoc3c0TTBmdllMbE5oOTB3OTlEQWg5Tk90RkRYaWl0T0ItQTBaeFBUa2ZIb2hGVXQydw?oc=5",
+    "date": "2026-06-21T07:00:00+00:00",
+    "summary": "Global Blockchain Show Riyadh Unveils World-Class Speakers Redefining the Future of Web3 and Digital Assets&nbsp;&nbsp;The Cryptonomist"
+  },
+  {
+    "feed": "Web3 General",
+    "title": "Incrypted Conference 2026 Took Place in Kyiv — Ukraine’s Largest Crypto Conference - incrypted",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9VWnZqQzN4bGVibk95UmhVSWFBUUYzb3NHd3MtaENQU1dTTnJSWDdVOUtZeVQ2T0YwcDh0cHVEVnpVc0RGSk5La204dHVjZTY0UVk4YldyaG5fNG90dncxcG95SUVjREdDR0FlX0x3Z2tYUXE1djBSRWNn?oc=5",
+    "date": "2026-06-21T09:35:08+00:00",
+    "summary": "Incrypted Conference 2026 Took Place in Kyiv — Ukraine’s Largest Crypto Conference&nbsp;&nbsp;incrypted"
+  }
+]
