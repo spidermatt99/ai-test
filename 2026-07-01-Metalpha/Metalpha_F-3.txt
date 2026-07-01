@@ -1,0 +1,2358 @@
+--- PAGE 1 ---
+ 
+As ﬁled with the Securities and Exchange Commission on June 29, 2026
+Registration No. 333-     
+ 
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+ 
+ 
+ 
+FORM F-3
+REGISTRATION STATEMENT
+UNDER
+THE SECURITIES ACT OF 1933
+ 
+ 
+ 
+Metalpha Technology Holding Limited
+(Exact name of Registrant as speciﬁed in its charter)
+ 
+Not Applicable
+(Translation of Registrant’s name into English)
+ 
+ 
+ 
+Cayman Islands   Not Applicable
+(State or other jurisdiction of
+incorporation or organization)
+  (I.R.S. Employer
+Identiﬁcation Number)
+ 
+Suite 5506-07, Central Plaza
+18 Harbour Road, Wan Chai
+Hong Kong, China
+(+852) 3565-2920
+(Address, including zip code, and telephone number, including area code, of Registrant’s principal executive oﬃces)
+ 
+Cogency Global Inc.
+122 East 42nd Street, 18th Floor
+New York, NY 10168
+(212) 947-7200
+(Name, address, including zip code, and telephone number, including area code, of agent for service)
+ 
+ 
+ Copies to:
+ 
+Will H. Cai, Esq.
+Cooley LLP
+c/o 35/F Two Exchange Square
+8 Connaught Place
+Central, Hong Kong
++852 3758-1210
+ 
+ 
+ 
+Approximate date of commencement of proposed sale to the public: From time to time on or after the
+eﬀective date of this registration statement.
+ 
+ 
+--- PAGE 2 ---
+ 
+ 
+If only securities being registered on this Form are being oﬀered pursuant to dividend or interest reinvestment
+plans, please check the following box. ☐
+ 
+If any of the securities being registered on this Form are to be oﬀered on a delayed or continuous basis pursuant to
+Rule 415 under the Securities Act of 1933, check the following box: ☒
+ 
+If this Form is ﬁled to register additional securities for an oﬀering pursuant to Rule 462(b) under the Securities Act,
+check the following box and list the Securities Act registration statement number of the earlier eﬀective registration
+statement for the same oﬀering: ☐
+ 
+If this Form is a post-eﬀective amendment ﬁled pursuant to Rule 462(c) under the Securities Act, check the
+following box and list the Securities Act registration statement number of the earlier eﬀective registration statement
+for the same oﬀering. ☐
+ 
+If this Form is a registration statement pursuant to General Instruction I.C. or a post-eﬀective amendment thereto
+that shall become eﬀective upon ﬁling with the Commission pursuant to Rule 462(e) under the Securities Act, check the
+following box. ☐
+ 
+If this Form is a post-eﬀective amendment to a registration statement ﬁled pursuant to General Instruction I.C. ﬁled
+to register additional securities or additional classes of securities pursuant to Rule 413(b) under the Securities Act,
+check the following box. ☐
+ 
+Indicate by check mark whether the registrant is an emerging growth company as deﬁned in Rule 405 of the
+Securities Act of 1933. Emerging growth company ☐
+ 
+If an emerging growth company that prepares its ﬁnancial statements in accordance with U.S. GAAP, indicate by
+check mark if the registrant has elected not to use the extended transition period for complying with any new or
+revised ﬁnancial accounting standards provided pursuant to Section 7(a)(2)(B) of the Securities Act. ☐
+ 
+† The term “new or revised ﬁnancial accounting standard” refers to any update issued by the Financial Accounting
+Standards Board to its Accounting Standards Codiﬁcation after April 5, 2012.
+ 
+The registrant hereby amends this registration statement on such date or dates as may be necessary to delay its
+eﬀective date until the registrant shall ﬁle a further amendment which speciﬁcally states that this registration
+statement shall thereafter become eﬀective in accordance with section 8(a) of the Securities Act of 1933 or until the
+registration statement shall become eﬀective on such date as the Commission acting pursuant to said section 8(a),
+may determine.
+ 
+ 
+ 
+--- PAGE 3 ---
+ 
+ 
+The information in this prospectus is not complete and may be changed. These securities may not be
+sold until the registration statement ﬁled with the U.S. Securities and Exchange Commission is eﬀective.
+This prospectus is not an oﬀer to sell and is not soliciting an oﬀer to buy the securities in any jurisdiction
+where the oﬀer or sale is not permitted.
+ 
+Subject to Completion, dated June 29, 2026.
+ 
+Prospectus
+ 
+Metalpha Technology Holding Limited
+15,453,364 Ordinary Shares
+ 
+This prospectus relates to the oﬀer and resale from time to time of up to 15,453,364 ordinary shares (the “Shares”),
+par value US$0.0001 per share (the “Ordinary Shares”), by the selling securityholders named herein, together with any
+additional selling securityholders listed in a prospectus supplement (together with any of such securityholders’
+transferees, pledgees, donees or successors, the “Selling Securityholders”), which consists of (i) 3,908,700 Ordinary
+Shares issued pursuant to those certain Subscription Agreements dated as of October 30, 2025 (the “Subscription
+Agreements”) by and between the Company and investors party thereto, (ii) 6,924,664 Ordinary Shares previously
+issued to certain holders pursuant to the Company’s equity incentive plans, cashless exercises of warrants,
+management entry options and other prior issuances, as further described herein, and (iii) 4,620,000 Ordinary Shares
+issuable upon exercise of warrants previously issued by the Company to certain holders (the “Warrants”), as further
+described herein.
+ 
+We are ﬁling a Registration Statement on Form F-3, of which this prospectus forms a part, to fulﬁll our contractual
+obligations pursuant to the Subscription Agreements, the Warrants and/or related agreements. See “Selling
+Securityholders” beginning on page 23 of this prospectus for more information about the Selling Securityholders. The
+registration of the Shares to which this prospectus relates does not require the Selling Securityholders to sell any of
+their Shares.
+ 
+We are not selling any Ordinary Shares under this prospectus and will not receive any proceeds from the sale by
+the Selling Securityholders of the Shares.
+ 
+The Selling Securityholders may oﬀer and sell or otherwise dispose of the Shares described in this prospectus from
+time to time through public or private transactions at prevailing market prices, at prices related to prevailing market
+prices or at privately negotiated prices. The Selling Securityholders will pay any underwriting discounts and
+commissions and expenses incurred by the Selling Securityholders for brokerage, accounting, tax or legal services or
+any other expenses incurred by the Selling Securityholders in disposing of the securities. We will bear all other costs,
+fees and expenses incurred in eﬀecting the registration of the securities covered by this prospectus, including, without
+limitation, all registration and ﬁling fees and fees and expenses of our counsel and our independent registered public
+accountants. See “Plan of Distribution” beginning on page 27 for more information about how the Selling
+Securityholders may sell or dispose of their Shares.
+ 
+Our Ordinary Shares are currently listed on The Nasdaq Capital Market (“Nasdaq”) under the symbol “MATH.” On
+June 26, 2026, the closing price of our Ordinary Shares was US$0.961 per share.
+ 
+Investing in our securities involves a high degree of risk. See the section titled “Risk Factors”
+beginning on page 6 of this prospectus and, if applicable, any risk factors described in any applicable
+prospectus supplement and in our U.S. Securities and Exchange Commission (“SEC”) ﬁlings that are
+incorporated by reference in this prospectus.
+ 
+None of the SEC or any state securities commission has approved or disapproved of the securities or
+determined if this prospectus is accurate or adequate. Any representation to the contrary is a criminal
+oﬀense.
+ 
+The date of this prospectus is     , 2026.
+ 
+ 
+--- PAGE 4 ---
+ 
+ 
+TABLE OF CONTENTS 
+ 
+  Page
+   
+ABOUT THIS PROSPECTUS ii
+CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS iii
+PROSPECTUS SUMMARY 1
+THE OFFERING 5
+RISK FACTORS 6
+USE OF PROCEEDS 7
+DIVIDEND POLICY 8
+DESCRIPTION OF SECURITIES 9
+SELLING SECURITYHOLDERS 23
+PLAN OF DISTRIBUTION 27
+EXPENSES RELATED TO THE OFFERING 31
+LEGAL MATTERS 32
+EXPERTS 33
+ENFORCEABILITY OF CIVIL LIABILITY 34
+WHERE YOU CAN FIND MORE INFORMATION 36
+INFORMATION INCORPORATED BY REFERENCE 36
+ 
+i 
+--- PAGE 5 ---
+ 
+ 
+ABOUT THIS PROSPECTUS
+ 
+This prospectus is a part of a registration statement that we ﬁled with the SEC using a “shelf” registration process.
+Under this shelf registration process, the Selling Securityholders may from time to time sell our Ordinary Shares
+described in this prospectus in one or more oﬀerings or otherwise as described under “Plan of Distribution.”
+ 
+You should rely only on the information contained in this prospectus, any amendment or supplement to this
+prospectus or any free writing prospectus prepared by us or on our behalf. Any amendment or supplement may also
+add, update or change information included in this prospectus. Any statement contained in this prospectus will be
+deemed to be modiﬁed or superseded for purposes of this prospectus to the extent that a statement contained in such
+amendment or supplement modiﬁes or supersedes such statement. Any statement so modiﬁed will be deemed to
+constitute a part of this prospectus only as so modiﬁed, and any statement so superseded will be deemed not to
+constitute a part of this prospectus. See “Where You Can Find More Information.”
+ 
+Neither we nor the Selling Securityholders have authorized any other person to provide you with diﬀerent or
+additional information. Neither we nor the Selling Securityholders take responsibility for, nor can we provide assurance
+as to the reliability of, any other information that others may provide. The information contained in this prospectus is
+accurate only as of the date of this prospectus or such other date stated in this prospectus, and our business, ﬁnancial
+condition, results of operations and/or prospects may have changed since those dates. This prospectus contains
+summaries of certain provisions contained in some of the documents described in this prospectus, but reference is
+made to the actual documents for complete information. All of the summaries are qualiﬁed in their entirety by the
+actual documents. Copies of some of the documents referred to in this prospectus have been ﬁled, will be ﬁled or will
+be incorporated by reference as exhibits to the registration statement of which this prospectus is a part, and you may
+obtain copies of those documents as described under “Where You Can Find More Information.”
+ 
+Neither we nor the Selling Securityholders are making an oﬀer to sell these securities in any jurisdiction where the
+oﬀer or sale is not permitted. Except as otherwise set forth in this prospectus, neither we nor the Selling
+Securityholders have taken any action to permit a public oﬀering of these securities outside the United States or to
+permit the possession or distribution of this prospectus outside the United States. Persons outside the United States
+who come into possession of this prospectus must inform themselves about and observe any restrictions relating to
+the oﬀering of these securities and the distribution of this prospectus outside the United States.
+ 
+For investors outside the United States: Neither we nor any underwriters, dealers or agents have
+taken any action that would permit the oﬀering or possession or distribution of this prospectus in any
+jurisdiction where action for that purpose is required, other than in the United States. Persons outside
+the United States who come into possession of this prospectus must inform themselves about, and
+observe any restrictions relating to, the oﬀering of the securities described herein and the distribution of
+this prospectus outside the United States.
+ 
+We have proprietary rights to trademarks used in this prospectus that are important to our business, many of which
+are registered (or pending registration) under applicable intellectual property laws. This prospectus contains references
+to trademarks, trade names and service marks belonging to other entities. Solely for convenience, trademarks, trade
+names and service marks referred to in this prospectus may appear without the ® or TM symbols, but such references
+are not intended to indicate, in any way, that the applicable licensor will not assert, to the fullest extent under
+applicable law, its rights to these trademarks, trade names and service marks. We do not intend our use or display of
+other companies’ trade names, trademarks or service marks to imply a relationship with, or endorsement or
+sponsorship of us by, any other companies.
+ 
+ii 
+--- PAGE 6 ---
+ 
+ 
+CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS
+ 
+This prospectus and the documents incorporated by reference into this prospectus contain forward-looking
+statements that involve substantial risks and uncertainties. The Private Securities Litigation Reform Act of 1995 (the
+“PSLRA”) provides safe harbor protections for forward-looking statements in order to encourage companies to provide
+prospective information about their business. Forward-looking statements include, without limitation, our expectations
+concerning the outlook for our business, productivity, plans and goals for future operational improvements and capital
+investments, operational performance, future market conditions or economic performance and developments in the
+capital and credit markets and expected future ﬁnancial performance, as well as any information concerning possible
+or assumed future results of operations.
+ 
+We will take advantage of the safe harbor provisions of the PSLRA and are including this cautionary statement in
+connection with this safe harbor legislation. All statements other than statements of historical facts contained in this
+prospectus, including statements regarding our future ﬁnancial position, business strategy and plans and objectives of
+management for future operations, are forward-looking statements. In some cases, you can identify forward-looking
+statements by words such as “estimate,” “plan,” “project,” “forecast,” “intend,” “expect,” “anticipate,” “believe,”
+“seek,” “strategy,” “future,” “opportunity,” “may,” “target,” “should,” “will,” “would,” “will be,” “will continue,” “will
+likely result,” or similar expressions that predict or indicate future events or trends or that are not statements of
+historical matters.
+ 
+Forward-looking statements involve a number of risks, uncertainties and assumptions, and actual results or events
+may diﬀer materially from those implied in those statements. Important factors that could cause such diﬀerences
+include, but are not limited to:
+ 
+● future ﬁnancial and operating results, including revenues, income, expenditures, cash balances and other
+ﬁnancial items;
+ 
+● our ability to execute our growth, expansion and acquisition strategies, including our ability to meet our goals;
+ 
+● current and future economic and political conditions;
+ 
+● our expectations regarding demand for and market acceptance of our services and the services with which we
+assist in the distributions;
+ 
+● our expectations regarding our client base;
+ 
+● our ability to procure the applicable regulatory licenses in the relevant jurisdictions in which we operate;
+ 
+● competition in our industry;
+ 
+● relevant government policies and regulations relating to our industry;
+ 
+● our capital requirements and our ability to raise any additional ﬁnancing which we may require;
+ 
+iii 
+--- PAGE 7 ---
+ 
+ 
+● our ability to protect our intellectual property rights and secure the right to use other intellectual property that
+we deem to be essential or desirable to the conduct of business;
+ 
+● our ability to hire and retain qualiﬁed management personnel and key employees in order to enable us to
+develop our business;
+ 
+● overall industry and market performance;
+ 
+● the spread of COVID-19 and its new variants;
+ 
+● other assumptions described in this prospectus underlying or relating to any forward-looking statements; and
+ 
+● other matters described in the section titled “Item 3.D. – Risk Factors” in our most recent annual report on Form
+20-F for the ﬁscal year ended March 31, 2025, ﬁled with the SEC on July 30, 2025, incorporated herein by
+reference.
+ 
+We caution you not to rely on forward-looking statements, which reﬂect current beliefs and are based on
+information currently available as of the date a forward-looking statement is made. Forward-looking statements set
+forth herein speak only as of the date of this prospectus. We undertake no obligation to revise forward-looking
+statements to reﬂect future events, changes in circumstances or changes in beliefs except to the extent required by
+law. In the event that any forward-looking statement is updated, no inference should be made that we will make
+additional updates with respect to that statement, related matters, or any other forward-looking statements except to
+the extent required by law. You should read this prospectus, the documents incorporated by reference in this
+prospectus and the documents that we have ﬁled as exhibits to the registration statement of which this prospectus is a
+part completely and with the understanding that our actual future results may be materially diﬀerent from what we
+expect. Any corrections or revisions and other important assumptions and factors that could cause actual results to
+diﬀer materially from forward-looking statements, including discussions of signiﬁcant risk factors, may appear in our
+public ﬁlings with the SEC, which are or will be (as appropriate) accessible at www.sec.gov, and which you are advised
+to consult. For additional information, see the section titled “Where You Can Find More Information.”
+ 
+Market, ranking and industry data used throughout this prospectus, including statements regarding market size and
+technology adoption rates, is based on the good faith estimates of our management, which in turn are based upon our
+management’s review of internal surveys, independent industry surveys and publications and other third-party
+research and publicly available information. These data involve a number of assumptions and limitations, and you are
+cautioned not to give undue weight to such estimates. While we are not aware of any misstatements regarding the
+industry data presented herein, its estimates involve risks and uncertainties and are subject to change based on
+various factors.
+ 
+iv 
+--- PAGE 8 ---
+ 
+ 
+PROSPECTUS SUMMARY 
+This summary highlights selected information contained elsewhere in this prospectus and in
+the documents we incorporate by reference. This summary does not contain all of the information
+you should consider before making an investment decision. You should read this entire
+prospectus carefully, especially the risks discussed in the section titled “Risk Factors”
+beginning on page 6 of this prospectus, along with our consolidated financial statements and
+notes to those consolidated financial statements and the other information incorporated by
+reference in this prospectus.
+ 
+The Company
+ 
+Our primary business operation centers around blockchain and trading technology solution services, which we
+oﬀer through our subsidiaries. We initiated digital asset-focused management services in December 2021 and
+generate income primarily from cryptocurrency-related transactions, which includes the issuance of derivative
+solutions to over-the-counter (“OTC”) clients and our proprietary trading activities. In the ﬁscal years ended March
+31, 2024 and 2025, we partnered with a leading crypto exchange to provide crypto derivative market making
+services for our clients, facilitating the trading of crypto derivative solutions. In addition, to meet their diverse digital
+asset management demands, we also oﬀer certain clients customized derivative solutions. For the ﬁscal years
+ended March 31, 2023, 2024 and 2025, the income from our digital asset management services accounted for
+approximately 93.8%, 100% and 88.8% of our total income for the same ﬁscal years, respectively.
+ 
+On February 9, 2026, we announced that our board of directors has adopted a BTC allocation plan up to 20% of
+our annual net proﬁt. For the current period, the authorized allocation quota is approximately US$3.2 million, 20% of
+our net proﬁt of US$15.9 million as reported in our Annual Report on Form 20-F for the ﬁscal year ended March 31,
+2025. We executed our initial purchase on February 9, 2026, with a total notional investment of approximately US$1
+million. This initial tranche was traded via the Company’s proprietary Accumulator structure at an average price of
+approximately US$54,000 per Bitcoin.
+ 
+Summary of Risk Factors
+ 
+Investing in our Ordinary Shares involves signiﬁcant risks. You should carefully consider all of the information in
+this prospectus before making an investment in our Ordinary Shares. Below please ﬁnd a summary of the principal
+risks we face, organized under relevant headings. These risks are discussed more fully below in this section. 
+Risks Related to Business and Industry
+ 
+Risks and uncertainties related to our business and industries include, but are not limited to, the following:
+ 
+● We have a limited operating history and are subject to the risks encountered by early-stage companies;
+ 
+● We may need additional capital to fund our future operations and, if it is not available when needed, we may
+need to reduce our planned expansion and marketing eﬀorts, which may reduce our income;
+ 
+● Our wealth management business is subject to customer concentration risk;
+ 
+● We rely on certain related party for products subscription, and any shortage or interruption in subscription
+could slow our growth and reduce our proﬁtability;
+ 
+● Our business operations signiﬁcantly depend on several key partners in the crypto industry for trading and
+asset custody. If these key partners experience operational disruptions due to mismanagement or regulatory
+sanctions resulting from non-compliance, their services may be interrupted or we may lose our assets which
+materially and adversely aﬀect our business operations, ﬁnancial condition and future growth;
+ 
+1 
+--- PAGE 9 ---
+ 
+ 
+● We are subject to a highly evolving regulatory landscape and any adverse changes to, or our failure to
+comply with, any laws and regulations could adversely aﬀect our business, reputation, prospects or
+operations; and
+ 
+● The loss or destruction of private keys required to access any digital assets held by us may be irreversible. If
+we are unable to access our private keys or if we experience a hack or other data loss relating to our ability
+to access any digital assets, it could cause regulatory scrutiny, reputational harm, and other losses. 
+Risks Related to Doing Business in Jurisdictions Where We Operate
+ 
+Risks and uncertainties related to doing business in jurisdictions we operate include, but are not limited to, the
+following:
+ 
+● A downturn in the Hong Kong, China or global economy, and economic and political policies of China could
+materially and adversely aﬀect our business and ﬁnancial condition;
+ 
+● The Hong Kong legal system embodies uncertainties which could limit the legal protections available to us;
+ 
+● Hong Kong laws and regulations related to the cryptocurrency business is still under development and
+subject to signiﬁcant changes, and any potential changes in the legal and regulatory landscape may
+adversely aﬀect our business ﬁnancial condition and future expansion;
+ 
+● Hong Kong regulatory requirement of prior approval for transfer of shares in excess of certain threshold may
+restrict future takeovers and other transactions; and
+ 
+● You may experience diﬃculties in eﬀecting service of legal process, enforcing foreign judgments, or bringing
+actions in Hong Kong and China against us or our management named in this prospectus based on foreign
+laws. It may also be diﬃcult for you or overseas regulators to conduct investigations or collect evidence
+within Hong Kong and China. 
+Risks Relating to Our Ordinary Shares and the Trading Market
+ 
+Risks and uncertainties related to our Ordinary Shares and the trading market include, but are not limited to, the
+following:
+ 
+● If we become directly subject to the scrutiny, criticism, and negative publicity involving U.S.-listed Chinese
+companies, we may have to expend signiﬁcant resources to investigate and resolve the matter which could
+harm our business operations, stock price and reputation;
+ 
+● The joint statement by the SEC and the PCAOB, rule changes by Nasdaq, and the Holding Foreign Companies
+Accountable Act all call for additional and more stringent criteria to be applied to emerging market
+companies upon assessing the qualiﬁcation of their auditors, especially the non-U.S. auditors who are not
+inspected by the PCAOB. These developments could add uncertainties to our continued listing or future
+oﬀerings of our securities in the U.S.;
+ 
+● The market price of our Ordinary Shares may be volatile or may decline regardless of our operating
+performance;
+ 
+● If we cannot continue to satisfy listing requirements and other rules of Nasdaq Capital Market, although we
+are exempt from certain corporate governance standards applicable to U.S. issuers as a Foreign Private
+Issuer, our securities may be delisted, which could negatively impact the price of our securities and your
+ability to sell them; and
+ 
+● We have a substantial number of warrants outstanding. The exercise of our outstanding warrants can have a
+dilutive eﬀect on our Ordinary Shares. 
+2 
+--- PAGE 10 ---
+ 
+ 
+Risks Related to the Offering
+ 
+● A substantial number of our Ordinary Shares may be sold in the market following the eﬀective date of the
+registration statement of which this prospectus forms a part, which may depress the market price for our
+Ordinary Shares.
+ 
+Foreign Private Issuer
+ 
+We are a foreign private issuer within the meaning of the rules under the Exchange Act. As such, even after we
+no longer qualify as an emerging growth company, as long as we qualify as a foreign private issuer under the
+Exchange Act we are exempt from certain provisions of the Exchange Act that are applicable to U.S. domestic public
+companies. For example:
+ 
+● we are not required to provide as many Exchange Act reports, or as frequently, as a domestic public
+company;
+ 
+● for interim reporting, we are permitted to comply solely with our home country requirements, which are less
+rigorous than the rules that apply to domestic public companies;
+ 
+● we are not required to provide the same level of disclosure on certain issues, such as executive
+compensation;
+ 
+● we are exempt from provisions of Regulation FD aimed at preventing issuers from making selective
+disclosures of material information;
+ 
+● we are not required to comply with the sections of the Exchange Act regulating the solicitation of proxies,
+consents or authorizations in respect of a security registered under the Exchange Act; and
+ 
+● we are not required to comply with Section 16 of the Exchange Act requiring principal shareholders to ﬁle
+public reports of their stock ownership and trading activities and liability for insiders who proﬁt from trades
+made in a short period of time.
+ 
+Corporate Information
+ 
+Metalpha Technology Holding Limited is a Cayman Islands holding company. It does not engage in operations
+itself but rather conducts its operations through its subsidiaries incorporated in the British Virgin Islands, Panama
+and Hong Kong. We were incorporated in the Cayman Islands on June 19, 2015. Our wholly-owned subsidiary, Sweet
+Lollipop Co., Ltd., was incorporated in the British Virgin Islands on May 8, 2014. Metalpha Holding (HK) Limited was
+incorporated in Hong Kong on May 2, 2015. Metalpha Limited was incorporated in the British Virgin Islands on
+October 29, 2021. In November 2022, we changed our corporate name from Dragon Victory International Limited to
+Metalpha Technology Holding Limited.
+ 
+Our primary business operation centers around blockchain and trading technology solution services, which we
+oﬀer through our subsidiaries. In addition, our Hong Kong subsidiary, LSQ Capital Limited, is licensed by SFC to
+provide securities advising and asset management services in Hong Kong. Before the completion of the disposition
+in March 2023, we, through certain operating entities in the PRC, also provided the supply chain management
+platform services to several auto parts suppliers and one auto parts logistics company in China.
+ 
+Metalpha’s address is Suite 5506-07, Central Plaza, 18 Harbour Road, Wan Chai, Hong Kong, China (+852) 3565-
+2920.
+ 
+Conventions that Apply to this Prospectus
+ 
+In this prospectus, except where the context otherwise requires and for purposes of this prospectus only:
+ 
+● “China” or “PRC” refers to the People’s Republic of China and only when this prospectus refers to speciﬁc
+laws and regulations adopted by the PRC, excludes Hong Kong, Macau and Taiwan;
+ 
+3 
+--- PAGE 11 ---
+ 
+ 
+● “IFRS” refers to the International Financial Reporting Standards as issued by the International Accounting
+Standards Board;
+ 
+● “HKD” or “HK$” refers to the legal currency of Hong Kong;
+ 
+● “Company,” “Metalpha,” “we,” “us,” “our company” or “our” refers to Metalpha Technology Holding Limited,
+a Cayman Islands holding company, and its subsidiaries;
+ 
+● “Meta Rich” refers to Meta Rich Limited, a business company limited by shares incorporated under the laws
+of the British Virgin Islands and a wholly owned subsidiary of Sweet Lollipop;
+ 
+● “Metalpha HK” refers to Metalpha Holding (HK) Limited (formerly known as Longyun International Holdings
+Limited), a private company limited by shares incorporated under the laws of Hong Kong and a wholly owned
+subsidiary of Sweet Lollipop;
+ 
+● “Memorandum and Articles of Association” refers to Third Amended and Restated Memorandum and Articles
+of Association of the Company.
+ 
+● “Northstar Digital Holding” refers to Northstar Digital Holding Limited, formerly known as Antalpha Holdings
+Limited, a business company incorporated under the laws of British Virgin Islands, and/or its subsidiaries,
+including but not limited to Northstar Technologies Holdings Limited, formerly known as Armada
+Technologies Holdings Limited before July 19, 2024 and Antalpha Technologies Holdings Limited before
+November 30, 2023, and Polaris Technologies Group Limited, formerly known as Antalpha Technologies
+Limited;
+ 
+● “PCAOB” refers to the Public Company Accounting Oversight Board;
+ 
+● “RMB” or “Renminbi” refers to the legal currency of China;
+ 
+● “SEC” refers to the U.S. Securities and Exchange Commission;
+ 
+● “SFC” refers to Securities and Futures Commission of Hong Kong;
+ 
+● “shares,” “Shares,” or “Ordinary Shares” refers to the ordinary shares, par value US$0.0001 per share, of
+Metalpha Technology Holding Limited;
+ 
+● “Sweet Lollipop” refers to Sweet Lollipop Co., Ltd., a business company limited by shares incorporated under
+the laws of the British Virgin Islands and a wholly-owned subsidiary of Metalpha Technology Holding Limited;
+and
+ 
+● “transaction size” refers to the total amount paid by our customers for the derivative products that were
+traded with us in a given period;
+ 
+● “U.S. dollars,” “US$,” “$,” or “dollars” refers to the legal currency of the United States.
+ 
+Unless otherwise stated, the conversions between U.S. dollars and Hong Kong dollars were made at the rate of
+HK$7.7799 to US$1.00, the exchange rate on March 31, 2025 set forth in the H.10 statistical release of The Board of
+Governors of the Federal Reserve Board. We make no representation that any Hong Kong dollars or U.S. dollar
+amounts could have been, or could be, converted into U.S. dollars or Hong Kong dollars, as the case may be, at any
+particular rate, or at all. Any discrepancies in any table between totals and sums of amounts listed therein are due to
+rounding.
+ 
+4 
+--- PAGE 12 ---
+ 
+ 
+THE OFFERING 
+The summary below describes the principal terms of the offering. Please refer to the section
+“Description of Securities” in this prospectus for a more detailed description of our
+securities.
+ 
+Shares oﬀered by the Selling Securityholders  15,453,364 Ordinary Shares, consisting of (i) 3,908,700 Ordinary
+Shares issued pursuant to the Subscription Agreements by and
+between the Company and investors party thereto, (ii) 6,924,664
+Ordinary Shares previously issued to certain holders pursuant to the
+Company’s equity incentive plans, cashless exercises of warrants,
+management entry options and other prior issuances, and (iii)
+4,620,000 Ordinary Shares issuable upon exercise of the Warrants
+previously issued by the Company to certain holders.
+    
+Plan of Distribution  The Selling Securityholders will determine when and how they will
+sell the Shares oﬀered in this prospectus, as described in the “Plan
+of Distribution” section.
+    
+Use of Proceeds  We will not receive any proceeds from the sale of the Shares. We
+will, however, receive the exercise price per share for any cash
+exercises of the Warrants.
+    
+Risk Factors  You should read the “Risk Factors” section beginning on page 6 for a
+discussion of factors to consider carefully before deciding to
+purchase the Shares.
+    
+The Nasdaq Capital Market Symbol  MATH
+ 
+5 
+--- PAGE 13 ---
+ 
+ 
+RISK FACTORS
+ 
+Investing in our securities involves risk. Before making a decision to invest in our securities, you should carefully
+consider the risks described in the section titled “Risk Factors” in the applicable prospectus supplement and in our
+then-most recent annual report on Form 20-F, and any updates to those risk factors in our reports on Form 6-K
+incorporated by reference in this prospectus, together with all of the other information appearing or incorporated by
+reference in this prospectus and any applicable prospectus supplement, in light of your particular investment
+objectives and ﬁnancial circumstances. Although we discuss key risks in our discussion of risk factors, new risks may
+emerge in the future, which may prove to be signiﬁcant. We cannot predict future risks or estimate the extent to which
+they may aﬀect our business, results of operations, ﬁnancial condition and prospects. The trading price of our
+securities could decline due to any of these risks, and you may lose all or part of your investment.
+ 
+Risks Related to the Oﬀering 
+A substantial number of our Ordinary Shares may be sold in the market following the effective
+date of the registration statement of which this prospectus forms a part, which may depress the
+market price for our Ordinary Shares.
+ 
+Sales of a substantial number of our Ordinary Shares in the public market following the eﬀective date of the
+registration statement of which this prospectus forms a part could cause the market price of our Ordinary Shares to
+decline.
+ 
+6 
+--- PAGE 14 ---
+ 
+ 
+USE OF PROCEEDS
+ 
+The Selling Securityholders will receive all of the proceeds from the sale of the Shares hereunder. Accordingly, we
+will not receive any of the proceeds from the sale of the Shares in this oﬀering; we will, however, receive the exercise
+price per share for any cash exercises of the Warrants.
+ 
+We will bear the out-of-pocket costs, expenses and fees incurred in connection with the registration of the Shares to
+be sold by the Selling Securityholders pursuant to this prospectus. Other than registration expenses, the Selling
+Securityholders will bear their own broker or similar commissions payable with respect to sales of the Shares.
+ 
+7 
+--- PAGE 15 ---
+ 
+ 
+DIVIDEND POLICY
+ 
+We intend to keep any future earnings to ﬁnance the expansion of our business, and we do not anticipate that any
+cash dividends will be paid in the foreseeable future. Under Cayman Islands law, a Cayman Islands company may pay
+a dividend on its shares out of either proﬁt or share premium amount, provided that in no circumstances may a
+dividend be paid if this would result in the Company being unable to pay its debts due in the ordinary course of
+business immediately following the date on which the distribution or dividend is proposed to be paid. If we determine
+to pay dividends on any of our Ordinary Shares in the future, as a holding company, we will be dependent on receipt of
+funds from our BVI subsidiary, Sweet Lollipop. Cash dividends, if any, on our Ordinary Shares will be paid in U.S.
+dollars. See the sections titled “Description of Securities” for additional information.
+ 
+8 
+--- PAGE 16 ---
+ 
+ 
+DESCRIPTION OF SECURITIES
+ 
+We are a Cayman Islands exempted company, and our aﬀairs are governed by our Memorandum and Articles of
+Association, the Companies Act (as deﬁned below) and the common law of the Cayman Islands.
+ 
+Our Ordinary Shares are listed on Nasdaq and are registered under Section 12(b) of the Exchange Act. Set forth
+below is a description of the rights of the holders of Ordinary Shares.
+ 
+Description of Ordinary Shares
+ 
+The following is a summary of material provisions of our Memorandum and Articles of Association, as well as the
+Companies Act (As Revised) of the Cayman Islands insofar as they relate to the material terms of our Ordinary Shares.
+Notwithstanding this, because it is a summary, it may not contain all the information that you may otherwise deem
+important. For more complete information, you should read the entirety of our Memorandum and Articles of
+Association, which are incorporated by reference as Exhibit 3.1 to this registration statement.
+ 
+Type and Class of Securities
+ 
+Each Ordinary Share has par value of US$0.0001 per share. The number of Ordinary Shares that have been issued
+as of the last day of the ﬁscal year ended March 31, 2025 is provided on the cover of the annual report on Form 20-F for
+that ﬁscal year.
+ 
+Preemptive Rights
+ 
+The Ordinary Shares are not subject to any pre-emptive or similar rights under the Companies Act or pursuant to
+the Memorandum and Articles of Association.
+ 
+Limitations or Qualiﬁcations
+ 
+Each Ordinary Share entitles the holder thereof to one vote, unless any Ordinary Share carries special voting rights.
+ 
+Rights of Other Types of Securities
+ 
+Not applicable.
+ 
+Rights of Ordinary Shares 
+Ordinary Shares
+ 
+Our share capital is US $50,000 divided into 500,000,000 shares of US$ 0.0001 par value each. There is no limit on
+the number of shares of any class which we are authorized to issue. All of our issued and outstanding ordinary shares
+are fully paid and non-assessable. Our Ordinary Shares are issued in registered form, and are issued when registered in
+our register of members. Each holder of our Ordinary Shares will be entitled to receive a certiﬁcate in respect of such
+ordinary shares. 
+Dividends
+ 
+Subject to the provisions of the Companies Act and any rights for the time being attaching to any class or classes
+of shares, the directors may declare dividends or distributions out of our funds which are lawfully available for that
+purpose.
+ 
+Subject to the provisions of the Companies Act and any rights for the time being attaching to any class or classes
+of shares, our shareholders may, by ordinary resolution, declare dividends but no such dividend shall exceed the
+amount recommended by the directors.
+ 
+9 
+--- PAGE 17 ---
+ 
+ 
+Subject to the requirements of the Companies Act regarding the application of a company’s share premium account
+and with the sanction of an ordinary resolution, dividends may also be declared and paid out of any share premium
+account. The directors when paying dividends to shareholders may make such payment either in cash or other than in
+cash.
+ 
+Unless provided by the rights attached to a share, no dividend shall bear interest against us. 
+Voting Rights
+ 
+Subject to any rights or restrictions as to voting attached to any shares, unless any share carries special voting
+rights, on a show of hands every shareholder who is present in person and every person representing a shareholder by
+proxy shall have one vote. On a poll, every shareholder who is present in person and every person representing a
+shareholder by proxy shall have one vote for each share of which he or the person represented by proxy is the holder.
+In addition, all shareholders holding shares of a particular class are entitled to vote at a meeting of the holders of that
+class of shares. Votes may be given either personally or by proxy. 
+Calls on Shares and Forfeiture
+ 
+Subject to the terms of allotment, the directors may make calls on the shareholders in respect of any monies
+unpaid on their Ordinary Shares including any premium and each shareholder shall (subject to receiving at least
+fourteen clear days’ notice specifying when and where payment is to be made), pay to us the amount called on his
+shares. The call may provide for payment to be by instalments. Before receipt by the Company of any sum due under a
+call, that call may be revoked in whole or in part and payment of a call may be postponed in whole or in part. Where a
+call is to be paid in installments, the Company may revoke the call in respect of all or any remaining instalments in
+whole or in part and may postpone payment of all or any of the remaining instalments in whole or in part. Shareholders
+registered as the joint holders of a share shall be jointly and severally liable to pay all calls in respect of the share. If a
+call remains unpaid after it has become due and payable the person from whom it is due and payable shall pay
+interest on the amount unpaid from the day it became due and payable until it is paid at the rate ﬁxed by the terms of
+allotment of the share or in the notice of the call or if no rate is ﬁxed, at the rate of ten per cent. per annum. The
+directors may, at their discretion, waive payment of the interest wholly or in part.
+ 
+We have a ﬁrst and paramount lien on all shares (whether fully paid up or not) registered in the name of a
+shareholder (whether solely or jointly with others). The lien is for all monies payable to us by the shareholder or the
+shareholder’s estate:
+ 
+(a) either alone or jointly with any other person, whether or not that other person is a shareholder; and
+ 
+(b) whether or not those monies are presently payable.
+ 
+At any time the directors may declare any share to be wholly or partly exempt from the calls and forfeiture
+provisions of the Memorandum and Articles of Association.
+ 
+We may sell, in such manner as the directors may determine, any share over which it has a lien and on which the
+sum in respect of which the lien exists is presently payable, if due notice that such sum is payable has been given (as
+prescribed by the Memorandum and Articles of Association) and, within fourteen clear days of the date on which the
+notice is deemed to be given under the Memorandum and Articles of Association, such notice has not been complied
+with. 
+General Meetings
+ 
+The Company may, but shall not (unless required by the Companies Act) be obligated to, in each year hold a
+general meeting as an annual general meeting. All general meetings other than annual general meetings shall be
+called extraordinary general meetings. The directors may call a general meeting at any time. The directors must also
+call a general meeting if requisitioned in writing by one or more shareholders who together hold at least ten per cent of
+the rights to vote at such general meeting. Should the directors fail to call a general meeting within twenty-one Clear
+Days from the date of receipt of a requisition, the requisitioners or any of them may call a general meeting within
+three months after the end of that period. 
+10 
+--- PAGE 18 ---
+ 
+ 
+Forfeiture or Surrender of Shares
+ 
+If a shareholder fails to pay any call the directors may give to such shareholder not less than fourteen clear days’
+notice requiring payment and specifying the amount unpaid including any interest which may have accrued, any
+expenses which have been incurred by us due to that person’s default and the place where payment is to be made. The
+notice shall also contain a warning that if the notice is not complied with, the shares in respect of which the call is
+made will be liable to be forfeited.
+ 
+If such notice is not complied with, the directors may, before the payment required by the notice has been
+received, resolve that any share the subject of that notice be forfeited (which forfeiture shall include all dividends or
+other monies payable in respect of the forfeited share and not paid before such forfeiture).
+ 
+A forfeited share may be sold, re-allotted or otherwise disposed of on such terms and in such manner as the
+directors determine and at any time before a sale, re-allotment or disposition the forfeiture may be cancelled on such
+terms as the directors think ﬁt.
+ 
+A person whose shares have been forfeited shall cease to be a shareholder in respect of the forfeited shares and
+shall surrender to us for cancellation the certiﬁcate (if any) for the forfeited shares, but shall, notwithstanding such
+forfeit, remain liable to pay to us all monies which at the date of forfeiture were payable by him to us in respect of the
+shares, together with all expenses and interest from the date of forfeiture or surrender until payment, but his liability
+shall cease if and when we receive payment in full of the unpaid amount.
+ 
+A declaration, whether statutory or under oath, made by a director or the secretary shall be conclusive evidence
+that the person making the declaration is a director or secretary of us and that the particular shares have been
+forfeited or surrendered on a particular date.
+ 
+Subject to the execution of an instrument of transfer, if necessary, the declaration shall constitute good title to the
+shares. 
+Share Premium Account
+ 
+The directors shall establish a share premium account and shall carry the credit of such account from time to time
+to a sum equal to the amount or value of the premium paid on the issue of any share or capital contributed or such
+other amounts required by the Companies Act.
+ 
+Redemption and Purchase of Own Shares
+ 
+Subject to the Companies Act and any rights for the time being conferred on the shareholders holding a particular
+class of shares, we may by our directors:
+ 
+(a) issue shares that are to be redeemed or liable to be redeemed, at our option or the shareholder holding
+those redeemable shares, on the terms and in the manner its directors determine before the issue of those
+shares;
+ 
+(b) with the consent by special resolution of the shareholders holding shares of a particular class, vary the
+rights attaching to that class of shares so as to provide that those shares are to be redeemed or are liable to
+be redeemed at our option on the terms and in the manner which the directors determine at the time of
+such variation; and
+ 
+(c) purchase all or any of our own shares of any class including any redeemable shares on the terms and in the
+manner which the directors determine at the time of such purchase.
+ 
+11 
+--- PAGE 19 ---
+ 
+ 
+We may make a payment in respect of the redemption or purchase of its own shares in any manner authorized by
+the Companies Act, including out of any combination of capital, our proﬁts and the proceeds of a fresh issue of shares
+made for the purpose of the redemption or purchase.
+ 
+When making a payment in respect of the redemption or purchase of shares, the directors may make the payment
+in cash or in specie (or partly in one and partly in the other) if so authorized by the terms of the allotment of those
+shares or by the terms applying to those shares, or otherwise by agreement with the shareholder holding those shares. 
+Transfer of Shares
+ 
+Subject to the restrictions contained in the Memorandum and Articles of Association, any of our shareholders may
+transfer all or any of his or her shares by an instrument of transfer in writing and in any usual or common form or any
+other form approved by our board of directors, executed by or on behalf of the transferor (and, if in respect of a nil or
+partly paid up share, or if so required by our directors, shall also be executed on behalf of the transferee and shall be
+accompanied by the certiﬁcate (if any) of the shares to which it relates and such evidence as the directors may
+reasonably require to show the right of the transferor to make the transfer).
+ 
+Our board of directors may, in its absolute discretion, decline to register any transfer of any share that has not been
+fully paid up or is subject to a company lien. Our board of directors may also decline to register any transfer of any
+share unless:
+ 
+(a) the instrument of transfer is lodged with us, accompanied by the certiﬁcate (if any) for the shares to which
+it relates and such other evidence as our board of directors may reasonably require to show the right of the
+transferor to make the transfer;
+ 
+(b) the instrument of transfer is in respect of only one class of shares;
+ 
+(c) the instrument of transfer is properly stamped, if required;
+ 
+(d) the share transferred is fully paid and free of any lien in favor of us;
+ 
+(e) any applicable fee of such maximum sum as the designated stock exchange may determine to be payable,
+or such lesser sum as our board of directors may from time to time require, related to the transfer has been
+paid to us; and
+ 
+(f) the transfer is not to more than four joint holders.
+ 
+If our directors refuse to register a transfer, they are required, within three months after the date on which the
+instrument of transfer was lodged, to send to each of the transferor and the transferee notice of such refusal.
+ 
+The registration of transfers may, on 14 calendar days’ notice being given by advertisement in such one or more
+newspapers or by electronic means, be suspended and our register of members closed at such times and for such
+periods as our board of directors may from time to time determine. However, the registration of transfers may not be
+suspended, and the register may not be closed, for more than 30 days in any year. 
+Capitalization of Profits
+ 
+The directors may resolve to capitalize:
+ 
+(a) any part of our proﬁts not required for paying any preferential dividend (whether or not those proﬁts are
+available for distribution); or
+ 
+(b) any sum standing to the credit of our share premium account or capital redemption reserve, if any.
+ 
+12 
+--- PAGE 20 ---
+ 
+ 
+The amount resolved to be capitalized must be appropriated to the shareholders who would have been entitled to it
+had it been distributed by way of dividend and in the same proportions. 
+Liquidation Rights
+ 
+If we are wound up, the shareholders may, subject to the Memorandum and Articles of Association and any other
+sanction required by the Companies Act, pass a special resolution allowing the liquidator to do either or both of the
+following:
+ 
+(a) to divide in specie among the shareholders the whole or any part of our assets and, for that purpose, to
+value any assets and to determine how the division shall be carried out as between the shareholders or
+diﬀerent classes of shareholders; and
+ 
+(b) to vest the whole or any part of the assets in trustees for the beneﬁt of shareholders and those liable to
+contribute to the winding up.
+ 
+The directors have the authority to present a petition for our winding up to the Grand Court of the Cayman Islands
+on our behalf without the sanction of a resolution passed at a general meeting.
+ 
+Requirements to Change the Rights of Holders of Ordinary Shares 
+Variations of Rights of Shares
+ 
+Whenever our capital is divided into diﬀerent classes of shares, the rights attaching to any class of share (unless
+otherwise provided by the terms of issue of the shares of that class) may be varied either with the consent in writing of
+the holders of not less than two-thirds of the issued shares of that class, or with the sanction of a special resolution
+passed by a majority of not less than two-thirds of the holders of shares of the class present in person or by proxy at a
+separate general meeting of the holders of shares of that class.
+ 
+Unless the terms on which a class of shares was issued state otherwise, the rights conferred on the shareholder
+holding shares of any class shall not be deemed to be varied by the creation or issue of further shares ranking pari
+passu with the existing shares of that class.
+ 
+Limitations on the Rights to Own Ordinary Shares
+ 
+There are no limitations under the laws of the Cayman Islands or under the Memorandum and Articles of
+Association that limit the right of non-resident or foreign owners to hold or vote Ordinary Shares.
+ 
+Provisions Aﬀecting Any Change of Control 
+Anti-Takeover Provisions
+ 
+Some provisions of the Memorandum and Articles of Association may discourage, delay or prevent a change in
+control of our company or management that shareholders may consider favorable, including provisions that authorize
+our board of directors to issue shares at such times and on such terms and conditions as the board of directors may
+decide without any further vote or action by our shareholders.
+ 
+Under the Companies Act, our directors may only exercise the rights and powers granted to them under the
+Memorandum and Articles of Association for what they believe in good faith to be in the best interests of our company
+and for a proper purpose.
+ 
+Ownership Threshold
+ 
+There are no provisions under the Companies Act or under the Memorandum and Articles of Association that govern
+the ownership threshold above which shareholder ownership must be disclosed.
+ 
+13 
+--- PAGE 21 ---
+ 
+ 
+Diﬀerences Between the Law of Diﬀerent Jurisdictions
+ 
+The Companies Act is derived, to a large extent, from the older Companies Acts of England and Wales but does not
+follow recent United Kingdom statutory enactments, and accordingly there are signiﬁcant diﬀerences between the
+Companies Act and the current Companies Act of England. In addition, the Companies Act diﬀers from laws applicable
+to United States corporations and their shareholders. Set forth below is a summary of certain signiﬁcant diﬀerences
+between the provisions of the Companies Act applicable to us and the comparable laws applicable to companies
+incorporated in the State of Delaware in the United States. 
+Mergers and Similar Arrangements
+ 
+The Companies Act permits mergers and consolidations between Cayman Islands companies and between Cayman
+Islands companies and non-Cayman Islands companies. For these purposes, (a) “merger” means the merging of two or
+more constituent companies and the vesting of their undertaking, property and liabilities in one of such companies as
+the surviving company, and (b) a “consolidation” means the combination of two or more constituent companies into a
+consolidated company and the vesting of the undertaking, property and liabilities of such companies to the
+consolidated company. In order to eﬀect such a merger or consolidation, the directors of each constituent company
+must approve a written plan of merger or consolidation, which must then be authorized by (a) a special resolution of
+the shareholders of each constituent company, and (b) such other authorization, if any, as may be speciﬁed in such
+constituent company’s articles of association. The plan must be ﬁled with the Registrar of Companies together with,
+amongst other things speciﬁed under the Companies Act, a declaration as to the solvency of constituent company, the
+consolidated or surviving company, a list of the assets and liabilities of each constituent company and an undertaking
+that a copy of the certiﬁcate of merger or consolidation will be given to the shareholders and creditors of each
+constituent company and that notiﬁcation of the merger or consolidation will be published in the Cayman Islands
+Gazette. Court approval is not required for a merger or consolidation which is eﬀected in compliance with these
+statutory procedures.
+ 
+A merger between a Cayman parent company and its Cayman subsidiary or subsidiaries does not require
+authorization by a resolution of shareholders. For this purpose a subsidiary is a company of which at least 90% of the
+issued shares entitled to vote at a general meeting are owned by the parent company.
+ 
+The consent of each holder of a ﬁxed or ﬂoating security interest of a constituent company is required unless this
+requirement is waived by a court in the Cayman Islands.
+ 
+Except in certain limited circumstances, a dissenting shareholder of a Cayman Islands constituent company is
+entitled to payment of the fair value of his or her shares upon dissenting from a merger or consolidation. The exercise
+of such dissenter rights will preclude the exercise by the dissenting shareholder of any other rights to which he or she
+might otherwise be entitled by virtue of holding shares, except for the right to seek relief on the grounds that the
+merger or consolidation is void or unlawful.
+ 
+In addition, there are statutory provisions that facilitate the reconstruction and amalgamation of companies,
+provided that the arrangement is approved by a majority in number of each class of shareholders and creditors with
+whom the arrangement is to be made, and who must, in addition, represent three-fourths in value of each such class of
+shareholders or creditors, as the case may be, that are present and voting either in person or by proxy at a meeting, or
+meetings, convened for that purpose. The convening of the meetings and subsequently the arrangement must be
+sanctioned by the Grand Court of the Cayman Islands. While a dissenting shareholder has the right to express to the
+court the view that the transaction ought not to be approved, the court can be expected to approve the arrangement if
+it determines that:
+ 
+(a) the statutory provisions as to the required majority vote have been met;
+ 
+(b) the shareholders have been fairly represented at the meeting in question and the statutory majority are acting
+bona ﬁde without coercion of the minority to promote interests adverse to those of the class;
+ 
+14 
+--- PAGE 22 ---
+ 
+ 
+(c) the arrangement is such that may be reasonably approved by an intelligent and honest man of that class acting
+in respect of his interest; and
+ 
+(d) the arrangement is not one that would more properly be sanctioned under some other provision of the
+Companies Act.
+ 
+When a takeover oﬀer is made and accepted by holders of 90% of the shares aﬀected within four months the
+oﬀeror may, within a two-month period commencing on the expiration of such four month period, require the holders of
+the remaining shares to transfer such shares on the terms of the oﬀer. An objection can be made to the Grand Court of
+the Cayman Islands but this is unlikely to succeed in the case of an oﬀer which has been so approved unless there is
+evidence of fraud, bad faith or collusion.
+ 
+If an arrangement and reconstruction is thus approved, or if a takeover oﬀer is made and accepted, a dissenting
+shareholder would have no rights comparable to appraisal rights, which would otherwise ordinarily be available to
+dissenting shareholders of Delaware corporations, providing rights to receive payment in cash for the judicially
+determined value of the shares. 
+Shareholders’ Suits
+ 
+In principle, we will normally be the proper plaintiﬀ to sue for a wrong done to us as a company and as a general
+rule, a derivative action may not be brought by a minority shareholder. However, based on English law authorities,
+which would in all likelihood be of persuasive authority in the Cayman Islands, the Cayman Islands courts can be
+expected to follow and apply the common law principles (namely the rule in Foss v. Harbottle and the exceptions
+thereto) so that a non-controlling shareholder may be permitted to commence a class action against or derivative
+actions in the name of the company to challenge:
+ 
+(a) an act which is illegal or ultra vires with respect to the company and is therefore incapable of ratiﬁcation by the
+shareholders;
+ 
+(b) an act which, although not ultra vires, requires authorization by a qualiﬁed (or special) majority (that is, more
+than a simple majority) which has not been obtained; and
+ 
+(c) an act which constitutes a “fraud on the minority” where the wrongdoers are themselves in control of the
+company. 
+Indemnification of Directors and Executive Officers and Limitation of Liability
+ 
+The Cayman Islands law does not limit the extent to which a company’s memorandum and articles of association
+may provide for indemniﬁcation of oﬃcers and directors, except to the extent any such provision may be held by the
+Cayman Islands courts to be contrary to public policy, such as to provide indemniﬁcation against civil fraud or the
+consequences of committing a crime. The Memorandum and Articles of Association provide that, to the extent
+permitted by law, we shall indemnify each existing or former secretary, director (including alternate director), and any
+of our other oﬃcers (including an investment adviser or an administrator or liquidator) and their personal
+representatives against:
+ 
+(a) all actions, proceedings, costs, charges, expenses, losses, damages or liabilities incurred or sustained by the
+existing or former secretary or oﬃcer in or about the conduct of our business or aﬀairs or in the execution or
+discharge of the existing or former secretary’s or oﬃcer’s duties, powers, authorities or discretions; and
+ 
+(b) without limitation to paragraph (a) above, all costs, expenses, losses or liabilities incurred by the existing or
+former secretary or oﬃcer in defending (whether successfully or otherwise) any civil, criminal, administrative
+or investigative proceedings (whether threatened, pending or completed) concerning us or our aﬀairs in any
+court or tribunal, whether in the Cayman Islands or elsewhere.
+ 
+15 
+--- PAGE 23 ---
+ 
+ 
+No such existing or former secretary or oﬃcer, however, shall be indemniﬁed in respect of any matter arising out of
+his own dishonesty.
+ 
+To the extent permitted by law, we may make a payment, or agree to make a payment, whether by way of
+advance, loan or otherwise, for any legal costs incurred by an existing or former secretary or any of our oﬃcers in
+respect of any matter identiﬁed in above on condition that the secretary or oﬃcer must repay the amount paid by us to
+the extent that it is ultimately found not liable to indemnify the secretary or that oﬃcer for those legal costs.
+ 
+This standard of conduct is generally the same as permitted under the Delaware General Corporation Law for a
+Delaware corporation. In addition, we have entered into indemniﬁcation agreements with our directors and executive
+oﬃcers that provide such persons with additional indemniﬁcation beyond that provided in the Memorandum and
+Articles of Association.
+ 
+Insofar as indemniﬁcation for liabilities arising under the Securities Act may be permitted to our directors, oﬃcers
+or persons controlling us under the foregoing provisions, we have been informed that, in the opinion of the SEC, such
+indemniﬁcation is against public policy as expressed in the Securities Act and is therefore unenforceable. 
+Anti-Takeover Provisions in the Memorandum and Articles of Association
+ 
+Some provisions of the Memorandum and Articles of Association may discourage, delay or prevent a change in
+control of our company or management that shareholders may consider favorable, including provisions that authorize
+our board of directors to issue shares at such times and on such terms and conditions as the board of directors may
+decide without any further vote or action by our shareholders.
+ 
+Under the Companies Act, our directors may only exercise the rights and powers granted to them under the
+Memorandum and Articles of Association for what they believe in good faith to be in the best interests of our company
+and for a proper purpose. 
+Directors’ Fiduciary Duties
+ 
+Under Delaware corporate law, a director of a Delaware corporation has a ﬁduciary duty to the corporation and its
+shareholders. This duty has two components: the duty of care and the duty of loyalty. The duty of care requires that a
+director act in good faith, with the care that an ordinarily prudent person would exercise under similar circumstances.
+Under this duty, a director must inform himself of, and disclose to shareholders, all material information reasonably
+available regarding a signiﬁcant transaction. The duty of loyalty requires that a director act in a manner he or she
+reasonably believes to be in the best interests of the corporation. He or she must not use his or her corporate position
+for personal gain or advantage. This duty prohibits self-dealing by a director and mandates that the best interests of
+the corporation and its shareholders take precedence over any interest possessed by a director, oﬃcer or controlling
+shareholder and not shared by the shareholders generally. In general, actions of a director are presumed to have been
+made on an informed basis, in good faith and in the honest belief that the action taken was in the best interests of the
+corporation. However, this presumption may be rebutted by evidence of a breach of one of the ﬁduciary duties. Should
+such evidence be presented concerning a transaction by a director, a director must prove the procedural fairness of the
+transaction, and that the transaction was of fair value to the corporation.
+ 
+As a matter of Cayman Islands law, a director owes three types of duties to the company: (a) statutory duties, (b)
+ﬁduciary duties, and (c) common law duties. The Companies Act imposes a number of statutory duties on a director. A
+Cayman Islands director’s ﬁduciary duties are not codiﬁed, however the courts of the Cayman Islands have held that a
+director owes the following ﬁduciary duties: (a) a duty to act in what the director bona ﬁde considers to be in the best
+interests of the company, (b) a duty to exercise their powers for the purposes they were conferred, (c) a duty to avoid
+fettering his or her discretion in the future and (d) a duty to avoid conﬂicts of interest and of duty. The common law
+duties owed by a director are those to act with skill, care and diligence that may reasonably be expected of a person
+carrying out the same functions as are carried out by that director in relation to the company and, also, to act with the
+skill, care and diligence in keeping with a standard of care commensurate with any particular skill they have which
+enables them to meet a higher standard than a director without those skills. In fulﬁlling their duty of care to us, our
+directors must ensure compliance with the Memorandum and Articles of Association, as amended and restated from
+time to time. We have the right to seek damages if a duty owed by any of our directors is breached. 
+16 
+--- PAGE 24 ---
+ 
+ 
+Shareholder Proposals
+ 
+The Delaware General Corporation Law does not provide shareholders an express right to put any proposal before
+the annual meeting of shareholders, but in keeping with common law, Delaware corporations generally aﬀord
+shareholders an opportunity to make proposals and nominations provided that they comply with the notice provisions
+in the certiﬁcate of incorporation or bylaws. A special meeting may be called by the board of directors or any other
+person authorized to do so in the governing documents, but shareholders may be precluded from calling special
+meetings.
+ 
+The Companies Act provides shareholders with only limited rights to requisition a general meeting, and does not
+provide shareholders with any right to put any proposal before a general meeting. However, these rights may be
+provided in a company’s articles of association. The Memorandum and Articles of Association provide that general
+meetings shall be convened on the written requisition of one or more of the shareholders entitled to attend and vote at
+our general meetings who (together) hold not less than ten per cent of the rights to vote at such general meeting,
+specifying the purpose of the meeting and signed by each of the shareholders making the requisition. If the directors
+do not convene such meeting for a date not later than twenty-one clear days after the date of receipt of the written
+requisition, those shareholders who requested the meeting may convene the general meeting themselves within three
+months after the end of such period of twenty-one clear days in which case reasonable expenses incurred by them as a
+result of the directors failing to convene a meeting shall be reimbursed by us. In addition, if there are insuﬃcient
+directors to constitute a quorum and the remaining directors are unable to agree on the appointment of additional
+directors, any one or more shareholders who together hold at least ﬁve per cent of the rights to vote at a general
+meeting may call a general meeting for the purpose of appointing additional directors. The Memorandum and Articles
+of Association provide no other right to put any proposals before annual general meetings or extraordinary general
+meetings. As a Cayman Islands exempted company, we are not obligated by law to call shareholders’ annual general
+meetings. However, our corporate governance guidelines require us to call such meetings every year. 
+Cumulative Voting
+ 
+Under the Delaware General Corporation Law, cumulative voting for elections of directors is not permitted unless
+the corporation’s certiﬁcate of incorporation speciﬁcally provides for it. Cumulative voting potentially facilitates the
+representation of minority shareholders on a board of directors since it permits the minority shareholder to cast all the
+votes to which the shareholder is entitled on a single director, which increases the shareholder’s voting power with
+respect to electing such director. 
+Removal of Directors
+ 
+Under the Delaware General Corporation Law, a director of a corporation with a classiﬁed board may be removed
+only for cause with the approval of a majority of the outstanding shares entitled to vote, unless the certiﬁcate of
+incorporation provides otherwise. Subject to the provisions of the Memorandum and Articles of Association, the oﬃce
+of a director may be terminated forthwith if (a) he is prohibited by the law of the Cayman Islands from acting as a
+director, (b) he is made bankrupt or makes an arrangement or composition with his creditors generally, (c) he resigns
+his oﬃce by notice to us, (d) he only held oﬃce as a director for a ﬁxed term and such term expires, (e) in the opinion
+of a registered medical practitioner by whom he is being treated he becomes physically or mentally incapable of
+acting as a director, (f) he is given notice by the majority of the other directors (not being less than two in number) to
+vacate oﬃce (without prejudice to any claim for damages for breach of any agreement relating to the provision of the
+services of such director), (g) he is made subject to any law relating to mental health or incompetence, whether by
+court order or otherwise, or (h) without the consent of the other directors, he is absent from meetings of directors for
+continuous period of six months.  
+17 
+--- PAGE 25 ---
+ 
+ 
+Transactions with Interested Shareholders
+ 
+The Delaware General Corporation Law contains a business combination statute applicable to Delaware public
+corporations whereby, unless the corporation has speciﬁcally elected not to be governed by such statute by
+amendment to its certiﬁcate of incorporation or bylaws that is approved by its shareholders, it is prohibited from
+engaging in certain business combinations with an “interested shareholder” for three years following the date that
+such person becomes an interested shareholder. An interested shareholder generally is a person or a group who or
+which owns or owned 15% or more of the target’s outstanding voting stock or who or which is an aﬃliate or associate
+of the corporation and owned 15% or more of the corporation’s outstanding voting stock within the past three years.
+This has the eﬀect of limiting the ability of a potential acquirer to make a two-tiered bid for the target in which all
+shareholders would not be treated equally. The statute does not apply if, among other things, prior to the date on which
+such shareholder becomes an interested shareholder, the board of directors approves either the business combination
+or the transaction which resulted in the person becoming an interested shareholder. This encourages any potential
+acquirer of a Delaware corporation to negotiate the terms of any acquisition transaction with the target’s board of
+directors.
+ 
+The Companies Act has no comparable statute. As a result, we cannot avail ourselves of the types of protections
+aﬀorded by the Delaware business combination statute. However, although the Companies Act does not regulate
+transactions between a company and its signiﬁcant shareholders, under Cayman Islands law such transactions must be
+entered into bona ﬁde in the best interests of the company and for a proper corporate purpose and not with the eﬀect
+of constituting a fraud on the minority shareholders. 
+Dissolution; Winding Up
+ 
+Under the Delaware General Corporation Law, unless the board of directors approves the proposal to dissolve,
+dissolution must be approved by shareholders holding 100% of the total voting power of the corporation. Only if the
+dissolution is initiated by the board of directors may it be approved by a simple majority of the corporation’s
+outstanding shares. Delaware law allows a Delaware corporation to include in its certiﬁcate of incorporation a
+supermajority voting requirement in connection with dissolutions initiated by the board of directors.
+ 
+Under the Companies Act and the Memorandum and Articles of Association, our company may be wound up by a
+special resolution of our shareholders, or if the winding up is initiated by our board of directors, by either a special
+resolution of our members or, if our company is unable to pay its debts as they fall due, by an ordinary resolution of
+our members. In addition, a company may be wound up by an order of the courts of the Cayman Islands. The court has
+authority to order winding up in a number of speciﬁed circumstances including where it is, in the opinion of the court,
+just and equitable to do so. 
+Variation of Rights of Shares
+ 
+Under the Delaware General Corporation Law, a corporation may vary the rights of a class of shares with the
+approval of a majority of the outstanding shares of such class, unless the certiﬁcate of incorporation provides
+otherwise. Under the Companies Act and the Memorandum and Articles of Association, if our share capital is divided
+into more than one class of shares, the rights attaching to any class of share (unless otherwise provided by the terms
+of issue of the shares of that class) may be varied either with the consent in writing of the holders of not less than two-
+thirds of the issued shares of that class, or with the sanction of a special resolution passed by a majority of not less
+than two-thirds of the holders of shares of the class present in person or by proxy at a separate general meeting of the
+holders of shares of that class. 
+Amendment of Governing Documents
+ 
+Under the Delaware General Corporation Law, a corporation’s certiﬁcate of incorporation may be amended only if
+adopted and declared advisable by the board of directors and approved by a majority of the outstanding shares
+entitled to vote, and the bylaws may be amended with the approval of a majority of the outstanding shares entitled to
+vote and may, if so provided in the certiﬁcate of incorporation, also be amended by the board of directors. Under the
+Companies Act, the Memorandum and Articles of Association may only be amended by special resolution of our
+shareholders.
+ 
+18 
+--- PAGE 26 ---
+ 
+ 
+Changes in Capital
+ 
+Subject to the Companies Act, our shareholders may, by ordinary resolution:
+ 
+(a) increase our share capital by new shares of the amount ﬁxed by that ordinary resolution and with the attached
+rights, priorities and privileges set out in that ordinary resolution;
+ 
+(b) consolidate and divide all or any of our share capital into shares of larger amount than our existing shares;
+ 
+(c) convert all or any of our paid up shares into stock, and reconvert that stock into paid up shares of any
+denomination;
+ 
+(d) sub-divide our shares or any of them into shares of an amount smaller than that ﬁxed, so, however, that in the
+sub-division, the proportion between the amount paid and the amount, if any, unpaid on each reduced share
+shall be the same as it was in case of the share from which the reduced share is derived; and
+ 
+(e) cancel shares which, at the date of the passing of that ordinary resolution, have not been taken or agreed to be
+taken by any person and diminish the amount of our share capital by the amount of the shares so cancelled or,
+in the case of shares without nominal par value, diminish the number of shares into which our capital is
+divided.
+ 
+Subject to the Companies Act and to any rights for the time being conferred on the shareholders holding a
+particular class of shares, our shareholders may, by special resolution, reduce our share capital in any way.
+ 
+Warrants 
+August 2021 Consulting Agreement
+ 
+On August 6, 2021, we entered into a Consulting and Warrant Issuance Agreement (the “August 2021 Consulting
+Agreement”) with Natural Selection Capital Holdings Limited, a Cayman company of which Mr. Bingzhong Wang is the
+sole shareholder, and Mr. Ming Ni. Pursuant to the August 2021 Consulting Agreement, Natural Selection Capital
+Holdings Limited and Mr. Ming Ni agreed to provide certain services to us in connection with the development and
+ultimate transformation of our business into a blockchain-related business, and we agreed to, among other things,
+issue warrants to Natural Selection Capital Holdings Limited in four equal tranches to purchase an aggregate of
+14,000,000 Ordinary Shares (the “Consulting Company Warrants”). The Consulting Company Warrants will become
+exercisable on the later of (i) the one-year anniversary of the issuance and (ii) the applicable vesting dates, with
+exercise prices between $1 and $2.5 per share, and will expire on the 10th anniversary from the date on which they
+become exercisable (each, a “Consulting Company Warrant Expiry Date”). We issued the warrants to Natural Selection
+Capital Holdings Limited on October 29, 2021.
+ 
+We agreed to, among other things, issue warrants to Mr. Ming Ni to purchase an aggregate of 2,000,000 Ordinary
+Shares (the “Ni Warrants”, together with the Consulting Company Warrants, the “August Consulting Warrants”). The Ni
+Warrants would become exercisable once issued, with an exercise price that is the lower of (i) $1.5 per share and (ii)
+88% of the lowest daily volume-weighted average price of the ordinary shares for the 10-trading-day period
+immediately prior to the exercise of the August Consulting Warrants, and would expire ﬁve years after issuance. On
+November 30, 2021, we issued the Ni Warrants to Mr. Ming Ni.
+  
+On August 6, 2021, we entered into a Registration Rights Agreement (the “2021 Registration Rights Agreement”)
+with LSQ Investment Fund SPC-Disruptive Opportunity Fund II SP (“LSQ”), the purchasers, Natural Selection Capital
+Holdings Limited, and Mr. Ming Ni.
+ 
+On March 3, 2022, we, LSQ, the purchasers, Natural Selection Capital Holdings Limited, and Mr. Ming Ni, entered
+into Amendment No.1 to 2021 Registration Rights Agreement (the “Amendment to 2021 RRA”) to extend the
+Eﬀectiveness Deadline and the Filing Deadline (as deﬁned in the 2021 Registration Rights Agreement). Pursuant to the
+Amendment to 2021 RRA, the Eﬀectiveness Deadline for the 2nd Closing Registration Statement (as deﬁned in the 2021
+Registration Rights Agreement) will be no later than the calendar day that is no later than 16 months from the date of
+the 2021 Registration Rights Agreement.
+ 
+19 
+--- PAGE 27 ---
+ 
+ 
+On January 26, 2023, we, Natural Selection Capital Holdings Limited and Mr. Ming Ni entered into an amendment
+agreement to the August 2021 Consulting Agreement, to, among others, change each and all the Consulting Company
+Warrant Expiry Date to August 6, 2031.
+ 
+On September 26, 2024, we entered into a deed of termination with Natural Selection Capital Holdings Limited,
+pursuant to which we and Natural Selection Capital Holdings Limited agreed to terminate the Consulting Company
+Warrants. As a result of such termination, the respective rights and obligations under the Consulting Company Warrants
+are terminated as well.
+ October 2021 Consulting Agreement
+ 
+On October 27, 2021, we entered into a Consulting and Warrant Issuance Agreement (the “October 2021 Consulting
+Agreement”) with Xianqun Hu, Ying Cai, Jiarui Li, and Ailing Zhang (collectively, the “Consultants”). Pursuant to the
+October 2021 Consulting Agreement, the Consultants agreed to provide certain services to us in connection with the
+business operation of a joint venture company which will be formed by us and an industry leader (the “Joint Venture”
+or “Metalpha BVI”). The services to be provided by the Consultants, include, among other things, the following: (i)
+establishing a proprietary system for cryptocurrency derivatives trading; (ii) designing diﬀerent structure products for
+use in trading with counterparties; (iii) optimizing internal pricing and dynamic hedging models; (iv) ongoing
+monitoring and improving of the proprietary system to maximize the return of invested capital and grow the size of
+proprietary assets; (v) assisting in the hiring process and establishment of a team for the development of the Joint
+Venture; and (vi) providing industry expertise to help shape the Joint Venture’s long-term strategy.
+ 
+Pursuant to the October 2021 Consulting Agreement, we agreed to issue (i) warrants to Xianqun Hu to purchase an
+aggregate of 900,000 Ordinary Shares, (ii) warrants to Ying Cai to purchase an aggregate of 300,000 Ordinary Shares,
+(iii) warrants to Jiarui Li to purchase an aggregate of 300,000 Ordinary Shares, and (iv) warrants to Ailing Zhang to
+purchase an aggregate of 300,000 Ordinary Shares (collectively, the “October 2021 Consulting Warrants”).
+ 
+The October 2021 Consulting Warrants will become exercisable once issued, with an exercise price that is the lower
+of (i) $1.5 per share and (ii) 88% of the lowest daily volume-weighted average price of the Ordinary Shares for the 10-
+trading-day period immediately prior to the exercise of the October Consulting Warrants, and will expire ﬁve years
+after issuance.
+ 
+In connection with the August 2021 SPA, the August 2021 Consulting Agreement, and the October 2021 Consulting
+Agreement, we ﬁled a registration statement on Form F-3 dated December 27, 2021, to register the Ordinary Shares to
+be issued pursuant to the August 2021 SPA and the Ordinary Shares issuable upon exercise of the August Consulting
+Warrants and October Consulting Warrants for resale. The registration statement on Form F-3 did not become eﬀective
+and was declared abandoned by the Division of Corporation Finance for the SEC on December 30, 2022.
+ Employee Warrant Issuance Agreements
+ 
+On May 10, 2022, we entered into an employee warrant issuance agreement with Yingjun Zhou, to further
+incentivize the Employee’s services to be rendered under and pursuant to an employment contract, dated March 2,
+2022, between LSQ Capital Limited, our subsidiary, and Yingjun Zhou (the “Employee Warrant Issuance Agreement”).
+ 
+Pursuant to the Employee Warrant Issuance Agreement, we agreed to issue warrants to Yingjun Zhou to purchase
+an aggregate of 200,000 Ordinary Shares (the “Employee Warrants”).
+ 
+The Employee Warrants will become exercisable once issued, with an exercise price that is the lower of (i) $1.5 per
+share and (ii) 88% of the lowest daily volume-weighted average price of the Ordinary Shares for the 10-trading-day
+period immediately prior to the exercise of the Employee Warrants, and will expire ﬁve years after issuance.
+ 
+20 
+--- PAGE 28 ---
+ 
+ 
+In addition, we also agreed that, as soon as practicable, and in no event later than 60 days after the execution of
+the Employee Warrants pursuant to the Employee Warrant Issuance Agreement, we shall ﬁle with the SEC (at our sole
+cost and expense) a registration statement, which shall be on Form F-3, if eligible, registering the resale of the
+Ordinary Shares issuable upon exercise of the Employee Warrants.
+ May 2022 Consulting Agreement
+ 
+On May 26, 2022, we entered into a consulting and warrant issuance agreement (the “May 2022 Consulting
+Agreement”) with Jing Hu, Sek Yee Khor, and Jiaping Sun (collectively, the “2022 Consultants”). Pursuant to the May
+2022 Consulting Agreement, the 2022 Consultants agreed to provide certain services to us in connection with the
+business operation of a joint venture company formed by us and Northstar Digital Holding. The services to be provided
+by the 2022 Consultants, include, among other things, the following: (1) establishing a proprietary system for
+cryptocurrency derivatives trading; (2) designing diﬀerent structure products for use in trading with counterparties; (3)
+optimizing internal pricing and dynamic hedging models; (4) ongoing monitoring and improving of the proprietary
+system to maximize the return of invested capital and grow the size of proprietary assets; (5) assisting in the hiring
+process and establishment of a team for the development of Metalpha BVI; and (6) providing industry expertise to help
+shape Metalpha BVI’s long-term strategy.
+ 
+Pursuant to the May 2022 Consulting Agreement, we agreed to issue (i) warrants to Jing Hu to purchase an
+aggregate of 200,000 Ordinary Shares, (ii) warrants to Sek Yee Khor to purchase an aggregate of 200,000 Ordinary
+Shares, and (iii) warrants to Jiaping Sun to purchase an aggregate of 100,000 Ordinary Shares (collectively, the “2022
+Consulting Warrants”).
+ 
+The 2022 Consulting Warrants will become exercisable once issued, with an exercise price that is the lower of (i)
+$1.5 per share and (ii) 88% of the lowest daily volume-weighted average price of the Ordinary Shares for the 10-
+trading-day period immediately prior to the exercise of the 2022 Consulting Warrants, and will expire ﬁve years after
+issuance.
+ 
+In addition, we also agreed that, as soon as practicable, and in no event later than 60 days after the execution of
+the 2022 Consulting Warrants pursuant to the May 2022 Consulting Agreement, we shall ﬁle with the SEC (at our sole
+cost and expense) a registration statement, which shall be on Form F-3, if eligible, registering the resale of the
+Ordinary Shares issuable upon exercise of the 2022 Consulting Warrants.
+  June 2022 Private Placement Agreement
+ 
+On June 30, 2022, we entered into a securities subscription and warrant purchase agreement (the “June 2022
+Private Placement Agreement”) with certain investors, including directors and senior members of our management.
+Pursuant to the June 2022 Private Placement Agreement, each Purchaser agrees to subscribe for and purchase, and we
+agree to issue and sell:
+ 
+● such number of Ordinary Shares (the “Subscription Shares”) calculated by dividing (i) the purchase price paid by
+such Purchaser to us, as set forth in Schedule A of the June 2022 Private Placement Agreement, by (ii) the per
+share purchase price, which is the higher of (a) US$1.00 and (b) 88% of the lowest daily dollar volume-weighted
+average price of the Ordinary Shares on the Nasdaq Capital Market (as reported by Bloomberg) during the last
+10 trading days immediately preceding the execution date of the June 2022 Private Placement Agreement; and
+ 
+● certain warrants (the “Subscription Warrants”) to purchase an aggregate number of Ordinary Shares that equals
+twice the number of the Subscription Shares.
+ 
+The aggregate purchase price payable by all of the investors will be no more than US$3,300,000.
+ 
+The Subscription Warrants are exercisable after vesting, in whole or in part, by the Purchaser within a period of ﬁve
+years, commencing on the date of the issuance of the Subscription Warrants. The vesting of the Subscription Warrants
+will be conditioned on the attainment of our performance goals and any other vesting schedule/conditions as set forth
+in the terms of the Subscription Warrants.
+ 
+21 
+--- PAGE 29 ---
+ 
+ November 2022 Sale and Purchase Agreement and Northstar Technologies Purchase Agreement
+ 
+On November 28, 2022, we entered into a sale and purchase agreement with Polaris Technologies Group Limited
+(formerly Antalpha Technologies Limited), Northstar Technologies Holdings Limited (“Northstar Technologies”), and
+Meta Rich to acquire 49% equity interest held by Polaris Technologies Group Limited in Metalpha Limited. The total
+consideration is US$2,500,000, satisﬁed by the allotment and issuance of 2,500,000 Ordinary Shares to Northstar
+Technologies. The deal was closed in November 2022 and Metalpha Limited became our wholly-owned subsidiary.
+ 
+On November 28, 2022, we and Northstar Technologies entered into a securities subscription and warrant purchase
+agreement (the “Northstar Technologies Purchase Agreement”), pursuant to which Northstar Technologies agreed to
+subscribe for, and we agreed to issue to Northstar Technologies, (i) 4,500,000 Ordinary Shares (the “Subscription
+Shares”); (ii) a type A warrant to purchase up to 4,500,000 Ordinary Shares (the “Type A Warrant”), and (iii) a type B
+warrant to purchase up to 3,000,000 Ordinary Shares (the “Type B Warrant”), for an aggregate consideration of
+US$4,500,000.
+ 
+● Subscription Shares. The sale and subscription of the Subscription Shares will be completed in up to four (4)
+tranches, on a date that is no later than 180 days, 365 days, 545 days and 730 days from the signing date of the
+Northstar Technologies Purchase Agreement, respectively, upon the fulﬁllment of the closing conditions set
+forth in the Northstar Technologies Purchase Agreement. As of the date of this prospectus, all of the
+Subscription Shares, or 4,500,000 Ordinary Shares have been issued.
+ 
+● Type A Warrant. The Type A Warrant was issued by us on November 28, 2022. The Type A Warrant shall vest in
+tranches at the same rate and in the same proportion as the issuance and allotment of the Subscription Shares
+upon each closing thereof as set out in the Northstar Technologies Purchase Agreement. Upon vesting, the Type
+A Warrant is exercisable at an exercise price of US$1.00 per Ordinary Share. The Type A Warrant shall expire on
+the ﬁfth (5th) anniversary of the date of issuance.
+ 
+● Type B Warrant. The Type B Warrant was issued by us on November 28, 2022. The Type B Warrant shall vest in
+tranches at the same rate and in the same proportion as the issuance and allotment of the Subscription Shares
+upon each closing thereof as set out in the Northstar Technologies Purchase Agreement.
+ 
+● Pre-emptive Rights. Subject to certain exceptions set forth in the Northstar Technologies Purchase Agreement, if
+we propose to issue, grant or sell any equity securities within ﬁve years since the date of the Northstar
+Technologies Purchase Agreement, Northstar Tech shall have the right to elect to purchase up to 40% of the
+total number of new securities to be issued by us. Northstar Tech shall exercise its pre-emptive rights within 20
+calendar days after receipt of a written issuance notice given by us, which sets forth the price, amount and
+other terms on which such new securities are proposed to be issued, granted or sold.
+ 
+22 
+--- PAGE 30 ---
+ 
+ 
+SELLING SECURITYHOLDERS
+ 
+We are registering the resale of the Ordinary Shares issued to the Selling Securityholders pursuant to the
+Subscription Agreements and the Ordinary Shares issuable upon exercise of the Warrants in order to permit such
+Selling Securityholders to oﬀer the Shares for resale from time to time.
+ 
+The following table sets forth, based on written representations from the Selling Securityholders, certain
+information as of June 29, 2026 regarding the beneﬁcial ownership of our Ordinary Shares by the Selling
+Securityholders and the Shares being oﬀered by the Selling Securityholders. The applicable percentage ownership of
+ordinary shares is based on 47,113,236 Ordinary Shares outstanding as of May 31, 2026. Information with respect to
+our Ordinary Shares owned beneﬁcially after the oﬀering assumes the sale of all of the Shares held by the Selling
+Securityholders and the exercise and sale of all Ordinary Shares issuable upon exercise of the Warrants held by the
+Selling Securityholders. The Selling Securityholders may oﬀer and sell some, all or none of their securities.
+ 
+We have determined beneﬁcial ownership in accordance with the rules of the SEC and the information is not
+necessarily indicative of beneﬁcial ownership for any other purpose. Unless otherwise indicated below, to our
+knowledge, the persons and entities named in the tables have sole voting and sole investment power with respect to
+all securities that they beneﬁcially own, subject to community property laws where applicable.
+ 
+We cannot advise you as to whether the Selling Securityholders will in fact sell any or all of such securities. As
+such, we are unable to declare the number of Ordinary Shares and warrants that the Selling Securityholders will retain
+after any such sale. In addition, the Selling Securityholders may sell, transfer or otherwise dispose of, at any time and
+from time to time, the securities in transactions exempt from the registration requirements of the Securities Act after
+the date of this prospectus.
+ 
+Other than as outlined below, to our knowledge, none of the Selling Securityholders has, or during the three years
+prior to the date of this prospectus has had, any position, oﬃce or other material relationships with us or any of our
+aﬃliates, except that: (i) Bingzhong Wang has served as a member of the board of directors and president of the
+Company since December 2021 and as Chief Executive Oﬃcer and Chairman of the Board since September 24, 2024;
+(ii) Xisha Hu, the natural control person of MetaSphere Limited, has served as the Chief Executive Oﬃcer of Metalpha
+Limited, the Company’s wholly-owned trading business subsidiary, eﬀective April 28, 2025, and is the spouse of
+Bingzhong Wang; (iii) Mr. Ming Ni served as the Chief Operating Oﬃcer and a Director of the Company from December
+2021 until his resignation in June 2025; (iv) Yingjun Zhou is currently an employee of the Company; (v) Yan Lin and Hu
+Jing are each employees of a subsidiary of the Company; and (vi) each of Zhang Ailing, Khor Sek Yee, Liu Limin, Li Jiarui
+and Cai Ying has served as a consultant to the Company.
+ 
+Selling Securityholder information for each new Selling Securityholder, if any, will be set forth by a prospectus
+supplement to the extent required prior to the time of any oﬀer or sale of such Selling Securityholder’s shares pursuant
+to this prospectus. Any prospectus supplement may add, update, substitute or change the information contained in this
+prospectus, including the identity of each Selling Securityholder and the number of Ordinary Shares registered on its
+behalf. A Selling Securityholder may sell or otherwise transfer all, some or none of such shares in this oﬀering. See
+“Plan of Distribution.”
+ 
+    Beneﬁcial Ownership
+Before Oﬀering     Maximum   Beneﬁcial Ownership
+After Oﬀering  
+Name   Number
+of Shares    
+Percentage
+of
+Ordinary
+Shares(1)    
+Number of
+Shares
+Oﬀered(2)  
+Number
+of
+  Shares     
+Percentage
+of
+Shares    
+Gortune International Investment Limited
+Partnership    3,257,300(3)    6.91%   3,257,300    -    - 
+Avenir Tech Limited    651,400(4)    1.38%   651,400    -    - 
+Bingzhong Wang    3,095,910(6)    6.39%   2,400,000    695,910    1.44%
+MetaSphere Limited    3,049,912(7)    6.47%   3,049,912    -    - 
+Hermitage Management Limited    1,142,721(5)    2.43%   486,200    656,521    1.39%
+Ming Ni    1,364,075(8)    2.90%   589,334    774,741    1.64%
+Yingjun Zhou    1,009,218(9)    2.12%   559,218    450,000     * 
+Liu Limin    1,365,544(10)   2.88%   480,000    885,544    1.87%
+Hu Jing    1,010,000(11)   2.12%   1,000,000    10,000     * 
+Cai Ying    726,144(12)   1.52%   700,000    26,144     * 
+Li Jiarui    710,000(13)   1.49%   700,000    10,000     * 
+Khor Sek Yee    490,000(14)   1.03%   480,000    10,000     * 
+Zhang Ailing    910,000(15)   1.91%   900,000    10,000     * 
+Yan Lin    195,050(16)    *    100,000    95,050     * 
+Jiaping Sun    100,000(17)    *    100,000    -    - 
+ 
+* Percentage not listed if less than 1%
+ 
+ 
+--- PAGE 31 ---
+23
+--- PAGE 32 ---
+ 
+ 
+(1) The applicable percentage ownership of ordinary shares is based on 47,113,236 Ordinary Shares outstanding as
+of May 31, 2026.
+ 
+(2) Represents all of the ordinary shares that the Selling Securityholders may oﬀer and sell from time to time under
+this prospectus.
+ 
+(3) Consists of 3,257,300 Ordinary Shares received pursuant to the Subscription Agreement, dated as of October 30,
+2025, by and between the Company and Gortune International Investment Limited Partnership. Gortune
+International Investment Limited Partnership is a subsidiary of Gortune Investment Co., Limited. Gortune group
+mainly operates in corporate M&A and restructuring, equity investments, and emerging asset investments, with
+an emphasis on sectors like ﬁnance, consumption, new energy, and Web3. Wei Xu has sole voting and
+dispositive power over the shares held by Gortune International Investment Limited Partnership. The address of
+the principal place of business of Gortune International Investment Limited Partnership is 7F, GF Tower, No 81
+Lockhart Road, Wan Chai, Hong Kong.
+ 
+(4) Consists of 651,400 Ordinary Shares received pursuant to the Subscription Agreement, dated as of October 30,
+2025, by and between the Company and Avenir Tech Limited. Avenir Tech Limited is a pioneering investment
+group dedicated to the strategic integration of traditional ﬁnance and digital assets, driving innovation to build
+a leading ﬁnancial ecosystem and infrastructure. Through an integrated framework of Investment, Incubation,
+and Operations, the group focuses on digital asset management, trading and ﬁnancial service platforms, PayFi
+infrastructure, and Real World Assets (RWA). As Asia’s largest institutional Bitcoin ETF holder, Avenir Tech
+Limited leads the regional market. Li Lin has sole voting and dispositive power over the shares held by Avenir
+Tech Limited. The address of the principal place of business of Avenir Tech Limited is 10F, CCB Tower, 3
+Connaught Rd, Central, Central, Hong Kong.
+ 
+(5) Consists of (i) 486,200 Ordinary Shares received upon cashless exercise of a warrant to purchase up to 660,000
+Ordinary Shares issued pursuant to the June 2022 Private Placement Agreement, (ii) 221,001 Ordinary Shares
+received upon cashless exercise of a warrant to purchase up to 300,000 Ordinary Shares at an exercise price of
+US$1.00 per share, issued pursuant to that certain Sale and Purchase Agreement dated December 22, 2023, by
+and among Sweet Lollipop Co., Ltd., the Company and Hermitage Management Limited, and (iii) 435,520
+additional Ordinary Shares. Yoon Jung Hyun has sole voting and dispositive power over the shares held by
+Hermitage Management Limited. The address of the principal place of business of Hermitage Management
+Limited is Trinity Chambers, PO Box 4301, Road Town, Tortola, British Virgin Islands.
+ 
+(6) Consists of (i) 600,000 Ordinary Shares issued under the Company’s 2022 Incentive Plan, (ii) 600,000 Ordinary
+Shares purchased pursuant to the June 2022 Private Placement Agreement, and (iii) 1,200,000 Ordinary Shares
+issuable upon exercise of Subscription Warrants purchased pursuant to the June 2022 Private Placement
+Agreement. In addition, Mr. Bingzhong Wang beneﬁcially owns 125,000 Ordinary Shares under the Company’s
+2024 Incentive Plan, 570,910 Ordinary Shares distributed from LSQ Investment Fund SPC-Disruptive Opportunity
+Fund II SP, of which Mr. Bingzhong Wang is a shareholder. Mr. Bingzhong Wang has served as a member of the
+board of directors and president of the Company since December 2021 and as Chief Executive Oﬃcer and
+Chairman of the Board since September 24, 2024. Xisha Hu, the spouse of Mr. Bingzhong Wang, serves as the
+Chief Executive Oﬃcer of Metalpha Limited, the Company’s wholly-owned trading business subsidiary, eﬀective
+April 28, 2025. The address for Mr. Bingzhong Wang is Suite 5506-07, Central Plaza, 18 Harbour Road, Wan Chai,
+Hong Kong.
+ 
+24 
+--- PAGE 33 ---
+ 
+ 
+(7) Consists of 3,049,912 Ordinary Shares received by MetaSphere Limited from Xianqun Hu by way of gift in March
+2026, which Ordinary Shares were originally issued pursuant to the Company’s 2022 Incentive Plan,
+management entry options exercised in November 2024, and cashless exercises of warrants issued under the
+October 2021 Consulting Agreement and the June 2022 Private Placement Agreement. Xisha Hu has sole voting
+and dispositive power over the shares held by MetaSphere Limited. Xisha Hu serves as the Chief Executive
+Oﬃcer of Metalpha Limited, the Company’s wholly-owned trading business subsidiary, eﬀective April 28, 2025.
+Bingzhong Wang, the spouse of Ms. Xisha Hu, serves as the Chief Executive Oﬃcer and Chairman of the Board
+of the Company. The address of the principal place of business of MetaSphere Limited is Suite 5506-07, Central
+Plaza, 18 Harbour Road, Wan Chai, Hong Kong.
+ 
+(8) Consists of 589,334 Ordinary Shares received upon cashless exercise of warrants to purchase 800,000 Ordinary
+Shares issued pursuant to the June 2022 Private Placement Agreement. In addition, Mr. Ming Ni beneﬁcially
+owns 774,741 Ordinary Shares that are freely tradeable. Mr. Ming Ni served as the Chief Operating Oﬃcer and a
+Director of the Company from December 2021 until his resignation in June 2025. The address for Mr. Ming Ni is
+Flat C, 17/F, Blk T3, The Harbourside, 1 Austin Rd W, Tsim Sha Tsui, Kowloon, Hong Kong.
+ 
+(9) Consists of (i) 119,218 Ordinary Shares received upon cashless exercise of warrants to purchase 200,000
+Ordinary Shares issued pursuant to the Employee Warrant Issuance Agreement, and (ii) 440,000 Ordinary
+Shares issuable upon exercise of Subscription Warrants purchased pursuant to the June 2022 Private Placement
+Agreement. In addition, Mr. Yingjun Zhou beneﬁcially owns 220,000 Ordinary Shares purchased pursuant to the
+June 2022 Private Placement Agreement, 220,000 Ordinary Shares issued under the Company’s 2022 Incentive
+Plan, and 10,000 Ordinary Shares under the Company’s 2024 Incentive Plan. Mr. Yingjun Zhou is currently an
+employee of the Company. The address for Mr. Yingjun Zhou is Flat G, 30/F, Tower 2B, One Victoria, 21 Shing
+Fung Road, NKIL6575, Kowloon City, Kowloon, Hong Kong.
+ 
+(10) Consists of 240,000 Ordinary Shares issuable upon exercise of Subscription Warrants purchased pursuant to the
+June 2022 Private Placement Agreement. In addition, Ms. Liu Limin beneﬁcially owns 120,000 Ordinary Shares
+purchased pursuant to the June 2022 Private Placement Agreement, 120,000 Ordinary Shares issued under the
+Company’s 2022 Incentive Plan, 2,500 Ordinary Shares vested under the Company’s 2024 Incentive Plan,
+788,120 Ordinary Shares held through Perfectkl Holding Co., Limited, and 94,924 additional freely tradeable
+Ordinary Shares. Ms. Liu Limin has served as a consultant to the Company. The address for Ms. Liu Limin is Flt C,
+36/F, Twr 1, The Henley, 7 Muk Tai St, Kai Tak, Kowloon, Hong Kong.
+ 
+(11) Consists of (i) 200,000 Ordinary Shares issuable upon exercise of 2022 Consulting Warrants issued pursuant to
+the May 2022 Consulting Agreement, and (ii) 400,000 Ordinary Shares issuable upon exercise of Subscription
+Warrants purchased pursuant to the June 2022 Private Placement Agreement. In addition, Ms. Hu Jing
+beneﬁcially owns 200,000 Ordinary Shares purchased pursuant to the June 2022 Private Placement Agreement,
+200,000 Ordinary Shares issued under the Company’s 2022 Incentive Plan, and 10,000 Ordinary Shares vested
+under the Company’s 2024 Incentive Plan. Ms. Hu Jing is an employee of a subsidiary of the Company. The
+address for Ms. Hu Jing is #01-01, 323 Thomson Road, Singapore 307666.
+ 
+(12) Consists of (i) 300,000 Ordinary Shares issuable upon exercise of October 2021 Consulting Warrants issued
+pursuant to the October 2021 Consulting Agreement, and (ii) 200,000 Ordinary Shares issuable upon exercise of
+Subscription Warrants purchased pursuant to the June 2022 Private Placement Agreement. In addition, Ms. Cai
+Ying beneﬁcially owns 100,000 Ordinary Shares purchased pursuant to the June 2022 Private Placement
+Agreement, 100,000 Ordinary Shares issued under the Company’s 2022 Incentive Plan, 10,000 Ordinary Shares
+vested under the Company’s 2024 Incentive Plan, and 16,144 additional freely tradeable Ordinary Shares. Ms.
+Cai Ying has served as a consultant to the Company. The address for Ms. Cai Ying is Flat A, 29/F, Phase 2, Tower
+5, Grand Victoria, 8 Lai Ying Street, Cheung Sha Wan, Kowloon, Hong Kong.
+ 
+25 
+--- PAGE 34 ---
+ 
+ 
+(13) Consists of (i) 300,000 Ordinary Shares issuable upon exercise of October 2021 Consulting Warrants issued
+pursuant to the October 2021 Consulting Agreement, and (ii) 200,000 Ordinary Shares issuable upon exercise of
+Subscription Warrants purchased pursuant to the June 2022 Private Placement Agreement. In addition, Mr. Li
+Jiarui beneﬁcially owns 100,000 Ordinary Shares purchased pursuant to the June 2022 Private Placement
+Agreement, 100,000 Ordinary Shares issued under the Company’s 2022 Incentive Plan, and 10,000 Ordinary
+Shares vested under the Company’s 2024 Incentive Plan. Mr. Li Jiarui has served as a consultant to the
+Company. The address for Mr. Li Jiarui is 21C Valverde, 11 May Road, Mid-levels, Hong Kong.
+ 
+(14) Consists of (i) 200,000 Ordinary Shares issuable upon exercise of 2022 Consulting Warrants issued pursuant to
+the May 2022 Consulting Agreement, and (ii) 140,000 Ordinary Shares issuable upon exercise of Subscription
+Warrants purchased pursuant to the June 2022 Private Placement Agreement. In addition, Mr. Khor Sek Yee
+beneﬁcially owns 70,000 Ordinary Shares purchased pursuant to the June 2022 Private Placement Agreement,
+70,000 Ordinary Shares issued under the Company’s 2022 Incentive Plan, and 10,000 Ordinary Shares vested
+under the Company’s 2024 Incentive Plan. Mr. Khor Sek Yee has served as a consultant to the Company. The
+address for Mr. Khor Sek Yee is 30A Pasir Panjang Hill, Singapore 118851.
+ 
+(15) Consists of (i) 300,000 Ordinary Shares issuable upon exercise of October 2021 Consulting Warrants issued
+pursuant to the October 2021 Consulting Agreement, and (ii) 300,000 Ordinary Shares issuable upon exercise of
+Subscription Warrants purchased pursuant to the June 2022 Private Placement Agreement. In addition, Ms.
+Zhang Ailing beneﬁcially owns 150,000 Ordinary Shares purchased pursuant to the June 2022 Private Placement
+Agreement, 150,000 Ordinary Shares issued under the Company’s 2022 Incentive Plan, and 10,000 Ordinary
+Shares vested under the Company’s 2024 Incentive Plan. Ms. Zhang Ailing has served as a consultant to the
+Company. The address for Ms. Zhang Ailing is Room 2202, Building 1, No. 51 Gao Lou Meng, Nanjing, Jiangsu,
+China.
+ 
+(16) Consists of 100,000 Ordinary Shares issuable upon exercise of Subscription Warrants purchased pursuant to the
+June 2022 Private Placement Agreement. In addition, Mr. Yan Lin beneﬁcially owns 12,750 Ordinary Shares
+vested under the Company’s 2024 Incentive Plan and 82,300 additional freely tradeable Ordinary Shares. Mr.
+Yan Lin is an employee of a subsidiary of the Company. The address for Mr. Yan Lin is 11G, Blk 1, No. 11, Muk Tai
+Street, Kowloon, Hong Kong.
+ 
+(17) Consists of 100,000 Ordinary Shares issuable upon exercise of 2022 Consulting Warrants issued pursuant to the
+May 2022 Consulting Agreement. The address for Mr. Jiaping Sun is 251 South Lake Ave, 10th Floor, Pasadena,
+CA 91101.
+ 
+26 
+--- PAGE 35 ---
+ 
+ 
+PLAN OF DISTRIBUTION
+ 
+The Selling Securityholders will pay any underwriting discounts and commissions and expenses incurred by the
+Selling Securityholders for brokerage, accounting, tax or legal services or any other expenses incurred by the Selling
+Securityholders in disposing of the securities. We will bear all other costs, fees and expenses incurred in eﬀecting the
+registration of the securities covered by this prospectus, including, without limitation, all registration and ﬁling fees,
+Nasdaq listing fees and fees and expenses of our counsel and our independent registered public accountants.
+ 
+The securities beneﬁcially owned by the Selling Securityholders covered by this prospectus may be oﬀered and
+sold from time to time by the Selling Securityholders. The term “Selling Securityholders” includes donees, pledgees,
+transferees or other successors in interest selling securities received after the date of this prospectus from a Selling
+Securityholder as a gift, pledge, partnership distribution or other transfer. The Selling Securityholders will act
+independently of us in making decisions with respect to the timing, manner and size of each sale. Such sales may be
+made on one or more exchanges or in the over-the-counter market or otherwise, at prices and under terms then
+prevailing or at prices related to the then current market price or in negotiated transactions. Each Selling
+Securityholder reserves the right to accept and, together with its respective agents, to reject, any proposed purchase of
+securities to be made directly or through agents. The Selling Securityholders and any of their permitted transferees
+may sell their securities oﬀered by this prospectus on any stock exchange, market or trading facility on which the
+securities are traded or in private transactions. If underwriters are used in the sale, such underwriters will acquire the
+shares for their own account. These sales may be at a ﬁxed price or varying prices, which may be changed, or at
+market prices prevailing at the time of sale, at prices relating to prevailing market prices or at negotiated prices. The
+securities may be oﬀered to the public through underwriting syndicates represented by managing underwriters or by
+underwriters without a syndicate. The obligations of the underwriters to purchase the securities will be subject to
+certain conditions. The underwriters will be obligated to purchase all the securities oﬀered if any of the securities are
+purchased.
+ 
+Subject to the limitations set forth in any applicable registration rights agreement, the Selling Securityholders may
+use any one or more of the following methods when selling the securities oﬀered by this prospectus:
+ 
+● purchases by a broker-dealer as principal and resale by such broker-dealer for its own account pursuant to this
+prospectus;
+ 
+● ordinary brokerage transactions and transactions in which the broker solicits purchasers;
+ 
+● block trades in which the broker-dealer so engaged will attempt to sell the securities as agent but may position
+and resell a portion of the block as principal to facilitate the transaction;
+ 
+● an over-the-counter distribution in accordance with the rules of Nasdaq;
+ 
+● through trading plans entered into by a Selling Securityholder pursuant to Rule 10b5-1 under the Exchange Act
+that are in place at the time of an oﬀering pursuant to this prospectus and any applicable prospectus
+supplement hereto that provide for periodic sales of their securities on the basis of parameters described in
+such trading plans;
+ 
+● through one or more underwritten oﬀerings on a ﬁrm commitment or best-eﬀorts basis;
+ 
+● settlement of short sales entered into after the date of this prospectus;
+ 
+● agreements with broker-dealers to sell a speciﬁed number of the securities at a stipulated price per share;
+ 
+● in “at the market” oﬀerings, as deﬁned in Rule 415 under the Securities Act, at negotiated prices, at prices
+prevailing at the time of sale or at prices related to such prevailing market prices, including sales made directly
+on a national securities exchange or sales made through a market maker other than on an exchange or other
+similar oﬀerings through sales agents;
+ 
+27 
+--- PAGE 36 ---
+ 
+ 
+● directly to purchasers, including through a speciﬁc bidding, auction or other process or in privately negotiated
+transactions;
+ 
+● through the writing or settlement of options or other hedging transactions, whether through an options
+exchange or otherwise;
+ 
+● through a combination of any of the above methods of sale; or
+ 
+● any other method permitted pursuant to applicable law.
+ 
+In addition, a Selling Securityholder that is an entity may elect to make an in-kind distribution of securities to its
+members, partners or stockholders pursuant to the registration statement of which this prospectus is a part by
+delivering a prospectus with a plan of distribution. To the extent a distributee is not an aﬃliate of ours, the distributee
+would thereby receive freely tradeable securities pursuant to the distribution through the registration statement. To the
+extent a distributee is an aﬃliate of ours (or to the extent otherwise required by law), we may ﬁle a prospectus
+supplement in order to permit the distributee to use the prospectus to resell the securities acquired in the distribution.
+ 
+The Selling Securityholders also may transfer the securities in other circumstances, in which case the transferees,
+pledgees or other successors-in-interest will be the selling beneﬁcial owners for purposes of this prospectus. Upon
+being notiﬁed by a Selling Securityholder that a donee, pledgee, transferee, other successor-in-interest intends to sell
+our securities, we will, to the extent required, promptly ﬁle a supplement to this prospectus to name speciﬁcally such
+person as a Selling Securityholder.
+ 
+There can be no assurance that the Selling Securityholders will sell all or any of the securities oﬀered by this
+prospectus. In addition, the Selling Securityholders may also sell securities under Rule 144 under the Securities Act, if
+available, or in other transactions exempt from registration, rather than under this prospectus. The Selling
+Securityholders have the sole and absolute discretion not to accept any purchase oﬀer or make any sale of securities if
+they deem the purchase price to be unsatisfactory at any particular time.
+ 
+With respect to a particular oﬀering of the securities held by the Selling Securityholders, to the extent required, an
+accompanying prospectus supplement or, if appropriate, a post-eﬀective amendment to the registration statement of
+which this prospectus is part, will be prepared and will set forth the following information:
+ 
+● the speciﬁc securities to be oﬀered and sold;
+ 
+● the names of the Selling Securityholders;
+ 
+● the respective purchase prices and public oﬀering prices, the proceeds to be received from the sale, if any, and
+other material terms of the oﬀering;
+ 
+● settlement of short sales entered into after the date of this prospectus;
+ 
+● the names of any participating agents, broker-dealers or underwriters; and
+ 
+● any applicable commissions, discounts, concessions and other items constituting compensation from the
+Selling Securityholders.
+ 
+In connection with distributions of the securities or otherwise, the Selling Securityholders may enter into hedging
+transactions with broker-dealers or other ﬁnancial institutions. In connection with such transactions, broker-dealers or
+other ﬁnancial institutions may engage in short sales of the securities in the course of hedging the positions they
+assume with Selling Securityholders. The Selling Securityholders may also sell the securities short and redeliver the
+securities to close out such short positions. The Selling Securityholders may also enter into option or other transactions
+with broker-dealers or other ﬁnancial institutions which require the delivery to such broker-dealer or other ﬁnancial
+institution of securities oﬀered by this prospectus, which securities such broker-dealer or other ﬁnancial institution may
+resell pursuant to this prospectus (as supplemented or amended to reﬂect such transaction). The Selling
+Securityholders may also pledge securities to a broker-dealer or other ﬁnancial institution, and, upon a default, such
+broker-dealer or other ﬁnancial institution, may eﬀect sales of the pledged securities pursuant to this prospectus (as
+supplemented or amended to reﬂect such transaction).
+ 
+28 
+--- PAGE 37 ---
+ 
+ 
+In order to facilitate the oﬀering of the securities, any underwriters or agents, as the case may be, involved in the
+oﬀering of such securities may engage in transactions that stabilize, maintain or otherwise aﬀect the price of our
+securities. Speciﬁcally, the underwriters or agents, as the case may be, may overallot in connection with the oﬀering,
+creating a short position in our securities for their own account. In addition, to cover overallotments or to stabilize the
+price of our securities, the underwriters or agents, as the case may be, may bid for, and purchase, such securities in
+the open market. Finally, in any oﬀering of securities through a syndicate of underwriters, the underwriting syndicate
+may reclaim selling concessions allotted to an underwriter or a broker-dealer for distributing such securities in the
+oﬀering if the syndicate repurchases previously distributed securities in transactions to cover syndicate short positions,
+in stabilization transactions or otherwise. Any of these activities may stabilize or maintain the market price of the
+securities above independent market levels. The underwriters or agents, as the case may be, are not required to
+engage in these activities, and may end any of these activities at any time.
+ 
+The Selling Securityholders may solicit oﬀers to purchase the securities directly from, and they may sell such
+securities directly to, institutional investors or others. In this case, no underwriters or agents would be involved. The
+terms of any of those sales, including the terms of any bidding or auction process, if utilized, will be described in the
+applicable prospectus supplement.
+ 
+It is possible that one or more underwriters may make a market in our securities, but such underwriters will not be
+obligated to do so and may discontinue any market making at any time without notice. We cannot give any assurance
+as to the liquidity of the trading market for our securities. Our Ordinary Shares are traded on The Nasdaq Capital
+Market under the symbol “MATH.”
+ 
+The Selling Securityholders may authorize underwriters, broker-dealers or agents to solicit oﬀers by certain
+purchasers to purchase the securities at the public oﬀering price set forth in the prospectus supplement pursuant to
+delayed delivery contracts providing for payment and delivery on a speciﬁed date in the future. The contracts will be
+subject only to those conditions set forth in the prospectus supplement, and the prospectus supplement will set forth
+any commissions we or the Selling Securityholders pay for solicitation of these contracts.
+ 
+A Selling Securityholder may enter into derivative transactions with third parties, or sell securities not covered by
+this prospectus to third parties in privately negotiated transactions. If the applicable prospectus supplement indicates,
+in connection with those derivatives, the third parties may sell securities covered by this prospectus and the applicable
+prospectus supplement, including in short sale transactions. If so, the third party may use securities pledged by any
+Selling Securityholder or borrowed from any Selling Securityholder or others to settle those sales or to close out any
+related open borrowings of stock, and may use securities received from any Selling Securityholder in settlement of
+those derivatives to close out any related open borrowings of stock. The third party in such sale transactions will be an
+underwriter and will be identiﬁed in the applicable prospectus supplement (or a post-eﬀective amendment). In
+addition, any Selling Securityholder may otherwise loan or pledge securities to a ﬁnancial institution or other third
+party that in turn may sell the securities short using this prospectus. Such ﬁnancial institution or other third party may
+transfer its economic short position to investors in our securities or in connection with a concurrent oﬀering of other
+securities.
+ 
+In eﬀecting sales, broker-dealers or agents engaged by the Selling Securityholders may arrange for other broker-
+dealers to participate. Broker-dealers or agents may receive commissions, discounts or concessions from the Selling
+Securityholders in amounts to be negotiated immediately prior to the sale.
+ 
+In compliance with the guidelines of the Financial Industry Regulatory Authority (“FINRA”), the aggregate maximum
+discount, commission, fees or other items constituting underwriting compensation to be received by any FINRA
+member or independent broker-dealer will not exceed 8% of the gross proceeds of any oﬀering pursuant to this
+prospectus and any applicable prospectus supplement.
+ 
+29 
+--- PAGE 38 ---
+ 
+ 
+If at the time of any oﬀering made under this prospectus a member of FINRA participating in the oﬀering has a
+“conﬂict of interest” as deﬁned in FINRA Rule 5121 (“Rule 5121”) that oﬀering will be conducted in accordance with the
+relevant provisions of Rule 5121.
+ 
+To our knowledge, there are currently no plans, arrangements or understandings between the Selling
+Securityholders and any broker-dealer or agent regarding the sale of the securities by the Selling Securityholders. Upon
+our notiﬁcation by a Selling Securityholder that any material arrangement has been entered into with an underwriter or
+broker-dealer for the sale of securities through a block trade, special oﬀering, exchange distribution, secondary
+distribution or a purchase by an underwriter or broker-dealer, we will ﬁle, if required by applicable law or regulation, a
+supplement to this prospectus pursuant to Rule 424(b) under the Securities Act disclosing certain material information
+relating to such underwriter or broker-dealer and such oﬀering.
+ 
+Underwriters, broker-dealers or agents may facilitate the marketing of an oﬀering online directly or through one of
+their aﬃliates. In those cases, prospective investors may view oﬀering terms and a prospectus online and, depending
+upon the particular underwriter, broker-dealer or agent, place orders online or through their ﬁnancial advisors.
+ 
+In oﬀering the securities covered by this prospectus, the Selling Securityholders and any underwriters, broker-
+dealers or agents who execute sales for the Selling Securityholders may be deemed to be “underwriters” within the
+meaning of the Securities Act in connection with such sales. Any discounts, commissions, concessions or proﬁt they
+earn on any resale of those securities may be underwriting discounts and commissions under the Securities Act.
+ 
+The underwriters, broker-dealers and agents may engage in transactions with us or the Selling Securityholders, or
+perform services for us or the Selling Securityholders, in the ordinary course of business.
+ 
+In order to comply with the securities laws of certain states, if applicable, the securities must be sold in such
+jurisdictions only through registered or licensed brokers or dealers. In addition, in certain states the securities may not
+be sold unless they have been registered or qualiﬁed for sale in the applicable state or an exemption from the
+registration or qualiﬁcation requirement is available and is complied with.
+ 
+The Selling Securityholders and any other persons participating in the sale or distribution of the securities will be
+subject to applicable provisions of the Securities Act and the Exchange Act, and the rules and regulations thereunder,
+including, without limitation, Regulation M. These provisions may restrict certain activities of, and limit the timing of
+purchases and sales of any of the securities by, the Selling Securityholders or any other person, which limitations may
+aﬀect the marketability of the shares of the securities.
+ 
+We will make copies of this prospectus available to the Selling Securityholders for the purpose of satisfying the
+prospectus delivery requirements of the Securities Act. The Selling Securityholders may indemnify any agent, broker-
+dealer or underwriter that participates in transactions involving the sale of the securities against certain liabilities,
+including liabilities arising under the Securities Act.
+ 
+We have agreed to indemnify the Selling Securityholders against certain liabilities, including certain liabilities
+under the Securities Act, the Exchange Act or other federal or state law. Agents, broker-dealers and underwriters may
+be entitled to indemniﬁcation by us and the Selling Securityholders against certain civil liabilities, including liabilities
+under the Securities Act, or to contribution with respect to payments which the agents, broker-dealers or underwriters
+may be required to make in respect thereof.
+ 
+30 
+--- PAGE 39 ---
+ 
+ 
+EXPENSES RELATED TO THE OFFERING
+ 
+The following are the estimated expenses related to the ﬁling of the registration statement of which this
+prospectus forms a part, all of which will be paid by us. In addition, we anticipate incurring additional expenses in the
+future in connection with the oﬀering of our securities pursuant to this prospectus. Any such additional expenses will
+be disclosed in a prospectus supplement.
+ 
+SEC Registration Fee  US$ 2,092 
+Accounting Fees and Expenses    10,000 
+Legal Fees and Expenses    100,000 
+Financial Printing and Miscellaneous Expenses    17,908 
+Total  US$ 130,000 
+ 
+31 
+--- PAGE 40 ---
+ 
+ 
+LEGAL MATTERS
+ 
+We are being represented by Cooley LLP with respect to certain legal matters as to United States federal securities
+and New York State law. The validity of Ordinary Shares and certain other legal matters as to the Cayman Islands law
+has been passed on for us by BGA Law (Cayman) Limited.
+ 
+32 
+--- PAGE 41 ---
+ 
+ 
+EXPERTS
+ 
+The consolidated ﬁnancial statements of Metalpha Technology Holding Limited incorporated in this prospectus by
+reference to the annual report on Form 20-F for the ﬁscal year ended March 31, 2025 have been so incorporated in
+reliance on the report of OneStop Assurance PAC, an independent registered public accounting ﬁrm, given on the
+authority of said ﬁrm as experts in auditing and accounting. The oﬃce of OneStop Assurance PAC is located at 10
+Anson Road, #21-14 International Plaza, Singapore 079903.
+ 
+33 
+--- PAGE 42 ---
+ 
+ 
+ENFORCEABILITY OF CIVIL LIABILITY
+ 
+We are incorporated in the Cayman Islands to take advantage of certain beneﬁts associated with being a Cayman
+Islands exempted company, such as:
+ 
+● political and economic stability;
+ 
+● an eﬀective judicial system;
+ 
+● a favorable tax system;
+ 
+● the absence of exchange controls or currency restrictions; and
+ 
+● the availability of professional and support services.
+ 
+However, certain disadvantages accompany incorporation in the Cayman Islands. These disadvantages include, but
+are not limited to:
+ 
+● the Cayman Islands has a less developed body of securities laws as compared to the United States and these
+securities laws provide signiﬁcantly less protection to investors as compared to the United States; and
+ 
+● Cayman Islands companies may not have standing to sue before the federal courts of the United States.
+ 
+Our Memorandum and Articles of Association do not contain provisions requiring that disputes, including those
+arising under the securities laws of the United States, between us, our oﬃcers, directors and shareholders, be
+arbitrated.
+ 
+We have appointed Cogency Global Inc., located at 122 East 42nd Street, 18th Floor, New York, NY 10168, as our
+agent upon whom process may be served in any action brought against us under the securities laws of the United
+States.
+ 
+Certain of our directors are nationals or residents of jurisdictions other than the United States and most of their
+assets are located outside the United States. As a result, it may be diﬃcult for a shareholder to eﬀect service of
+process within the United States upon these individuals, or to bring an action against us or these individuals in the
+United States, or to enforce against us or them judgments obtained in United States courts, including judgments
+predicated upon the civil liability provisions of the securities laws of the United States or any state in the United
+States.
+ 
+BGA Law (Cayman) Limited, our Cayman Islands counsel, have advised us that there is uncertainty as to whether
+the courts of the Cayman Islands would (i) recognize or enforce judgments of United States courts obtained against us
+or our directors or oﬃcers predicated upon the civil liability provisions of the securities laws of the United States or any
+state in the United States or (ii) entertain original actions brought in the Cayman Islands against us or our directors or
+oﬃcers predicated upon the securities laws of the United States or any state in the United States.
+ 
+34 
+--- PAGE 43 ---
+ 
+ 
+There is uncertainty with regard to Cayman Islands law as to whether a judgment obtained from the United States
+courts under civil liability provisions of the securities laws will be determined by the courts of the Cayman Islands as
+penal or punitive in nature. If such a determination is made, the courts of the Cayman Islands would not recognize or
+enforce the judgment against a Cayman Islands company. BGA Law (Cayman) Limited has advised us that although
+there is no statutory enforcement in the Cayman Islands of judgments obtained in the federal or state courts of the
+United States, in certain circumstances a judgment obtained in such jurisdiction may be recognized and enforced in the
+courts of the Cayman Islands at common law, without any re-examination of the merits of the underlying dispute,
+provided that such judgment:
+ 
+● is given by a foreign court of competent jurisdiction and such foreign court had proper jurisdiction over the
+parties subject to such judgment;
+ 
+● imposes on the judgment debtor a liability to pay a liquidated sum for which the judgment has been given;
+ 
+● is ﬁnal and conclusive;
+ 
+● is not in respect of taxes, a ﬁne, a penalty or similar ﬁscal or revenue obligations of the company; and
+ 
+● was not obtained in a fraudulent manner and is not of a kind the enforcement of which is contrary to natural
+justice or the public policy of the Cayman Islands.
+ 
+In appropriate circumstances, a Cayman Islands court may give eﬀect in the Cayman Islands to other kinds of ﬁnal
+foreign judgments such as declaratory orders, orders for performance of contracts and injunctions.
+ 
+A Cayman Islands court may impose civil liability on us or our directors or oﬃcers in a suit brought in the Grand
+Court of the Cayman Islands against us or these persons with respect to a violation of U.S. federal securities laws,
+provided that the facts surrounding any violation constitute or give rise to a cause of action under Cayman Islands law.
+ 
+35 
+--- PAGE 44 ---
+ 
+ 
+WHERE YOU CAN FIND MORE INFORMATION
+ 
+We have ﬁled with the SEC a “shelf” registration statement (including amendments and exhibits to the registration
+statement) on Form F-3 under the Securities Act. This prospectus, which is part of the registration statement, does not
+contain all of the information included in the registration statement. For further information pertaining to us and our
+securities, you should refer to the registration statement and our exhibits.
+ 
+We are subject to the informational requirements of the Exchange Act applicable to foreign private issuers.
+Accordingly, we will be required to ﬁle or furnish reports and other information with the SEC, including annual reports
+on Form 20-F and reports on Form 6-K. The SEC maintains an internet website that contains reports and other
+information about issuers, like us, that ﬁle electronically with the SEC. The address of that website is www.sec.gov.
+ 
+As a foreign private issuer, we are exempt under the Exchange Act from, among other things, the rules prescribing
+the furnishing and content of proxy statements, and our oﬃcers, directors and principal shareholders are exempt from
+the reporting and short-swing proﬁt recovery provisions contained in Section 16 of the Exchange Act with respect to
+their purchase and sale of our Ordinary Shares. In addition, we will not be required under the Exchange Act to ﬁle
+periodic reports and ﬁnancial statements with the SEC as frequently or as promptly as U.S. companies whose securities
+are registered under the Exchange Act.
+ 
+Our SEC ﬁlings, including the registration statement, are available to you on the SEC’s website at
+http://www.sec.gov. This site contains reports, proxy and information statements and other information regarding
+issuers that ﬁle electronically with the SEC. We also maintain a website at https://www.metalpha.net/. Through our
+website, we make available, free of charge, our annual reports and other information as soon as reasonably
+practicable after they are electronically ﬁled with, or furnished to, the SEC. The information contained on, or that may
+be accessed through, our website is not part of, and is not incorporated by reference into, this prospectus.
+ 
+INFORMATION INCORPORATED BY REFERENCE
+ 
+This registration statement incorporates by reference important information about the Company that is not
+included in or delivered with this document. The information incorporated by reference is considered to be part of this
+prospectus, and the SEC allows us to “incorporate by reference” the information we ﬁle with it, which means that we
+can disclose important information to you by referring you to those documents instead of having to repeat the
+information in this prospectus. Any statement contained in any document incorporated or deemed to be incorporated
+by reference herein shall be deemed to be modiﬁed or superseded for purposes of this prospectus to the extent that a
+statement contained in this prospectus or any accompanying prospectus supplement, or in any other subsequently
+ﬁled document which also is or is deemed to be incorporated by reference herein, modiﬁes or supersedes such
+statement. Any such statement so modiﬁed or superseded shall not be deemed, except as so modiﬁed or superseded,
+to constitute a part of this prospectus. We incorporate by reference:
+ 
+● our Annual Report for the ﬁscal year ended March 31, 2025 on Form 20-F, ﬁled with the SEC on July 30, 2025;
+ 
+● the description of our Ordinary Shares contained in our registration statement on Form 8-A ﬁled with the SEC on
+September 15, 2017, and any amendment or report ﬁled for the purpose of updating such description;
+ 
+● our Current Report on Form 6-K furnished to the SEC on October 30, 2025 that announces the $12 million private
+placement with Gortune International Investment Limited Partnership and Avenir Tech Limited;
+ 
+● our Current Report on Form 6-K furnished to the SEC on February 9, 2026 that announces the adoption of the
+Bitcoin allocation plan of up to 20% of annual net proﬁt; and
+ 
+36 
+--- PAGE 45 ---
+ 
+ 
+● our Current Report on Form 6-K furnished to the SEC on February 20, 2026 that attaches our unaudited
+condensed consolidated ﬁnancial statements and notes for the six months ended September 30, 2025.
+ 
+All subsequent annual reports on Form 20-F, Form 40-F or Form 10-K that we ﬁle with the SEC and all subsequent
+ﬁlings on Forms 10-Q and 8-K ﬁled by us with the SEC pursuant to the Exchange Act (excluding, in each case, any
+information or documents deemed to be furnished and not ﬁled with the SEC), after the date hereof and prior to the
+termination or expiration of the registration statement of which this prospectus forms a part, shall be incorporated by
+reference. We may incorporate by reference any reports on Form 6-K that we furnish to the SEC that we speciﬁcally
+identify in such form or in any applicable prospectus supplement as being incorporated by reference into this
+prospectus or such prospectus supplement (i) after the ﬁling of the registration statement of which this prospectus
+forms a part and prior to the eﬀectiveness of such registration statement and (ii) after the date of this prospectus and
+prior to the completion of an oﬀering of securities under this prospectus.
+ 
+Our ﬁlings with the SEC, including annual reports on Form 20-F and current reports on Form 6-K and amendments to
+those reports, are available electronically on the SEC’s website at www.sec.gov. Copies of all documents incorporated
+by reference in this prospectus, other than exhibits to those documents unless such exhibits are specially incorporated
+by reference in this prospectus, will be provided at no cost to each person, including any beneﬁcial owner, who
+receives a copy of this prospectus on the written or oral request of that person made to:
+ 
+Metalpha Technology Holding Limited
+Suite 5506-07, Central Plaza, 18 Harbour Road, Wan Chai
+Hong Kong, China
+(+852) 3565-2920
+Attention: Investor Relations
+ 
+You should rely only on the information that we incorporate by reference or provide in this prospectus or any
+accompanying prospectus supplement.
+ 
+37 
+--- PAGE 46 ---
+ 
+ 
+METALPHA TECHNOLOGY HOLDING LIMITED
+Metalpha Technology Holding Limited
+15,453,364 Ordinary Shares
+ 
+               , 2026
+ 
+You should rely only on the information contained in this prospectus or any supplement or
+amendment hereto. We have not authorized anyone to provide you with diﬀerent information. You should
+not assume that the information contained in this prospectus or any supplement or amendment hereto is
+accurate as of any date other than the date of this prospectus or any such supplement or amendment.
+Neither the Securities and Exchange Commission nor any state securities commission has approved or
+disapproved of these securities or determined if this prospectus is truthful or complete. Any
+representation to the contrary is a criminal oﬀense.
+ 
+ 
+--- PAGE 47 ---
+ 
+ 
+PART II
+INFORMATION NOT REQUIRED IN PROSPECTUS
+ 
+ITEM 8. INDEMNIFICATION OF DIRECTORS AND OFFICERS.
+ 
+Our third amended and restated memorandum and articles of association empowers us to indemnify our directors
+and oﬃcers against certain liabilities they incur by reason of their being a director or oﬃcer of our Company.
+ 
+We have also entered into indemniﬁcation agreements with each of our directors and executive oﬃcers in
+connection with this Oﬀering. Under these agreements, we have agreed to indemnify our directors and executive
+oﬃcers against certain liabilities and expenses incurred by such persons in connection with claims made by reason of
+their being a director or oﬃcer of our Company.
+ 
+We intend to obtain directors’ and oﬃcer’s liability insurance coverage that will cover certain liabilities of directors
+and oﬃcers of our Company arising out of claims based on acts or omissions in their capacities as directors or oﬃcers.
+ 
+ITEM 9. EXHIBITS AND FINANCIAL STATEMENT SCHEDULES.
+ 
+(a) Exhibits
+ 
+See the Exhibit Index.
+ 
+The agreements included as exhibits to this registration statement contain representations and warranties by each
+of the parties to the applicable agreement. These representations and warranties were made solely for the beneﬁt of
+the other parties to the applicable agreement and (i) were not intended to be treated as categorical statements of fact,
+but rather as a way of allocating the risk to one of the parties if those statements prove to be inaccurate; (ii) may have
+been qualiﬁed in such agreement by disclosure that was made to the other party in connection with the negotiation of
+the applicable agreement; (iii) may apply contract standards of “materiality” that are diﬀerent from “materiality”
+under the applicable securities laws; and (iv) were made only as of the date of the applicable agreement or such other
+date or dates as may be speciﬁed in the agreement.
+ 
+We acknowledge that, notwithstanding the inclusion of the foregoing cautionary statements, we are responsible for
+considering whether additional speciﬁc disclosure of material information regarding material contractual provisions is
+required to make the statements in this registration statement not misleading.
+ 
+(b) Financial Statement Schedules
+ 
+Schedules have been omitted because the information required to be set forth therein is not applicable or is shown
+in the Consolidated Financial Statements or the Notes thereto.
+ 
+ITEM 10. UNDERTAKINGS.
+ 
+The undersigned registrant hereby undertakes:
+ 
+(a) To ﬁle, during any period in which oﬀers or sales are being made, a post-eﬀective amendment to this
+registration statement:
+ 
+(1) to include any prospectus required by section 10(a)(3) of the Securities Act;
+ 
+II-1
+--- PAGE 48 ---
+ 
+ 
+(2) to reﬂect in the prospectus any facts or events arising after the eﬀective date of this registration
+statement (or the most recent post-eﬀective amendment thereof) which, individually or in the aggregate, represent a
+fundamental change in the information set forth in the registration statement. Notwithstanding the foregoing, any
+increase or decrease in volume of securities oﬀered (if the total dollar value of securities oﬀered would not exceed that
+which was registered) and any deviation from the low or high end of the estimated maximum oﬀering range may be
+reﬂected in the form of prospectus ﬁled with the Securities and Exchange Commission pursuant to Rule 424(b) if, in the
+aggregate, the changes in volume and price represent no more than a 20% change in the maximum aggregate oﬀering
+price set forth in the “Calculation of Registration Fee” table in the eﬀective registration statement; and
+ 
+(3) to include any material information with respect to the plan of distribution not previously disclosed
+in the registration statement or any material change to such information in the registration statement;
+ 
+provided, however, that paragraphs (a)(1), (a)(2) and (a)(3) of this section do not apply if the registration
+statement is on Form S-3 or From F-3 and the information required to be included in a post-eﬀective amendment by
+those paragraphs is contained in reports ﬁled with or furnished to the Securities and Exchange Commission by the
+registrant pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 that are incorporated by reference in
+the registration statement, or is contained in a form of prospectus ﬁled pursuant to Rule 424(b).
+ 
+(b) That, for the purpose of determining any liability under the Securities Act of 1933, each such post-eﬀective
+amendment shall be deemed to be a new registration statement relating to the securities oﬀered therein, and the
+oﬀering of such securities at that time shall be deemed to be the initial bona ﬁde oﬀering thereof.
+ 
+(c) To remove from registration by means of a post-eﬀective amendment any of the securities being registered
+which remain unsold at the termination of the oﬀering.
+ 
+(d) To ﬁle a post-eﬀective amendment to the registration statement to include any ﬁnancial statements
+required by Item 8.A of Form 20-F at the start of any delayed oﬀering or throughout a continuous oﬀering. Financial
+statements and information otherwise required by Section 10(a)(3) of the Securities Act need not be furnished,
+provided that the registrant includes in the prospectus, by means of a post-eﬀective amendment, ﬁnancial statements
+required pursuant to this paragraph (4) and other information necessary to ensure that all other information in the
+prospectus is at least as current as the date of those ﬁnancial statements. Notwithstanding the foregoing, with respect
+to registration statements on Form F-3, a post-eﬀective amendment need not be ﬁled to include ﬁnancial statements
+and information required by Section 10(a)(3) of the Securities Act or Item 8.A of Form 20-F if such ﬁnancial statements
+and information are contained in periodic reports ﬁled with or furnished to the Commission by the registrant pursuant
+to Section 13 or Section 15(d) of the Exchange Act that are incorporated by reference in the Form F-3.
+ 
+(e) That, for the purpose of determining liability under the Securities Act to any purchaser:
+ 
+(1) Each prospectus ﬁled by the registrant pursuant to Rule 424(b)(3) shall be deemed to be part of the
+registration statement as of the date the ﬁled prospectus was deemed part of and included in the registration
+statement; and
+ 
+(2) Each prospectus required to be ﬁled pursuant to Rule 424(b)(2), (b)(5), or (b)(7) as part of a
+registration statement in reliance on Rule 430B relating to an oﬀering made pursuant to Rule 415(a)(1)(i), (vii), or (x)
+for the purpose of providing the information required by Section 10(a) of the Securities Act shall be deemed to be part
+of and included in the registration statement as of the earlier of the date such form of prospectus is ﬁrst used after
+eﬀectiveness or the date of the ﬁrst contract of sale of securities in the oﬀering described in the prospectus. As
+provided in Rule 430B, for liability purposes of the issuer and any person that is at that date an underwriter, such date
+shall be deemed to be a new eﬀective date of the registration statement relating to the securities in the registration
+statement to which that prospectus relates, and the oﬀering of such securities at that time shall be deemed to be the
+initial bona ﬁde oﬀering thereof. Provided, however, that no statement made in a registration statement or prospectus
+that is part of the registration statement or made in a document incorporated or deemed incorporated by reference into
+the registration statement or prospectus that is part of the registration statement will, as to a purchaser with a time of
+contract of sale prior to such eﬀective date, supersede or modify any statement that was made in the registration
+statement or prospectus that was part of the registration statement or made in any such document immediately prior
+to such eﬀective date; and
+ 
+II-2
+--- PAGE 49 ---
+ 
+ 
+(f) That, for the purpose of determining liability of the registrant under the Securities Act to any purchaser in the
+initial distribution of the securities, the undersigned registrant undertakes that in a primary oﬀering of securities of the
+undersigned registrant pursuant to this registration statement, regardless of the underwriting method used to sell the
+securities to the purchaser, if the securities are oﬀered or sold to such purchaser by means of any of the following
+communications, the undersigned registrant will be a seller to the purchaser and will be considered to oﬀer or sell such
+securities to such purchaser:
+ 
+(1) any preliminary prospectus or prospectus of the undersigned registrant relating to the oﬀering
+required to be ﬁled pursuant to Rule 424;
+ 
+(2) any free writing prospectus relating to the oﬀering prepared by or on behalf of the undersigned
+registrant or used or referred to by the undersigned registrant;
+ 
+(3) the portion of any other free writing prospectus relating to the oﬀering containing material
+information about the undersigned registrant or its securities provided by or on behalf of the undersigned registrant;
+and
+ 
+(4) any other communication that is an oﬀer in the oﬀering made by the undersigned registrant to the
+purchaser.
+ 
+(g) That, for purposes of determining any liability under the Securities Act, each ﬁling of the registrant’s annual
+report pursuant to Section 13(a) or Section 15(d) of the Exchange Act (and, where applicable, each ﬁling of an
+employee beneﬁt plan’s annual report pursuant to Section 15(d) of the Exchange Act) that is incorporated by reference
+in the registration statement shall be deemed to be a new registration statement relating to the securities oﬀered
+therein, and the oﬀering of such securities at that time shall be deemed to be the initial bona ﬁde oﬀering thereof.
+ 
+(h) Insofar as indemniﬁcation for liabilities arising under the Securities Act may be permitted to directors,
+oﬃcers and controlling persons of the registrant pursuant to the foregoing provisions, or otherwise, the registrant has
+been advised that, in the opinion of the SEC, such indemniﬁcation is against public policy as expressed in the
+Securities Act and is, therefore, unenforceable. In the event that a claim for indemniﬁcation against such liabilities
+(other than the payment by the registrant of expenses incurred or paid by a director, oﬃcer, or controlling person of the
+Registrant in the successful defense of any action, suit or proceeding) is asserted by such director, oﬃcer or controlling
+person in connection with the securities being registered, the registrant will, unless, in the opinion of its counsel, the
+matter has been settled by controlling precedent, submit to a court of appropriate jurisdiction the question of whether
+such indemniﬁcation by it is against public policy as expressed in the Securities Act and will be governed by the ﬁnal
+adjudication of such issue.
+ 
+II-3
+--- PAGE 50 ---
+ 
+ 
+EXHIBIT INDEX
+ 
+       Incorporation by Reference
+Exhibit
+Exhibit
+No.     Description of Document     Form   File No.   No.  
+Filing
+Date
+                     
+3.1    Third Amended and Restated Memorandum and Articles of
+Association of the Company
+ 6-K    001-38208     1.1     March 31,
+2025
+5.1**    Opinion of BGA Law (Cayman) Limited as to the validity of
+securities being registered and certain Cayman Islands
+legal matters
+            
+10.1    Form of Subscription Agreement 6-K    001-38208     10.1    October 30,
+2025
+23.1**    Consent of OneStop Assurance PAC            
+23.2**    Consent of BGA Law (Cayman) Limited regarding certain
+Cayman Islands legal matters (included in Exhibit 5.1)
+            
+24.1**    Power of Attorney (included on the signature page)             
+107**    Calculation of Filing Fee Table             
+ 
+** Filed herewith
+ 
+II-4
+--- PAGE 51 ---
+ 
+ 
+SIGNATURES
+ 
+Pursuant to the requirements of the Securities Act of 1933, as amended, the registrant certiﬁes that it has
+reasonable grounds to believe that it meets all of the requirements for ﬁling on Form F-3 and has duly caused this
+registration statement to be signed on its behalf by the undersigned, thereunto duly authorized, in the city of Hong
+Kong, on June 29, 2026.
+ 
+  Metalpha Technology Holding Limited
+     
+  By: /s/ Bingzhong Wang
+  Name:Bingzhong Wang
+  Title: Chief Executive Oﬃcer and Chairman of
+the Board of Directors
+ 
+II-5
+--- PAGE 52 ---
+ 
+ 
+POWER OF ATTORNEY
+ 
+KNOW ALL PERSONS BY THESE PRESENTS, that each of the undersigned constitutes and appoints Bingzhong Wang,
+as his or her true and lawful attorney-in-fact and agents, each with full power of substitution and re-substitution, for
+him or her and in his or her name, place and stead, in any and all capacities, to sign any and all amendments
+(including post-eﬀective amendments) to this registration statement and sign any registration statement for the same
+oﬀering covered by this registration statement that is to be eﬀective upon ﬁling pursuant to Rule 462(b) promulgated
+under the Securities Act of 1933, as amended, and all post-eﬀective amendments thereto and to ﬁle the same, with all
+exhibits thereto, and other documents in connection therewith, with the Securities and Exchange Commission, granting
+unto said attorney-in-fact and agents, and each of them, full power and authority to do and perform each and every act
+and thing requisite and necessary to be done in connection therewith and about the premises, as fully to all intents and
+purposes as he or she might or could do in person, hereby ratifying and conﬁrming all that said attorney-in-fact and
+agents, or his or her substitutes or substitutes, may lawfully do or cause to be done by virtue hereof.
+ 
+Pursuant to the requirements of the Securities Act of 1933, as amended, this registration statement has been
+signed by the following persons in the capacities indicated below on June 29, 2026.
+ 
+Signature   Title
+     
+/s/ Bingzhong Wang   Chief Executive Oﬃcer and Chairman of the Board of
+Directors
+Bingzhong Wang   (Principal Executive Oﬃcer)
+   /s/ Pengyuan Fan   Chief Financial Oﬃcer and Director
+Pengyuan Fan   (Principal Financial and Accounting Oﬃcer)
+     /s/ Jingxin Tian    
+Jingxin Tian   Director
+     /s/ Sen Lin    
+Sen Lin   Director
+     /s/ Kiyohiro Kawayanagi    
+Kiyohiro Kawayanagi   Director
+ 
+II-6
+--- PAGE 53 ---
+ 
+ 
+SIGNATURE OF AUTHORIZED REPRESENTATIVE IN THE UNITED STATES
+ 
+Pursuant to the requirements of the Securities Act of 1933, as amended, the undersigned, the duly authorized
+representative in the United States of Metalpha Technology Holding Limited, has signed this registration statement in
+New York, New York on June 29, 2026.
+ 
+  Authorized U.S. Representative
+     
+  By: /s/ Colleen A. De Vries
+  Name:Colleen A. De Vries
+  Title: Senior Vice-President on behalf of
+Cogency Global Inc.
+ 
+II-7
+ 

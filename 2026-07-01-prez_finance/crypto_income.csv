@@ -1,0 +1,26 @@
+Line #,Entity / Holding,Asset / Contract Description,Income Type,Min Income ($),Max Income ($),Midpoint ($)
+21.1,CIC Digital LLC,U.S. Bank Account,Interest,25001.00,50000.00,37500.50
+21.3,CIC Digital LLC,USDC Cold Wallet,Interest,45932.00,45932.00,45932.00
+21.4a,CIC Digital LLC,Staked Ethereum (Coinbase),Validator,510808.00,510808.00,510808.00
+21.6,CIC Digital LLC,Celebration Coins License,Royalties,635068835.00,635068835.00,635068835.00
+21.7,CIC Digital LLC,JBCZ Group LLC Sublicense,Royalties,493846.00,493846.00,493846.00
+21.8,CIC Digital LLC,"NFT INT, LLC License (Cards)",Royalties,0.00,200.00,100.00
+114,DT Marks SC LLC,Stablecoin Holdco Class C,Equity Sale,196875000.00,196875000.00,196875000.00
+124.2,DT Marks Defi,WLF Holdco LLC Equity Sale,Equity Sale,65625000.00,65625000.00,65625000.00
+124.3,DT Marks Defi,WLF Token Sales,Token Dist.,236250000.00,236250000.00,236250000.00
+124.4,DT Marks Defi,WLF USD Cold Wallet,Token Dist.,42250000.00,42250000.00,42250000.00
+124.5,DT Marks Defi,WLF USDC Cold Wallet,Token Dist.,56036445.00,56036445.00,56036445.00
+124.5a,DT Marks Defi,WLF USDC Cold Wallet,Interest,6995.00,6995.00,6995.00
+124.6,DT Marks Defi,WLF ETH Cold Wallet,Token Dist.,150606931.00,150606931.00,150606931.00
+124.6a,DT Marks Defi,WLF Staked ETH (Coinbase),Validator,1821628.00,1821628.00,1821628.00
+124.7,DT Marks Defi,WLF BTC Cold Wallet,Token Dist.,33462160.00,33462160.00,33462160.00
+124.8,DT Marks Defi,WLF LINK Cold Wallet,Token Dist.,2754611.00,2754611.00,2754611.00
+124.9,DT Marks Defi,WLF AAVE Cold Wallet,Token Dist.,2608773.00,2608773.00,2608773.00
+124.10,DT Marks Defi,WLF ENA Cold Wallet,Token Dist.,1930440.00,1930440.00,1930440.00
+124.11,DT Marks Defi,WLF Move Cold Wallet,Token Dist.,810716.00,810716.00,810716.00
+124.12,DT Marks Defi,WLF Ondo Cold Wallet,Token Dist.,100245.00,100245.00,100245.00
+204.1,Stablecoin Hold,Stablecoin Business Net Op,Net Op Inc,8326828.00,8326828.00,8326828.00
+580,Coinbase Stock,Coinbase Global Inc. Stock,Dividend,1001.00,2500.00,1750.50
+1112,Coinbase Stock,Coinbase Global Inc. Stock,Cap Gains,5001.00,15000.00,10000.50
+1113,Coinbase Stock,Coinbase Global Inc. Stock,Cap Gains,201.00,1000.00,600.50
+TOTAL,,,,1435616400.00,1435653900.00,1435635100.00
