@@ -8,6 +8,7 @@ Below is a detailed mapping of how Metalpha, its core figures, and its corporate
 
 ## 1. Network Mapping (Visual Relationship Diagram)
 
+
 ```mermaid
 graph TD
     %% Core Nodes
