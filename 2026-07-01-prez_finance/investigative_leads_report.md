@@ -14,7 +14,8 @@ While World Liberty Financial (WLF) captured media headlines, the disclosure rev
 *   **The Transaction**: **$196,875,000** was raised via the sale of Class C Units and capital contributions (Page 854, Line 114).
 *   **Operations**: It generated **$8,326,828** in net operating income (Page 859, Line 204.1).
 *   **The Angle**: Who are the third-party investors holding the other **61.75%**? Is this entity planning a USD-backed stablecoin under the Trump brand?
-*   **Investigation Update**: Research indicates that one of the key third-party investors holding a portion of this 61.75% is **Sheikh Tahnoon bin Zayed Al Nahyan** of Abu Dhabi. The entity is linked to the broader World Liberty Financial ecosystem.
+*   **Investigation Update (Media Reported / OSINT Unverified)**: Financial media (e.g., WSJ, Bloomberg) and subsequent Senate inquiries allege that a significant portion of this 61.75% is held by **Sheikh Tahnoon bin Zayed Al Nahyan** of Abu Dhabi, tracing to a reported $500M UAE capital injection into the World Liberty Financial ecosystem.
+    *   *Verification Block*: **UNVERIFIED.** Because U.S. corporate registries (e.g., Delaware/Florida) shield Ultimate Beneficial Owners (UBOs) and offshore capital raises can utilize SEC Regulation S exemptions (avoiding public Form D filings), there is currently **zero primary open-source intelligence (OSINT)** to independently verify the UAE's involvement. Until a primary contract, on-chain KYC leak, or unredacted SEC filing surfaces, this connection remains a heavily circulated, but technically unproven, media leak.
 
 ```mermaid
 graph TD
