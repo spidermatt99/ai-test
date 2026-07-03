@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Billion-Dollar Presidency: Trump's Crypto Empire — Investigative Report</title>
+  <meta name="description" content="An investigative report analyzing Donald Trump's 2026 OGE financial disclosure, detailing crypto income, unanswered questions, and new avenues for investigation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg-0: #040b18;
+      --bg-1: #080f1f;
+      --bg-2: #0d1628;
+      --bg-card: rgba(255,255,255,0.035);
+      --border: rgba(255,255,255,0.08);
+      --accent-gold: #f0b429;
+      --accent-amber: #f59e0b;
+      --accent-red: #ef4444;
+      --accent-blue: #38bdf8;
+      --accent-purple: #a78bfa;
+      --accent-green: #34d399;
+      --text-primary: #f1f5f9;
+      --text-secondary: #94a3b8;
+      --text-muted: #475569;
+      --font: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg-0);
+      color: var(--text-primary);
+      font-family: var(--font);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 80px 24px 60px;
+      text-align: center;
+      background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(240,180,41,0.12) 0%, transparent 70%),
+                  radial-gradient(ellipse 50% 40% at 80% 80%, rgba(56,189,248,0.08) 0%, transparent 60%),
+                  var(--bg-1);
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-tag {
+      display: inline-block;
+      background: rgba(240,180,41,0.15);
+      border: 1px solid rgba(240,180,41,0.4);
+      color: var(--accent-gold);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 100px;
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-size: clamp(28px, 5vw, 52px);
+      font-weight: 900;
+      line-height: 1.1;
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, #f0b429 0%, #fde68a 40%, #f59e0b 70%, #fbbf24 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero-sub {
+      font-size: 16px;
+      color: var(--text-secondary);
+      max-width: 640px;
+      margin: 0 auto 32px;
+    }
+    .hero-meta {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+    .hero-meta-item {
+      text-align: center;
+    }
+    .hero-meta-item .val {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--accent-gold);
+      display: block;
+    }
+    .hero-meta-item .lbl {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* ── NAV ── */
+    .sticky-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(4,11,24,0.9);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+    }
+    .sticky-nav ul {
+      list-style: none;
+      display: flex;
+      gap: 0;
+      overflow-x: auto;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .sticky-nav ul li a {
+      display: block;
+      padding: 16px 20px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      text-decoration: none;
+      white-space: nowrap;
+      border-bottom: 2px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .sticky-nav ul li a:hover {
+      color: var(--accent-gold);
+      border-color: var(--accent-gold);
+    }
+
+    /* ── LAYOUT ── */
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+    .section { padding: 64px 0; border-bottom: 1px solid var(--border); }
+    .section:last-child { border-bottom: none; }
+    .section-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--accent-gold);
+      margin-bottom: 8px;
+    }
+    .section-title {
+      font-size: clamp(22px, 3vw, 32px);
+      font-weight: 800;
+      margin-bottom: 8px;
+      color: var(--text-primary);
+    }
+    .section-desc {
+      color: var(--text-secondary);
+      margin-bottom: 40px;
+      font-size: 15px;
+      max-width: 640px;
+    }
+
+    /* ── CARDS ── */
+    .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(240,180,41,0.25);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+    .card-icon {
+      width: 40px; height: 40px;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+    .card-icon.gold { background: rgba(240,180,41,0.15); }
+    .card-icon.blue { background: rgba(56,189,248,0.15); }
+    .card-icon.purple { background: rgba(167,139,250,0.15); }
+    .card-icon.red { background: rgba(239,68,68,0.15); }
+    .card-icon.green { background: rgba(52,211,153,0.15); }
+    .card h3 { font-size: 14px; font-weight: 700; margin-bottom: 8px; color: var(--text-primary); }
+    .card p { font-size: 13px; color: var(--text-secondary); }
+    .card .amount {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--accent-gold);
+      margin: 8px 0 4px;
+      font-family: var(--font-mono);
+    }
+
+    /* ── INCOME TABLE ── */
+    .income-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .income-table thead th {
+      text-align: left;
+      padding: 12px 16px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .income-table tbody tr {
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      transition: background 0.15s;
+    }
+    .income-table tbody tr:hover { background: rgba(255,255,255,0.03); }
+    .income-table tbody td {
+      padding: 12px 16px;
+      color: var(--text-secondary);
+      vertical-align: middle;
+    }
+    .income-table tbody td:first-child { color: var(--text-primary); font-weight: 500; }
+    .income-table tbody td.amount-col {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--accent-gold);
+      font-weight: 600;
+    }
+    .income-table tbody td.total-row {
+      font-weight: 700;
+      color: var(--text-primary);
+      border-top: 2px solid var(--border);
+    }
+    .badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 100px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .badge-gold { background: rgba(240,180,41,0.15); color: var(--accent-gold); border: 1px solid rgba(240,180,41,0.3); }
+    .badge-blue { background: rgba(56,189,248,0.12); color: var(--accent-blue); border: 1px solid rgba(56,189,248,0.25); }
+    .badge-purple { background: rgba(167,139,250,0.12); color: var(--accent-purple); border: 1px solid rgba(167,139,250,0.25); }
+    .badge-red { background: rgba(239,68,68,0.12); color: var(--accent-red); border: 1px solid rgba(239,68,68,0.25); }
+    .badge-green { background: rgba(52,211,153,0.12); color: var(--accent-green); border: 1px solid rgba(52,211,153,0.25); }
+
+    /* ── CHART CONTAINERS ── */
+    .chart-wrap {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+    }
+    .chart-title { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+    .chart-subtitle { font-size: 12px; color: var(--text-muted); margin-bottom: 20px; }
+    .chart-container { position: relative; }
+
+    /* ── LEADS ── */
+    .lead-card {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      transition: border-color 0.2s;
+    }
+    .lead-card:hover { border-color: rgba(240,180,41,0.3); }
+    .lead-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 20px 24px;
+      cursor: pointer;
+      background: var(--bg-card);
+    }
+    .lead-number {
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      background: rgba(240,180,41,0.15);
+      border: 1px solid rgba(240,180,41,0.3);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--accent-gold);
+      flex-shrink: 0;
+    }
+    .lead-info { flex: 1; }
+    .lead-info h3 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+    .lead-info p { font-size: 12px; color: var(--text-muted); }
+    .lead-toggle {
+      font-size: 18px;
+      color: var(--text-muted);
+      transition: transform 0.3s;
+    }
+    .lead-body {
+      padding: 0 24px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.3s;
+    }
+    .lead-body.open {
+      max-height: 800px;
+      padding: 0 24px 24px;
+    }
+    .lead-toggle.open { transform: rotate(180deg); }
+    .lead-body-inner { padding-top: 20px; border-top: 1px solid var(--border); }
+    .lead-body p { font-size: 14px; color: var(--text-secondary); margin-bottom: 12px; }
+    .lead-body ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .lead-body ul li {
+      font-size: 13px;
+      color: var(--text-secondary);
+      padding-left: 20px;
+      position: relative;
+    }
+    .lead-body ul li::before {
+      content: '→';
+      position: absolute; left: 0;
+      color: var(--accent-gold);
+    }
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      border-radius: 100px;
+      font-size: 11px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .status-pill.verified { background: rgba(52,211,153,0.12); color: var(--accent-green); border: 1px solid rgba(52,211,153,0.25); }
+    .status-pill.unverified { background: rgba(239,68,68,0.12); color: var(--accent-red); border: 1px solid rgba(239,68,68,0.25); }
+    .status-pill.partial { background: rgba(245,158,11,0.12); color: var(--accent-amber); border: 1px solid rgba(245,158,11,0.25); }
+    .status-pill::before { content: '●'; font-size: 8px; }
+
+    /* ── UNANSWERED Qs ── */
+    .questions-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
+    .question-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      border-left: 3px solid var(--accent-red);
+      transition: transform 0.2s;
+    }
+    .question-card:hover { transform: translateY(-2px); }
+    .question-card .q-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent-red);
+      margin-bottom: 8px;
+    }
+    .question-card h4 { font-size: 14px; font-weight: 700; margin-bottom: 8px; color: var(--text-primary); }
+    .question-card p { font-size: 12px; color: var(--text-muted); }
+
+    /* ── MONEY FLOW ── */
+    .flow-container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding: 24px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+    }
+    .flow-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .flow-node {
+      padding: 10px 18px;
+      border-radius: 10px;
+      font-size: 12px;
+      font-weight: 600;
+      text-align: center;
+      min-width: 140px;
+    }
+    .flow-node.source { background: rgba(240,180,41,0.12); border: 1px solid rgba(240,180,41,0.3); color: var(--accent-gold); }
+    .flow-node.middle { background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.2); color: var(--accent-blue); }
+    .flow-node.end { background: rgba(52,211,153,0.08); border: 1px solid rgba(52,211,153,0.2); color: var(--accent-green); }
+    .flow-node.foreign { background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.2); color: var(--accent-red); }
+    .flow-arrow { color: var(--text-muted); font-size: 16px; flex-shrink: 0; }
+    .flow-label { font-size: 10px; color: var(--text-muted); font-family: var(--font-mono); }
+
+    /* ── DISCLAIMER ── */
+    .disclaimer {
+      background: rgba(56,189,248,0.04);
+      border: 1px solid rgba(56,189,248,0.15);
+      border-radius: 12px;
+      padding: 16px 20px;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 32px;
+    }
+    .disclaimer strong { color: var(--accent-blue); }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 48px 24px;
+      color: var(--text-muted);
+      font-size: 12px;
+      border-top: 1px solid var(--border);
+    }
+    footer strong { color: var(--text-secondary); }
+
+    /* ── SCROLLBAR ── */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg-0); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
+
+    @media (max-width: 600px) {
+      .hero-meta { gap: 20px; }
+      .flow-row { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-tag">🔍 Investigative Report · OGE Form 278e · July 2026</div>
+  <h1>The Billion-Dollar Presidency</h1>
+  <p class="hero-sub">A forensic breakdown of Donald Trump's 2026 financial disclosure — how crypto became the most lucrative presidential side-hustle in American history, and the questions that remain unanswered.</p>
+  <div class="hero-meta">
+    <div class="hero-meta-item">
+      <span class="val">$1.07B+</span>
+      <span class="lbl">Crypto Income Reported</span>
+    </div>
+    <div class="hero-meta-item">
+      <span class="val">927</span>
+      <span class="lbl">Pages Filed (OGE 278e)</span>
+    </div>
+    <div class="hero-meta-item">
+      <span class="val">$635M</span>
+      <span class="lbl">Single Meme Coin Royalty</span>
+    </div>
+    <div class="hero-meta-item">
+      <span class="val">5</span>
+      <span class="lbl">New Investigative Leads</span>
+    </div>
+  </div>
+</header>
+
+<!-- NAV -->
+<nav class="sticky-nav" id="main-nav">
+  <ul>
+    <li><a href="#how-money">How He Made Money</a></li>
+    <li><a href="#charts">Performance Charts</a></li>
+    <li><a href="#leads">New Investigative Leads</a></li>
+    <li><a href="#unanswered">Unanswered Questions</a></li>
+    <li><a href="#money-flow">Money Flow</a></li>
+  </ul>
+</nav>
+
+<!-- SECTION 1: HOW HE MADE MONEY -->
+<section class="section" id="how-money">
+  <div class="container">
+    <div class="section-label">Section 01</div>
+    <h2 class="section-title">How Trump Made Money from Crypto</h2>
+    <p class="section-desc">The 2026 OGE disclosure reveals three primary mechanisms of crypto enrichment — royalty licensing, equity sales, and direct token distributions — routed through a web of LLCs.</p>
+
+    <div class="grid-3" style="margin-bottom:40px;">
+      <div class="card">
+        <div class="card-icon gold">🪙</div>
+        <h3>$TRUMP Meme Coin Royalties</h3>
+        <div class="amount">$635.1M</div>
+        <p>CIC Digital LLC collected royalties from <strong>Celebration Coins</strong>, the licensing entity behind the $TRUMP memecoin launched Jan 17, 2025 on Solana. Trump-controlled entities retained 800M of 1B total tokens. The coin peaked near $74, then collapsed ~98% to ~$1.65 by mid-2026.</p>
+        <div style="margin-top:12px;"><span class="badge badge-gold">Royalties</span> <span class="badge badge-purple">Solana Blockchain</span></div>
+      </div>
+      <div class="card">
+        <div class="card-icon blue">🏦</div>
+        <h3>World Liberty Financial Token & Equity Sales</h3>
+        <div class="amount">$592.4M</div>
+        <p>DT Marks Defi LLC (38.25% stake in WLF Holdco) received $65.6M from equity sales and $236.3M from WLFI token distributions. An additional $290.6M sits in nine cold wallets holding ETH, BTC, USDC, LINK, AAVE, and other DeFi tokens.</p>
+        <div style="margin-top:12px;"><span class="badge badge-blue">DeFi</span> <span class="badge badge-gold">Equity</span></div>
+      </div>
+      <div class="card">
+        <div class="card-icon purple">🏗️</div>
+        <h3>Stablecoin Holdco LLC Business</h3>
+        <div class="amount">$205.2M</div>
+        <p>A parallel, underreported entity — <strong>Stablecoin Holdco LLC</strong> — raised $196.9M via Class C unit sales and earned $8.3M in net operating income. DT Marks SC LLC holds 38.25%. Third-party investors (61.75%) remain unnamed in the filing.</p>
+        <div style="margin-top:12px;"><span class="badge badge-purple">Stablecoin</span> <span class="badge badge-red">Foreign Exposure</span></div>
+      </div>
+    </div>
+
+    <!-- Detailed Income Table -->
+    <h3 style="font-size:16px; font-weight:700; margin-bottom:16px; color: var(--text-secondary);">Crypto-Adjacent Income Line-by-Line (from OGE 278e)</h3>
+    <div style="overflow-x:auto; border-radius:16px; border:1px solid var(--border);">
+      <table class="income-table">
+        <thead>
+          <tr>
+            <th>Line #</th>
+            <th>Entity</th>
+            <th>Description</th>
+            <th>Type</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>21.6</td>
+            <td>CIC Digital LLC</td>
+            <td>Celebration Coins License ($TRUMP Meme Coin)</td>
+            <td><span class="badge badge-gold">Royalties</span></td>
+            <td class="amount-col">$635,068,835</td>
+          </tr>
+          <tr>
+            <td>124.3</td>
+            <td>DT Marks Defi LLC</td>
+            <td>WLF Token Sales (distributed by WLF LLC)</td>
+            <td><span class="badge badge-blue">Token Dist.</span></td>
+            <td class="amount-col">$236,250,000</td>
+          </tr>
+          <tr>
+            <td>114</td>
+            <td>DT Marks SC LLC</td>
+            <td>Stablecoin Holdco Class C Unit Sale</td>
+            <td><span class="badge badge-purple">Equity Sale</span></td>
+            <td class="amount-col">$196,875,000</td>
+          </tr>
+          <tr>
+            <td>124.6</td>
+            <td>DT Marks Defi LLC</td>
+            <td>WLF ETH Cold Wallet (token sale proceeds)</td>
+            <td><span class="badge badge-blue">Token Dist.</span></td>
+            <td class="amount-col">$150,606,931</td>
+          </tr>
+          <tr>
+            <td>124.5</td>
+            <td>DT Marks Defi LLC</td>
+            <td>WLF USDC Cold Wallet</td>
+            <td><span class="badge badge-blue">Token Dist.</span></td>
+            <td class="amount-col">$56,036,445</td>
+          </tr>
+          <tr>
+            <td>124.2</td>
+            <td>DT Marks Defi LLC</td>
+            <td>Sale of Equity in WLF Holdco LLC</td>
+            <td><span class="badge badge-gold">Equity Sale</span></td>
+            <td class="amount-col">$65,625,000</td>
+          </tr>
+          <tr>
+            <td>124.4</td>
+            <td>DT Marks Defi LLC</td>
+            <td>WLF Virtual USD Cold Wallet</td>
+            <td><span class="badge badge-blue">Token Dist.</span></td>
+            <td class="amount-col">$42,250,000</td>
+          </tr>
+          <tr>
+            <td>124.7</td>
+            <td>DT Marks Defi LLC</td>
+            <td>WLF Bitcoin (BTC) Cold Wallet</td>
+            <td><span class="badge badge-blue">Token Dist.</span></td>
+            <td class="amount-col">$33,462,160</td>
+          </tr>
+          <tr>
+            <td>204.1</td>
+            <td>Stablecoin Holdco LLC</td>
+            <td>Stablecoin Business Net Operating Income</td>
+            <td><span class="badge badge-purple">Net Op Inc</span></td>
+            <td class="amount-col">$8,326,828</td>
+          </tr>
+          <tr>
+            <td>124.8</td>
+            <td>DT Marks Defi LLC</td>
+            <td>WLF Chainlink (LINK) Cold Wallet</td>
+            <td><span class="badge badge-blue">Token Dist.</span></td>
+            <td class="amount-col">$2,754,611</td>
+          </tr>
+          <tr>
+            <td>124.9</td>
+            <td>DT Marks Defi LLC</td>
+            <td>WLF Aave (AAVE) Cold Wallet</td>
+            <td><span class="badge badge-blue">Token Dist.</span></td>
+            <td class="amount-col">$2,608,773</td>
+          </tr>
+          <tr>
+            <td>124.6a</td>
+            <td>DT Marks Defi LLC</td>
+            <td>WLF Staked ETH Validator Rewards (Coinbase)</td>
+            <td><span class="badge badge-green">Staking</span></td>
+            <td class="amount-col">$1,821,628</td>
+          </tr>
+          <tr>
+            <td>124.10</td>
+            <td>DT Marks Defi LLC</td>
+            <td>WLF Ethena (ENA) Cold Wallet</td>
+            <td><span class="badge badge-blue">Token Dist.</span></td>
+            <td class="amount-col">$1,930,440</td>
+          </tr>
+          <tr>
+            <td>124.11</td>
+            <td>DT Marks Defi LLC</td>
+            <td>WLF Move (MOVE) Cold Wallet</td>
+            <td><span class="badge badge-blue">Token Dist.</span></td>
+            <td class="amount-col">$810,716</td>
+          </tr>
+          <tr>
+            <td>21.7</td>
+            <td>CIC Digital LLC</td>
+            <td>JBCZ Group LLC Sublicense (Physical Coins)</td>
+            <td><span class="badge badge-gold">Royalties</span></td>
+            <td class="amount-col">$493,846</td>
+          </tr>
+          <tr>
+            <td>21.4a</td>
+            <td>CIC Digital LLC</td>
+            <td>Staked Ethereum Validator Rewards (Coinbase)</td>
+            <td><span class="badge badge-green">Staking</span></td>
+            <td class="amount-col">$510,808</td>
+          </tr>
+          <tr>
+            <td>124.12</td>
+            <td>DT Marks Defi LLC</td>
+            <td>WLF Ondo (ONDO) Cold Wallet</td>
+            <td><span class="badge badge-blue">Token Dist.</span></td>
+            <td class="amount-col">$100,245</td>
+          </tr>
+          <tr>
+            <td>580 / 1112</td>
+            <td>Coinbase Stock</td>
+            <td>Coinbase Global Inc. (COIN) — Dividends + Cap Gains</td>
+            <td><span class="badge badge-green">Stock</span></td>
+            <td class="amount-col">~$11,750</td>
+          </tr>
+          <tr style="background:rgba(240,180,41,0.05);">
+            <td colspan="4" class="total-row" style="font-size:14px;">TOTAL CRYPTO-RELATED INCOME</td>
+            <td class="amount-col total-row" style="font-size:16px; color: var(--accent-gold);">≈ $1.435B</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="disclaimer">
+      <strong>Source:</strong> OGE Form 278e Annual Report filed June 30, 2026 by Donald J. Trump. Income ranges reported per filing; midpoint values used where ranges given. Figures from DT Marks Defi LLC, CIC Digital LLC, DT Marks SC LLC, and Stablecoin Holdco LLC as disclosed.
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 2: CHARTS -->
+<section class="section" id="charts">
+  <div class="container">
+    <div class="section-label">Section 02</div>
+    <h2 class="section-title">Performance Charts</h2>
+    <p class="section-desc">Price histories for related crypto tokens and publicly traded stocks show the asymmetric gain structure — Trump entities profited while retail investors absorbed losses.</p>
+
+    <!-- Income Breakdown Donut + Bar -->
+    <div class="grid-2" style="margin-bottom:32px;">
+      <div class="chart-wrap">
+        <div class="chart-title">Trump Crypto Income Breakdown</div>
+        <div class="chart-subtitle">By source · FY 2025 (from OGE 278e, July 2026)</div>
+        <div class="chart-container" style="max-height:300px;">
+          <canvas id="incomeDonut"></canvas>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <div class="chart-title">WLF Cold Wallet Distribution</div>
+        <div class="chart-subtitle">Proceeds received by DT Marks Defi LLC per asset</div>
+        <div class="chart-container" style="max-height:300px;">
+          <canvas id="walletBar"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- $TRUMP Price -->
+    <div class="chart-wrap" style="margin-bottom:32px;">
+      <div class="chart-title">$TRUMP Meme Coin Price (Jan 2025 – Jul 2026)</div>
+      <div class="chart-subtitle">Solana · CIC Digital LLC earns royalties regardless of token price · Retail investors absorbed ~98% loss from peak</div>
+      <div class="chart-container" style="height:300px;">
+        <canvas id="trumpCoinChart"></canvas>
+      </div>
+    </div>
+
+    <!-- WLFI Price -->
+    <div class="chart-wrap" style="margin-bottom:32px;">
+      <div class="chart-title">WLFI Governance Token Price (Sep 2025 – Jul 2026)</div>
+      <div class="chart-subtitle">World Liberty Financial · Ethereum · Trump entities hold 15.75B tokens — not yet sold</div>
+      <div class="chart-container" style="height:280px;">
+        <canvas id="wlfiChart"></canvas>
+      </div>
+    </div>
+
+    <!-- COIN + DJT Side by Side -->
+    <div class="grid-2">
+      <div class="chart-wrap">
+        <div class="chart-title">Coinbase (COIN) Stock Price</div>
+        <div class="chart-subtitle">Jan 2025 – Jul 2026 · Trump holds COIN shares via Coinbase staking</div>
+        <div class="chart-container" style="height:260px;">
+          <canvas id="coinChart"></canvas>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <div class="chart-title">Trump Media (DJT) Stock Price</div>
+        <div class="chart-subtitle">Jan 2025 – Jul 2026 · Truth Social parent company · Not a primary crypto play</div>
+        <div class="chart-container" style="height:260px;">
+          <canvas id="djtChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="disclaimer" style="margin-top:24px;">
+      <strong>Chart Data Sources:</strong> $TRUMP price data via CoinMarketCap/Wikipedia historical records. WLFI data via Bybit/CryptoRank. COIN and DJT stock data via public financial disclosures and market data aggregators. All prices approximate and for illustrative analysis purposes.
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3: INVESTIGATIVE LEADS -->
+<section class="section" id="leads">
+  <div class="container">
+    <div class="section-label">Section 03</div>
+    <h2 class="section-title">New Investigative Avenues</h2>
+    <p class="section-desc">Beyond the headline numbers, the filing contains five under-explored angles that investigative journalists and researchers should pursue.</p>
+
+    <!-- Lead A -->
+    <div class="lead-card" id="lead-a">
+      <div class="lead-header" onclick="toggleLead('lead-a')">
+        <div class="lead-number">A</div>
+        <div class="lead-info">
+          <h3>The "Hidden" $205M — Stablecoin Holdco LLC</h3>
+          <p>The parallel stablecoin entity buried on page 859 of the filing — who are the unnamed 61.75% investors?</p>
+        </div>
+        <div class="lead-toggle" id="toggle-lead-a">▼</div>
+      </div>
+      <div class="lead-body" id="body-lead-a">
+        <div class="lead-body-inner">
+          <div class="status-pill unverified">UNVERIFIED — Primary Source Unavailable</div>
+          <p>While WLF captured all media attention, an identical parallel entity — <strong>Stablecoin Holdco LLC</strong> (Miami, FL, Page 859 Line 204) — generated $205.2M in income. It raised $196.9M via Class C unit sales and earned $8.3M in net operating income. Trump-linked entities own only 38.25%.</p>
+          <p><strong>The investigative angle:</strong> Financial media and Senate inquiries (Senators Warren and Merkley) allege that a vehicle linked to <strong>Sheikh Tahnoon bin Zayed Al Nahyan</strong> of Abu Dhabi secretly acquired a ~49% stake in the WLF ecosystem for $500M before the inauguration, of which $187M reportedly flowed to Trump entities. This coincided with the administration's approval of advanced AI chip exports to the UAE.</p>
+          <ul>
+            <li>File a Delaware FOIA for Stablecoin Holdco LLC's registered agent filings to identify any offshore holding structures</li>
+            <li>Subpoena the KYC/AML records from the Class C unit sale — the Reg S exemption (used for offshore capital) would require non-U.S. person certification forms</li>
+            <li>Cross-reference UAE sovereign wealth fund (ADIO, ADQ, G42) SEC 13-F filings for any WLF-adjacent crypto positions</li>
+            <li>Request the unredacted Form D (SEC Regulation D) for Stablecoin Holdco LLC's private offering</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lead B -->
+    <div class="lead-card" id="lead-b">
+      <div class="lead-header" onclick="toggleLead('lead-b')">
+        <div class="lead-number">B</div>
+        <div class="lead-info">
+          <h3>The $2B Binance Deal & USD1 as a Foreign Policy Tool</h3>
+          <p>Trump's stablecoin USD1 was used to settle a $2B Binance investment. Was financial deregulation the quid pro quo?</p>
+        </div>
+        <div class="lead-toggle" id="toggle-lead-b">▼</div>
+      </div>
+      <div class="lead-body" id="body-lead-b">
+        <div class="lead-body-inner">
+          <div class="status-pill partial">PARTIALLY CONFIRMED — Ongoing Investigation</div>
+          <p>The Trump administration signed the <strong>GENIUS Act</strong> in July 2025, establishing a federal stablecoin framework — while simultaneously owning a stablecoin (USD1) that directly benefits from that framework. Concurrently, a $2 billion deal involving <strong>Binance</strong> used USD1 as the settlement currency, dramatically increasing its adoption and value to the Trump Organization.</p>
+          <p><strong>The investigative angle:</strong> Critics allege that Binance received favorable regulatory treatment from the Trump DOJ in exchange for adopting USD1. This creates a direct line between Trump's policy decisions and his personal crypto income.</p>
+          <ul>
+            <li>Timeline the Binance DOJ settlement terms against the GENIUS Act passage and the USD1 Binance adoption announcement</li>
+            <li>FOIA any communication between the White House, Treasury, DOJ, and WLF principals around GENIUS Act drafting</li>
+            <li>Trace on-chain USD1 transaction volume before and after the Binance deal announcement via Etherscan</li>
+            <li>Examine whether Binance's adoption of USD1 inflated the Stablecoin Holdco operating income ($8.3M) or class unit valuations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lead C -->
+    <div class="lead-card" id="lead-c">
+      <div class="lead-header" onclick="toggleLead('lead-c')">
+        <div class="lead-number">C</div>
+        <div class="lead-info">
+          <h3>The Dar Global–WLFI Tokenization Alliance & Gulf Capital Pipeline</h3>
+          <p>Saudi-linked Dar Global is funneling overseas crypto capital directly into Trump-licensed physical assets.</p>
+        </div>
+        <div class="lead-toggle" id="toggle-lead-c">▼</div>
+      </div>
+      <div class="lead-body" id="body-lead-c">
+        <div class="lead-body-inner">
+          <div class="status-pill verified">CONFIRMED — Primary Source Documented</div>
+          <p>The disclosure reveals $25.8M in licensing fees from <strong>Dar Global PLC</strong> (LSE: DGLD) — the international arm of Saudi's Dar Al Arkan — for properties in Qatar ($5.25M), Dubai ($10.4M), Saudi Arabia ($9.2M), and Oman ($950K). In early 2026, Dar Global and WLF formally partnered with <strong>Securitize, Inc.</strong> to tokenize the Trump International Maldives Resort, allowing international crypto investors to fund construction on-chain.</p>
+          <p><strong>The investigative angle:</strong> This closes the loop on the OGE filing's disclaimers about WLF having "foreign holders." The tokenized resort and Saudi crypto payments serve as a direct pipeline for overseas capital into Trump-licensed products — potentially creating emoluments exposure.</p>
+          <ul>
+            <li>Review Dar Global PLC's LSE annual filings and RNS announcements for exact payment dates and escrow structures</li>
+            <li>Scrutinize the Securitize partnership agreement — is WLF token staking used as collateral for construction loans?</li>
+            <li>Map whether any of the $25.8M Gulf licensing income is being routed back through WLF or Stablecoin Holdco capital raises</li>
+            <li>Examine UK Companies House Register of Overseas Entities (ROE) for any Dar Global–Trump joint vehicle</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lead D -->
+    <div class="lead-card" id="lead-d">
+      <div class="lead-header" onclick="toggleLead('lead-d')">
+        <div class="lead-number">D</div>
+        <div class="lead-info">
+          <h3>The Vanishing Cold Wallets (ENA, MOVE, ONDO)</h3>
+          <p>Three wallets received $2.84M in distributions and are now worth under $1,001 each. Where did the money go?</p>
+        </div>
+        <div class="lead-toggle" id="toggle-lead-d">▼</div>
+      </div>
+      <div class="lead-body" id="body-lead-d">
+        <div class="lead-body-inner">
+          <div class="status-pill verified">ON-CHAIN CONFIRMED — Arkham Intel Attribution</div>
+          <p>Three cold wallets held by <strong>DT Marks Defi LLC</strong> received significant distributions: ENA ($1.93M), Move ($810K), Ondo ($100K). All three report current value as "under $1,001." Arkham Intelligence on-chain data confirms these were NOT liquidated to fiat — they were deployed into DeFi staking/yield contracts. The WLF multisig treasury holds a diversified basket including cbBTC, LINK, PENDLE, OCEAN, and multiple stablecoins.</p>
+          <p><strong>The investigative angle:</strong> If these tokens were staked in Ethena (ENA) or Ondo Finance smart contracts, they may be generating undisclosed yield income. The filing only captures point-in-time balances, not ongoing staking yield.</p>
+          <ul>
+            <li>Pull the WLF multisig (`0xda5e1988097297dcdc1f90d4dfe7909e847cbef6`) transaction history on Etherscan to trace exact outflow paths</li>
+            <li>Query Ondo Finance's vault contracts for any Trump-wallet addresses holding USDY or OUSG yield products</li>
+            <li>Check if Ethena's sUSDe staking positions are held via proxy wallets not listed in the OGE filing</li>
+            <li>Compare the filing's end-of-period snapshot to Arkham's real-time portfolio valuation for the identified addresses</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lead E -->
+    <div class="lead-card" id="lead-e">
+      <div class="lead-header" onclick="toggleLead('lead-e')">
+        <div class="lead-number">E</div>
+        <div class="lead-info">
+          <h3>The $635M "Celebration Coins" — Who Actually Owns It?</h3>
+          <p>"Celebration Coins" has almost no corporate footprint despite being Trump's single largest income source.</p>
+        </div>
+        <div class="lead-toggle" id="toggle-lead-e">▼</div>
+      </div>
+      <div class="lead-body" id="body-lead-e">
+        <div class="lead-body-inner">
+          <div class="status-pill partial">PARTIALLY CONFIRMED — Beneficial Owner Unknown</div>
+          <p>The $635M royalty payment is made by an entity named "Celebration Coins" to CIC Digital LLC. The $TRUMP memecoin is co-developed by CIC Digital LLC and <strong>Fight Fight Fight LLC</strong>. On-chain data confirms Trump's primary royalty wallet (`0x94845333028B1204Fbe14E1278Fd4Adde46B22ce`) holds 579,289 TRUMP tokens. However, Celebration Coins has virtually no public corporate registry footprint — suggesting it is a purpose-built shell entity.</p>
+          <p><strong>The investigative angle:</strong> If Celebration Coins is owned by a foreign entity (even partially), the $635M constitutes a massive foreign emolument. The 800M insider tokens could also create market manipulation exposure if they are used to support the price around key political events.</p>
+          <ul>
+            <li>Pull the registered agent record for "Celebration Coins" in Delaware, Wyoming, and Florida corporate registries</li>
+            <li>Map the Fight Fight Fight LLC ownership chain — compare to existing Trump Organization LLC structures</li>
+            <li>Use on-chain token unlock schedules (from the $TRUMP smart contract) to determine if Trump-held tokens are released during policy announcement windows (front-running risk)</li>
+            <li>Examine JBCZ Group LLC's sublicense structure ($493K) — this is a separate, physical "Trump Coins" operation that may overlap with Celebration Coins' operations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SECTION 4: UNANSWERED QUESTIONS -->
+<section class="section" id="unanswered">
+  <div class="container">
+    <div class="section-label">Section 04</div>
+    <h2 class="section-title">Unanswered Questions</h2>
+    <p class="section-desc">These are the critical questions the filing raises but does not answer — each a potential story in its own right.</p>
+
+    <div class="questions-grid">
+      <div class="question-card">
+        <div class="q-label">Foreign Investors</div>
+        <h4>Who are the 61.75% third-party investors in WLF Holdco and Stablecoin Holdco?</h4>
+        <p>The filing acknowledges "a portion... may include foreign entities" but provides no names. The UAE's Sheikh Tahnoon is alleged but unverified via primary source.</p>
+      </div>
+      <div class="question-card">
+        <div class="q-label">Policy Nexus</div>
+        <h4>Did the GENIUS Act's drafting benefit from inside knowledge of WLF's stablecoin plans?</h4>
+        <p>Trump signed a stablecoin regulatory framework while personally owning a stablecoin. No independent review of the legislative drafting process has been published.</p>
+      </div>
+      <div class="question-card">
+        <div class="q-label">Token Unlock Schedule</div>
+        <h4>When are the 800M insider $TRUMP tokens unlocking, and will it crash the market?</h4>
+        <p>Trump entities hold 80% of total supply. The vesting/unlock schedule is governed by the smart contract but hasn't been widely analyzed in the context of the OGE disclosure.</p>
+      </div>
+      <div class="question-card">
+        <div class="q-label">Tax Treatment</div>
+        <h4>How are the $635M royalties and $592M token distributions being taxed?</h4>
+        <p>Meme coin royalties, equity sales, and crypto token distributions may each carry different tax treatments. No tax return is publicly available for these entities.</p>
+      </div>
+      <div class="question-card">
+        <div class="q-label">DeFi Yield</div>
+        <h4>Is undisclosed DeFi yield being generated from the "vanished" ENA, ONDO, and MOVE tokens?</h4>
+        <p>Staked DeFi positions generate continuous yield. The filing's point-in-time snapshot may be missing ongoing income from deployed assets.</p>
+      </div>
+      <div class="question-card">
+        <div class="q-label">WLFI Reserves</div>
+        <h4>What will happen to the 15.75B unsold WLFI tokens held by DTTM Operations LLC?</h4>
+        <p>Valued at "Over $50M" but with zero disclosed income. If sold on-market, the resulting price impact could harm existing token holders while enriching Trump entities.</p>
+      </div>
+      <div class="question-card">
+        <div class="q-label">Binance Quid Pro Quo</div>
+        <h4>Did Binance's adoption of USD1 follow or precede favorable DOJ regulatory treatment?</h4>
+        <p>The timeline of the Binance settlement, GENIUS Act, and USD1 adoption has not been precisely mapped. The causal sequence matters for corruption analysis.</p>
+      </div>
+      <div class="question-card">
+        <div class="q-label">Market Manipulation</div>
+        <h4>Did Trump's presidential announcements correlate with $TRUMP price pumps benefiting insider wallets?</h4>
+        <p>On-chain researchers have noted price spikes around key Trump announcements. A systematic study tying announcement dates to wallet activity has not been formally published.</p>
+      </div>
+      <div class="question-card">
+        <div class="q-label">Emoluments Risk</div>
+        <h4>Do the Gulf licensing fees ($25.8M+) and tokenized Maldives resort constitute foreign emoluments?</h4>
+        <p>The Constitution's Foreign Emoluments Clause prohibits presidents from receiving benefits from foreign governments. Dar Global is Saudi state-linked. No court has ruled on this post-filing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 5: MONEY FLOW -->
+<section class="section" id="money-flow">
+  <div class="container">
+    <div class="section-label">Section 05</div>
+    <h2 class="section-title">The Money Flow</h2>
+    <p class="section-desc">How crypto income routes from public investors through Trump's LLC structure to his personal holdings.</p>
+
+    <div class="flow-container">
+      <div class="flow-row">
+        <div class="flow-node source">Retail Investors<br/><small>Meme Coin Buyers</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-label">Buy $TRUMP on Solana DEX</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-node middle">Celebration Coins<br/><small>(Shell Entity)</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-label">$635M Royalty License</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-node end">CIC Digital LLC<br/><small>(Trump Entity)</small></div>
+      </div>
+
+      <div style="border-top:1px dashed var(--border); margin:8px 0;"></div>
+
+      <div class="flow-row">
+        <div class="flow-node foreign">Foreign Investors<br/><small>UAE / Gulf / Unknown</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-label">Buy WLFI Tokens (Reg S offshore)</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-node middle">WLF LLC<br/><small>(DeFi Platform)</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-label">$592M distributions + $205M equity</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-node end">DT Marks Defi LLC<br/><small>(38.25% stake)</small></div>
+      </div>
+
+      <div style="border-top:1px dashed var(--border); margin:8px 0;"></div>
+
+      <div class="flow-row">
+        <div class="flow-node foreign">Dar Global / Gulf<br/><small>Saudi-linked PLC</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-label">$25.8M Hotel Licensing Fees</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-node middle">Trump Org<br/><small>(Brand Licensor)</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-label">→ Tokenized Resort (WLFI + Securitize)</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-node end">DJT Holdings LLC<br/><small>(Parent Trust)</small></div>
+      </div>
+
+      <div style="border-top:1px solid var(--border); padding-top:16px; margin-top:8px;">
+        <div class="flow-row" style="justify-content:flex-end;">
+          <div class="flow-label" style="text-align:right; color: var(--accent-gold);">All proceeds ultimately controlled by: <strong style="color:var(--accent-gold);">Donald J. Trump → DJT Holdings LLC (99% owned)</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="disclaimer" style="margin-top:24px;">
+      <strong>Legal Shield Note:</strong> Trump's attorneys inserted explicit disclaimers on Pages 857, 858, 860, and 861 of the filing: <em>"A portion of the foreign and/or domestic holders of World Liberty Financial, Inc. and/or WLF Holdco LLC may include foreign entities, or transfers to foreign entities, but the filer has no direct knowledge or control over such holdings or transfers."</em> This language acknowledges foreign capital is present while legally distancing the filer from it.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <strong>Source Documents:</strong> Donald J. Trump — OGE Form 278e Annual Report (June 30, 2026) · JD Vance — OGE Form 278e Annual Report (June 30, 2026)<br/>
+  <span style="margin-top:8px; display:block;">Supplemental Sources: Arkham Intelligence on-chain data · Ethplorer API · Dar Global PLC LSE filings · Congressional testimony · CoinMarketCap · Financial media reporting</span>
+  <span style="margin-top:8px; display:block; color:var(--text-muted);">This report is for journalistic and analytical purposes. Allegations noted as unverified. Not financial or legal advice.</span>
+</footer>
+
+<script>
+  // ── Toggle Leads ──
+  function toggleLead(id) {
+    const body = document.getElementById('body-' + id);
+    const toggle = document.getElementById('toggle-' + id);
+    body.classList.toggle('open');
+    toggle.classList.toggle('open');
+  }
+
+  // ── Chart Defaults ──
+  Chart.defaults.color = '#94a3b8';
+  Chart.defaults.borderColor = 'rgba(255,255,255,0.06)';
+  Chart.defaults.font.family = "'Inter', sans-serif";
+  Chart.defaults.font.size = 11;
+
+  const GOLD = '#f0b429';
+  const BLUE = '#38bdf8';
+  const PURPLE = '#a78bfa';
+  const RED = '#ef4444';
+  const GREEN = '#34d399';
+  const AMBER = '#f59e0b';
+
+  // ── Income Donut ──
+  new Chart(document.getElementById('incomeDonut'), {
+    type: 'doughnut',
+    data: {
+      labels: ['$TRUMP Meme Coin Royalties', 'WLF Token Distributions', 'WLF/Stablecoin Equity Sales', 'Stablecoin Holdco Ops', 'Staking / Other'],
+      datasets: [{
+        data: [635069, 432893, 262500, 8327, 2839],
+        backgroundColor: [GOLD, BLUE, PURPLE, AMBER, GREEN],
+        borderColor: '#040b18',
+        borderWidth: 3,
+        hoverBorderWidth: 0,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      cutout: '65%',
+      plugins: {
+        legend: { position: 'bottom', labels: { padding: 16, boxWidth: 12, font: { size: 11 } } },
+        tooltip: {
+          callbacks: {
+            label: ctx => `  $${ctx.parsed.toLocaleString()}K`
+          }
+        }
+      }
+    }
+  });
+
+  // ── Wallet Bar ──
+  new Chart(document.getElementById('walletBar'), {
+    type: 'bar',
+    data: {
+      labels: ['ETH', 'USDC', 'USD', 'BTC', 'LINK', 'AAVE', 'ENA', 'MOVE', 'ONDO'],
+      datasets: [{
+        label: 'Distribution ($)',
+        data: [150606931, 56036445, 42250000, 33462160, 2754611, 2608773, 1930440, 810716, 100245],
+        backgroundColor: [BLUE, BLUE, BLUE, GOLD, PURPLE, PURPLE, GREEN, GREEN, GREEN],
+        borderRadius: 6,
+        borderSkipped: false,
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => `  $${ctx.parsed.x.toLocaleString()}`
+          }
+        }
+      },
+      scales: {
+        x: { ticks: { callback: v => '$' + (v/1e6).toFixed(0) + 'M' }, grid: { color: 'rgba(255,255,255,0.04)' } },
+        y: { grid: { display: false } }
+      }
+    }
+  });
+
+  // ── $TRUMP Price ──
+  const trumpLabels = ['Jan 17\'25','Jan 19','Jan 25','Feb\'25','Mar\'25','Apr\'25','May\'25','Jun\'25','Jul\'25','Aug\'25','Sep\'25','Oct\'25','Nov\'25','Dec\'25','Jan\'26','Feb\'26','Mar\'26','Apr\'26','May\'26','Jun\'26','Jul\'26'];
+  const trumpPrices = [10.0, 73.4, 47.0, 18.5, 12.0, 9.5, 11.2, 8.3, 7.1, 5.8, 6.2, 4.9, 4.1, 3.8, 3.2, 2.8, 2.3, 1.9, 1.75, 1.62, 1.65];
+
+  new Chart(document.getElementById('trumpCoinChart'), {
+    type: 'line',
+    data: {
+      labels: trumpLabels,
+      datasets: [{
+        label: '$TRUMP Price (USD)',
+        data: trumpPrices,
+        borderColor: GOLD,
+        backgroundColor: 'rgba(240,180,41,0.08)',
+        fill: true,
+        tension: 0.4,
+        pointRadius: 3,
+        pointBackgroundColor: GOLD,
+        pointBorderColor: '#040b18',
+        pointBorderWidth: 2,
+        borderWidth: 2.5,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: ctx => `  $${ctx.parsed.y.toFixed(2)}` } },
+        annotation: {}
+      },
+      scales: {
+        x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { maxRotation: 45 } },
+        y: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { callback: v => '$' + v } }
+      }
+    }
+  });
+
+  // ── WLFI Price ──
+  const wlfiLabels = ['Sep\'25','Oct\'25','Nov\'25','Dec\'25','Jan\'26','Feb\'26','Mar\'26','Apr\'26','May\'26','Jun\'26','Jul\'26'];
+  const wlfiPrices = [0.05, 0.38, 0.46, 0.22, 0.18, 0.14, 0.10, 0.09, 0.075, 0.062, 0.058];
+
+  new Chart(document.getElementById('wlfiChart'), {
+    type: 'line',
+    data: {
+      labels: wlfiLabels,
+      datasets: [{
+        label: 'WLFI Price (USD)',
+        data: wlfiPrices,
+        borderColor: PURPLE,
+        backgroundColor: 'rgba(167,139,250,0.08)',
+        fill: true,
+        tension: 0.4,
+        pointRadius: 4,
+        pointBackgroundColor: PURPLE,
+        pointBorderColor: '#040b18',
+        pointBorderWidth: 2,
+        borderWidth: 2.5,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: ctx => `  $${ctx.parsed.y.toFixed(3)}` } }
+      },
+      scales: {
+        x: { grid: { color: 'rgba(255,255,255,0.04)' } },
+        y: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { callback: v => '$' + v.toFixed(2) } }
+      }
+    }
+  });
+
+  // ── COIN Stock ──
+  const stockLabels = ['Jan\'25','Mar\'25','May\'25','Jul\'25','Sep\'25','Nov\'25','Dec\'25','Jan\'26','Mar\'26','May\'26','Jun\'26'];
+  const coinPrices = [291, 172, 247, 378, 337, 273, 226, 195, 175, 189, 147];
+
+  new Chart(document.getElementById('coinChart'), {
+    type: 'line',
+    data: {
+      labels: stockLabels,
+      datasets: [{
+        label: 'COIN Price (USD)',
+        data: coinPrices,
+        borderColor: BLUE,
+        backgroundColor: 'rgba(56,189,248,0.08)',
+        fill: true,
+        tension: 0.4,
+        pointRadius: 3,
+        pointBackgroundColor: BLUE,
+        pointBorderColor: '#040b18',
+        pointBorderWidth: 2,
+        borderWidth: 2.5,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: ctx => `  $${ctx.parsed.y}` } }
+      },
+      scales: {
+        x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { maxRotation: 45 } },
+        y: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { callback: v => '$' + v } }
+      }
+    }
+  });
+
+  // ── DJT Stock ──
+  const djtPrices = [31.9, 19.5, 21.3, 17.6, 16.4, 11.5, 13.2, 12.8, 9.3, 9.3, 7.9];
+
+  new Chart(document.getElementById('djtChart'), {
+    type: 'line',
+    data: {
+      labels: stockLabels,
+      datasets: [{
+        label: 'DJT Price (USD)',
+        data: djtPrices,
+        borderColor: RED,
+        backgroundColor: 'rgba(239,68,68,0.08)',
+        fill: true,
+        tension: 0.4,
+        pointRadius: 3,
+        pointBackgroundColor: RED,
+        pointBorderColor: '#040b18',
+        pointBorderWidth: 2,
+        borderWidth: 2.5,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: ctx => `  $${ctx.parsed.y.toFixed(2)}` } }
+      },
+      scales: {
+        x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { maxRotation: 45 } },
+        y: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { callback: v => '$' + v } }
+      }
+    }
+  });
+</script>
+</body>
+</html>
