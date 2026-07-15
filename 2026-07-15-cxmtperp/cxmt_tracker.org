@@ -27,8 +27,9 @@ print(subprocess.check_output(["python", "track_cxmt.py"], text=True))
 #+end_src
 
 #+RESULTS:
+
 #+TITLE: Hyperliquid xyz:CXMT Tracker
-#+DATE: 2026-07-15 12:26:15 (UTC+8)
+#+DATE: 2026-07-15 12:35:35 (UTC+8)
 
 * Real-Time Market Context
 This table shows the latest real-time market data and calculated implied valuations based on the current mark price.
@@ -36,18 +37,23 @@ This table shows the latest real-time market data and calculated implied valuati
 #+CAPTION: CXMT Real-Time Market Context
 | Metric | Value | Description |
 |--------+-------+-------------|
-| Mark Price | $8.2040 | Current fair value price used for liquidations |
-| Mid Price | $8.2317 | Midpoint of the current order book bid-ask spread |
-| 24h Volume (USD) | $8,280,144.16 | Cumulative dollar trading volume in the last 24h |
-| 24h Volume (CXMT) | 1,136,345.6 | Cumulative contract trading volume in the last 24h |
-| Open Interest | 986,896.6 | Outstanding active perpetual positions |
-| Funding Rate | 0.006611% / hr | Hourly premium rate (APR: 57.91%) |
-| Spot Oracle Premium | +6.35% | Premium of perp price relative to index oracle |
-| Implied IPO Offering Valuation | $54.868B (RMB 397.796B) | Valuation of the 6.688B new shares offered |
-| Implied Fully Diluted Valuation | $548.684B (RMB 3.978T) | Total company valuation based on 66.88B shares |
+| Mark Price | $8.0520 | Current fair value price used for liquidations |
+| Mid Price | $8.0660 | Midpoint of the current order book bid-ask spread |
+| 24h Volume (USD) | $9,040,734.81 | Cumulative dollar trading volume in the last 24h |
+| 24h Volume (CXMT) | 1,228,560.1 | Cumulative contract trading volume in the last 24h |
+| Open Interest | 1,044,133.8 | Outstanding active perpetual positions |
+| Funding Rate | 0.005565% / hr | Hourly premium rate (APR: 48.75%) |
+| Spot Oracle Premium | +3.23% | Premium of perp price relative to index oracle |
+| Implied IPO Offering Valuation | $53.852B (RMB 390.425B) | Valuation of the 6.688B new shares offered |
+| Implied Fully Diluted Valuation | $538.518B (RMB 3.904T) | Total company valuation based on 66.88B shares |
+
+* Price Chart
+Visual representation of today's intraday price movement and trading volume.
+
+[[file:cxmt_price_chart.png]]
 
 * Today's Pricing Data (1-Minute Candles)
-Showing all granular 1-minute historical data for today (July 15, 2026). In total, 164 minutes of trading data are available.
+Showing all granular 1-minute historical data for today (July 15, 2026). In total, 173 minutes of trading data are available.
 
 #+CAPTION: CXMT 1-Minute Candlestick Data
 | Time (Local) | Open (USD) | High (USD) | Low (USD) | Close (USD) | Volume (CXMT) | Notional (USD) | Fully Diluted Val (USD) | Fully Diluted Val (RMB) |
@@ -215,7 +221,16 @@ Showing all granular 1-minute historical data for today (July 15, 2026). In tota
 | 2026-07-15 12:23 |     8.3990 |     8.4500 |    8.3000 |      8.3000 |       46160.9 | $    383135.47 | $555.104B               | RMB 4.025T              |
 | 2026-07-15 12:24 |     8.3400 |     8.3990 |    8.3000 |      8.3400 |        9028.3 | $     75296.02 | $557.779B               | RMB 4.044T              |
 | 2026-07-15 12:25 |     8.3783 |     8.3783 |    8.1500 |      8.2026 |       19723.0 | $    161779.88 | $548.590B               | RMB 3.977T              |
-| 2026-07-15 12:26 |     8.2026 |     8.2554 |    8.1600 |      8.2554 |         412.4 | $      3404.53 | $552.121B               | RMB 4.003T              |
+| 2026-07-15 12:26 |     8.2026 |     8.3000 |    8.1600 |      8.2960 |       10840.0 | $     89928.64 | $554.836B               | RMB 4.023T              |
+| 2026-07-15 12:27 |     8.2960 |     8.2960 |    8.1247 |      8.1247 |       11454.9 | $     93067.63 | $543.380B               | RMB 3.940T              |
+| 2026-07-15 12:28 |     8.1720 |     8.1950 |    8.1070 |      8.1660 |        7278.7 | $     59437.86 | $546.142B               | RMB 3.960T              |
+| 2026-07-15 12:29 |     8.1950 |     8.2400 |    8.1440 |      8.1459 |        5873.5 | $     47844.94 | $544.798B               | RMB 3.950T              |
+| 2026-07-15 12:30 |     8.1984 |     8.2100 |    8.0100 |      8.0120 |       14336.7 | $    114865.64 | $535.843B               | RMB 3.885T              |
+| 2026-07-15 12:31 |     8.0100 |     8.0953 |    8.0000 |      8.0388 |        9279.2 | $     74593.63 | $537.635B               | RMB 3.898T              |
+| 2026-07-15 12:32 |     8.0388 |     8.0556 |    7.9200 |      7.9321 |       11790.6 | $     93524.22 | $530.499B               | RMB 3.846T              |
+| 2026-07-15 12:33 |     7.9321 |     8.1599 |    7.9103 |      8.1160 |       18038.1 | $    146397.22 | $542.798B               | RMB 3.935T              |
+| 2026-07-15 12:34 |     8.1160 |     8.1160 |    8.0538 |      8.0800 |        1815.2 | $     14666.82 | $540.390B               | RMB 3.918T              |
+| 2026-07-15 12:35 |     8.0538 |     8.0800 |    8.0480 |      8.0480 |        2333.6 | $     18780.81 | $538.250B               | RMB 3.902T              |
 
 * Market Summary Statistics
 Summary of CXMT market activity since launch today:
@@ -224,12 +239,11 @@ Summary of CXMT market activity since launch today:
 | Metric | Value | Description |
 |--------+-------+-------------|
 | Launch Price | $6.0000 | Opening price of first 1m candle |
-| Current Price | $8.2554 | Closing price of most recent candle |
-| Net Price Change | $+2.2554 (+37.59%) | Price difference since launch |
+| Current Price | $8.0480 | Closing price of most recent candle |
+| Net Price Change | $+2.0480 (+34.13%) | Price difference since launch |
 | Session High | $8.6400 | Highest traded price today |
 | Session Low | $6.0000 | Lowest traded price today |
-| Cumulative Volume (CXMT) | 1,136,347.6 tokens | Total contracts traded today |
-| Cumulative Notional (USD) | $9,059,629.34 | Total USD value exchanged today |
-| Implied Valuation (USD) | $552.121B | Based on current price & 66.88B shares |
-| Implied Valuation (RMB) | RMB 4.003T | Converted at USD/CNY = 7.25 |
-
+| Cumulative Volume (CXMT) | 1,228,975.7 tokens | Total contracts traded today |
+| Cumulative Notional (USD) | $9,809,332.23 | Total USD value exchanged today |
+| Implied Valuation (USD) | $538.250B | Based on current price & 66.88B shares |
+| Implied Valuation (RMB) | RMB 3.902T | Converted at USD/CNY = 7.25 |

@@ -95,6 +95,146 @@ def format_valuation_rmb(rmb_val):
         return f"RMB {rmb_val / 1e12:.3f}T"
     return f"RMB {rmb_val / 1e9:.3f}B"
 
+def generate_price_chart(candles, filename="cxmt_price_chart.png"):
+    """Generates a beautiful dark-mode price and volume chart using matplotlib"""
+    try:
+        import matplotlib
+        matplotlib.use('Agg')  # Use non-interactive backend
+        import matplotlib.pyplot as plt
+        import matplotlib.dates as mdates
+    except ImportError as e:
+        sys.stderr.write(f"Warning: Could not import matplotlib for chart generation: {e}\n")
+        return False
+
+    if not candles:
+        sys.stderr.write("Warning: No candles available to generate price chart.\n")
+        return False
+
+    try:
+        tz_local = timezone(timedelta(hours=8))
+        times = [datetime.fromtimestamp(c['t'] / 1000, tz=tz_local) for c in candles]
+        closes = [float(c['c']) for c in candles]
+        opens = [float(c['o']) for c in candles]
+        volumes = [float(c['v']) for c in candles]
+        
+        # Create figure and subplots
+        fig, (ax1, ax2) = plt.subplots(
+            2, 1, 
+            figsize=(11, 6), 
+            sharex=True, 
+            gridspec_kw={'height_ratios': [3, 1]}
+        )
+        
+        # Sleek dark theme palette
+        bg_color = "#131722"      # TradingView dark bg
+        grid_color = "#2A2E39"    # Grid line color
+        text_color = "#D9D9D9"    # Soft white for text
+        line_color = "#00F0FF"    # Neon Cyan for close price
+        
+        fig.patch.set_facecolor(bg_color)
+        ax1.set_facecolor(bg_color)
+        ax2.set_facecolor(bg_color)
+        
+        # --- Top Panel: Price Line & Gradient Area ---
+        ax1.plot(times, closes, color=line_color, linewidth=2.5, label="Close Price")
+        
+        # Calculate dynamic bottom for fill area
+        min_close = min(closes)
+        max_close = max(closes)
+        y_bottom = min_close - (max_close - min_close) * 0.05 if max_close != min_close else min_close * 0.95
+        ax1.fill_between(times, closes, y_bottom, color=line_color, alpha=0.1)
+        
+        # Grid lines
+        ax1.grid(True, color=grid_color, linestyle='--', linewidth=0.5)
+        
+        # Title and Labels
+        ax1.set_title("xyz:CXMT Perpetual Price & Volume (July 15, 2026)", color=text_color, fontsize=13, fontweight='bold', pad=12)
+        ax1.set_ylabel("Price (USD)", color=text_color, fontsize=9, fontweight='bold')
+        
+        # Annotate latest price with a horizontal dotted line
+        current_price = closes[-1]
+        ax1.axhline(current_price, color=line_color, linestyle=':', alpha=0.6, linewidth=1.2)
+        
+        # Annotate Session High and Low
+        high_idx = closes.index(max_close)
+        low_idx = closes.index(min_close)
+        
+        ax1.annotate(
+            f"High: ${max_close:.4f}",
+            xy=(times[high_idx], max_close),
+            xytext=(10, 10),
+            textcoords="offset points",
+            arrowprops=dict(arrowstyle="->", color="#00E676", lw=1.2),
+            color="#00E676",
+            fontweight="bold",
+            fontsize=9
+        )
+        
+        ax1.annotate(
+            f"Low: ${min_close:.4f}",
+            xy=(times[low_idx], min_close),
+            xytext=(10, -18),
+            textcoords="offset points",
+            arrowprops=dict(arrowstyle="->", color="#FF5252", lw=1.2),
+            color="#FF5252",
+            fontweight="bold",
+            fontsize=9
+        )
+        
+        # Print Current Price text right next to the last data point
+        ax1.text(
+            times[-1], current_price, f"  ${current_price:.4f}",
+            color=line_color, fontweight='bold', va='center', ha='left', fontsize=9
+        )
+        
+        # Styling axes spines
+        for spine in ax1.spines.values():
+            spine.set_color(grid_color)
+        ax1.spines['top'].set_visible(False)
+        ax1.spines['right'].set_visible(False)
+        
+        # Tick parameters
+        ax1.tick_params(colors=text_color, labelsize=9)
+        
+        # Adjust y-limit with padding
+        y_range = max_close - min_close
+        if y_range > 0:
+            ax1.set_ylim(min_close - y_range * 0.1, max_close + y_range * 0.1)
+        
+        # --- Bottom Panel: Volume Bars ---
+        # Volume bar colors: Green if close >= open, Red if close < open
+        v_colors = ["#26a69a" if closes[i] >= opens[i] else "#ef5350" for i in range(len(candles))]
+        
+        # Matplotlib date-aware bar width (0.8 of a minute, in units of days)
+        bar_width = 0.8 / 1440.0
+        ax2.bar(times, volumes, width=bar_width, color=v_colors, alpha=0.85)
+        
+        # Grid lines
+        ax2.grid(True, color=grid_color, linestyle='--', linewidth=0.5)
+        ax2.set_ylabel("Volume", color=text_color, fontsize=9, fontweight='bold')
+        
+        # Styling axes spines
+        for spine in ax2.spines.values():
+            spine.set_color(grid_color)
+        ax2.spines['top'].set_visible(False)
+        ax2.spines['right'].set_visible(False)
+        
+        # Tick parameters
+        ax2.tick_params(colors=text_color, labelsize=9)
+        ax2.xaxis.set_major_formatter(mdates.DateFormatter('%H:%M'))
+        ax2.xaxis.set_major_locator(mdates.AutoDateLocator())
+        
+        # Autoturn date labels
+        plt.gcf().autofmt_xdate()
+        
+        plt.tight_layout()
+        plt.savefig(filename, facecolor=bg_color, edgecolor='none', dpi=150)
+        plt.close()
+        return True
+    except Exception as e:
+        sys.stderr.write(f"Error generating price chart: {e}\n")
+        return False
+
 def main():
     asset, ctx = get_realtime_context()
     candles = get_today_candles()
@@ -109,6 +249,10 @@ def main():
     if not asset or not ctx:
         print("Error: Could not retrieve real-time context for CXMT perp. Check API connection.")
         return
+
+    # Generate price chart if candles are present
+    chart_filename = "cxmt_price_chart.png"
+    chart_generated = generate_price_chart(candles, chart_filename)
 
     # Extract real-time info
     mark_px = float(ctx.get('markPx', 0))
@@ -147,6 +291,14 @@ def main():
     print(f"| Implied IPO Offering Valuation | {format_valuation(offering_val_usd)} ({format_valuation_rmb(offering_val_rmb)}) | Valuation of the 6.688B new shares offered |")
     print(f"| Implied Fully Diluted Valuation | {format_valuation(implied_val_usd)} ({format_valuation_rmb(implied_val_rmb)}) | Total company valuation based on 66.88B shares |")
     print()
+
+    # 1.5. Output Price Chart
+    if chart_generated:
+        print("* Price Chart")
+        print("Visual representation of today's intraday price movement and trading volume.")
+        print()
+        print(f"[[file:{chart_filename}]]")
+        print()
 
     # 2. Output Historical Table
     print("* Today's Pricing Data (1-Minute Candles)")
