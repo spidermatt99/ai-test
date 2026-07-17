@@ -1,0 +1,392 @@
+{
+  "Cerebras": {
+    "listing_date": "2026-05-14",
+    "first_traded_hour": "2026-05-14 13:00 UTC",
+    "ticker_hl": "xyz:CBRS",
+    "ticker_stock": "CBRS",
+    "granularity": "1h",
+    "hourly_data": [
+      {
+        "Time": "13:00",
+        "Perp_O": 290.4,
+        "Perp_H": 303.24,
+        "Perp_L": 278.85,
+        "Perp_C": 298.13,
+        "Stock_O": 185.0,
+        "Stock_H": 185.0,
+        "Stock_L": 185.0,
+        "Stock_C": 185.0
+      },
+      {
+        "Time": "16:00",
+        "Perp_O": 342.66,
+        "Perp_H": 376.73,
+        "Perp_L": 338.0,
+        "Perp_C": 376.73,
+        "Stock_O": 350.0,
+        "Stock_H": 385.0,
+        "Stock_L": 321.0,
+        "Stock_C": 327.18
+      },
+      {
+        "Time": "17:00",
+        "Perp_O": 375.06,
+        "Perp_H": 389.0,
+        "Perp_L": 303.13,
+        "Perp_C": 304.09,
+        "Stock_O": 326.94,
+        "Stock_H": 343.0,
+        "Stock_L": 300.0,
+        "Stock_C": 313.09
+      },
+      {
+        "Time": "18:00",
+        "Perp_O": 303.9,
+        "Perp_H": 327.1,
+        "Perp_L": 301.11,
+        "Perp_C": 318.4,
+        "Stock_O": 313.29,
+        "Stock_H": 330.0,
+        "Stock_L": 311.25,
+        "Stock_C": 320.4
+      },
+      {
+        "Time": "19:00",
+        "Perp_O": 318.34,
+        "Perp_H": 329.99,
+        "Perp_L": 306.9,
+        "Perp_C": 312.02,
+        "Stock_O": 320.03,
+        "Stock_H": 322.0,
+        "Stock_L": 305.16,
+        "Stock_C": 310.3
+      }
+    ]
+  },
+  "SpaceX": {
+    "listing_date": "2026-06-12",
+    "first_traded_hour": "2026-06-12 15:00 UTC",
+    "ticker_hl": "xyz:SPCX",
+    "ticker_stock": "SPCX",
+    "granularity": "15m",
+    "hourly_data": [
+      {
+        "Time": "15:45",
+        "Perp_O": 157.93,
+        "Perp_H": 167.9,
+        "Perp_L": 152.34,
+        "Perp_C": 161.8,
+        "Stock_O": 150.0,
+        "Stock_H": 168.75,
+        "Stock_L": 150.0,
+        "Stock_C": 161.31
+      },
+      {
+        "Time": "16:00",
+        "Perp_O": 161.8,
+        "Perp_H": 165.25,
+        "Perp_L": 155.38,
+        "Perp_C": 164.5,
+        "Stock_O": 161.35,
+        "Stock_H": 165.45,
+        "Stock_L": 155.42,
+        "Stock_C": 164.42
+      },
+      {
+        "Time": "16:15",
+        "Perp_O": 164.52,
+        "Perp_H": 167.5,
+        "Perp_L": 161.23,
+        "Perp_C": 164.93,
+        "Stock_O": 164.36,
+        "Stock_H": 167.77,
+        "Stock_L": 161.1,
+        "Stock_C": 164.97
+      },
+      {
+        "Time": "16:30",
+        "Perp_O": 165.04,
+        "Perp_H": 168.25,
+        "Perp_L": 162.88,
+        "Perp_C": 167.73,
+        "Stock_O": 164.96,
+        "Stock_H": 168.35,
+        "Stock_L": 163.07,
+        "Stock_C": 167.67
+      },
+      {
+        "Time": "16:45",
+        "Perp_O": 167.72,
+        "Perp_H": 173.89,
+        "Perp_L": 166.84,
+        "Perp_C": 173.55,
+        "Stock_O": 167.66,
+        "Stock_H": 174.0,
+        "Stock_L": 166.5,
+        "Stock_C": 173.74
+      },
+      {
+        "Time": "17:00",
+        "Perp_O": 173.57,
+        "Perp_H": 176.38,
+        "Perp_L": 169.35,
+        "Perp_C": 171.64,
+        "Stock_O": 173.72,
+        "Stock_H": 176.52,
+        "Stock_L": 169.46,
+        "Stock_C": 171.99
+      },
+      {
+        "Time": "17:15",
+        "Perp_O": 171.46,
+        "Perp_H": 174.17,
+        "Perp_L": 170.9,
+        "Perp_C": 171.9,
+        "Stock_O": 171.16,
+        "Stock_H": 174.5,
+        "Stock_L": 171.05,
+        "Stock_C": 172.28
+      },
+      {
+        "Time": "17:30",
+        "Perp_O": 171.95,
+        "Perp_H": 173.32,
+        "Perp_L": 167.88,
+        "Perp_C": 172.55,
+        "Stock_O": 172.29,
+        "Stock_H": 173.75,
+        "Stock_L": 168.0,
+        "Stock_C": 173.0
+      },
+      {
+        "Time": "17:45",
+        "Perp_O": 172.54,
+        "Perp_H": 173.73,
+        "Perp_L": 171.23,
+        "Perp_C": 173.0,
+        "Stock_O": 172.96,
+        "Stock_H": 174.0,
+        "Stock_L": 171.54,
+        "Stock_C": 173.33
+      },
+      {
+        "Time": "18:00",
+        "Perp_O": 173.0,
+        "Perp_H": 173.0,
+        "Perp_L": 166.66,
+        "Perp_C": 167.47,
+        "Stock_O": 173.36,
+        "Stock_H": 173.36,
+        "Stock_L": 166.51,
+        "Stock_C": 167.46
+      },
+      {
+        "Time": "18:15",
+        "Perp_O": 167.51,
+        "Perp_H": 169.81,
+        "Perp_L": 164.96,
+        "Perp_C": 168.94,
+        "Stock_O": 167.57,
+        "Stock_H": 170.1,
+        "Stock_L": 165.05,
+        "Stock_C": 169.2
+      },
+      {
+        "Time": "18:30",
+        "Perp_O": 168.98,
+        "Perp_H": 170.74,
+        "Perp_L": 166.16,
+        "Perp_C": 170.34,
+        "Stock_O": 169.29,
+        "Stock_H": 170.94,
+        "Stock_L": 166.3,
+        "Stock_C": 170.26
+      },
+      {
+        "Time": "18:45",
+        "Perp_O": 170.29,
+        "Perp_H": 170.38,
+        "Perp_L": 168.09,
+        "Perp_C": 168.78,
+        "Stock_O": 170.26,
+        "Stock_H": 170.8,
+        "Stock_L": 168.13,
+        "Stock_C": 168.85
+      },
+      {
+        "Time": "19:00",
+        "Perp_O": 168.78,
+        "Perp_H": 169.02,
+        "Perp_L": 163.59,
+        "Perp_C": 164.23,
+        "Stock_O": 168.89,
+        "Stock_H": 169.23,
+        "Stock_L": 163.24,
+        "Stock_C": 164.09
+      },
+      {
+        "Time": "19:15",
+        "Perp_O": 164.3,
+        "Perp_H": 167.03,
+        "Perp_L": 161.67,
+        "Perp_C": 161.96,
+        "Stock_O": 164.16,
+        "Stock_H": 167.2,
+        "Stock_L": 161.31,
+        "Stock_C": 161.44
+      },
+      {
+        "Time": "19:30",
+        "Perp_O": 161.81,
+        "Perp_H": 161.95,
+        "Perp_L": 157.83,
+        "Perp_C": 158.46,
+        "Stock_O": 161.46,
+        "Stock_H": 161.97,
+        "Stock_L": 157.44,
+        "Stock_C": 158.04
+      },
+      {
+        "Time": "19:45",
+        "Perp_O": 158.44,
+        "Perp_H": 162.92,
+        "Perp_L": 158.27,
+        "Perp_C": 161.43,
+        "Stock_O": 158.04,
+        "Stock_H": 162.77,
+        "Stock_L": 157.86,
+        "Stock_C": 161.27
+      }
+    ]
+  },
+  "Quantinuum": {
+    "listing_date": "2026-06-04",
+    "first_traded_hour": "2026-06-04 13:00 UTC",
+    "ticker_hl": "xyz:QNT",
+    "ticker_stock": "QNT",
+    "granularity": "15m",
+    "hourly_data": [
+      {
+        "Time": "13:30",
+        "Perp_O": 91.79,
+        "Perp_H": 95.76,
+        "Perp_L": 91.67,
+        "Perp_C": 91.91,
+        "Stock_O": 60.0,
+        "Stock_H": 60.0,
+        "Stock_L": 60.0,
+        "Stock_C": 60.0
+      },
+      {
+        "Time": "17:30",
+        "Perp_O": 72.49,
+        "Perp_H": 74.0,
+        "Perp_L": 70.31,
+        "Perp_C": 70.31,
+        "Stock_O": 68.0,
+        "Stock_H": 71.35,
+        "Stock_L": 63.25,
+        "Stock_C": 65.1
+      },
+      {
+        "Time": "17:45",
+        "Perp_O": 70.31,
+        "Perp_H": 70.31,
+        "Perp_L": 65.27,
+        "Perp_C": 68.28,
+        "Stock_O": 65.26,
+        "Stock_H": 68.0,
+        "Stock_L": 63.51,
+        "Stock_C": 67.75
+      },
+      {
+        "Time": "18:00",
+        "Perp_O": 68.22,
+        "Perp_H": 68.81,
+        "Perp_L": 66.48,
+        "Perp_C": 67.51,
+        "Stock_O": 67.75,
+        "Stock_H": 68.0,
+        "Stock_L": 66.01,
+        "Stock_C": 67.4
+      },
+      {
+        "Time": "18:15",
+        "Perp_O": 67.51,
+        "Perp_H": 71.11,
+        "Perp_L": 65.45,
+        "Perp_C": 67.86,
+        "Stock_O": 67.4,
+        "Stock_H": 68.63,
+        "Stock_L": 65.4,
+        "Stock_C": 67.3
+      },
+      {
+        "Time": "18:30",
+        "Perp_O": 67.92,
+        "Perp_H": 68.7,
+        "Perp_L": 65.32,
+        "Perp_C": 65.41,
+        "Stock_O": 67.31,
+        "Stock_H": 67.8,
+        "Stock_L": 64.86,
+        "Stock_C": 65.11
+      },
+      {
+        "Time": "18:45",
+        "Perp_O": 65.4,
+        "Perp_H": 65.7,
+        "Perp_L": 64.42,
+        "Perp_C": 64.42,
+        "Stock_O": 65.1,
+        "Stock_H": 66.0,
+        "Stock_L": 64.0,
+        "Stock_C": 64.13
+      },
+      {
+        "Time": "19:00",
+        "Perp_O": 64.42,
+        "Perp_H": 64.44,
+        "Perp_L": 60.5,
+        "Perp_C": 61.08,
+        "Stock_O": 64.11,
+        "Stock_H": 64.11,
+        "Stock_L": 60.12,
+        "Stock_C": 60.9
+      },
+      {
+        "Time": "19:15",
+        "Perp_O": 61.1,
+        "Perp_H": 62.42,
+        "Perp_L": 60.58,
+        "Perp_C": 62.39,
+        "Stock_O": 60.85,
+        "Stock_H": 62.1,
+        "Stock_L": 60.51,
+        "Stock_C": 62.09
+      },
+      {
+        "Time": "19:30",
+        "Perp_O": 62.38,
+        "Perp_H": 62.38,
+        "Perp_L": 59.97,
+        "Perp_C": 60.24,
+        "Stock_O": 62.05,
+        "Stock_H": 62.1,
+        "Stock_L": 59.95,
+        "Stock_C": 60.0
+      },
+      {
+        "Time": "19:45",
+        "Perp_O": 60.24,
+        "Perp_H": 61.04,
+        "Perp_L": 60.1,
+        "Perp_C": 60.28,
+        "Stock_O": 60.0,
+        "Stock_H": 60.78,
+        "Stock_L": 59.89,
+        "Stock_C": 60.36
+      }
+    ]
+  }
+}

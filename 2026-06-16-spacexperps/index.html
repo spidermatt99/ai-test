@@ -9,7 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+    <!-- Luxon Date Adapter -->
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.3.0/dist/chartjs-adapter-luxon.umd.min.js"></script>
+    <!-- Chart.js Financial Candlestick Plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-financial@0.2.0/dist/chartjs-chart-financial.umd.min.js"></script>
     <style>
         :root {
             --bg-color: #0d0f14;
@@ -278,6 +283,7 @@
                 <div class="chart-controls">
                     <button class="btn-toggle active" id="btn-full-cerebras" onclick="toggleView('cerebras', 'full')">Full History</button>
                     <button class="btn-toggle" id="btn-post-cerebras" onclick="toggleView('cerebras', 'post')">Post-IPO Only</button>
+                    <button class="btn-toggle" id="btn-hourly-cerebras" onclick="toggleView('cerebras', 'hourly')">Listing Day Hourly</button>
                 </div>
             </div>
 
@@ -326,6 +332,7 @@
                 <div class="chart-controls">
                     <button class="btn-toggle active" id="btn-full-spacex" onclick="toggleView('spacex', 'full')">Full History</button>
                     <button class="btn-toggle" id="btn-post-spacex" onclick="toggleView('spacex', 'post')">Post-IPO Only</button>
+                    <button class="btn-toggle" id="btn-hourly-spacex" onclick="toggleView('spacex', 'hourly')">Listing Day Hourly</button>
                 </div>
             </div>
 
@@ -374,6 +381,7 @@
                 <div class="chart-controls">
                     <button class="btn-toggle active" id="btn-full-quantinuum" onclick="toggleView('quantinuum', 'full')">Full History</button>
                     <button class="btn-toggle" id="btn-post-quantinuum" onclick="toggleView('quantinuum', 'post')">Post-IPO Only</button>
+                    <button class="btn-toggle" id="btn-hourly-quantinuum" onclick="toggleView('quantinuum', 'hourly')">Listing Day Hourly</button>
                 </div>
             </div>
 
@@ -416,150 +424,323 @@
     </footer>
 
     <script>
-        const rawData = {"Cerebras": {"ticker_hl": "xyz:CBRS", "ticker_stock": "CBRS", "ipo_date": "2026-05-14", "data": [{"Date": "2026-05-01", "Perp_Close": 259.54, "Perp_Volume": 14306.84, "Stock_Close": null}, {"Date": "2026-05-02", "Perp_Close": 313.99, "Perp_Volume": 10640.61, "Stock_Close": null}, {"Date": "2026-05-03", "Perp_Close": 283.42, "Perp_Volume": 8425.02, "Stock_Close": null}, {"Date": "2026-05-04", "Perp_Close": 207.97, "Perp_Volume": 26776.87, "Stock_Close": null}, {"Date": "2026-05-05", "Perp_Close": 229.69, "Perp_Volume": 13496.82, "Stock_Close": null}, {"Date": "2026-05-06", "Perp_Close": 253.7, "Perp_Volume": 6067.82, "Stock_Close": null}, {"Date": "2026-05-07", "Perp_Close": 246.0, "Perp_Volume": 2603.57, "Stock_Close": null}, {"Date": "2026-05-08", "Perp_Close": 285.0, "Perp_Volume": 8288.64, "Stock_Close": null}, {"Date": "2026-05-09", "Perp_Close": 288.99, "Perp_Volume": 5257.7, "Stock_Close": null}, {"Date": "2026-05-10", "Perp_Close": 296.65, "Perp_Volume": 13101.51, "Stock_Close": null}, {"Date": "2026-05-11", "Perp_Close": 299.49, "Perp_Volume": 22771.0, "Stock_Close": null}, {"Date": "2026-05-12", "Perp_Close": 294.64, "Perp_Volume": 10952.13, "Stock_Close": null}, {"Date": "2026-05-13", "Perp_Close": 289.0, "Perp_Volume": 32106.35, "Stock_Close": null}, {"Date": "2026-05-14", "Perp_Close": 329.4, "Perp_Volume": 834135.48, "Stock_Close": 311.07}, {"Date": "2026-05-15", "Perp_Close": 278.77, "Perp_Volume": 286453.29, "Stock_Close": 279.72}, {"Date": "2026-05-16", "Perp_Close": 272.49, "Perp_Volume": 35249.05, "Stock_Close": null}, {"Date": "2026-05-17", "Perp_Close": 265.93, "Perp_Volume": 39665.34, "Stock_Close": null}, {"Date": "2026-05-18", "Perp_Close": 302.65, "Perp_Volume": 185749.39, "Stock_Close": 296.65}, {"Date": "2026-05-19", "Perp_Close": 306.99, "Perp_Volume": 181623.07, "Stock_Close": 303.63}, {"Date": "2026-05-20", "Perp_Close": 288.62, "Perp_Volume": 129121.05, "Stock_Close": 290.69}, {"Date": "2026-05-21", "Perp_Close": 282.83, "Perp_Volume": 81685.01, "Stock_Close": 281.86}, {"Date": "2026-05-22", "Perp_Close": 252.55, "Perp_Volume": 172295.14, "Stock_Close": 256.78}, {"Date": "2026-05-23", "Perp_Close": 259.66, "Perp_Volume": 23181.09, "Stock_Close": null}, {"Date": "2026-05-24", "Perp_Close": 262.97, "Perp_Volume": 13952.21, "Stock_Close": null}, {"Date": "2026-05-25", "Perp_Close": 263.73, "Perp_Volume": 6463.12, "Stock_Close": null}, {"Date": "2026-05-26", "Perp_Close": 241.09, "Perp_Volume": 135099.32, "Stock_Close": 241.71}, {"Date": "2026-05-27", "Perp_Close": 263.01, "Perp_Volume": 138590.71, "Stock_Close": 266.9}, {"Date": "2026-05-28", "Perp_Close": 245.48, "Perp_Volume": 107357.45, "Stock_Close": 242.59}, {"Date": "2026-05-29", "Perp_Close": 236.65, "Perp_Volume": 70192.04, "Stock_Close": 236.99}, {"Date": "2026-05-30", "Perp_Close": 238.12, "Perp_Volume": 4666.76, "Stock_Close": null}, {"Date": "2026-05-31", "Perp_Close": 242.5, "Perp_Volume": 2944.09, "Stock_Close": null}, {"Date": "2026-06-01", "Perp_Close": 214.09, "Perp_Volume": 52675.17, "Stock_Close": 213.28}, {"Date": "2026-06-02", "Perp_Close": 235.06, "Perp_Volume": 88864.93, "Stock_Close": 236.52}, {"Date": "2026-06-03", "Perp_Close": 211.01, "Perp_Volume": 45281.28, "Stock_Close": 214.94}, {"Date": "2026-06-04", "Perp_Close": 212.35, "Perp_Volume": 40150.14, "Stock_Close": 215.4}, {"Date": "2026-06-05", "Perp_Close": 199.79, "Perp_Volume": 39379.02, "Stock_Close": 201.01}, {"Date": "2026-06-06", "Perp_Close": 197.7, "Perp_Volume": 28696.19, "Stock_Close": null}, {"Date": "2026-06-07", "Perp_Close": 198.99, "Perp_Volume": 9026.38, "Stock_Close": null}, {"Date": "2026-06-08", "Perp_Close": 240.07, "Perp_Volume": 82157.42, "Stock_Close": 237.83}, {"Date": "2026-06-09", "Perp_Close": 223.89, "Perp_Volume": 72144.75, "Stock_Close": 226.82}, {"Date": "2026-06-10", "Perp_Close": 231.56, "Perp_Volume": 115625.06, "Stock_Close": 237.33}, {"Date": "2026-06-11", "Perp_Close": 229.06, "Perp_Volume": 53608.55, "Stock_Close": 226.55}, {"Date": "2026-06-12", "Perp_Close": 215.91, "Perp_Volume": 69572.72, "Stock_Close": 214.0}, {"Date": "2026-06-13", "Perp_Close": 217.94, "Perp_Volume": 3724.94, "Stock_Close": null}, {"Date": "2026-06-14", "Perp_Close": 218.7, "Perp_Volume": 4480.46, "Stock_Close": null}, {"Date": "2026-06-15", "Perp_Close": 217.75, "Perp_Volume": 48611.9, "Stock_Close": 218.03}, {"Date": "2026-06-16", "Perp_Close": 211.4, "Perp_Volume": 40100.28, "Stock_Close": 212.25}, {"Date": "2026-06-17", "Perp_Close": 218.32, "Perp_Volume": 30726.13, "Stock_Close": 213.67}, {"Date": "2026-06-18", "Perp_Close": 236.08, "Perp_Volume": 73328.28, "Stock_Close": 234.71}, {"Date": "2026-06-19", "Perp_Close": 234.17, "Perp_Volume": 7650.15, "Stock_Close": null}, {"Date": "2026-06-20", "Perp_Close": 232.08, "Perp_Volume": 2422.24, "Stock_Close": null}, {"Date": "2026-06-21", "Perp_Close": 230.4, "Perp_Volume": 10352.99, "Stock_Close": null}, {"Date": "2026-06-22", "Perp_Close": 225.05, "Perp_Volume": 87443.22, "Stock_Close": 224.43}, {"Date": "2026-06-23", "Perp_Close": 200.8, "Perp_Volume": 247093.02, "Stock_Close": 226.72}, {"Date": "2026-06-24", "Perp_Close": 187.86, "Perp_Volume": 168547.38, "Stock_Close": 182.26}, {"Date": "2026-06-25", "Perp_Close": 168.95, "Perp_Volume": 138070.29, "Stock_Close": 168.52}, {"Date": "2026-06-26", "Perp_Close": 181.43, "Perp_Volume": 109974.66, "Stock_Close": 181.59}, {"Date": "2026-06-27", "Perp_Close": 194.92, "Perp_Volume": 81881.8, "Stock_Close": null}, {"Date": "2026-06-28", "Perp_Close": 192.45, "Perp_Volume": 19050.14, "Stock_Close": null}, {"Date": "2026-06-29", "Perp_Close": 214.74, "Perp_Volume": 127131.75, "Stock_Close": 216.16}, {"Date": "2026-06-30", "Perp_Close": 218.45, "Perp_Volume": 78307.16, "Stock_Close": 221.0}, {"Date": "2026-07-01", "Perp_Close": 215.56, "Perp_Volume": 76554.86, "Stock_Close": 221.27}, {"Date": "2026-07-02", "Perp_Close": 204.15, "Perp_Volume": 63287.37, "Stock_Close": 204.86}, {"Date": "2026-07-03", "Perp_Close": 201.13, "Perp_Volume": 13954.81, "Stock_Close": null}, {"Date": "2026-07-04", "Perp_Close": 203.79, "Perp_Volume": 4763.96, "Stock_Close": null}, {"Date": "2026-07-05", "Perp_Close": 203.1, "Perp_Volume": 5746.81, "Stock_Close": null}, {"Date": "2026-07-06", "Perp_Close": 191.3, "Perp_Volume": 58310.44, "Stock_Close": 192.01}, {"Date": "2026-07-07", "Perp_Close": 175.69, "Perp_Volume": 68118.0, "Stock_Close": 176.61}, {"Date": "2026-07-08", "Perp_Close": 184.58, "Perp_Volume": 70891.66, "Stock_Close": 181.72}, {"Date": "2026-07-09", "Perp_Close": 199.99, "Perp_Volume": 152982.01, "Stock_Close": 198.53}, {"Date": "2026-07-10", "Perp_Close": 214.75, "Perp_Volume": 87830.19, "Stock_Close": 215.08}, {"Date": "2026-07-11", "Perp_Close": 210.86, "Perp_Volume": 5899.44, "Stock_Close": null}, {"Date": "2026-07-12", "Perp_Close": 210.72, "Perp_Volume": 3894.1, "Stock_Close": null}, {"Date": "2026-07-13", "Perp_Close": 201.5, "Perp_Volume": 141213.57, "Stock_Close": 204.62}, {"Date": "2026-07-14", "Perp_Close": 203.6, "Perp_Volume": 69815.91, "Stock_Close": 203.81}, {"Date": "2026-07-15", "Perp_Close": 184.36, "Perp_Volume": 86925.17, "Stock_Close": 184.01}, {"Date": "2026-07-16", "Perp_Close": 178.14, "Perp_Volume": 81397.33, "Stock_Close": 180.46}, {"Date": "2026-07-17", "Perp_Close": 179.29, "Perp_Volume": 6239.87, "Stock_Close": null}]}, "SpaceX": {"ticker_hl": "xyz:SPCX", "ticker_stock": "SPCX", "ipo_date": "2026-06-12", "data": [{"Date": "2026-05-17", "Perp_Close": 216.0, "Perp_Volume": 25885.12, "Stock_Close": null}, {"Date": "2026-05-18", "Perp_Close": 200.35, "Perp_Volume": 269702.24, "Stock_Close": null}, {"Date": "2026-05-19", "Perp_Close": 204.68, "Perp_Volume": 33860.03, "Stock_Close": null}, {"Date": "2026-05-20", "Perp_Close": 200.92, "Perp_Volume": 54642.96, "Stock_Close": null}, {"Date": "2026-05-21", "Perp_Close": 207.62, "Perp_Volume": 172989.81, "Stock_Close": null}, {"Date": "2026-05-22", "Perp_Close": 196.75, "Perp_Volume": 107831.13, "Stock_Close": null}, {"Date": "2026-05-23", "Perp_Close": 201.92, "Perp_Volume": 67359.68, "Stock_Close": null}, {"Date": "2026-05-24", "Perp_Close": 207.0, "Perp_Volume": 109750.54, "Stock_Close": null}, {"Date": "2026-05-25", "Perp_Close": 207.6, "Perp_Volume": 27302.23, "Stock_Close": null}, {"Date": "2026-05-26", "Perp_Close": 202.99, "Perp_Volume": 74441.64, "Stock_Close": null}, {"Date": "2026-05-27", "Perp_Close": 201.13, "Perp_Volume": 40374.82, "Stock_Close": null}, {"Date": "2026-05-28", "Perp_Close": 199.06, "Perp_Volume": 51279.44, "Stock_Close": null}, {"Date": "2026-05-29", "Perp_Close": 194.79, "Perp_Volume": 109527.28, "Stock_Close": null}, {"Date": "2026-05-30", "Perp_Close": 201.14, "Perp_Volume": 41036.62, "Stock_Close": null}, {"Date": "2026-05-31", "Perp_Close": 203.75, "Perp_Volume": 29028.67, "Stock_Close": null}, {"Date": "2026-06-01", "Perp_Close": 198.36, "Perp_Volume": 120483.46, "Stock_Close": null}, {"Date": "2026-06-02", "Perp_Close": 196.76, "Perp_Volume": 67485.19, "Stock_Close": null}, {"Date": "2026-06-03", "Perp_Close": 189.0, "Perp_Volume": 270249.81, "Stock_Close": null}, {"Date": "2026-06-04", "Perp_Close": 175.96, "Perp_Volume": 227638.41, "Stock_Close": null}, {"Date": "2026-06-05", "Perp_Close": 166.87, "Perp_Volume": 184041.4, "Stock_Close": null}, {"Date": "2026-06-06", "Perp_Close": 167.32, "Perp_Volume": 69573.84, "Stock_Close": null}, {"Date": "2026-06-07", "Perp_Close": 171.45, "Perp_Volume": 122351.13, "Stock_Close": null}, {"Date": "2026-06-08", "Perp_Close": 161.02, "Perp_Volume": 572385.11, "Stock_Close": null}, {"Date": "2026-06-09", "Perp_Close": 155.67, "Perp_Volume": 453203.21, "Stock_Close": null}, {"Date": "2026-06-10", "Perp_Close": 163.0, "Perp_Volume": 418957.2, "Stock_Close": null}, {"Date": "2026-06-11", "Perp_Close": 172.84, "Perp_Volume": 760923.85, "Stock_Close": null}, {"Date": "2026-06-12", "Perp_Close": 166.72, "Perp_Volume": 8226943.5, "Stock_Close": 160.95}, {"Date": "2026-06-13", "Perp_Close": 164.91, "Perp_Volume": 382977.31, "Stock_Close": null}, {"Date": "2026-06-14", "Perp_Close": 167.94, "Perp_Volume": 264351.12, "Stock_Close": null}, {"Date": "2026-06-15", "Perp_Close": 199.18, "Perp_Volume": 3479392.95, "Stock_Close": 192.5}, {"Date": "2026-06-16", "Perp_Close": 206.11, "Perp_Volume": 7878578.69, "Stock_Close": 211.39}, {"Date": "2026-06-17", "Perp_Close": 195.29, "Perp_Volume": 4538982.03, "Stock_Close": 191.82}, {"Date": "2026-06-18", "Perp_Close": 181.76, "Perp_Volume": 4827108.59, "Stock_Close": 185.0}, {"Date": "2026-06-19", "Perp_Close": 180.15, "Perp_Volume": 764460.73, "Stock_Close": null}, {"Date": "2026-06-20", "Perp_Close": 181.62, "Perp_Volume": 220418.6, "Stock_Close": null}, {"Date": "2026-06-21", "Perp_Close": 175.91, "Perp_Volume": 242241.34, "Stock_Close": null}, {"Date": "2026-06-22", "Perp_Close": 156.87, "Perp_Volume": 5699121.58, "Stock_Close": 154.6}, {"Date": "2026-06-23", "Perp_Close": 156.98, "Perp_Volume": 6803801.86, "Stock_Close": 156.11}, {"Date": "2026-06-24", "Perp_Close": 154.27, "Perp_Volume": 2245737.51, "Stock_Close": 154.54}, {"Date": "2026-06-25", "Perp_Close": 152.9, "Perp_Volume": 1635130.96, "Stock_Close": 153.0}, {"Date": "2026-06-26", "Perp_Close": 152.87, "Perp_Volume": 1971946.24, "Stock_Close": 153.23}, {"Date": "2026-06-27", "Perp_Close": 153.68, "Perp_Volume": 168294.33, "Stock_Close": null}, {"Date": "2026-06-28", "Perp_Close": 156.66, "Perp_Volume": 145164.62, "Stock_Close": null}, {"Date": "2026-06-29", "Perp_Close": 163.45, "Perp_Volume": 1490792.5, "Stock_Close": 164.19}, {"Date": "2026-06-30", "Perp_Close": 172.28, "Perp_Volume": 1513935.63, "Stock_Close": 170.86}, {"Date": "2026-07-01", "Perp_Close": 157.94, "Perp_Volume": 2057560.47, "Stock_Close": 157.54}, {"Date": "2026-07-02", "Perp_Close": 161.03, "Perp_Volume": 1368990.98, "Stock_Close": 162.0}, {"Date": "2026-07-03", "Perp_Close": 158.8, "Perp_Volume": 217400.53, "Stock_Close": null}, {"Date": "2026-07-04", "Perp_Close": 159.98, "Perp_Volume": 67103.14, "Stock_Close": null}, {"Date": "2026-07-05", "Perp_Close": 161.34, "Perp_Volume": 83829.14, "Stock_Close": null}, {"Date": "2026-07-06", "Perp_Close": 157.66, "Perp_Volume": 1810846.29, "Stock_Close": 160.42}, {"Date": "2026-07-07", "Perp_Close": 151.09, "Perp_Volume": 1483934.17, "Stock_Close": 149.47}, {"Date": "2026-07-08", "Perp_Close": 148.91, "Perp_Volume": 1552101.52, "Stock_Close": 148.3}, {"Date": "2026-07-09", "Perp_Close": 152.18, "Perp_Volume": 1189631.24, "Stock_Close": 152.16}, {"Date": "2026-07-10", "Perp_Close": 146.01, "Perp_Volume": 1022492.88, "Stock_Close": 145.3}, {"Date": "2026-07-11", "Perp_Close": 145.69, "Perp_Volume": 83512.23, "Stock_Close": null}, {"Date": "2026-07-12", "Perp_Close": 145.52, "Perp_Volume": 61384.75, "Stock_Close": null}, {"Date": "2026-07-13", "Perp_Close": 137.97, "Perp_Volume": 1333757.78, "Stock_Close": 139.14}, {"Date": "2026-07-14", "Perp_Close": 137.19, "Perp_Volume": 974134.04, "Stock_Close": 136.08}, {"Date": "2026-07-15", "Perp_Close": 135.89, "Perp_Volume": 1434300.07, "Stock_Close": 135.27}, {"Date": "2026-07-16", "Perp_Close": 126.99, "Perp_Volume": 2308052.64, "Stock_Close": 131.11}, {"Date": "2026-07-17", "Perp_Close": 126.54, "Perp_Volume": 177260.87, "Stock_Close": null}]}, "Quantinuum": {"ticker_hl": "xyz:QNT", "ticker_stock": "QNT", "ipo_date": "2026-06-04", "data": [{"Date": "2026-05-28", "Perp_Close": 93.74, "Perp_Volume": 53143.89, "Stock_Close": null}, {"Date": "2026-05-29", "Perp_Close": 99.5, "Perp_Volume": 65308.22, "Stock_Close": null}, {"Date": "2026-05-30", "Perp_Close": 98.94, "Perp_Volume": 5957.33, "Stock_Close": null}, {"Date": "2026-05-31", "Perp_Close": 102.8, "Perp_Volume": 9323.36, "Stock_Close": null}, {"Date": "2026-06-01", "Perp_Close": 94.91, "Perp_Volume": 14955.88, "Stock_Close": null}, {"Date": "2026-06-02", "Perp_Close": 94.71, "Perp_Volume": 22069.68, "Stock_Close": null}, {"Date": "2026-06-03", "Perp_Close": 97.43, "Perp_Volume": 26484.69, "Stock_Close": null}, {"Date": "2026-06-04", "Perp_Close": 59.64, "Perp_Volume": 739071.87, "Stock_Close": 60.38}, {"Date": "2026-06-05", "Perp_Close": 55.33, "Perp_Volume": 440357.33, "Stock_Close": 56.26}, {"Date": "2026-06-06", "Perp_Close": 54.06, "Perp_Volume": 21841.57, "Stock_Close": null}, {"Date": "2026-06-07", "Perp_Close": 55.67, "Perp_Volume": 11901.04, "Stock_Close": null}, {"Date": "2026-06-08", "Perp_Close": 60.22, "Perp_Volume": 65664.4, "Stock_Close": 58.4}, {"Date": "2026-06-09", "Perp_Close": 55.85, "Perp_Volume": 65832.32, "Stock_Close": 54.94}, {"Date": "2026-06-10", "Perp_Close": 51.28, "Perp_Volume": 98847.24, "Stock_Close": 51.4}, {"Date": "2026-06-11", "Perp_Close": 56.75, "Perp_Volume": 162676.35, "Stock_Close": 56.49}, {"Date": "2026-06-12", "Perp_Close": 55.71, "Perp_Volume": 77029.87, "Stock_Close": 55.26}, {"Date": "2026-06-13", "Perp_Close": 55.16, "Perp_Volume": 1930.96, "Stock_Close": null}, {"Date": "2026-06-14", "Perp_Close": 56.24, "Perp_Volume": 2367.86, "Stock_Close": null}, {"Date": "2026-06-15", "Perp_Close": 57.84, "Perp_Volume": 13579.93, "Stock_Close": 57.91}, {"Date": "2026-06-16", "Perp_Close": 54.76, "Perp_Volume": 20874.57, "Stock_Close": 55.43}, {"Date": "2026-06-17", "Perp_Close": 64.35, "Perp_Volume": 32053.96, "Stock_Close": 62.75}, {"Date": "2026-06-18", "Perp_Close": 69.52, "Perp_Volume": 59174.38, "Stock_Close": 69.8}, {"Date": "2026-06-19", "Perp_Close": 71.21, "Perp_Volume": 12363.29, "Stock_Close": null}, {"Date": "2026-06-20", "Perp_Close": 69.67, "Perp_Volume": 6790.47, "Stock_Close": null}, {"Date": "2026-06-21", "Perp_Close": 69.96, "Perp_Volume": 2153.71, "Stock_Close": null}, {"Date": "2026-06-22", "Perp_Close": 70.89, "Perp_Volume": 153774.22, "Stock_Close": 68.27}, {"Date": "2026-06-23", "Perp_Close": 78.36, "Perp_Volume": 134189.4, "Stock_Close": 77.46}, {"Date": "2026-06-24", "Perp_Close": 73.23, "Perp_Volume": 85997.11, "Stock_Close": 71.1}, {"Date": "2026-06-25", "Perp_Close": 71.17, "Perp_Volume": 77343.55, "Stock_Close": 71.68}, {"Date": "2026-06-26", "Perp_Close": 75.48, "Perp_Volume": 91973.07, "Stock_Close": 75.57}, {"Date": "2026-06-27", "Perp_Close": 74.42, "Perp_Volume": 6825.82, "Stock_Close": null}, {"Date": "2026-06-28", "Perp_Close": 75.25, "Perp_Volume": 2302.08, "Stock_Close": null}, {"Date": "2026-06-29", "Perp_Close": 73.36, "Perp_Volume": 80813.25, "Stock_Close": 72.84}, {"Date": "2026-06-30", "Perp_Close": 82.0, "Perp_Volume": 106995.76, "Stock_Close": 81.74}, {"Date": "2026-07-01", "Perp_Close": 78.53, "Perp_Volume": 72148.41, "Stock_Close": 78.41}, {"Date": "2026-07-02", "Perp_Close": 74.43, "Perp_Volume": 36903.14, "Stock_Close": 74.56}, {"Date": "2026-07-03", "Perp_Close": 75.94, "Perp_Volume": 1037.27, "Stock_Close": null}, {"Date": "2026-07-04", "Perp_Close": 76.49, "Perp_Volume": 1536.71, "Stock_Close": null}, {"Date": "2026-07-05", "Perp_Close": 76.31, "Perp_Volume": 1059.79, "Stock_Close": null}, {"Date": "2026-07-06", "Perp_Close": 83.65, "Perp_Volume": 48990.43, "Stock_Close": 83.17}, {"Date": "2026-07-07", "Perp_Close": 77.72, "Perp_Volume": 32441.57, "Stock_Close": 77.6}, {"Date": "2026-07-08", "Perp_Close": 76.22, "Perp_Volume": 28460.91, "Stock_Close": 75.61}, {"Date": "2026-07-09", "Perp_Close": 73.93, "Perp_Volume": 15585.41, "Stock_Close": 73.51}, {"Date": "2026-07-10", "Perp_Close": 71.2, "Perp_Volume": 17490.92, "Stock_Close": 70.45}, {"Date": "2026-07-11", "Perp_Close": 70.23, "Perp_Volume": 1887.38, "Stock_Close": null}, {"Date": "2026-07-12", "Perp_Close": 70.03, "Perp_Volume": 1230.92, "Stock_Close": null}, {"Date": "2026-07-13", "Perp_Close": 63.79, "Perp_Volume": 26339.14, "Stock_Close": 64.09}, {"Date": "2026-07-14", "Perp_Close": 67.23, "Perp_Volume": 23366.79, "Stock_Close": 66.63}, {"Date": "2026-07-15", "Perp_Close": 60.62, "Perp_Volume": 30387.94, "Stock_Close": 60.51}, {"Date": "2026-07-16", "Perp_Close": 55.86, "Perp_Volume": 23385.9, "Stock_Close": 56.52}, {"Date": "2026-07-17", "Perp_Close": 56.11, "Perp_Volume": 899.32, "Stock_Close": null}]}};
+        const rawData = {"Cerebras": {"ticker_hl": "xyz:CBRS", "ticker_stock": "CBRS", "ipo_date": "2026-05-14", "data": [{"Date": "2026-05-01", "Perp_Close": 259.54, "Perp_Volume": 14306.84, "Stock_Close": null}, {"Date": "2026-05-02", "Perp_Close": 313.99, "Perp_Volume": 10640.61, "Stock_Close": null}, {"Date": "2026-05-03", "Perp_Close": 283.42, "Perp_Volume": 8425.02, "Stock_Close": null}, {"Date": "2026-05-04", "Perp_Close": 207.97, "Perp_Volume": 26776.87, "Stock_Close": null}, {"Date": "2026-05-05", "Perp_Close": 229.69, "Perp_Volume": 13496.82, "Stock_Close": null}, {"Date": "2026-05-06", "Perp_Close": 253.7, "Perp_Volume": 6067.82, "Stock_Close": null}, {"Date": "2026-05-07", "Perp_Close": 246.0, "Perp_Volume": 2603.57, "Stock_Close": null}, {"Date": "2026-05-08", "Perp_Close": 285.0, "Perp_Volume": 8288.64, "Stock_Close": null}, {"Date": "2026-05-09", "Perp_Close": 288.99, "Perp_Volume": 5257.7, "Stock_Close": null}, {"Date": "2026-05-10", "Perp_Close": 296.65, "Perp_Volume": 13101.51, "Stock_Close": null}, {"Date": "2026-05-11", "Perp_Close": 299.49, "Perp_Volume": 22771.0, "Stock_Close": null}, {"Date": "2026-05-12", "Perp_Close": 294.64, "Perp_Volume": 10952.13, "Stock_Close": null}, {"Date": "2026-05-13", "Perp_Close": 289.0, "Perp_Volume": 32106.35, "Stock_Close": null}, {"Date": "2026-05-14", "Perp_Close": 329.4, "Perp_Volume": 834135.48, "Stock_Close": 311.07}, {"Date": "2026-05-15", "Perp_Close": 278.77, "Perp_Volume": 286453.29, "Stock_Close": 279.72}, {"Date": "2026-05-16", "Perp_Close": 272.49, "Perp_Volume": 35249.05, "Stock_Close": null}, {"Date": "2026-05-17", "Perp_Close": 265.93, "Perp_Volume": 39665.34, "Stock_Close": null}, {"Date": "2026-05-18", "Perp_Close": 302.65, "Perp_Volume": 185749.39, "Stock_Close": 296.65}, {"Date": "2026-05-19", "Perp_Close": 306.99, "Perp_Volume": 181623.07, "Stock_Close": 303.63}, {"Date": "2026-05-20", "Perp_Close": 288.62, "Perp_Volume": 129121.05, "Stock_Close": 290.69}, {"Date": "2026-05-21", "Perp_Close": 282.83, "Perp_Volume": 81685.01, "Stock_Close": 281.86}, {"Date": "2026-05-22", "Perp_Close": 252.55, "Perp_Volume": 172295.14, "Stock_Close": 256.78}, {"Date": "2026-05-23", "Perp_Close": 259.66, "Perp_Volume": 23181.09, "Stock_Close": null}, {"Date": "2026-05-24", "Perp_Close": 262.97, "Perp_Volume": 13952.21, "Stock_Close": null}, {"Date": "2026-05-25", "Perp_Close": 263.73, "Perp_Volume": 6463.12, "Stock_Close": null}, {"Date": "2026-05-26", "Perp_Close": 241.09, "Perp_Volume": 135099.32, "Stock_Close": 241.71}, {"Date": "2026-05-27", "Perp_Close": 263.01, "Perp_Volume": 138590.71, "Stock_Close": 266.9}, {"Date": "2026-05-28", "Perp_Close": 245.48, "Perp_Volume": 107357.45, "Stock_Close": 242.59}, {"Date": "2026-05-29", "Perp_Close": 236.65, "Perp_Volume": 70192.04, "Stock_Close": 236.99}, {"Date": "2026-05-30", "Perp_Close": 238.12, "Perp_Volume": 4666.76, "Stock_Close": null}, {"Date": "2026-05-31", "Perp_Close": 242.5, "Perp_Volume": 2944.09, "Stock_Close": null}, {"Date": "2026-06-01", "Perp_Close": 214.09, "Perp_Volume": 52675.17, "Stock_Close": 213.28}, {"Date": "2026-06-02", "Perp_Close": 235.06, "Perp_Volume": 88864.93, "Stock_Close": 236.52}, {"Date": "2026-06-03", "Perp_Close": 211.01, "Perp_Volume": 45281.28, "Stock_Close": 214.94}, {"Date": "2026-06-04", "Perp_Close": 212.35, "Perp_Volume": 40150.14, "Stock_Close": 215.4}, {"Date": "2026-06-05", "Perp_Close": 199.79, "Perp_Volume": 39379.02, "Stock_Close": 201.01}, {"Date": "2026-06-06", "Perp_Close": 197.7, "Perp_Volume": 28696.19, "Stock_Close": null}, {"Date": "2026-06-07", "Perp_Close": 198.99, "Perp_Volume": 9026.38, "Stock_Close": null}, {"Date": "2026-06-08", "Perp_Close": 240.07, "Perp_Volume": 82157.42, "Stock_Close": 237.83}, {"Date": "2026-06-09", "Perp_Close": 223.89, "Perp_Volume": 72144.75, "Stock_Close": 226.82}, {"Date": "2026-06-10", "Perp_Close": 231.56, "Perp_Volume": 115625.06, "Stock_Close": 237.33}, {"Date": "2026-06-11", "Perp_Close": 229.06, "Perp_Volume": 53608.55, "Stock_Close": 226.55}, {"Date": "2026-06-12", "Perp_Close": 215.91, "Perp_Volume": 69572.72, "Stock_Close": 214.0}, {"Date": "2026-06-13", "Perp_Close": 217.94, "Perp_Volume": 3724.94, "Stock_Close": null}, {"Date": "2026-06-14", "Perp_Close": 218.7, "Perp_Volume": 4480.46, "Stock_Close": null}, {"Date": "2026-06-15", "Perp_Close": 217.75, "Perp_Volume": 48611.9, "Stock_Close": 218.03}, {"Date": "2026-06-16", "Perp_Close": 211.4, "Perp_Volume": 40100.28, "Stock_Close": 212.25}, {"Date": "2026-06-17", "Perp_Close": 218.32, "Perp_Volume": 30726.13, "Stock_Close": 213.67}, {"Date": "2026-06-18", "Perp_Close": 236.08, "Perp_Volume": 73328.28, "Stock_Close": 234.71}, {"Date": "2026-06-19", "Perp_Close": 234.17, "Perp_Volume": 7650.15, "Stock_Close": null}, {"Date": "2026-06-20", "Perp_Close": 232.08, "Perp_Volume": 2422.24, "Stock_Close": null}, {"Date": "2026-06-21", "Perp_Close": 230.4, "Perp_Volume": 10352.99, "Stock_Close": null}, {"Date": "2026-06-22", "Perp_Close": 225.05, "Perp_Volume": 87443.22, "Stock_Close": 224.43}, {"Date": "2026-06-23", "Perp_Close": 200.8, "Perp_Volume": 247093.02, "Stock_Close": 226.72}, {"Date": "2026-06-24", "Perp_Close": 187.86, "Perp_Volume": 168547.38, "Stock_Close": 182.26}, {"Date": "2026-06-25", "Perp_Close": 168.95, "Perp_Volume": 138070.29, "Stock_Close": 168.52}, {"Date": "2026-06-26", "Perp_Close": 181.43, "Perp_Volume": 109974.66, "Stock_Close": 181.59}, {"Date": "2026-06-27", "Perp_Close": 194.92, "Perp_Volume": 81881.8, "Stock_Close": null}, {"Date": "2026-06-28", "Perp_Close": 192.45, "Perp_Volume": 19050.14, "Stock_Close": null}, {"Date": "2026-06-29", "Perp_Close": 214.74, "Perp_Volume": 127131.75, "Stock_Close": 216.16}, {"Date": "2026-06-30", "Perp_Close": 218.45, "Perp_Volume": 78307.16, "Stock_Close": 221.0}, {"Date": "2026-07-01", "Perp_Close": 215.56, "Perp_Volume": 76554.86, "Stock_Close": 221.27}, {"Date": "2026-07-02", "Perp_Close": 204.15, "Perp_Volume": 63287.37, "Stock_Close": 204.86}, {"Date": "2026-07-03", "Perp_Close": 201.13, "Perp_Volume": 13954.81, "Stock_Close": null}, {"Date": "2026-07-04", "Perp_Close": 203.79, "Perp_Volume": 4763.96, "Stock_Close": null}, {"Date": "2026-07-05", "Perp_Close": 203.1, "Perp_Volume": 5746.81, "Stock_Close": null}, {"Date": "2026-07-06", "Perp_Close": 191.3, "Perp_Volume": 58310.44, "Stock_Close": 192.01}, {"Date": "2026-07-07", "Perp_Close": 175.69, "Perp_Volume": 68118.0, "Stock_Close": 176.61}, {"Date": "2026-07-08", "Perp_Close": 184.58, "Perp_Volume": 70891.66, "Stock_Close": 181.72}, {"Date": "2026-07-09", "Perp_Close": 199.99, "Perp_Volume": 152982.01, "Stock_Close": 198.53}, {"Date": "2026-07-10", "Perp_Close": 214.75, "Perp_Volume": 87830.19, "Stock_Close": 215.08}, {"Date": "2026-07-11", "Perp_Close": 210.86, "Perp_Volume": 5899.44, "Stock_Close": null}, {"Date": "2026-07-12", "Perp_Close": 210.72, "Perp_Volume": 3894.1, "Stock_Close": null}, {"Date": "2026-07-13", "Perp_Close": 201.5, "Perp_Volume": 141213.57, "Stock_Close": 204.62}, {"Date": "2026-07-14", "Perp_Close": 203.6, "Perp_Volume": 69815.91, "Stock_Close": 203.81}, {"Date": "2026-07-15", "Perp_Close": 184.36, "Perp_Volume": 86925.17, "Stock_Close": 184.01}, {"Date": "2026-07-16", "Perp_Close": 178.14, "Perp_Volume": 81397.33, "Stock_Close": 180.46}, {"Date": "2026-07-17", "Perp_Close": 178.38, "Perp_Volume": 6387.46, "Stock_Close": null}]}, "SpaceX": {"ticker_hl": "xyz:SPCX", "ticker_stock": "SPCX", "ipo_date": "2026-06-12", "data": [{"Date": "2026-05-17", "Perp_Close": 216.0, "Perp_Volume": 25885.12, "Stock_Close": null}, {"Date": "2026-05-18", "Perp_Close": 200.35, "Perp_Volume": 269702.24, "Stock_Close": null}, {"Date": "2026-05-19", "Perp_Close": 204.68, "Perp_Volume": 33860.03, "Stock_Close": null}, {"Date": "2026-05-20", "Perp_Close": 200.92, "Perp_Volume": 54642.96, "Stock_Close": null}, {"Date": "2026-05-21", "Perp_Close": 207.62, "Perp_Volume": 172989.81, "Stock_Close": null}, {"Date": "2026-05-22", "Perp_Close": 196.75, "Perp_Volume": 107831.13, "Stock_Close": null}, {"Date": "2026-05-23", "Perp_Close": 201.92, "Perp_Volume": 67359.68, "Stock_Close": null}, {"Date": "2026-05-24", "Perp_Close": 207.0, "Perp_Volume": 109750.54, "Stock_Close": null}, {"Date": "2026-05-25", "Perp_Close": 207.6, "Perp_Volume": 27302.23, "Stock_Close": null}, {"Date": "2026-05-26", "Perp_Close": 202.99, "Perp_Volume": 74441.64, "Stock_Close": null}, {"Date": "2026-05-27", "Perp_Close": 201.13, "Perp_Volume": 40374.82, "Stock_Close": null}, {"Date": "2026-05-28", "Perp_Close": 199.06, "Perp_Volume": 51279.44, "Stock_Close": null}, {"Date": "2026-05-29", "Perp_Close": 194.79, "Perp_Volume": 109527.28, "Stock_Close": null}, {"Date": "2026-05-30", "Perp_Close": 201.14, "Perp_Volume": 41036.62, "Stock_Close": null}, {"Date": "2026-05-31", "Perp_Close": 203.75, "Perp_Volume": 29028.67, "Stock_Close": null}, {"Date": "2026-06-01", "Perp_Close": 198.36, "Perp_Volume": 120483.46, "Stock_Close": null}, {"Date": "2026-06-02", "Perp_Close": 196.76, "Perp_Volume": 67485.19, "Stock_Close": null}, {"Date": "2026-06-03", "Perp_Close": 189.0, "Perp_Volume": 270249.81, "Stock_Close": null}, {"Date": "2026-06-04", "Perp_Close": 175.96, "Perp_Volume": 227638.41, "Stock_Close": null}, {"Date": "2026-06-05", "Perp_Close": 166.87, "Perp_Volume": 184041.4, "Stock_Close": null}, {"Date": "2026-06-06", "Perp_Close": 167.32, "Perp_Volume": 69573.84, "Stock_Close": null}, {"Date": "2026-06-07", "Perp_Close": 171.45, "Perp_Volume": 122351.13, "Stock_Close": null}, {"Date": "2026-06-08", "Perp_Close": 161.02, "Perp_Volume": 572385.11, "Stock_Close": null}, {"Date": "2026-06-09", "Perp_Close": 155.67, "Perp_Volume": 453203.21, "Stock_Close": null}, {"Date": "2026-06-10", "Perp_Close": 163.0, "Perp_Volume": 418957.2, "Stock_Close": null}, {"Date": "2026-06-11", "Perp_Close": 172.84, "Perp_Volume": 760923.85, "Stock_Close": null}, {"Date": "2026-06-12", "Perp_Close": 166.72, "Perp_Volume": 8226943.5, "Stock_Close": 160.95}, {"Date": "2026-06-13", "Perp_Close": 164.91, "Perp_Volume": 382977.31, "Stock_Close": null}, {"Date": "2026-06-14", "Perp_Close": 167.94, "Perp_Volume": 264351.12, "Stock_Close": null}, {"Date": "2026-06-15", "Perp_Close": 199.18, "Perp_Volume": 3479392.95, "Stock_Close": 192.5}, {"Date": "2026-06-16", "Perp_Close": 206.11, "Perp_Volume": 7878578.69, "Stock_Close": 211.39}, {"Date": "2026-06-17", "Perp_Close": 195.29, "Perp_Volume": 4538982.03, "Stock_Close": 191.82}, {"Date": "2026-06-18", "Perp_Close": 181.76, "Perp_Volume": 4827108.59, "Stock_Close": 185.0}, {"Date": "2026-06-19", "Perp_Close": 180.15, "Perp_Volume": 764460.73, "Stock_Close": null}, {"Date": "2026-06-20", "Perp_Close": 181.62, "Perp_Volume": 220418.6, "Stock_Close": null}, {"Date": "2026-06-21", "Perp_Close": 175.91, "Perp_Volume": 242241.34, "Stock_Close": null}, {"Date": "2026-06-22", "Perp_Close": 156.87, "Perp_Volume": 5699121.58, "Stock_Close": 154.6}, {"Date": "2026-06-23", "Perp_Close": 156.98, "Perp_Volume": 6803801.86, "Stock_Close": 156.11}, {"Date": "2026-06-24", "Perp_Close": 154.27, "Perp_Volume": 2245737.51, "Stock_Close": 154.54}, {"Date": "2026-06-25", "Perp_Close": 152.9, "Perp_Volume": 1635130.96, "Stock_Close": 153.0}, {"Date": "2026-06-26", "Perp_Close": 152.87, "Perp_Volume": 1971946.24, "Stock_Close": 153.23}, {"Date": "2026-06-27", "Perp_Close": 153.68, "Perp_Volume": 168294.33, "Stock_Close": null}, {"Date": "2026-06-28", "Perp_Close": 156.66, "Perp_Volume": 145164.62, "Stock_Close": null}, {"Date": "2026-06-29", "Perp_Close": 163.45, "Perp_Volume": 1490792.5, "Stock_Close": 164.19}, {"Date": "2026-06-30", "Perp_Close": 172.28, "Perp_Volume": 1513935.63, "Stock_Close": 170.86}, {"Date": "2026-07-01", "Perp_Close": 157.94, "Perp_Volume": 2057560.47, "Stock_Close": 157.54}, {"Date": "2026-07-02", "Perp_Close": 161.03, "Perp_Volume": 1368990.98, "Stock_Close": 162.0}, {"Date": "2026-07-03", "Perp_Close": 158.8, "Perp_Volume": 217400.53, "Stock_Close": null}, {"Date": "2026-07-04", "Perp_Close": 159.98, "Perp_Volume": 67103.14, "Stock_Close": null}, {"Date": "2026-07-05", "Perp_Close": 161.34, "Perp_Volume": 83829.14, "Stock_Close": null}, {"Date": "2026-07-06", "Perp_Close": 157.66, "Perp_Volume": 1810846.29, "Stock_Close": 160.42}, {"Date": "2026-07-07", "Perp_Close": 151.09, "Perp_Volume": 1483934.17, "Stock_Close": 149.47}, {"Date": "2026-07-08", "Perp_Close": 148.91, "Perp_Volume": 1552101.52, "Stock_Close": 148.3}, {"Date": "2026-07-09", "Perp_Close": 152.18, "Perp_Volume": 1189631.24, "Stock_Close": 152.16}, {"Date": "2026-07-10", "Perp_Close": 146.01, "Perp_Volume": 1022492.88, "Stock_Close": 145.3}, {"Date": "2026-07-11", "Perp_Close": 145.69, "Perp_Volume": 83512.23, "Stock_Close": null}, {"Date": "2026-07-12", "Perp_Close": 145.52, "Perp_Volume": 61384.75, "Stock_Close": null}, {"Date": "2026-07-13", "Perp_Close": 137.97, "Perp_Volume": 1333757.78, "Stock_Close": 139.14}, {"Date": "2026-07-14", "Perp_Close": 137.19, "Perp_Volume": 974134.04, "Stock_Close": 136.08}, {"Date": "2026-07-15", "Perp_Close": 135.89, "Perp_Volume": 1434300.07, "Stock_Close": 135.27}, {"Date": "2026-07-16", "Perp_Close": 126.99, "Perp_Volume": 2308052.64, "Stock_Close": 131.11}, {"Date": "2026-07-17", "Perp_Close": 126.68, "Perp_Volume": 186638.17, "Stock_Close": null}]}, "Quantinuum": {"ticker_hl": "xyz:QNT", "ticker_stock": "QNT", "ipo_date": "2026-06-04", "data": [{"Date": "2026-05-28", "Perp_Close": 93.74, "Perp_Volume": 53143.89, "Stock_Close": null}, {"Date": "2026-05-29", "Perp_Close": 99.5, "Perp_Volume": 65308.22, "Stock_Close": null}, {"Date": "2026-05-30", "Perp_Close": 98.94, "Perp_Volume": 5957.33, "Stock_Close": null}, {"Date": "2026-05-31", "Perp_Close": 102.8, "Perp_Volume": 9323.36, "Stock_Close": null}, {"Date": "2026-06-01", "Perp_Close": 94.91, "Perp_Volume": 14955.88, "Stock_Close": null}, {"Date": "2026-06-02", "Perp_Close": 94.71, "Perp_Volume": 22069.68, "Stock_Close": null}, {"Date": "2026-06-03", "Perp_Close": 97.43, "Perp_Volume": 26484.69, "Stock_Close": null}, {"Date": "2026-06-04", "Perp_Close": 59.64, "Perp_Volume": 739071.87, "Stock_Close": 60.38}, {"Date": "2026-06-05", "Perp_Close": 55.33, "Perp_Volume": 440357.33, "Stock_Close": 56.26}, {"Date": "2026-06-06", "Perp_Close": 54.06, "Perp_Volume": 21841.57, "Stock_Close": null}, {"Date": "2026-06-07", "Perp_Close": 55.67, "Perp_Volume": 11901.04, "Stock_Close": null}, {"Date": "2026-06-08", "Perp_Close": 60.22, "Perp_Volume": 65664.4, "Stock_Close": 58.4}, {"Date": "2026-06-09", "Perp_Close": 55.85, "Perp_Volume": 65832.32, "Stock_Close": 54.94}, {"Date": "2026-06-10", "Perp_Close": 51.28, "Perp_Volume": 98847.24, "Stock_Close": 51.4}, {"Date": "2026-06-11", "Perp_Close": 56.75, "Perp_Volume": 162676.35, "Stock_Close": 56.49}, {"Date": "2026-06-12", "Perp_Close": 55.71, "Perp_Volume": 77029.87, "Stock_Close": 55.26}, {"Date": "2026-06-13", "Perp_Close": 55.16, "Perp_Volume": 1930.96, "Stock_Close": null}, {"Date": "2026-06-14", "Perp_Close": 56.24, "Perp_Volume": 2367.86, "Stock_Close": null}, {"Date": "2026-06-15", "Perp_Close": 57.84, "Perp_Volume": 13579.93, "Stock_Close": 57.91}, {"Date": "2026-06-16", "Perp_Close": 54.76, "Perp_Volume": 20874.57, "Stock_Close": 55.43}, {"Date": "2026-06-17", "Perp_Close": 64.35, "Perp_Volume": 32053.96, "Stock_Close": 62.75}, {"Date": "2026-06-18", "Perp_Close": 69.52, "Perp_Volume": 59174.38, "Stock_Close": 69.8}, {"Date": "2026-06-19", "Perp_Close": 71.21, "Perp_Volume": 12363.29, "Stock_Close": null}, {"Date": "2026-06-20", "Perp_Close": 69.67, "Perp_Volume": 6790.47, "Stock_Close": null}, {"Date": "2026-06-21", "Perp_Close": 69.96, "Perp_Volume": 2153.71, "Stock_Close": null}, {"Date": "2026-06-22", "Perp_Close": 70.89, "Perp_Volume": 153774.22, "Stock_Close": 68.27}, {"Date": "2026-06-23", "Perp_Close": 78.36, "Perp_Volume": 134189.4, "Stock_Close": 77.46}, {"Date": "2026-06-24", "Perp_Close": 73.23, "Perp_Volume": 85997.11, "Stock_Close": 71.1}, {"Date": "2026-06-25", "Perp_Close": 71.17, "Perp_Volume": 77343.55, "Stock_Close": 71.68}, {"Date": "2026-06-26", "Perp_Close": 75.48, "Perp_Volume": 91973.07, "Stock_Close": 75.57}, {"Date": "2026-06-27", "Perp_Close": 74.42, "Perp_Volume": 6825.82, "Stock_Close": null}, {"Date": "2026-06-28", "Perp_Close": 75.25, "Perp_Volume": 2302.08, "Stock_Close": null}, {"Date": "2026-06-29", "Perp_Close": 73.36, "Perp_Volume": 80813.25, "Stock_Close": 72.84}, {"Date": "2026-06-30", "Perp_Close": 82.0, "Perp_Volume": 106995.76, "Stock_Close": 81.74}, {"Date": "2026-07-01", "Perp_Close": 78.53, "Perp_Volume": 72148.41, "Stock_Close": 78.41}, {"Date": "2026-07-02", "Perp_Close": 74.43, "Perp_Volume": 36903.14, "Stock_Close": 74.56}, {"Date": "2026-07-03", "Perp_Close": 75.94, "Perp_Volume": 1037.27, "Stock_Close": null}, {"Date": "2026-07-04", "Perp_Close": 76.49, "Perp_Volume": 1536.71, "Stock_Close": null}, {"Date": "2026-07-05", "Perp_Close": 76.31, "Perp_Volume": 1059.79, "Stock_Close": null}, {"Date": "2026-07-06", "Perp_Close": 83.65, "Perp_Volume": 48990.43, "Stock_Close": 83.17}, {"Date": "2026-07-07", "Perp_Close": 77.72, "Perp_Volume": 32441.57, "Stock_Close": 77.6}, {"Date": "2026-07-08", "Perp_Close": 76.22, "Perp_Volume": 28460.91, "Stock_Close": 75.61}, {"Date": "2026-07-09", "Perp_Close": 73.93, "Perp_Volume": 15585.41, "Stock_Close": 73.51}, {"Date": "2026-07-10", "Perp_Close": 71.2, "Perp_Volume": 17490.92, "Stock_Close": 70.45}, {"Date": "2026-07-11", "Perp_Close": 70.23, "Perp_Volume": 1887.38, "Stock_Close": null}, {"Date": "2026-07-12", "Perp_Close": 70.03, "Perp_Volume": 1230.92, "Stock_Close": null}, {"Date": "2026-07-13", "Perp_Close": 63.79, "Perp_Volume": 26339.14, "Stock_Close": 64.09}, {"Date": "2026-07-14", "Perp_Close": 67.23, "Perp_Volume": 23366.79, "Stock_Close": 66.63}, {"Date": "2026-07-15", "Perp_Close": 60.62, "Perp_Volume": 30387.94, "Stock_Close": 60.51}, {"Date": "2026-07-16", "Perp_Close": 55.86, "Perp_Volume": 23385.9, "Stock_Close": 56.52}, {"Date": "2026-07-17", "Perp_Close": 56.62, "Perp_Volume": 950.15, "Stock_Close": null}]}};
+        const hourlyData = {"Cerebras": {"listing_date": "2026-05-14", "first_traded_hour": "2026-05-14 13:00 UTC", "ticker_hl": "xyz:CBRS", "ticker_stock": "CBRS", "granularity": "1h", "hourly_data": [{"Time": "13:00", "Perp_O": 290.4, "Perp_H": 303.24, "Perp_L": 278.85, "Perp_C": 298.13, "Stock_O": 185.0, "Stock_H": 185.0, "Stock_L": 185.0, "Stock_C": 185.0}, {"Time": "16:00", "Perp_O": 342.66, "Perp_H": 376.73, "Perp_L": 338.0, "Perp_C": 376.73, "Stock_O": 350.0, "Stock_H": 385.0, "Stock_L": 321.0, "Stock_C": 327.18}, {"Time": "17:00", "Perp_O": 375.06, "Perp_H": 389.0, "Perp_L": 303.13, "Perp_C": 304.09, "Stock_O": 326.94, "Stock_H": 343.0, "Stock_L": 300.0, "Stock_C": 313.09}, {"Time": "18:00", "Perp_O": 303.9, "Perp_H": 327.1, "Perp_L": 301.11, "Perp_C": 318.4, "Stock_O": 313.29, "Stock_H": 330.0, "Stock_L": 311.25, "Stock_C": 320.4}, {"Time": "19:00", "Perp_O": 318.34, "Perp_H": 329.99, "Perp_L": 306.9, "Perp_C": 312.02, "Stock_O": 320.03, "Stock_H": 322.0, "Stock_L": 305.16, "Stock_C": 310.3}]}, "SpaceX": {"listing_date": "2026-06-12", "first_traded_hour": "2026-06-12 15:00 UTC", "ticker_hl": "xyz:SPCX", "ticker_stock": "SPCX", "granularity": "15m", "hourly_data": [{"Time": "15:45", "Perp_O": 157.93, "Perp_H": 167.9, "Perp_L": 152.34, "Perp_C": 161.8, "Stock_O": 150.0, "Stock_H": 168.75, "Stock_L": 150.0, "Stock_C": 161.31}, {"Time": "16:00", "Perp_O": 161.8, "Perp_H": 165.25, "Perp_L": 155.38, "Perp_C": 164.5, "Stock_O": 161.35, "Stock_H": 165.45, "Stock_L": 155.42, "Stock_C": 164.42}, {"Time": "16:15", "Perp_O": 164.52, "Perp_H": 167.5, "Perp_L": 161.23, "Perp_C": 164.93, "Stock_O": 164.36, "Stock_H": 167.77, "Stock_L": 161.1, "Stock_C": 164.97}, {"Time": "16:30", "Perp_O": 165.04, "Perp_H": 168.25, "Perp_L": 162.88, "Perp_C": 167.73, "Stock_O": 164.96, "Stock_H": 168.35, "Stock_L": 163.07, "Stock_C": 167.67}, {"Time": "16:45", "Perp_O": 167.72, "Perp_H": 173.89, "Perp_L": 166.84, "Perp_C": 173.55, "Stock_O": 167.66, "Stock_H": 174.0, "Stock_L": 166.5, "Stock_C": 173.74}, {"Time": "17:00", "Perp_O": 173.57, "Perp_H": 176.38, "Perp_L": 169.35, "Perp_C": 171.64, "Stock_O": 173.72, "Stock_H": 176.52, "Stock_L": 169.46, "Stock_C": 171.99}, {"Time": "17:15", "Perp_O": 171.46, "Perp_H": 174.17, "Perp_L": 170.9, "Perp_C": 171.9, "Stock_O": 171.16, "Stock_H": 174.5, "Stock_L": 171.05, "Stock_C": 172.28}, {"Time": "17:30", "Perp_O": 171.95, "Perp_H": 173.32, "Perp_L": 167.88, "Perp_C": 172.55, "Stock_O": 172.29, "Stock_H": 173.75, "Stock_L": 168.0, "Stock_C": 173.0}, {"Time": "17:45", "Perp_O": 172.54, "Perp_H": 173.73, "Perp_L": 171.23, "Perp_C": 173.0, "Stock_O": 172.96, "Stock_H": 174.0, "Stock_L": 171.54, "Stock_C": 173.33}, {"Time": "18:00", "Perp_O": 173.0, "Perp_H": 173.0, "Perp_L": 166.66, "Perp_C": 167.47, "Stock_O": 173.36, "Stock_H": 173.36, "Stock_L": 166.51, "Stock_C": 167.46}, {"Time": "18:15", "Perp_O": 167.51, "Perp_H": 169.81, "Perp_L": 164.96, "Perp_C": 168.94, "Stock_O": 167.57, "Stock_H": 170.1, "Stock_L": 165.05, "Stock_C": 169.2}, {"Time": "18:30", "Perp_O": 168.98, "Perp_H": 170.74, "Perp_L": 166.16, "Perp_C": 170.34, "Stock_O": 169.29, "Stock_H": 170.94, "Stock_L": 166.3, "Stock_C": 170.26}, {"Time": "18:45", "Perp_O": 170.29, "Perp_H": 170.38, "Perp_L": 168.09, "Perp_C": 168.78, "Stock_O": 170.26, "Stock_H": 170.8, "Stock_L": 168.13, "Stock_C": 168.85}, {"Time": "19:00", "Perp_O": 168.78, "Perp_H": 169.02, "Perp_L": 163.59, "Perp_C": 164.23, "Stock_O": 168.89, "Stock_H": 169.23, "Stock_L": 163.24, "Stock_C": 164.09}, {"Time": "19:15", "Perp_O": 164.3, "Perp_H": 167.03, "Perp_L": 161.67, "Perp_C": 161.96, "Stock_O": 164.16, "Stock_H": 167.2, "Stock_L": 161.31, "Stock_C": 161.44}, {"Time": "19:30", "Perp_O": 161.81, "Perp_H": 161.95, "Perp_L": 157.83, "Perp_C": 158.46, "Stock_O": 161.46, "Stock_H": 161.97, "Stock_L": 157.44, "Stock_C": 158.04}, {"Time": "19:45", "Perp_O": 158.44, "Perp_H": 162.92, "Perp_L": 158.27, "Perp_C": 161.43, "Stock_O": 158.04, "Stock_H": 162.77, "Stock_L": 157.86, "Stock_C": 161.27}]}, "Quantinuum": {"listing_date": "2026-06-04", "first_traded_hour": "2026-06-04 13:00 UTC", "ticker_hl": "xyz:QNT", "ticker_stock": "QNT", "granularity": "15m", "hourly_data": [{"Time": "13:30", "Perp_O": 91.79, "Perp_H": 95.76, "Perp_L": 91.67, "Perp_C": 91.91, "Stock_O": 60.0, "Stock_H": 60.0, "Stock_L": 60.0, "Stock_C": 60.0}, {"Time": "17:30", "Perp_O": 72.49, "Perp_H": 74.0, "Perp_L": 70.31, "Perp_C": 70.31, "Stock_O": 68.0, "Stock_H": 71.35, "Stock_L": 63.25, "Stock_C": 65.1}, {"Time": "17:45", "Perp_O": 70.31, "Perp_H": 70.31, "Perp_L": 65.27, "Perp_C": 68.28, "Stock_O": 65.26, "Stock_H": 68.0, "Stock_L": 63.51, "Stock_C": 67.75}, {"Time": "18:00", "Perp_O": 68.22, "Perp_H": 68.81, "Perp_L": 66.48, "Perp_C": 67.51, "Stock_O": 67.75, "Stock_H": 68.0, "Stock_L": 66.01, "Stock_C": 67.4}, {"Time": "18:15", "Perp_O": 67.51, "Perp_H": 71.11, "Perp_L": 65.45, "Perp_C": 67.86, "Stock_O": 67.4, "Stock_H": 68.63, "Stock_L": 65.4, "Stock_C": 67.3}, {"Time": "18:30", "Perp_O": 67.92, "Perp_H": 68.7, "Perp_L": 65.32, "Perp_C": 65.41, "Stock_O": 67.31, "Stock_H": 67.8, "Stock_L": 64.86, "Stock_C": 65.11}, {"Time": "18:45", "Perp_O": 65.4, "Perp_H": 65.7, "Perp_L": 64.42, "Perp_C": 64.42, "Stock_O": 65.1, "Stock_H": 66.0, "Stock_L": 64.0, "Stock_C": 64.13}, {"Time": "19:00", "Perp_O": 64.42, "Perp_H": 64.44, "Perp_L": 60.5, "Perp_C": 61.08, "Stock_O": 64.11, "Stock_H": 64.11, "Stock_L": 60.12, "Stock_C": 60.9}, {"Time": "19:15", "Perp_O": 61.1, "Perp_H": 62.42, "Perp_L": 60.58, "Perp_C": 62.39, "Stock_O": 60.85, "Stock_H": 62.1, "Stock_L": 60.51, "Stock_C": 62.09}, {"Time": "19:30", "Perp_O": 62.38, "Perp_H": 62.38, "Perp_L": 59.97, "Perp_C": 60.24, "Stock_O": 62.05, "Stock_H": 62.1, "Stock_L": 59.95, "Stock_C": 60.0}, {"Time": "19:45", "Perp_O": 60.24, "Perp_H": 61.04, "Perp_L": 60.1, "Perp_C": 60.28, "Stock_O": 60.0, "Stock_H": 60.78, "Stock_L": 59.89, "Stock_C": 60.36}]}};
         const charts = {};
 
-        function initChart(compId, ipoDate, data) {
+        function initChart(compId, ipoDate, data, isHourly = false) {
             const ctx = document.getElementById('chart-' + compId).getContext('2d');
             
-            const labels = data.map(d => d.Date);
-            const perpData = data.map(d => d.Perp_Close);
-            const stockData = data.map(d => d.Stock_Close);
-
             // Find index of IPO Date to add vertical line
-            const ipoIndex = labels.indexOf(ipoDate);
+            const ipoIndex = isHourly ? -1 : data.map(d => d.Date).indexOf(ipoDate);
 
-            const chartConfig = {
-                type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: [
-                        {
-                            label: 'Hyperliquid Perpetual Close',
-                            data: perpData,
-                            borderColor: '#a855f7',
-                            backgroundColor: 'rgba(168, 85, 247, 0.05)',
-                            borderWidth: 3,
-                            pointRadius: 2,
-                            pointHoverRadius: 6,
-                            tension: 0.15,
-                            fill: true
-                        },
-                        {
-                            label: 'Nasdaq Stock Close',
-                            data: stockData,
-                            borderColor: '#f97316',
-                            backgroundColor: 'transparent',
-                            borderWidth: 3,
-                            pointRadius: data.map(d => d.Stock_Close !== null ? 3 : 0),
-                            pointHoverRadius: 6,
-                            spanGaps: true,
-                            tension: 0.15
-                        }
-                    ]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: {
-                            position: 'bottom',
-                            labels: {
-                                color: '#9ca3af',
-                                font: {
-                                    family: 'Inter',
-                                    size: 12
-                                }
-                            }
-                        },
-                        tooltip: {
-                            backgroundColor: 'rgba(15, 23, 42, 0.9)',
-                            titleFont: { family: 'Outfit', size: 13, weight: 'bold' },
-                            bodyFont: { family: 'Inter', size: 12 },
-                            borderColor: 'rgba(255, 255, 255, 0.1)',
-                            borderWidth: 1,
-                            padding: 12,
-                            displayColors: true,
-                            callbacks: {
-                                label: function(context) {
-                                    let label = context.dataset.label || '';
-                                    if (label) {
-                                        label += ': ';
+            let chartConfig;
+
+            if (isHourly) {
+                // Checking if chartjs financial is loaded, if not, fallback to dual line chart
+                const canUseCandles = (typeof Chart.registry !== 'undefined' && Chart.registry.controllers.items && Chart.registry.controllers.items.candlestick);
+                
+                const prepDate = (timeStr) => {
+                    const parts = timeStr.split(":");
+                    const hour = parseInt(parts[0]);
+                    const min = parseInt(parts[1]);
+                    const ipoParts = ipoDate.split("-");
+                    const year = parseInt(ipoParts[0]);
+                    const month = parseInt(ipoParts[1]);
+                    const day = parseInt(ipoParts[2]);
+                    return luxon.DateTime.utc(year, month, day, hour, min).valueOf();
+                };
+
+                if (canUseCandles) {
+                    const perpCandles = data.map(d => ({
+                        x: prepDate(d.Time),
+                        o: d.Perp_O,
+                        h: d.Perp_H,
+                        l: d.Perp_L,
+                        c: d.Perp_C
+                    }));
+
+                    const stockCandles = data.map(d => ({
+                        x: prepDate(d.Time),
+                        o: d.Stock_O,
+                        h: d.Stock_H,
+                        l: d.Stock_L,
+                        c: d.Stock_C
+                    }));
+
+                    chartConfig = {
+                        type: 'candlestick',
+                        data: {
+                            datasets: [
+                                {
+                                    label: 'Hyperliquid Perpetual Future',
+                                    data: perpCandles,
+                                    color: {
+                                        up: '#10b981',
+                                        down: '#ef4444',
+                                        unchanged: '#a855f7',
+                                    },
+                                    borderColor: {
+                                        up: '#10b981',
+                                        down: '#ef4444',
+                                        unchanged: '#a855f7',
                                     }
-                                    if (context.parsed.y !== null) {
-                                        label += '$' + context.parsed.y.toFixed(2);
-                                    } else {
-                                        label += 'N/A (Market Closed)';
-                                    }
-                                    return label;
-                                }
-                            }
-                        }
-                    },
-                    scales: {
-                        x: {
-                            grid: {
-                                color: 'rgba(255, 255, 255, 0.03)',
-                                drawBorder: false
-                            },
-                            ticks: {
-                                color: '#9ca3af',
-                                maxRotation: 45,
-                                font: {
-                                    family: 'Inter',
-                                    size: 11
-                                }
-                            }
-                        },
-                        y: {
-                            grid: {
-                                color: 'rgba(255, 255, 255, 0.05)',
-                                drawBorder: false
-                            },
-                            ticks: {
-                                color: '#9ca3af',
-                                font: {
-                                    family: 'Inter',
-                                    size: 11
                                 },
-                                callback: function(value) {
-                                    return '$' + value;
+                                {
+                                    label: 'Nasdaq Stock',
+                                    data: stockCandles,
+                                    color: {
+                                        up: '#3b82f6',
+                                        down: '#f97316',
+                                        unchanged: '#9ca3af',
+                                    },
+                                    borderColor: {
+                                        up: '#3b82f6',
+                                        down: '#f97316',
+                                        unchanged: '#9ca3af',
+                                    }
+                                }
+                            ]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: {
+                                    position: 'bottom',
+                                    labels: { color: '#9ca3af', font: { family: 'Inter', size: 12 } }
+                                },
+                                tooltip: {
+                                    backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                                    titleFont: { family: 'Outfit', size: 13, weight: 'bold' },
+                                    bodyFont: { family: 'Inter', size: 12 },
+                                    borderColor: 'rgba(255, 255, 255, 0.1)',
+                                    borderWidth: 1,
+                                    padding: 12
+                                }
+                            },
+                            scales: {
+                                x: {
+                                    type: 'time',
+                                    time: {
+                                        unit: 'minute',
+                                        stepSize: 15,
+                                        displayFormats: {
+                                            minute: 'HH:mm'
+                                        },
+                                        tooltipFormat: 'HH:mm UTC'
+                                    },
+                                    grid: { color: 'rgba(255, 255, 255, 0.03)', drawBorder: false },
+                                    ticks: { color: '#9ca3af', font: { family: 'Inter', size: 11 } }
+                                },
+                                y: {
+                                    grid: { color: 'rgba(255, 255, 255, 0.05)', drawBorder: false },
+                                    ticks: {
+                                        color: '#9ca3af',
+                                        font: { family: 'Inter', size: 11 },
+                                        callback: function(value) { return '$' + value; }
+                                    }
+                                }
+                            }
+                        }
+                    };
+                } else {
+                    // Fallback to highly granular dual line chart using OHLC Close prices
+                    const labels = data.map(d => d.Time);
+                    const perpData = data.map(d => d.Perp_C);
+                    const stockData = data.map(d => d.Stock_C);
+
+                    chartConfig = {
+                        type: 'line',
+                        data: {
+                            labels: labels,
+                            datasets: [
+                                {
+                                    label: 'Hyperliquid Perp Close',
+                                    data: perpData,
+                                    borderColor: '#10b981',
+                                    backgroundColor: 'rgba(16, 185, 129, 0.05)',
+                                    borderWidth: 3,
+                                    pointRadius: 4,
+                                    pointHoverRadius: 6,
+                                    tension: 0.15,
+                                    fill: true
+                                },
+                                {
+                                    label: 'Nasdaq Stock Close',
+                                    data: stockData,
+                                    borderColor: '#3b82f6',
+                                    backgroundColor: 'transparent',
+                                    borderWidth: 3,
+                                    pointRadius: 4,
+                                    pointHoverRadius: 6,
+                                    tension: 0.15
+                                }
+                            ]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: {
+                                    position: 'bottom',
+                                    labels: { color: '#9ca3af', font: { family: 'Inter', size: 12 } }
+                                },
+                                tooltip: {
+                                    backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                                    titleFont: { family: 'Outfit', size: 13, weight: 'bold' },
+                                    bodyFont: { family: 'Inter', size: 12 },
+                                    borderColor: 'rgba(255, 255, 255, 0.1)',
+                                    borderWidth: 1,
+                                    padding: 12,
+                                    displayColors: true,
+                                    callbacks: {
+                                        label: function(context) {
+                                            let label = context.dataset.label || '';
+                                            if (label) {
+                                                label += ': ';
+                                            }
+                                            if (context.parsed.y !== null) {
+                                                label += '$' + context.parsed.y.toFixed(2);
+                                            }
+                                            return label;
+                                        }
+                                    }
+                                }
+                            },
+                            scales: {
+                                x: {
+                                    grid: { color: 'rgba(255, 255, 255, 0.03)', drawBorder: false },
+                                    ticks: { color: '#9ca3af', font: { family: 'Inter', size: 11 } }
+                                },
+                                y: {
+                                    grid: { color: 'rgba(255, 255, 255, 0.05)', drawBorder: false },
+                                    ticks: {
+                                        color: '#9ca3af',
+                                        font: { family: 'Inter', size: 11 },
+                                        callback: function(value) { return '$' + value; }
+                                    }
+                                }
+                            }
+                        }
+                    };
+                }
+            } else {
+                const labels = data.map(d => d.Date);
+                const perpData = data.map(d => d.Perp_Close);
+                const stockData = data.map(d => d.Stock_Close);
+
+                chartConfig = {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: [
+                            {
+                                label: 'Hyperliquid Perpetual Close',
+                                data: perpData,
+                                borderColor: '#a855f7',
+                                backgroundColor: 'rgba(168, 85, 247, 0.05)',
+                                borderWidth: 3,
+                                pointRadius: 2,
+                                pointHoverRadius: 6,
+                                tension: 0.15,
+                                fill: true
+                            },
+                            {
+                                label: 'Nasdaq Stock Close',
+                                data: stockData,
+                                borderColor: '#f97316',
+                                backgroundColor: 'transparent',
+                                borderWidth: 3,
+                                pointRadius: data.map(d => d.Stock_Close !== null ? 3 : 0),
+                                pointHoverRadius: 6,
+                                spanGaps: true,
+                                tension: 0.15
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: {
+                                    color: '#9ca3af',
+                                    font: { family: 'Inter', size: 12 }
+                                }
+                            },
+                            tooltip: {
+                                backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                                titleFont: { family: 'Outfit', size: 13, weight: 'bold' },
+                                bodyFont: { family: 'Inter', size: 12 },
+                                borderColor: 'rgba(255, 255, 255, 0.1)',
+                                borderWidth: 1,
+                                padding: 12,
+                                displayColors: true,
+                                callbacks: {
+                                    label: function(context) {
+                                        let label = context.dataset.label || '';
+                                        if (label) {
+                                            label += ': ';
+                                        }
+                                        if (context.parsed.y !== null) {
+                                            label += '$' + context.parsed.y.toFixed(2);
+                                        } else {
+                                            label += 'N/A (Market Closed)';
+                                        }
+                                        return label;
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                grid: { color: 'rgba(255, 255, 255, 0.03)', drawBorder: false },
+                                ticks: { color: '#9ca3af', maxRotation: 45, font: { family: 'Inter', size: 11 } }
+                            },
+                            y: {
+                                grid: { color: 'rgba(255, 255, 255, 0.05)', drawBorder: false },
+                                ticks: {
+                                    color: '#9ca3af',
+                                    font: { family: 'Inter', size: 11 },
+                                    callback: function(value) { return '$' + value; }
                                 }
                             }
                         }
                     }
-                }
-            };
+                };
 
-            // Custom plugin to draw vertical line at IPO Date
-            if (ipoIndex !== -1) {
-                chartConfig.plugins = chartConfig.plugins || [];
-                chartConfig.plugins.push({
-                    id: 'ipoLine',
-                    afterDraw: (chart) => {
-                        const ctx = chart.ctx;
-                        const xAxis = chart.scales.x;
-                        const yAxis = chart.scales.y;
-                        const x = xAxis.getPixelForValue(ipoDate);
+                // Custom plugin to draw vertical line at IPO Date
+                if (ipoIndex !== -1) {
+                    chartConfig.plugins = chartConfig.plugins || [];
+                    chartConfig.plugins.push({
+                        id: 'ipoLine',
+                        afterDraw: (chart) => {
+                            const ctx = chart.ctx;
+                            const xAxis = chart.scales.x;
+                            const yAxis = chart.scales.y;
+                            const x = xAxis.getPixelForValue(ipoDate);
 
-                        if (x >= xAxis.left && x <= xAxis.right) {
-                            ctx.save();
-                            ctx.beginPath();
-                            ctx.strokeStyle = 'rgba(255, 255, 255, 0.35)';
-                            ctx.lineWidth = 1.5;
-                            ctx.setLineDash([5, 5]);
-                            ctx.moveTo(x, yAxis.top);
-                            ctx.lineTo(x, yAxis.bottom);
-                            ctx.stroke();
+                            if (x >= xAxis.left && x <= xAxis.right) {
+                                ctx.save();
+                                ctx.beginPath();
+                                ctx.strokeStyle = 'rgba(255, 255, 255, 0.35)';
+                                ctx.lineWidth = 1.5;
+                                ctx.setLineDash([5, 5]);
+                                ctx.moveTo(x, yAxis.top);
+                                ctx.lineTo(x, yAxis.bottom);
+                                ctx.stroke();
 
-                            // Draw "IPO Date" text label
-                            ctx.fillStyle = '#ffffff';
-                            ctx.font = 'bold 10px Outfit';
-                            ctx.fillText('IPO: ' + ipoDate, x + 6, yAxis.top + 20);
-                            ctx.restore();
+                                // Draw "IPO Date" text label
+                                ctx.fillStyle = '#ffffff';
+                                ctx.font = 'bold 10px Outfit';
+                                ctx.fillText('IPO: ' + ipoDate, x + 6, yAxis.top + 20);
+                                ctx.restore();
+                            }
                         }
-                    }
-                });
+                    });
+                }
             }
 
             charts[compId] = new Chart(ctx, chartConfig);
@@ -573,17 +754,22 @@
             // Update active button state
             document.getElementById('btn-full-' + compId).classList.toggle('active', viewType === 'full');
             document.getElementById('btn-post-' + compId).classList.toggle('active', viewType === 'post');
+            document.getElementById('btn-hourly-' + compId).classList.toggle('active', viewType === 'hourly');
 
             let filteredData = companyInfo.data;
+            let isHourly = false;
             if (viewType === 'post') {
                 filteredData = companyInfo.data.filter(d => d.Date >= ipoDate);
+            } else if (viewType === 'hourly') {
+                filteredData = hourlyData[compName].hourly_data;
+                isHourly = true;
             }
 
             // Destroy and rebuild chart
             if (charts[compId]) {
                 charts[compId].destroy();
             }
-            initChart(compId, ipoDate, filteredData);
+            initChart(compId, ipoDate, filteredData, isHourly);
         }
 
         // Initialize all charts on load

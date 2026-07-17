@@ -173,6 +173,39 @@ This report analyzes the price actions and market valuations of Space Exploratio
 
 ---
 
+## Listing Day Hourly Price Action (First 24 Hours)
+The following table shows the hourly comparison of the Hyperliquid SPCX perpetual future and NASDAQ stock price during the first 24 hours of trading, starting from the first hour stock data was available (**2026-06-12 15:30 UTC**):
+
+| Timestamp (UTC) | Hyperliquid Perp Price | NASDAQ Stock Price | Deviation (%) |
+| :--- | :--- | :--- | :--- |
+| **06-12 15:30** | $161.80 | $162.77 | -0.60% |
+| **06-12 16:30** | $173.55 | $176.52 | -1.68% |
+| **06-12 17:30** | $173.00 | $174.00 | -0.57% |
+| **06-12 18:30** | $168.78 | $170.94 | -1.26% |
+| **06-12 19:30** | $161.43 | $162.77 | -0.82% |
+| **06-12 20:30** | $163.40 | N/A | N/A |
+| **06-12 21:30** | $165.49 | N/A | N/A |
+| **06-12 22:30** | $167.32 | N/A | N/A |
+| **06-12 23:30** | $166.72 | N/A | N/A |
+| **06-13 00:30** | $165.10 | N/A | N/A |
+| **06-13 01:30** | $164.91 | N/A | N/A |
+| **06-13 02:30** | $164.10 | N/A | N/A |
+| **06-13 03:30** | $164.45 | N/A | N/A |
+| **06-13 04:30** | $165.66 | N/A | N/A |
+| **06-13 05:30** | $164.51 | N/A | N/A |
+| **06-13 06:30** | $164.08 | N/A | N/A |
+| **06-13 07:30** | $164.65 | N/A | N/A |
+| **06-13 08:30** | $164.50 | N/A | N/A |
+| **06-13 09:30** | $165.18 | N/A | N/A |
+| **06-13 10:30** | $165.15 | N/A | N/A |
+| **06-13 11:30** | $165.16 | N/A | N/A |
+| **06-13 12:30** | $165.47 | N/A | N/A |
+| **06-13 13:30** | $165.18 | N/A | N/A |
+| **06-13 14:30** | $164.57 | N/A | N/A |
+| **06-13 15:30** | $165.50 | N/A | N/A |
+
+---
+
 ## Price & Valuation Comparison Chart
 The chart below illustrates the hourly price movements for NASDAQ SpaceX Stock (`SPCX`), Hyperliquid SPCX Perp (`xyz:SPCX`), and Hyperliquid SPCXD Spot (`@465`) since the IPO on June 12, 2026.
 
@@ -234,7 +267,7 @@ There is strong quantitative and structural evidence of a **short squeeze** occu
 * **Perpetual Contract**: The perpetual contract `xyz:SPCX` is queried by specifying the `dex: "xyz"` parameter in the request body to retrieve builder-specific data.
 * **Timestamps**: All timestamps are converted to and normalized in **UTC** for consistency.
 """
-    artifact_path = "C:/Users/matth/.gemini/antigravity-cli/brain/94d5321b-bf35-42dc-a565-845e9693afcd/spacexperps_analysis.md"
+    artifact_path = "spacexperps_analysis.md"
     with open(artifact_path, "w", encoding="utf-8") as f:
         f.write(md_report_text)
     print(f"Markdown report written successfully to {artifact_path}")

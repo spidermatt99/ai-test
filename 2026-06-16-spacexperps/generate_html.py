@@ -5,6 +5,11 @@ def main():
         prices = json.load(f)
     with open("all_stats.json", "r") as f:
         stats = json.load(f)
+    try:
+        with open("listing_day_hourly.json", "r") as f:
+            hourly_data = json.load(f)
+    except Exception:
+        hourly_data = {}
         
     html_content = f"""<!DOCTYPE html>
 <html lang="en">
@@ -17,7 +22,12 @@ def main():
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+    <!-- Luxon Date Adapter -->
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.3.0/dist/chartjs-adapter-luxon.umd.min.js"></script>
+    <!-- Chart.js Financial Candlestick Plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-financial@0.2.0/dist/chartjs-chart-financial.umd.min.js"></script>
     <style>
         :root {{
             --bg-color: #0d0f14;
@@ -303,6 +313,7 @@ def main():
                 <div class="chart-controls">
                     <button class="btn-toggle active" id="btn-full-{company.lower()}" onclick="toggleView('{company.lower()}', 'full')">Full History</button>
                     <button class="btn-toggle" id="btn-post-{company.lower()}" onclick="toggleView('{company.lower()}', 'post')">Post-IPO Only</button>
+                    <button class="btn-toggle" id="btn-hourly-{company.lower()}" onclick="toggleView('{company.lower()}', 'hourly')">Listing Day Hourly</button>
                 </div>
             </div>
 
@@ -349,149 +360,322 @@ def main():
 
     <script>
         const rawData = {json.dumps(prices)};
+        const hourlyData = {json.dumps(hourly_data)};
         const charts = {{}};
 
-        function initChart(compId, ipoDate, data) {{
+        function initChart(compId, ipoDate, data, isHourly = false) {{
             const ctx = document.getElementById('chart-' + compId).getContext('2d');
             
-            const labels = data.map(d => d.Date);
-            const perpData = data.map(d => d.Perp_Close);
-            const stockData = data.map(d => d.Stock_Close);
-
             // Find index of IPO Date to add vertical line
-            const ipoIndex = labels.indexOf(ipoDate);
+            const ipoIndex = isHourly ? -1 : data.map(d => d.Date).indexOf(ipoDate);
 
-            const chartConfig = {{
-                type: 'line',
-                data: {{
-                    labels: labels,
-                    datasets: [
-                        {{
-                            label: 'Hyperliquid Perpetual Close',
-                            data: perpData,
-                            borderColor: '#a855f7',
-                            backgroundColor: 'rgba(168, 85, 247, 0.05)',
-                            borderWidth: 3,
-                            pointRadius: 2,
-                            pointHoverRadius: 6,
-                            tension: 0.15,
-                            fill: true
-                        }},
-                        {{
-                            label: 'Nasdaq Stock Close',
-                            data: stockData,
-                            borderColor: '#f97316',
-                            backgroundColor: 'transparent',
-                            borderWidth: 3,
-                            pointRadius: data.map(d => d.Stock_Close !== null ? 3 : 0),
-                            pointHoverRadius: 6,
-                            spanGaps: true,
-                            tension: 0.15
-                        }}
-                    ]
-                }},
-                options: {{
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {{
-                        legend: {{
-                            position: 'bottom',
-                            labels: {{
-                                color: '#9ca3af',
-                                font: {{
-                                    family: 'Inter',
-                                    size: 12
-                                }}
-                            }}
-                        }},
-                        tooltip: {{
-                            backgroundColor: 'rgba(15, 23, 42, 0.9)',
-                            titleFont: {{ family: 'Outfit', size: 13, weight: 'bold' }},
-                            bodyFont: {{ family: 'Inter', size: 12 }},
-                            borderColor: 'rgba(255, 255, 255, 0.1)',
-                            borderWidth: 1,
-                            padding: 12,
-                            displayColors: true,
-                            callbacks: {{
-                                label: function(context) {{
-                                    let label = context.dataset.label || '';
-                                    if (label) {{
-                                        label += ': ';
+            let chartConfig;
+
+            if (isHourly) {{
+                // Checking if chartjs financial is loaded, if not, fallback to dual line chart
+                const canUseCandles = (typeof Chart.registry !== 'undefined' && Chart.registry.controllers.items && Chart.registry.controllers.items.candlestick);
+                
+                const prepDate = (timeStr) => {{
+                    const parts = timeStr.split(":");
+                    const hour = parseInt(parts[0]);
+                    const min = parseInt(parts[1]);
+                    const ipoParts = ipoDate.split("-");
+                    const year = parseInt(ipoParts[0]);
+                    const month = parseInt(ipoParts[1]);
+                    const day = parseInt(ipoParts[2]);
+                    return luxon.DateTime.utc(year, month, day, hour, min).valueOf();
+                }};
+
+                if (canUseCandles) {{
+                    const perpCandles = data.map(d => ({{
+                        x: prepDate(d.Time),
+                        o: d.Perp_O,
+                        h: d.Perp_H,
+                        l: d.Perp_L,
+                        c: d.Perp_C
+                    }}));
+
+                    const stockCandles = data.map(d => ({{
+                        x: prepDate(d.Time),
+                        o: d.Stock_O,
+                        h: d.Stock_H,
+                        l: d.Stock_L,
+                        c: d.Stock_C
+                    }}));
+
+                    chartConfig = {{
+                        type: 'candlestick',
+                        data: {{
+                            datasets: [
+                                {{
+                                    label: 'Hyperliquid Perpetual Future',
+                                    data: perpCandles,
+                                    color: {{
+                                        up: '#10b981',
+                                        down: '#ef4444',
+                                        unchanged: '#a855f7',
+                                    }},
+                                    borderColor: {{
+                                        up: '#10b981',
+                                        down: '#ef4444',
+                                        unchanged: '#a855f7',
                                     }}
-                                    if (context.parsed.y !== null) {{
-                                        label += '$' + context.parsed.y.toFixed(2);
-                                    }} else {{
-                                        label += 'N/A (Market Closed)';
-                                    }}
-                                    return label;
-                                }}
-                            }}
-                        }}
-                    }},
-                    scales: {{
-                        x: {{
-                            grid: {{
-                                color: 'rgba(255, 255, 255, 0.03)',
-                                drawBorder: false
-                            }},
-                            ticks: {{
-                                color: '#9ca3af',
-                                maxRotation: 45,
-                                font: {{
-                                    family: 'Inter',
-                                    size: 11
-                                }}
-                            }}
-                        }},
-                        y: {{
-                            grid: {{
-                                color: 'rgba(255, 255, 255, 0.05)',
-                                drawBorder: false
-                            }},
-                            ticks: {{
-                                color: '#9ca3af',
-                                font: {{
-                                    family: 'Inter',
-                                    size: 11
                                 }},
-                                callback: function(value) {{
-                                    return '$' + value;
+                                {{
+                                    label: 'Nasdaq Stock',
+                                    data: stockCandles,
+                                    color: {{
+                                        up: '#3b82f6',
+                                        down: '#f97316',
+                                        unchanged: '#9ca3af',
+                                    }},
+                                    borderColor: {{
+                                        up: '#3b82f6',
+                                        down: '#f97316',
+                                        unchanged: '#9ca3af',
+                                    }}
+                                }}
+                            ]
+                        }},
+                        options: {{
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {{
+                                legend: {{
+                                    position: 'bottom',
+                                    labels: {{ color: '#9ca3af', font: {{ family: 'Inter', size: 12 }} }}
+                                }},
+                                tooltip: {{
+                                    backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                                    titleFont: {{ family: 'Outfit', size: 13, weight: 'bold' }},
+                                    bodyFont: {{ family: 'Inter', size: 12 }},
+                                    borderColor: 'rgba(255, 255, 255, 0.1)',
+                                    borderWidth: 1,
+                                    padding: 12
+                                }}
+                            }},
+                            scales: {{
+                                x: {{
+                                    type: 'time',
+                                    time: {{
+                                        unit: 'minute',
+                                        stepSize: 15,
+                                        displayFormats: {{
+                                            minute: 'HH:mm'
+                                        }},
+                                        tooltipFormat: 'HH:mm UTC'
+                                    }},
+                                    grid: {{ color: 'rgba(255, 255, 255, 0.03)', drawBorder: false }},
+                                    ticks: {{ color: '#9ca3af', font: {{ family: 'Inter', size: 11 }} }}
+                                }},
+                                y: {{
+                                    grid: {{ color: 'rgba(255, 255, 255, 0.05)', drawBorder: false }},
+                                    ticks: {{
+                                        color: '#9ca3af',
+                                        font: {{ family: 'Inter', size: 11 }},
+                                        callback: function(value) {{ return '$' + value; }}
+                                    }}
+                                }}
+                            }}
+                        }}
+                    }};
+                }} else {{
+                    // Fallback to highly granular dual line chart using OHLC Close prices
+                    const labels = data.map(d => d.Time);
+                    const perpData = data.map(d => d.Perp_C);
+                    const stockData = data.map(d => d.Stock_C);
+
+                    chartConfig = {{
+                        type: 'line',
+                        data: {{
+                            labels: labels,
+                            datasets: [
+                                {{
+                                    label: 'Hyperliquid Perp Close',
+                                    data: perpData,
+                                    borderColor: '#10b981',
+                                    backgroundColor: 'rgba(16, 185, 129, 0.05)',
+                                    borderWidth: 3,
+                                    pointRadius: 4,
+                                    pointHoverRadius: 6,
+                                    tension: 0.15,
+                                    fill: true
+                                }},
+                                {{
+                                    label: 'Nasdaq Stock Close',
+                                    data: stockData,
+                                    borderColor: '#3b82f6',
+                                    backgroundColor: 'transparent',
+                                    borderWidth: 3,
+                                    pointRadius: 4,
+                                    pointHoverRadius: 6,
+                                    tension: 0.15
+                                }}
+                            ]
+                        }},
+                        options: {{
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {{
+                                legend: {{
+                                    position: 'bottom',
+                                    labels: {{ color: '#9ca3af', font: {{ family: 'Inter', size: 12 }} }}
+                                }},
+                                tooltip: {{
+                                    backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                                    titleFont: {{ family: 'Outfit', size: 13, weight: 'bold' }},
+                                    bodyFont: {{ family: 'Inter', size: 12 }},
+                                    borderColor: 'rgba(255, 255, 255, 0.1)',
+                                    borderWidth: 1,
+                                    padding: 12,
+                                    displayColors: true,
+                                    callbacks: {{
+                                        label: function(context) {{
+                                            let label = context.dataset.label || '';
+                                            if (label) {{
+                                                label += ': ';
+                                            }}
+                                            if (context.parsed.y !== null) {{
+                                                label += '$' + context.parsed.y.toFixed(2);
+                                            }}
+                                            return label;
+                                        }}
+                                    }}
+                                }}
+                            }},
+                            scales: {{
+                                x: {{
+                                    grid: {{ color: 'rgba(255, 255, 255, 0.03)', drawBorder: false }},
+                                    ticks: {{ color: '#9ca3af', font: {{ family: 'Inter', size: 11 }} }}
+                                }},
+                                y: {{
+                                    grid: {{ color: 'rgba(255, 255, 255, 0.05)', drawBorder: false }},
+                                    ticks: {{
+                                        color: '#9ca3af',
+                                        font: {{ family: 'Inter', size: 11 }},
+                                        callback: function(value) {{ return '$' + value; }}
+                                    }}
+                                }}
+                            }}
+                        }}
+                    }};
+                }}
+            }} else {{
+                const labels = data.map(d => d.Date);
+                const perpData = data.map(d => d.Perp_Close);
+                const stockData = data.map(d => d.Stock_Close);
+
+                chartConfig = {{
+                    type: 'line',
+                    data: {{
+                        labels: labels,
+                        datasets: [
+                            {{
+                                label: 'Hyperliquid Perpetual Close',
+                                data: perpData,
+                                borderColor: '#a855f7',
+                                backgroundColor: 'rgba(168, 85, 247, 0.05)',
+                                borderWidth: 3,
+                                pointRadius: 2,
+                                pointHoverRadius: 6,
+                                tension: 0.15,
+                                fill: true
+                            }},
+                            {{
+                                label: 'Nasdaq Stock Close',
+                                data: stockData,
+                                borderColor: '#f97316',
+                                backgroundColor: 'transparent',
+                                borderWidth: 3,
+                                pointRadius: data.map(d => d.Stock_Close !== null ? 3 : 0),
+                                pointHoverRadius: 6,
+                                spanGaps: true,
+                                tension: 0.15
+                            }}
+                        ]
+                    }},
+                    options: {{
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {{
+                            legend: {{
+                                position: 'bottom',
+                                labels: {{
+                                    color: '#9ca3af',
+                                    font: {{ family: 'Inter', size: 12 }}
+                                }}
+                            }},
+                            tooltip: {{
+                                backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                                titleFont: {{ family: 'Outfit', size: 13, weight: 'bold' }},
+                                bodyFont: {{ family: 'Inter', size: 12 }},
+                                borderColor: 'rgba(255, 255, 255, 0.1)',
+                                borderWidth: 1,
+                                padding: 12,
+                                displayColors: true,
+                                callbacks: {{
+                                    label: function(context) {{
+                                        let label = context.dataset.label || '';
+                                        if (label) {{
+                                            label += ': ';
+                                        }}
+                                        if (context.parsed.y !== null) {{
+                                            label += '$' + context.parsed.y.toFixed(2);
+                                        }} else {{
+                                            label += 'N/A (Market Closed)';
+                                        }}
+                                        return label;
+                                    }}
+                                }}
+                            }}
+                        }},
+                        scales: {{
+                            x: {{
+                                grid: {{ color: 'rgba(255, 255, 255, 0.03)', drawBorder: false }},
+                                ticks: {{ color: '#9ca3af', maxRotation: 45, font: {{ family: 'Inter', size: 11 }} }}
+                            }},
+                            y: {{
+                                grid: {{ color: 'rgba(255, 255, 255, 0.05)', drawBorder: false }},
+                                ticks: {{
+                                    color: '#9ca3af',
+                                    font: {{ family: 'Inter', size: 11 }},
+                                    callback: function(value) {{ return '$' + value; }}
                                 }}
                             }}
                         }}
                     }}
-                }}
-            }};
+                }};
 
-            // Custom plugin to draw vertical line at IPO Date
-            if (ipoIndex !== -1) {{
-                chartConfig.plugins = chartConfig.plugins || [];
-                chartConfig.plugins.push({{
-                    id: 'ipoLine',
-                    afterDraw: (chart) => {{
-                        const ctx = chart.ctx;
-                        const xAxis = chart.scales.x;
-                        const yAxis = chart.scales.y;
-                        const x = xAxis.getPixelForValue(ipoDate);
+                // Custom plugin to draw vertical line at IPO Date
+                if (ipoIndex !== -1) {{
+                    chartConfig.plugins = chartConfig.plugins || [];
+                    chartConfig.plugins.push({{
+                        id: 'ipoLine',
+                        afterDraw: (chart) => {{
+                            const ctx = chart.ctx;
+                            const xAxis = chart.scales.x;
+                            const yAxis = chart.scales.y;
+                            const x = xAxis.getPixelForValue(ipoDate);
 
-                        if (x >= xAxis.left && x <= xAxis.right) {{
-                            ctx.save();
-                            ctx.beginPath();
-                            ctx.strokeStyle = 'rgba(255, 255, 255, 0.35)';
-                            ctx.lineWidth = 1.5;
-                            ctx.setLineDash([5, 5]);
-                            ctx.moveTo(x, yAxis.top);
-                            ctx.lineTo(x, yAxis.bottom);
-                            ctx.stroke();
+                            if (x >= xAxis.left && x <= xAxis.right) {{
+                                ctx.save();
+                                ctx.beginPath();
+                                ctx.strokeStyle = 'rgba(255, 255, 255, 0.35)';
+                                ctx.lineWidth = 1.5;
+                                ctx.setLineDash([5, 5]);
+                                ctx.moveTo(x, yAxis.top);
+                                ctx.lineTo(x, yAxis.bottom);
+                                ctx.stroke();
 
-                            // Draw "IPO Date" text label
-                            ctx.fillStyle = '#ffffff';
-                            ctx.font = 'bold 10px Outfit';
-                            ctx.fillText('IPO: ' + ipoDate, x + 6, yAxis.top + 20);
-                            ctx.restore();
+                                // Draw "IPO Date" text label
+                                ctx.fillStyle = '#ffffff';
+                                ctx.font = 'bold 10px Outfit';
+                                ctx.fillText('IPO: ' + ipoDate, x + 6, yAxis.top + 20);
+                                ctx.restore();
+                            }}
                         }}
-                    }}
-                }});
+                    }});
+                }}
             }}
 
             charts[compId] = new Chart(ctx, chartConfig);
@@ -505,17 +689,22 @@ def main():
             // Update active button state
             document.getElementById('btn-full-' + compId).classList.toggle('active', viewType === 'full');
             document.getElementById('btn-post-' + compId).classList.toggle('active', viewType === 'post');
+            document.getElementById('btn-hourly-' + compId).classList.toggle('active', viewType === 'hourly');
 
             let filteredData = companyInfo.data;
+            let isHourly = false;
             if (viewType === 'post') {{
                 filteredData = companyInfo.data.filter(d => d.Date >= ipoDate);
+            }} else if (viewType === 'hourly') {{
+                filteredData = hourlyData[compName].hourly_data;
+                isHourly = true;
             }}
 
             // Destroy and rebuild chart
             if (charts[compId]) {{
                 charts[compId].destroy();
             }}
-            initChart(compId, ipoDate, filteredData);
+            initChart(compId, ipoDate, filteredData, isHourly);
         }}
 
         // Initialize all charts on load
