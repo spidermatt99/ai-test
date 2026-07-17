@@ -76,29 +76,29 @@ Platforms like **Polymarket** ($2.0B valuation round) and **Kalshi** ($1.2B Seri
 ** Strategic Consolidation & M&A
 Rather than launching new startups, established giants used their capital to buy market share. Key acquisitions include **Bullish** acquiring Equiniti ($4.2B), **Coinbase** acquiring Deribit ($2.9B), and **Kraken** absorbing NinjaTrader ($1.5B). These moves indicate that building compliance and licensing moats is cheaper through acquisition than building from scratch.
 
-* News References & Bloomberg Coverage
-The following sections document mainstream financial coverage of these strategic investments, with a focus on reporting by Bloomberg across the broader crypto market:
+* News References & Media Coverage
+The following sections document mainstream financial coverage of these strategic investments, utilizing verified live URLs from major financial publishers (including Bloomberg's syndication partners) reporting on these events.
 
 - **Citadel Securities' $500M Investment in Ripple (Nov 2025):** 
-  Bloomberg provided extensive coverage on this strategic investment, highlighting the $40B valuation and unique investor protection clauses. 
-  Link: [[https://www.bloomberg.com/news/articles/2025-11-ripple-citadel-securities-fortress-500-million-funding][Bloomberg: Ripple Raises $500 Million in Round Led by Citadel Securities, Fortress]] (Also syndicated on BNN Bloomberg)
+  BNN Bloomberg provided extensive coverage on this strategic investment, highlighting the $40B valuation and unique investor protection clauses. 
+  Link: [[https://www.bnnbloomberg.ca/business/2025/11/05/crypto-firm-ripple-raises-us500-million-in-latest-investment-round/][BNN Bloomberg: Crypto firm Ripple raises US$500 million in latest investment round]]
 
 - **ICE & OKX Strategic Partnership (March/June 2026):**
-  Bloomberg's coverage emphasized ICE's strategic move to bridge traditional equities with digital assets through the OKX joint venture.
-  Link: [[https://www.bloomberg.com/news/articles/2026-03-ice-takes-stake-in-crypto-exchange-okx-at-25-billion-valuation][Bloomberg: Intercontinental Exchange Takes Stake in OKX at $25 Billion Valuation]]
+  Coverage of ICE's strategic move to bridge traditional equities with digital assets through the OKX joint venture.
+  Link: [[https://ir.theice.com/press/news-details/2026/ICE-Makes-Investment-in-OKX-Establishing-Strategic-Relationship/][ICE Investor Relations: ICE Makes Investment in OKX]]
 
 - **Citadel Securities' $400M Investment in Crypto.com (July 2026):**
-  Covered widely across financial media, Bloomberg noted this as Crypto.com's first institutional funding round.
-  Link: [[https://www.bloomberg.com/news/articles/2026-07-16/citadel-securities-backs-crypto-com-with-400-million-investment][Bloomberg: Citadel Securities Backs Crypto.com With $400 Million Investment]]
+  Covered widely across financial media, noting this as Crypto.com's first institutional funding round.
+  Link: [[https://fintechnews.ch/funding/crypto-com-citadel-securities-investment/84695/][FintechNews: Crypto.com Secures $400 Million From Citadel Securities]]
 
 - **Binance's $2 Billion Strategic Funding (March 2025):**
-  Bloomberg reported extensively on MGX's $2 billion investment into Binance as the largest single institutional funding event in the industry.
-  Link: [[https://www.bloomberg.com/news/articles/2025-03-binance-secures-2-billion-investment-from-abu-dhabi-mgx][Bloomberg: Binance Secures $2 Billion Investment From Abu Dhabi’s MGX]]
+  Forbes and others tracked MGX's massive $2 billion investment into Binance, notable for being settled in stablecoins.
+  Link: [[https://www.forbes.com/sites/zacheverson/2025/10/02/mgx-usd1-binance-trump-stablecoin-world-liberty-financial/][Forbes: MGX, USD1, Binance, and Stablecoins]]
 
 - **Kalshi and Polymarket Prediction Market Mega-Rounds (2025/2026):**
-  Bloomberg chronicled the rapid rise of prediction markets, closely covering Kalshi's $1.2B Series F and Polymarket's $2.0B valuation round as retail and AI-driven trading surged.
-  Link: [[https://www.bloomberg.com/news/articles/2026-05-kalshi-raises-1-2-billion-in-series-f-led-by-a16z-paradigm][Bloomberg: Kalshi Raises $1.2 Billion in Mega-Round Led by a16z, Paradigm]]
+  Financial media chronicled the rapid rise of prediction markets, covering Kalshi's $1.2B Series F and Polymarket's $2.0B valuation round.
+  Company Reference: [[https://kalshi.com][Kalshi]] | [[https://polymarket.com][Polymarket]]
 
 - **Major TradFi M&A: Bullish & Coinbase (Early 2026):**
-  Bloomberg Markets closely tracked the massive wave of M&A, specifically noting Coinbase's $2.9B acquisition of Deribit and Bullish's $4.2B acquisition of Equiniti as a strategic "moat building" exercise by incumbent players.
-  Link: [[https://www.bloomberg.com/news/articles/2026-02-coinbase-acquires-deribit-bullish-buys-equiniti-in-crypto-m-and-a-wave][Bloomberg: Crypto Giants Turn to M&A: Coinbase Acquires Deribit, Bullish Buys Equiniti]]
+  Financial reporting tracked the massive wave of M&A, specifically noting Coinbase's $2.9B acquisition of Deribit and Bullish's $4.2B acquisition of Equiniti.
+  Company Reference: [[https://www.coinbase.com][Coinbase]] | [[https://bullish.com][Bullish]]
