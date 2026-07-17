@@ -1,0 +1,32 @@
+{
+  "Cerebras": {
+    "pre_ipo_length_days": 13,
+    "last_pre_ipo_price": 289.0,
+    "first_stock_price": 311.07,
+    "pre_ipo_deviation_pct": -7.09,
+    "post_ipo_matched_days": 43,
+    "correlation": 0.989,
+    "avg_premium_pct": -0.25,
+    "mean_abs_deviation_pct": 1.31
+  },
+  "SpaceX": {
+    "pre_ipo_length_days": 26,
+    "last_pre_ipo_price": 172.84,
+    "first_stock_price": 160.95,
+    "pre_ipo_deviation_pct": 7.39,
+    "post_ipo_matched_days": 23,
+    "correlation": 0.9906,
+    "avg_premium_pct": 0.16,
+    "mean_abs_deviation_pct": 1.16
+  },
+  "Quantinuum": {
+    "pre_ipo_length_days": 7,
+    "last_pre_ipo_price": 97.43,
+    "first_stock_price": 60.38,
+    "pre_ipo_deviation_pct": 61.36,
+    "post_ipo_matched_days": 29,
+    "correlation": 0.9961,
+    "avg_premium_pct": 0.5,
+    "mean_abs_deviation_pct": 1.02
+  }
+}
