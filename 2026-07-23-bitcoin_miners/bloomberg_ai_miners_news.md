@@ -3,6 +3,18 @@
 **By Antigravity Tech & Markets**
 **July 23, 2026**
 
+For anyone who was able to see which way the wind was blowing on the day ChatGPT was launched on November 30, 2022, and bought into VanEck's SMH semiconductor exchange-traded fund, they would be sitting on phenomenal gains of over 428%. 
+
+But if they had instead taken that money and invested it in a basket of the top 10 Bitcoin miners, they would have made an astonishing 1,282%.
+
+The biggest names in mining the original cryptocurrency have become Wall Street darlings this year, with gains outstripping even Silicon Valley tech giants. The only catch is that they no longer mine Bitcoin.
+
+Like so many firms this year, these companies are cashing in on the 2026 artificial intelligence craze. Crypto miners were well positioned for this with their high-performance computing (HPC) and GPU clouds, which are now being repurposed to serve AI clients.
+
+IREN is the latest big winner in this cohort. It saw share gains of 20% in a single day last week after revealing a fresh slate of AI-hosting contracts worth $2.8 billion.
+
+
+
 The great Bitcoin mining capitulation is minting a new class of Wall Street darlings, provided they no longer actually mine Bitcoin. 
 
 Shares of Iris Energy Ltd., now rebranded as IREN, surged as much as 20% in a single day this week after revealing a fresh $2.8 billion slate of AI-hosting contracts, the latest crescendo in a spectacular multi-year pivot that has transformed former crypto operators into the backbone of the artificial intelligence boom. 
