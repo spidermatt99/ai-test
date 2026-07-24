@@ -1,0 +1,104 @@
+* Listing Day Convergence Analysis
+
+This report details the step-by-step price action of the Hyperliquid Perpetual Futures and Nasdaq Stocks on their respective listing days. The *Close* price of each interval is used for comparison to illustrate how and when the two markets converged. Note: Pre-market data shows the Hyperliquid perpetual price before the official Nasdaq stock began trading.
+
+** SpaceX (SPCX) - June 12, 2026
+Granularity: 15 Minutes
+
+*Summary:* SpaceX debuted exactly at its $150.00 IPO price. The Hyperliquid perp was trading around $157.93 at the exact moment of the open (a ~$8 premium). Within the first 15 minutes of trading, the stock rallied to $161.31, immediately converging with the perp. They stayed tightly coupled for the rest of the day.
+
+| Time (UTC) | Hyperliquid Perp (Close) | Nasdaq Stock (Close) | Difference ($) | Deviation (%) |
+|------------+--------------------------+----------------------+----------------+---------------|
+| 11:00      | $175.10                  | Pre-Market           | N/A            | N/A           |
+| 11:15      | $177.00                  | Pre-Market           | N/A            | N/A           |
+| 11:30      | $177.90                  | Pre-Market           | N/A            | N/A           |
+| 11:45      | $177.25                  | Pre-Market           | N/A            | N/A           |
+| 12:00      | $177.57                  | Pre-Market           | N/A            | N/A           |
+| 12:15      | $179.17                  | Pre-Market           | N/A            | N/A           |
+| 12:30      | $176.32                  | Pre-Market           | N/A            | N/A           |
+| 12:45      | $172.55                  | Pre-Market           | N/A            | N/A           |
+| 13:00      | $173.12                  | Pre-Market           | N/A            | N/A           |
+| 13:15      | $172.69                  | Pre-Market           | N/A            | N/A           |
+| 13:30      | $171.14                  | Pre-Market           | N/A            | N/A           |
+| 13:45      | $176.76                  | Pre-Market           | N/A            | N/A           |
+| 14:00      | $178.22                  | Pre-Market           | N/A            | N/A           |
+| 14:15      | $175.69                  | Pre-Market           | N/A            | N/A           |
+| 14:30      | $172.43                  | Pre-Market           | N/A            | N/A           |
+| 14:45      | $166.72                  | Pre-Market           | N/A            | N/A           |
+| 15:00      | $161.80                  | Pre-Market           | N/A            | N/A           |
+| 15:15      | $164.01                  | Pre-Market           | N/A            | N/A           |
+| 15:30      | $161.80                  | Pre-Market           | N/A            | N/A           |
+| 15:45 Open | $157.93 (Open)           | $150.00 (Debut)      | +$7.93         | +5.29%        |
+| 15:45      | $161.80                  | $161.31              | +$0.49         | +0.30%        |
+| 16:00      | $164.50                  | $164.42              | +$0.08         | +0.05%        |
+| 16:15      | $164.93                  | $164.97              | -$0.04         | -0.02%        |
+| 16:30      | $167.73                  | $167.67              | +$0.06         | +0.04%        |
+| 16:45      | $173.55                  | $173.74              | -$0.19         | -0.11%        |
+| 17:00      | $171.64                  | $171.99              | -$0.35         | -0.20%        |
+| 17:15      | $171.90                  | $172.28              | -$0.38         | -0.22%        |
+| 17:30      | $172.55                  | $173.00              | -$0.45         | -0.26%        |
+| 17:45      | $173.00                  | $173.33              | -$0.33         | -0.19%        |
+| 18:00      | $167.47                  | $167.46              | +$0.01         | +0.01%        |
+| 18:15      | $168.94                  | $169.20              | -$0.26         | -0.15%        |
+| 18:30      | $170.34                  | $170.26              | +$0.08         | +0.05%        |
+| 18:45      | $168.78                  | $168.85              | -$0.07         | -0.04%        |
+| 19:00      | $164.23                  | $164.09              | +$0.14         | +0.09%        |
+| 19:15      | $161.96                  | $161.44              | +$0.52         | +0.32%        |
+| 19:30      | $158.46                  | $158.04              | +$0.42         | +0.27%        |
+| 19:45      | $161.43                  | $161.27              | +$0.16         | +0.10%        |
+
+** Cerebras (CBRS) - May 14, 2026
+Granularity: 1 Hour (Most granular available)
+
+*Summary:* The Hyperliquid perp was trading at a massive premium to the IPO price before the stock opened. When trading began, the stock debuted at $185.00 while the perp was at $290.40. The stock surged upwards (from $185 to $327) to meet the perp's valuation. Convergence occurred around 17:00 UTC (roughly 4 hours into trading), after which the prices remained tightly coupled.
+
+| Time (UTC) | Hyperliquid Perp (Close) | Nasdaq Stock (Close) | Difference ($) | Deviation (%) |
+|------------+--------------------------+----------------------+----------------+---------------|
+| 09:00      | $291.60                  | Pre-Market           | N/A            | N/A           |
+| 10:00      | $288.30                  | Pre-Market           | N/A            | N/A           |
+| 11:00      | $284.01                  | Pre-Market           | N/A            | N/A           |
+| 12:00      | $290.40                  | Pre-Market           | N/A            | N/A           |
+| 13:00 Open | $290.40 (Open)           | $185.00 (Debut)      | +$105.40       | +56.97%       |
+| 13:00      | $298.13                  | $185.00              | +$113.13       | +61.15%       |
+| 16:00      | $376.73                  | $327.18              | +$49.55        | +15.14%       |
+| 17:00      | $304.09                  | $313.09              | -$9.00         | -2.87%        |
+| 18:00      | $318.40                  | $320.40              | -$2.00         | -0.62%        |
+| 19:00      | $312.02                  | $310.30              | +$1.72         | +0.55%        |
+
+** Quantinuum (QNT) - June 4, 2026
+Granularity: 15 Minutes
+
+*Summary:* Similar to Cerebras, the perp had a very large premium at the stock's market open ($91.79 vs $60.00 debut). However, instead of the stock rallying, the perp's price crashed aggressively to meet the stock's actual market valuation. They achieved near-perfect convergence by 17:45 UTC and traded identically until the close.
+
+| Time (UTC) | Hyperliquid Perp (Close) | Nasdaq Stock (Close) | Difference ($) | Deviation (%) |
+|------------+--------------------------+----------------------+----------------+---------------|
+| 09:00      | $93.42                   | Pre-Market           | N/A            | N/A           |
+| 09:15      | $93.97                   | Pre-Market           | N/A            | N/A           |
+| 09:30      | $92.92                   | Pre-Market           | N/A            | N/A           |
+| 09:45      | $94.66                   | Pre-Market           | N/A            | N/A           |
+| 10:00      | $93.20                   | Pre-Market           | N/A            | N/A           |
+| 10:15      | $96.46                   | Pre-Market           | N/A            | N/A           |
+| 10:30      | $98.38                   | Pre-Market           | N/A            | N/A           |
+| 10:45      | $97.95                   | Pre-Market           | N/A            | N/A           |
+| 11:00      | $93.83                   | Pre-Market           | N/A            | N/A           |
+| 11:15      | $93.04                   | Pre-Market           | N/A            | N/A           |
+| 11:30      | $92.85                   | Pre-Market           | N/A            | N/A           |
+| 11:45      | $92.01                   | Pre-Market           | N/A            | N/A           |
+| 12:00      | $92.26                   | Pre-Market           | N/A            | N/A           |
+| 12:15      | $93.25                   | Pre-Market           | N/A            | N/A           |
+| 12:30      | $93.82                   | Pre-Market           | N/A            | N/A           |
+| 12:45      | $94.20                   | Pre-Market           | N/A            | N/A           |
+| 13:00      | $93.06                   | Pre-Market           | N/A            | N/A           |
+| 13:15      | $91.56                   | Pre-Market           | N/A            | N/A           |
+| 13:30 Open | $91.79 (Open)            | $60.00 (Debut)       | +$31.79        | +52.98%       |
+| 13:30      | $91.91                   | $60.00               | +$31.91        | +53.18%       |
+| 17:30      | $70.31                   | $65.10               | +$5.21         | +8.00%        |
+| 17:45      | $68.28                   | $67.75               | +$0.53         | +0.78%        |
+| 18:00      | $67.51                   | $67.40               | +$0.11         | +0.16%        |
+| 18:15      | $67.86                   | $67.30               | +$0.56         | +0.83%        |
+| 18:30      | $65.41                   | $65.11               | +$0.30         | +0.46%        |
+| 18:45      | $64.42                   | $64.13               | +$0.29         | +0.45%        |
+| 19:00      | $61.08                   | $60.90               | +$0.18         | +0.30%        |
+| 19:15      | $62.39                   | $62.09               | +$0.30         | +0.48%        |
+| 19:30      | $60.24                   | $60.00               | +$0.24         | +0.40%        |
+| 19:45      | $60.28                   | $60.36               | -$0.08         | -0.13%        |
