@@ -317,3 +317,22 @@ Summary of CXMT market activity since launch today:
 | Cumulative Notional (USD) | $20,310,417.44 | Total USD value exchanged today |
 | Implied Valuation (USD) | $487.890B | Based on current price & 66.88B shares |
 | Implied Valuation (RMB) | RMB 3.537T | Converted at USD/CNY = 7.25 |
+* Daily Pricing Data
+Showing daily historical data for the CXMT perpetual contract.
+Data also saved to [[file:cxmt_daily_data.csv]]
+
+[[file:cxmt_daily_chart.png]]
+
+#+CAPTION: CXMT Daily Candlestick Data
+|       Date | Open (USD) | High (USD) | Low (USD) | Close (USD) | Volume (CXMT) | Notional (USD) | Fully Diluted Val (USD) | Fully Diluted Val (RMB) |
+|------------+------------+------------+-----------+-------------+---------------+----------------+-------------------------+-------------------------|
+| 2026-07-15 |     6.0000 |     8.6400 |    6.0000 |      7.4207 |     6451395.9 | $  47873873.56 | $496.296B               | RMB 3.598T              |
+| 2026-07-16 |     7.4230 |     7.4700 |    6.9100 |      6.9910 |     1798181.8 | $  12571088.96 | $467.558B               | RMB 3.390T              |
+| 2026-07-17 |     6.9912 |     7.2991 |    6.7200 |      6.9515 |     1624741.1 | $  11294387.76 | $464.916B               | RMB 3.371T              |
+| 2026-07-18 |     6.9704 |     7.2776 |    6.9100 |      7.2242 |      601625.7 | $   4346264.38 | $483.154B               | RMB 3.503T              |
+| 2026-07-19 |     7.2357 |     7.2587 |    6.6200 |      6.9539 |      731376.2 | $   5085916.96 | $465.077B               | RMB 3.372T              |
+| 2026-07-20 |     6.9627 |     7.1340 |    6.4500 |      6.5600 |     1114899.0 | $   7313737.44 | $438.733B               | RMB 3.181T              |
+| 2026-07-21 |     6.5601 |     6.8880 |    6.4857 |      6.6002 |     1453392.1 | $   9592678.54 | $441.421B               | RMB 3.200T              |
+| 2026-07-22 |     6.6002 |     6.8957 |    6.3500 |      6.3500 |     1351291.5 | $   8580701.03 | $424.688B               | RMB 3.079T              |
+| 2026-07-23 |     6.3582 |     6.7306 |    6.3100 |      6.3710 |     1711882.8 | $  10906405.32 | $426.092B               | RMB 3.089T              |
+| 2026-07-24 |     6.3633 |     6.5780 |    6.3301 |      6.4301 |      413202.2 | $   2656931.47 | $430.045B               | RMB 3.118T              |
