@@ -17,15 +17,18 @@ USD_CNY_RATE = 7.25
 
 def get_daily_candles():
     url = "https://api.hyperliquid.xyz/info"
-    # Launch date: July 15, 2026
-    start_time_ms = int(datetime(2026, 7, 15, 0, 0, 0, tzinfo=timezone.utc).timestamp() * 1000)
+    tz_gmt8 = timezone(timedelta(hours=8))
+    
+    # Launch date: July 15, 2026 00:00:00 GMT+8
+    start_gmt8 = datetime(2026, 7, 15, 0, 0, 0, tzinfo=tz_gmt8)
+    start_time_ms = int(start_gmt8.timestamp() * 1000)
     end_time_ms = int(time.time() * 1000)
     
     payload = {
         "type": "candleSnapshot",
         "req": {
             "coin": "xyz:CXMT",
-            "interval": "1d",
+            "interval": "1h",
             "startTime": start_time_ms,
             "endTime": end_time_ms
         }
@@ -33,9 +36,37 @@ def get_daily_candles():
     try:
         response = requests.post(url, json=payload)
         response.raise_for_status()
-        return response.json()
+        raw_candles = response.json()
+        
+        # Group 1-hour candles by GMT+8 calendar day
+        from collections import defaultdict
+        daily_map = defaultdict(list)
+        for c in raw_candles:
+            dt = datetime.fromtimestamp(c['t'] / 1000, tz=tz_gmt8)
+            date_key = dt.strftime('%Y-%m-%d')
+            daily_map[date_key].append(c)
+            
+        daily_candles = []
+        for date_key in sorted(daily_map.keys()):
+            group = daily_map[date_key]
+            open_px = float(group[0]['o'])
+            close_px = float(group[-1]['c'])
+            high_px = max(float(x['h']) for x in group)
+            low_px = min(float(x['l']) for x in group)
+            vol = sum(float(x['v']) for x in group)
+            t_ms = group[0]['t']
+            
+            daily_candles.append({
+                't': t_ms,
+                'o': open_px,
+                'h': high_px,
+                'l': low_px,
+                'c': close_px,
+                'v': vol
+            })
+        return daily_candles
     except Exception as e:
-        sys.stderr.write(f"Error fetching candles: {e}\n")
+        sys.stderr.write(f"Error fetching/aggregating daily GMT+8 candles: {e}\n")
         return []
 
 def format_valuation(usd_val):

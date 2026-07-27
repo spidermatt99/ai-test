@@ -44,15 +44,16 @@ def get_realtime_context():
 
 def get_today_candles():
     """
-    Fetches 1-minute candles for CXMT for today (July 15, 2026)
+    Fetches 1-minute candles for CXMT for today
     """
     url = "https://api.hyperliquid.xyz/info"
     
-    # Calculate timestamps for July 15, 2026 (local UTC+8)
+    # Calculate timestamps for today (local UTC+8)
     tz_local = timezone(timedelta(hours=8))
+    now_local = datetime.now(tz_local)
     
-    # Start of today (July 15, 2026 00:00:00 UTC+8)
-    start_today = datetime(2026, 7, 15, 0, 0, 0, tzinfo=tz_local)
+    # Start of today (00:00:00 UTC+8)
+    start_today = datetime(now_local.year, now_local.month, now_local.day, 0, 0, 0, tzinfo=tz_local)
     start_time_ms = int(start_today.timestamp() * 1000)
     
     # End time is now
@@ -72,7 +73,7 @@ def get_today_candles():
         response.raise_for_status()
         candles = response.json()
         
-        # Filter to ensure candles belong to July 15, 2026 local time
+        # Filter to ensure candles belong to today local time
         today_candles = []
         for c in candles:
             dt = datetime.fromtimestamp(c['t'] / 1000, tz=tz_local)
