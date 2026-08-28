@@ -10,9 +10,9 @@ Nakamoto has been one of the hardest-hit DATs in the past year, with shares down
 
 The model of perpetually issuing shares to buy more crypto has come under severe strain in the past year. Bitcoin treasury companies alone have seen their total market cap fall by more than half in the last 12 months, according to the crypto data firm Artemis. Now venture capital, mergers and acquisitions and financial services are all being floated as possible ways of keeping the model alive.
 
-Twenty One Capital CEO Raphael Zagury said he sees his company as transforming into a crypto-centric holding company.
+Tether-backed Twenty One Capital, the second largest DAT, wants to use its Bitcoin-heavy balance sheet as the foundation for acquiring profitable operating businesses. Rather than simply emulate Strategy’s capital-allocation machine, Twenty One plans to look for companies it can bring onto its balance sheet — a model CEO Raphael Zagury compared with Berkshire Hathaway.
 
-“The way we're looking to build our treasury and to give shareholder value in the long term is by finding good operating companies in the Bitcoin ecosystem,” he said. “Similar, in a sense, to what Berkshire Hathaway did.”
+“The way we're looking to build our treasury and to give shareholder value in the long term is by finding good operating companies in the Bitcoin ecosystem,” Zagury said. “Similar, in a sense, to what Berkshire Hathaway did.”
 
 The tone coming from the largest cryptocurrency accumulators stood in sharp contrast to the broader crypto market, which has been celebrating Bitcoin’s recent surge back to $80,000. The token is up roughly 27% in August, set for its best month since November 2024.
 
@@ -30,12 +30,12 @@ When Strategy sold Bitcoin at the end of May for the first time in four years, i
 
 
 
-“The only way for generally a company to match Bitcoin, or even potentially outperform Bitcoin, is to buy Bitcoin,” Adam Back told an audience at the Bitcoin Asia conference last August, adding that companies would use the cryptocurrency to expand their core businesses. “From that point of view, 
 
+“The only way for generally a company to match Bitcoin, or even potentially outperform Bitcoin, is to buy Bitcoin,” Adam Back told an audience at the Bitcoin Asia conference last August, adding that companies would use the cryptocurrency to expand their core businesses. “From that point of view,
 
 “The retail presence we're seeing is notably strong, and this week’s rally has only reinforced the sense of momentum coming into the conference,” said Brandon Green, CEO of BTC Inc.
 
-But the sentiment coming 
+But the sentiment coming
 
 
 
