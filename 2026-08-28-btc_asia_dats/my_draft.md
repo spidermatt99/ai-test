@@ -1,10 +1,13 @@
 # Crypto Treasury Pioneers Search for Second Act at Bitcoin Asia
 
-The party was back at Bitcoin Asia this week as the token is on track for its best month in nearly two years, but the biggest crypto harders are missing out on the fun.
+The party was back at Bitcoin Asia this week as the token is on track for its best month in nearly two years, but the biggest crypto hoarders are missing out on the fun.
 
-So-called digital asset treasuries have seen their valuations plummet this year during a market downturn that saw Bitcoin shed at one more more than 50% of its value. Now the promise of providing shareholder value by buying and holding crypto is failing to woo investors, and executives of the biggest DATs showed up in Hong Kong on the hunt for a new business model.
+So-called digital asset treasuries have seen their valuations plummet this year during a market downturn that saw Bitcoin at one point down by more than half from its October high above $126,000. Now the promise of providing shareholder value by buying and holding crypto is failing to woo investors like it once did, and executives of the biggest DATs showed up in Hong Kong on the hunt for a new business model.
 
-Venture capital, mergers and acquisitions
+Crypto treasuries have been under severe strain over the past year, with 
+
+
+Venture capital, mergers and acquisitions and financial services are all on the table as ways of keeping the crypto treasury model alive. 
 
 
 Adam Back:
