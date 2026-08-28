@@ -14,7 +14,7 @@ Twenty One Capital CEO Raphael Zagury said he sees his company as transforming i
 
 “The way we're looking to build our treasury and to give shareholder value in the long term is by finding good operating companies in the Bitcoin ecosystem,” he said. “Similar, in a sense, to what Berkshire Hathaway did.”
 
-The tone coming from the largest accumulators of cryptocurrencies stands in contrast to the rapid rebound in Bitcoin over the past two weeks. The original cryptocurrency is up roughly 27% in August to around $80,000, set for its best month since November 2024.
+The tone coming from the largest cryptocurrency accumulators stood in sharp contrast to the broader crypto market, which has been celebrating Bitcoin’s recent surge back to $80,000. The token is up roughly 27% in August, set for its best month since November 2024.
 
 However, the bear market that took hold for much of this year may have taken a toll on the conference.
 
