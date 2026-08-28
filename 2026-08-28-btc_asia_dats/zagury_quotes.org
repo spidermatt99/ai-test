@@ -1,0 +1,105 @@
+* Raphael Zagury (CEO of 21 Capital) Interview Quotes
+
+** TV Interview Quotes
+
+*** General Compelling Quotes
+
+**** On his personal experience with inflation shaping his view of money:
+#+BEGIN_QUOTE
+"I was very lucky or unlucky, depending how you want to see [it] that I grew up in Brazil... in the 90s in Brazil, late 80s, early 90s, when inflation was wild. Like we would have money literally losing its value overnight, right? I remember my mother giving me money to school for lunch and say, 'Here's the money, don't bring it back... because if you bring it back, it's going to be worthless by a few days.' So it's kind of like ingrained on my mind that money can lose value a long time."
+#+END_QUOTE
+
+**** On Bitcoin's predictability versus traditional central banking:
+#+BEGIN_QUOTE
+"Bitcoin is a monetary asset that's different than anything else that we've ever seen as humans; it's extremely predictable. The monetary issue is written in code. You don't have 12 different federal reserve banks making determinations... You know that every 10 minutes a new block is going to come in... it's all transparent, it's all open source, and we've never seen this."
+#+END_QUOTE
+
+**** Quoting Charlie Munger on why predictability is valuable:
+#+BEGIN_QUOTE
+"Going back to Berkshire, Charlie Munger actually used to say that predictability should trade at a premium, right? And I think Bitcoin should trade at a premium exactly because the monetary policy... you know exactly what it's going to be for the foreseeable future. And unfortunately, we live in a world with a lot of uncertainty."
+#+END_QUOTE
+
+**** On 21 Capital's "Berkshire Hathaway" strategy for Bitcoin:
+#+BEGIN_QUOTE
+"We're looking to build a Bitcoin operating business, so what we're gonna be looking at are profitable cash flow companies to bring into our balance sheet. Similar to how Berkshire... thought about building their business, we're gonna be looking to do the same thing for Bitcoin."
+#+END_QUOTE
+
+**** On Bitcoin's massive upside potential compared to other assets:
+#+BEGIN_QUOTE
+"It's a drop in the bucket in an ocean of liquidity, right? Look at Bitcoin, one and a half trillion dollars in terms of market cap, compared to gold at 30 [trillion], real estate at 300 plus... ultimately I think Bitcoin is the best savings technology of the world, and it's gonna capture some of the monetary premium of these assets."
+#+END_QUOTE
+
+**** On why now is the ideal time to build in the Bitcoin space:
+#+BEGIN_QUOTE
+"I think this is the perfect time to be building... Up until a few years ago it was very hard to find businesses that could scale because the total addressable market was smaller... [Now] you have an expanding credit market around Bitcoin, lending against Bitcoin is already growing, and I think in the future it's gonna continue to be a good business to build."
+#+END_QUOTE
+
+*** Bloomberg Audience Focus
+
+**** On transitioning from a Treasury to building a new Financial Services industry:
+#+BEGIN_QUOTE
+"...you're gonna have an expanding credit market around Bitcoin. Lending against Bitcoin is already growing, and I think in the future, it's gonna continue to be a good business to build. And the way to think about it is that we're building a different kind of financial services industry on top of Bitcoin... using the commodity as a collateral, which provides a very good basis for building a financial system around it."
+#+END_QUOTE
+
+**** On the dramatic shift in Wall Street's institutional adoption:
+#+BEGIN_QUOTE
+"I worked my whole career in Wall Street and I worked at Goldman, Deutsche, big companies... Up until a few years ago, I couldn't even have a conversation about Bitcoin with some of my colleagues because they wouldn't even hear about what you were saying. And that switched completely... Now I have actually the opposite. A lot of them are reaching out to me and say, 'Well, we're thinking about adding Bitcoin to client portfolios, to our own balance sheet. We're doing transactions with Bitcoin. We're looking at trades using Bitcoin as collateral.' That wasn't thinkable maybe a couple of years ago."
+#+END_QUOTE
+
+**** On capital markets strategy and securitization (beyond just holding Bitcoin):
+#+BEGIN_QUOTE
+"The second pillar, which is an important pillar, is capital markets... when you have operating companies, it opens the doors to do much more in terms of financing. We can look into securitizing revenues, we can look into issuing different kinds of debt. Instead of just being something that is backed by Bitcoin, it can be backed by collateral of revenues of the companies."
+#+END_QUOTE
+
+**** On M&A strategy, capital allocation, and trading at a discount to NAV:
+#+BEGIN_QUOTE
+"Our stock is trading at a discount to NAV right now, right? So probably it wouldn't make sense to issue stock... to do M&A transactions. But the good thing about doing business with profitable companies is that some of these deals may be self-funding."
+#+END_QUOTE
+
+**** On utilizing unencumbered Bitcoin for strategic leverage:
+#+BEGIN_QUOTE
+"...maybe even using our Bitcoin as collateral. Right now we have around two-thirds of our balance sheet that is unencumbered, that we could use as collateral to get some leverage. So there are different things that we could do potentially to do the acquisitions."
+#+END_QUOTE
+
+**** On establishing Bitcoin as the ultimate corporate hurdle rate:
+#+BEGIN_QUOTE
+"Bitcoin is our benchmark at the end of the day, right? So every investment that we look at is gonna be measured against Bitcoin. If we can't beat Bitcoin, then it's much easier for our shareholders to just go out and buy Bitcoin as an asset, right? They can buy it through an ETF, through direct custody... What we're looking for is to have better risk-adjusted returns compared to Bitcoin."
+#+END_QUOTE
+
+
+** One-on-One Interview Quotes
+
+*** On shifting from a "Venture Capital" to a "Private Equity" model for Bitcoin-native companies:
+#+BEGIN_QUOTE
+"Other Bitcoin-native companies. So we're looking at you know anything from exchanges, lending companies, other mining companies... I think if we looked back three years ago, we couldn't really find enough companies to invest [in]. You could at a small scale; it was more like a venture capital market. Now it's more like a private equity market where you actually can get access at scale to some of these opportunities, and even more important, opportunities that can scale further because then, with our access to capital, we could inject capital into these companies and actually unleash more growth towards what they are doing."
+#+END_QUOTE
+
+*** On his critique of the "MicroStrategy" treasury model and building a "Berkshire" for Bitcoin:
+#+BEGIN_QUOTE
+"I've been very critical of the traditional treasury model for a while... The way that they're doing is much more akin to how hedge funds allocate capital, where like MicroStrategy and the current Treasury companies... they look for a dislocation and they take advantage of that... Our approach is going to be different. The way we're looking to build our treasury and to give shareholder value in the long term is by finding good operating companies in the Bitcoin ecosystem... Similar, in a sense, [to] what Berkshire Hathaway did."
+#+END_QUOTE
+
+*** On reading the market's signal regarding 21 Capital's past mistakes:
+#+BEGIN_QUOTE
+"The stock is trading at a discount... to the Bitcoin that we have in balance sheet. So the market is telling us that there was a misallocation of capital... Raising capital and leveraging the capital is okay, but it's a transaction. The way we're looking at this is much more longer term... it is going to take time for us to show to our shareholders that that's where [the value is]."
+#+END_QUOTE
+
+*** On the M&A pipeline and taking advantage of the bear market:
+#+BEGIN_QUOTE
+"The universe is bigger than what I thought... specifically because we're in the bear market, I think there are a ton of opportunities out there. It doesn't mean we'll do a lot of transactions. I think our focus [is] to do one transaction every six months or so."
+#+END_QUOTE
+
+*** On targeting physical energy infrastructure as a self-financing play:
+#+BEGIN_QUOTE
+"...we will hold infrastructure like generators, high voltage transformers, and then decide what to do with the asset. Most probably it would be to do mining. Mining is still a very profitable business... The good thing about having operating companies is that operating companies have cash flow, and then you can securitize that cash flow against that, and issue much cheaper debt than just against an asset... those assets have been financed for decades."
+#+END_QUOTE
+
+*** On negotiating stock-for-stock acquisitions to avoid the NAV discount penalty:
+#+BEGIN_QUOTE
+"...the obvious question is, would you issue stock at the current discount? [Our approach] is to go back to the company and say, 'Yeah, we will do a transaction, assuming that the stock value is priced at an NAV at parity.' And we are having some of these conversations right now."
+#+END_QUOTE
+
+*** On how institutionalization is opening doors for complex financial engineering:
+#+BEGIN_QUOTE
+"I've been in Bitcoin for more than 10 years, and I come from Wall Street traditionally. It was very hard for a long time to have a conversation around Bitcoin... they wouldn't even listen, and I think it's changing a tone, particularly in the last year... what did that represent is that now things like securitization of assets, even lending against Bitcoin, and other things like that are possible that they weren't before."
+#+END_QUOTE
