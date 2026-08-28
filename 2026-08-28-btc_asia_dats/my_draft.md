@@ -4,10 +4,44 @@ The party was back at Bitcoin Asia this week as the token is on track for its be
 
 So-called digital asset treasuries have seen their valuations plummet this year during a market downturn that saw Bitcoin at one point down by more than half from its October high above $126,000. Now the promise of providing shareholder value by buying and holding crypto is failing to woo investors like it once did, and executives of the biggest DATs showed up in Hong Kong on the hunt for a new business model.
 
-Crypto treasuries have been under severe strain over the past year
+“We’re looking for other businesses that are scalable, that can help feed income into the business, so that we’re constantly able to buy Bitcoin without having to issue shares or take on debt,” David Bailey, founder of the Bitcoin DAT Nakamoto Inc., said in an interview with Bloomberg News.
+
+Nakamoto has been one of the hardest-hit DATs in the past year, with shares down 97%. Bailey is also the founder and chief executive officer of BTC Inc. which organizes Bitcoin Asia.
+
+The model of perpetually issuing shares to buy more crypto has come under severe strain in the past year. Bitcoin treasury companies alone have seen their total market cap fall by more than half in the last 12 months, according to the crypto data firm Artemis. Now venture capital, mergers and acquisitions and financial services are all being floated as possible ways of keeping the model alive.
+
+Twenty One Capital CEO Raphael Zagury said he sees his company as transforming into a crypto-centric holding company.
+
+“The way we're looking to build our treasury and to give shareholder value in the long term is by finding good operating companies in the Bitcoin ecosystem,” he said. “Similar, in a sense, to what Berkshire Hathaway did.”
+
+The tone coming from the largest accumulators of cryptocurrencies stands in contrast to the rapid rebound in Bitcoin over the past two weeks. The original cryptocurrency is up roughly 27% in August, set for its best month since November 2024.
+
+However, the bear market that took hold for much of this year may have taken a toll on the conference.
+
+“I’d say there was less of the excitement and sense of occasion that characterised the previous edition, particularly around high-profile moments such as Eric Trump’s appearance,” said Laura Estefania, CEO of Conquista PR.
+
+The second eldest son of US President Donald Trump was the biggest draw at the conference last year, when he appeared on stage with Adam Back, a cryptographer whose work was influential in the creation of Bitcoin. Back would eventually start his own DAT, BSTR Holdings, which recently canceled a deal to go public through a special purpose acquisition company merger.
+
+Back’s message on the DAT model last year was noticeably more bullish: “I think, eventually, probably all companies will be Bitcoin treasury companies,” he told the Bitcoin Asia audience last August.
 
 
-Venture capital, mergers and acquisitions and financial services are all on the table as ways of keeping the crypto treasury model alive. 
+
+
+
+“The only way for generally a company to match Bitcoin, or even potentially outperform Bitcoin, is to buy Bitcoin,” Adam Back told an audience at the Bitcoin Asia conference last August, adding that companies would use the cryptocurrency to expand their core businesses. “From that point of view, 
+
+
+“The retail presence we're seeing is notably strong, and this week’s rally has only reinforced the sense of momentum coming into the conference,” said Brandon Green, CEO of BTC Inc.
+
+But the sentiment coming 
+
+
+
+
+Some DATs have tried to pivot away from the model pioneered by Michael Saylor’s Strategy Inc., which remains the largest such company by market capitalization. Alt5 Sigma — which held tokens of World Liberty Financial, the Trump family’s crypto venture — in April changed its name to AI Financial Corporation in what it presented as a pivot to artificial intelligence. The stock is down 30% since then.
+
+Others have shut down completely. In July, shareholders of Satsuma Technology Plc voted to [liquidate](bbg://news/stories/TDYBQ5KIJHEC) the company’s remaining Bitcoin and delist.
+
 
 
 Adam Back:
