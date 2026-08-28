@@ -1,0 +1,1250 @@
+1
+00:00:00,000 --> 00:00:02,760
+There's been some breaking news right now.
+
+2
+00:00:02,761 --> 00:00:06,160
+Why don't we start things off
+with this red headline that's crossed.
+
+3
+00:00:06,161 --> 00:00:10,760
+And he was postal service mail,
+the curbs, the mail ballot curbs.
+
+4
+00:00:10,761 --> 00:00:14,080
+Okay, one concept there
+has been blocked by a judge
+
+5
+00:00:14,081 --> 00:00:17,800
+for now, not a ton of
+details on this just yet,
+
+6
+00:00:17,801 --> 00:00:19,840
+but that's so far the
+information that we have.
+
+7
+00:00:19,841 --> 00:00:22,324
+We will bring you more
+as we get more context
+
+8
+00:00:22,325 --> 00:00:25,800
+on this, but for now,
+that's off the table.
+
+9
+00:00:25,801 --> 00:00:27,480
+- Yeah, it seems like
+this judge is weighing
+
+10
+00:00:27,481 --> 00:00:30,280
+a long-term block ahead
+of the US midterms as well,
+
+11
+00:00:30,281 --> 00:00:33,800
+so the timing of that is quite
+interesting too as we count down.
+
+12
+00:00:33,801 --> 00:00:37,120
+Yeah, so temporarily
+blocked by a judge here today.
+
+13
+00:00:37,121 --> 00:00:40,760
+Let's switch gears and talk a bit more
+about what's been going on, right, Bitcoin?
+
+14
+00:00:40,761 --> 00:00:44,240
+I mean, what a quarter, whatever you found
+that we're seeing, we're back to 80,000.
+
+15
+00:00:44,241 --> 00:00:46,720
+You got to think maybe
+this whole debasement trade
+
+16
+00:00:46,721 --> 00:00:48,534
+has come back in a
+big way, that's maybe
+
+17
+00:00:48,535 --> 00:00:50,400
+fueling this, but yeah,
+what else is going on?
+
+18
+00:00:50,401 --> 00:00:52,800
+We got a big conference in Hong
+Kong that's wrapping up today as well.
+
+19
+00:00:52,801 --> 00:00:59,360
+- Yes, the very creatively named Bitcoin
+Asia Conference, starts today in Hong Kong.
+
+20
+00:00:59,361 --> 00:01:02,520
+Well, simple is better,
+gets the message through.
+
+21
+00:01:02,521 --> 00:01:06,360
+One of the company's
+attending holds one of the largest
+
+22
+00:01:06,361 --> 00:01:09,080
+Bitcoin Treasuries among
+publicly traded firms.
+
+23
+00:01:09,081 --> 00:01:11,000
+You can see, of course,
+company stock trading.
+
+24
+00:01:11,001 --> 00:01:13,728
+On your screens right now,
+tracking, as we were just
+
+25
+00:01:13,729 --> 00:01:15,480
+pointing out, there of
+course, the price in Bitcoin,
+
+26
+00:01:15,481 --> 00:01:17,920
+maybe you can think,
+Scott Bessent and the angst
+
+27
+00:01:17,921 --> 00:01:21,480
+in the landing of the bond market debasement
+trade, and everything in between here,
+
+28
+00:01:21,481 --> 00:01:24,400
+for now at where 80 grand
+right now on Bitcoin itself.
+
+29
+00:01:24,401 --> 00:01:29,440
+Joining us now exclusively here
+on set is the CEO Rafael Segeri.
+
+30
+00:01:29,441 --> 00:01:31,560
+Thank you for coming in
+and very nice to see you.
+
+31
+00:01:31,561 --> 00:01:33,240
+- Thank you, my pleasure to be here.
+
+32
+00:01:33,241 --> 00:01:34,440
+- A few weeks into the job.
+
+33
+00:01:34,441 --> 00:01:35,280
+- Yes.
+
+34
+00:01:35,281 --> 00:01:36,280
+- How's that been?
+
+35
+00:01:36,281 --> 00:01:38,920
+Do you have enough information
+right now to answer that question?
+
+36
+00:01:38,921 --> 00:01:39,760
+- So far so good.
+
+37
+00:01:39,761 --> 00:01:43,880
+I've been at the board of the company for
+a while, so I know the company really well.
+
+38
+00:01:43,881 --> 00:01:46,520
+I've been a Bitcoiner
+for longer than a decade,
+
+39
+00:01:46,521 --> 00:01:51,840
+so this is all in what I've been
+doing, so it's nothing of that is new.
+
+40
+00:01:51,841 --> 00:01:54,080
+- It's an interesting time for the company.
+
+41
+00:01:54,081 --> 00:01:56,254
+In the news, of course,
+there have been some
+
+42
+00:01:56,255 --> 00:01:58,760
+deals that perhaps don't
+seem to be happening.
+
+43
+00:01:58,761 --> 00:02:00,880
+I understand, of course,
+there could be other plays
+
+44
+00:02:00,881 --> 00:02:03,600
+that, well, give us an
+understanding of where things stand.
+
+45
+00:02:03,601 --> 00:02:07,200
+- Yeah, I think the important thing to
+know is that the way that we're looking
+
+46
+00:02:07,201 --> 00:02:11,320
+to build a treasury company is slightly
+different than what we've seen before.
+
+47
+00:02:11,321 --> 00:02:14,080
+We're looking to build a
+Bitcoin operating business,
+
+48
+00:02:14,081 --> 00:02:16,444
+so what we're gonna be
+looking at are profitable
+
+49
+00:02:16,445 --> 00:02:20,160
+cash flow companies to
+bring into our balance sheet.
+
+50
+00:02:20,161 --> 00:02:24,240
+Similar to how Berkshire had way
+forward about building their business,
+
+51
+00:02:24,241 --> 00:02:27,400
+we're gonna be looking to do
+the same thing for Bitcoin, right?
+
+52
+00:02:27,401 --> 00:02:29,200
+And the one of the deals we're looking at
+
+53
+00:02:29,201 --> 00:02:32,040
+is a company I founded,
+which is electron energy.
+
+54
+00:02:32,041 --> 00:02:34,240
+It's a mining company, a
+Bitcoin mining company.
+
+55
+00:02:34,241 --> 00:02:36,520
+That grew to be one of the
+largest mining companies
+
+56
+00:02:36,521 --> 00:02:40,200
+in the world, and we're thinking about
+that that deal has been announced.
+
+57
+00:02:40,201 --> 00:02:43,320
+It's in the process, it
+hasn't been confirmed yet,
+
+58
+00:02:43,321 --> 00:02:45,877
+but that's a good example
+of companies that we're
+
+59
+00:02:45,878 --> 00:02:48,880
+gonna be looking for to
+add that the 21 balance sheet.
+
+60
+00:02:48,881 --> 00:02:50,139
+Other than that,
+election, we're gonna be
+
+61
+00:02:50,140 --> 00:02:51,840
+looking at other companies
+should bring as well.
+
+62
+00:02:51,841 --> 00:02:54,560
+I mean, A, it's gonna be a
+core focus of what we do.
+
+63
+00:02:54,561 --> 00:02:58,240
+That's one of the advantages
+of being a Bitcoin bear market
+
+64
+00:02:58,241 --> 00:03:01,200
+is that there are more
+opportunities for us to look at.
+
+65
+00:03:01,201 --> 00:03:04,680
+It's exactly good teams,
+cheap assets, right?
+
+66
+00:03:04,681 --> 00:03:07,120
+It's the right time to build.
+
+67
+00:03:07,121 --> 00:03:07,960
+- Yeah, it's interesting.
+
+68
+00:03:07,961 --> 00:03:09,480
+The Berkshire Happy Model, right?
+
+69
+00:03:09,481 --> 00:03:11,723
+Where Bitcoin is sort
+of the balance sheet,
+
+70
+00:03:11,724 --> 00:03:13,040
+right, at the center,
+and then you're kind of
+
+71
+00:03:13,041 --> 00:03:16,080
+operating around the
+business and built around it.
+
+72
+00:03:16,081 --> 00:03:20,760
+Tell us a bit more about just what
+21 capital is gonna look like, right?
+
+73
+00:03:20,761 --> 00:03:23,160
+Is it more about a digital asset treasury,
+
+74
+00:03:23,161 --> 00:03:24,960
+or are you gonna be more
+about financial services?
+
+75
+00:03:24,961 --> 00:03:27,680
+Like how do you chart
+the next path forward?
+
+76
+00:03:27,681 --> 00:03:28,680
+- Yeah, it's a good question.
+
+77
+00:03:28,681 --> 00:03:30,720
+It's, as I mentioned,
+I think the first thing
+
+78
+00:03:30,721 --> 00:03:34,200
+is to operating companies,
+so that's the first pillar.
+
+79
+00:03:34,201 --> 00:03:35,880
+The second pillar, which
+is an important pillar,
+
+80
+00:03:35,881 --> 00:03:38,028
+is capital markets,
+which similar to what
+
+81
+00:03:38,029 --> 00:03:40,160
+other trajectories
+companies have been doing,
+
+82
+00:03:40,161 --> 00:03:43,760
+we're gonna be looking to raise actually
+that, everything that they do traditionally,
+
+83
+00:03:43,761 --> 00:03:46,280
+but the important thing is
+that when you have operating
+
+84
+00:03:46,281 --> 00:03:51,480
+companies, it opens the doors to do much
+more in terms of financing, we can look
+
+85
+00:03:51,481 --> 00:03:56,320
+into securitizing revenues, we can look
+into issuing different kinds of that, right?
+
+86
+00:03:56,321 --> 00:03:58,600
+Instead of just being something
+that is backed by Bitcoin,
+
+87
+00:03:58,601 --> 00:04:02,640
+it can be backed by collateral of
+revenues of the companies, right?
+
+88
+00:04:02,641 --> 00:04:04,600
+So that makes it much different.
+
+89
+00:04:04,601 --> 00:04:06,760
+And then on top of that,
+I think the other thing
+
+90
+00:04:06,761 --> 00:04:09,040
+that is gonna happen with
+Bitcoin is that you're gonna have
+
+91
+00:04:09,041 --> 00:04:15,360
+an expanding credit market around Bitcoin,
+landing against Bitcoin is already growing,
+
+92
+00:04:15,361 --> 00:04:19,200
+and I think it's in the future, it's gonna
+continue to be a good business to build,
+
+93
+00:04:19,201 --> 00:04:21,079
+and the way to think about
+it, is that we're building
+
+94
+00:04:21,080 --> 00:04:25,400
+a different kind of financial services
+industry on top of Bitcoin, right?
+
+95
+00:04:25,401 --> 00:04:28,080
+But going to the
+commodity with a collateral,
+
+96
+00:04:28,081 --> 00:04:32,120
+but also very good basis for
+building a financial system around it.
+
+97
+00:04:32,121 --> 00:04:36,320
+- And the currency you're using,
+
+98
+00:04:36,321 --> 00:04:40,040
+or you'll be looking to use for these M&A
+transactions, would it mainly be Bitcoin?
+
+99
+00:04:40,041 --> 00:04:42,400
+Are you using something else?
+
+100
+00:04:42,401 --> 00:04:45,040
+Maybe just to also ask, how many
+Bitcoin do you actually are you sitting on?
+
+101
+00:04:45,041 --> 00:04:49,160
+- So we have 43,513
+bitcoins in our balance sheets.
+
+102
+00:04:49,161 --> 00:04:52,360
+So roughly a little bit more
+than $3 billion at today's value.
+
+103
+00:04:52,361 --> 00:04:56,000
+- Okay, and the currency at which you will
+be conducting most of the M&A, are you?
+
+104
+00:04:56,001 --> 00:04:58,480
+- It will depend on the transaction.
+
+105
+00:04:58,481 --> 00:05:00,240
+What we can say is
+that our stock is trained
+
+106
+00:05:00,241 --> 00:05:02,920
+at the discount through
+an AV right now, right?
+
+107
+00:05:02,921 --> 00:05:05,125
+So probably it wouldn't
+make sense should we should
+
+108
+00:05:05,126 --> 00:05:07,480
+stock at an AV, should
+we eliminate transactions?
+
+109
+00:05:07,481 --> 00:05:09,880
+But the good thing about
+doing some of these business
+
+110
+00:05:09,881 --> 00:05:13,640
+with profitable companies that these some
+of these deals may be self-funding, right?
+
+111
+00:05:13,641 --> 00:05:17,080
+And that's how we made it
+looking at doing with that,
+
+112
+00:05:17,081 --> 00:05:20,280
+with other activities, or
+maybe even using our Bitcoin
+
+113
+00:05:20,281 --> 00:05:22,320
+as collateral, right now
+we have around two-thirds
+
+114
+00:05:22,321 --> 00:05:24,280
+of our balance sheet
+that it's unencumbered,
+
+115
+00:05:24,281 --> 00:05:27,320
+that we could use as
+collateral to get some leverage.
+
+116
+00:05:27,321 --> 00:05:29,000
+So there are different
+things that we could do,
+
+117
+00:05:29,001 --> 00:05:31,800
+potentially should do
+the acquisitions, right?
+
+118
+00:05:32,880 --> 00:05:36,120
+- And tell us a little bit
+about the businesses.
+
+119
+00:05:36,121 --> 00:05:38,280
+What's the first operating
+visit you're looking at
+
+120
+00:05:38,281 --> 00:05:41,400
+that could generate a
+positive cash flow for you guys?
+
+121
+00:05:41,401 --> 00:05:43,480
+- The very interesting about the time
+
+122
+00:05:43,481 --> 00:05:46,320
+that we're in Bitcoin right
+now is that what we're building
+
+123
+00:05:46,321 --> 00:05:47,878
+now I've been thinking
+about something like
+
+124
+00:05:47,879 --> 00:05:50,760
+this for a long time and
+you can only do it now
+
+125
+00:05:50,761 --> 00:05:54,960
+because Bitcoin is at a
+place of institutionalization
+
+126
+00:05:54,961 --> 00:05:57,160
+that we haven't
+seen before, right?
+
+127
+00:05:57,161 --> 00:05:59,640
+So the business can, the
+business that we're looking for
+
+128
+00:05:59,641 --> 00:06:02,920
+is not only business that are
+profitable cash flow positive
+
+129
+00:06:02,921 --> 00:06:05,960
+but that can scale
+with more capital, right?
+
+130
+00:06:05,961 --> 00:06:09,200
+Up until a few years ago was
+very hard to find businesses
+
+131
+00:06:09,201 --> 00:06:13,520
+that could scale because the total of
+the taxable market was smaller, right?
+
+132
+00:06:13,521 --> 00:06:15,880
+Bitcoin was still growing
+in terms of adoption.
+
+133
+00:06:15,881 --> 00:06:19,240
+I think with last year,
+you know, a few years ago
+
+134
+00:06:19,241 --> 00:06:22,600
+if the ETF's coming in,
+more institutions coming in,
+
+135
+00:06:22,601 --> 00:06:24,960
+as I said, I worked my
+whole career in Wall Street
+
+136
+00:06:24,961 --> 00:06:28,520
+and I worked at Goldman
+Deutsche, big companies, right?
+
+137
+00:06:28,521 --> 00:06:31,360
+And you couldn't even,
+up until a few years ago,
+
+138
+00:06:31,361 --> 00:06:33,680
+I couldn't even have a
+conversation about Bitcoin
+
+139
+00:06:33,681 --> 00:06:36,320
+with some of my
+colleagues because they rock,
+
+140
+00:06:36,321 --> 00:06:38,920
+they wouldn't even hear
+about what you were saying
+
+141
+00:06:38,921 --> 00:06:42,160
+and that switched completely
+from where we were before.
+
+142
+00:06:42,161 --> 00:06:43,720
+Now I have actually the opposite.
+
+143
+00:06:43,721 --> 00:06:47,280
+A lot of them reaching out to me and say,
+"Well, we're thinking about adding Bitcoin
+
+144
+00:06:47,281 --> 00:06:49,320
+"through client's portfolio,
+show our own balance sheet.
+
+145
+00:06:49,321 --> 00:06:51,200
+"We're doing transactions with Bitcoin.
+
+146
+00:06:51,201 --> 00:06:54,040
+"We're looking at trades
+using Bitcoin as collateral.
+
+147
+00:06:54,041 --> 00:06:57,102
+"That wasn't thinkable
+maybe a couple of years ago.
+
+148
+00:06:57,103 --> 00:06:59,800
+" And that gets, as I
+think, where we are in 21,
+
+149
+00:06:59,801 --> 00:07:02,280
+I think this is the perfect
+time to be building.
+
+150
+00:07:02,281 --> 00:07:04,800
+When you look at the
+combination of the bear market,
+
+151
+00:07:04,801 --> 00:07:07,320
+which maybe coming to
+an end, who knows, right,
+
+152
+00:07:07,321 --> 00:07:11,400
+with Bitcoin at 80,000, and
+then the opportunities ahead
+
+153
+00:07:11,401 --> 00:07:15,640
+and where Bitcoin is, I think this is the
+perfect time to be doing what we're doing.
+
+154
+00:07:15,641 --> 00:07:20,080
+- And what's the framework you're using
+to look at which types of companies to buy
+
+155
+00:07:20,081 --> 00:07:24,080
+and as investors of 21, am I
+buying a holding company?
+
+156
+00:07:24,081 --> 00:07:27,440
+The same buying Berkshire, for example,
+and are you going to be accruing dividends?
+
+157
+00:07:27,441 --> 00:07:28,360
+How is that poll?
+
+158
+00:07:28,361 --> 00:07:29,200
+- Yeah, good question.
+
+159
+00:07:29,201 --> 00:07:32,280
+And so Bitcoin is our benchmark
+at the end of the day, right?
+
+160
+00:07:32,281 --> 00:07:36,680
+So every investment that we look at
+is gonna be measured against Bitcoin.
+
+161
+00:07:36,681 --> 00:07:39,027
+If we can't be Bitcoin,
+then it's much easier for our
+
+162
+00:07:39,028 --> 00:07:41,960
+shareholders to just go out
+and buy Bitcoin as an asset, right?
+
+163
+00:07:41,961 --> 00:07:45,960
+They can buy it through an
+ETF, through direct custody, right?
+
+164
+00:07:45,961 --> 00:07:48,160
+So what we're looking
+through is have better risk
+
+165
+00:07:48,161 --> 00:07:50,600
+adjusted returns, and it's
+just not beating Bitcoin.
+
+166
+00:07:50,601 --> 00:07:53,760
+It's having better risk adjusted
+returns compared to Bitcoin, right?
+
+167
+00:07:53,761 --> 00:07:56,160
+That should be the
+benchmark that will guide
+
+168
+00:07:56,161 --> 00:07:58,160
+every single one of
+our decisions going on.
+
+169
+00:07:58,161 --> 00:08:00,200
+- What is that hurdle now, I'm curious.
+
+170
+00:08:00,201 --> 00:08:01,640
+- Well, it depends, right?
+
+171
+00:08:01,641 --> 00:08:06,560
+That's the hard thing about Bitcoin is that
+it's still in discovery process, right?
+
+172
+00:08:06,561 --> 00:08:10,080
+It's a drop of the bucket
+in ocean of liquidity, right?
+
+173
+00:08:10,081 --> 00:08:12,240
+Look at Bitcoin, one
+and a half trillion dollars
+
+174
+00:08:12,241 --> 00:08:15,687
+in terms of market gap,
+compared to gold at
+
+175
+00:08:15,688 --> 00:08:18,640
+30 billion, real estate
+at 300 plus, right?
+
+176
+00:08:18,641 --> 00:08:22,880
+So if you look at where Bitcoin is in
+terms of potential for saving technology,
+
+177
+00:08:22,881 --> 00:08:26,160
+'cause ultimately I think Bitcoin is the
+best savings technology of the world,
+
+178
+00:08:26,161 --> 00:08:30,520
+and it's gonna capture some of the
+monetary premium of these assets, right?
+
+179
+00:08:30,521 --> 00:08:35,600
+I think if you look long term, Bitcoin
+has a lot of upside potential short term.
+
+180
+00:08:35,601 --> 00:08:37,880
+If you measure it, try to
+measure what the benchmark is.
+
+181
+00:08:37,881 --> 00:08:38,679
+It could be anything.
+
+182
+00:08:38,680 --> 00:08:40,679
+Try some of the short term can move anyway,
+
+183
+00:08:40,680 --> 00:08:44,680
+because again, it's still
+an asset in discovery, right?
+
+184
+00:08:44,681 --> 00:08:47,960
+- I mean, we're seeing
+a bit of recovery, 80,000.
+
+185
+00:08:47,961 --> 00:08:49,440
+What do you think is driving that?
+
+186
+00:08:49,441 --> 00:08:54,360
+- I think first of all, it was, the price
+was very depressed for a long time.
+
+187
+00:08:54,361 --> 00:08:57,040
+We've seen that if you've
+been in Bitcoin for a while, right?
+
+188
+00:08:57,041 --> 00:08:59,760
+Again, because it's still an asset,
+
+189
+00:08:59,761 --> 00:09:02,067
+the kind of interest
+that your seagulls up and
+
+190
+00:09:02,068 --> 00:09:04,400
+down with time, and
+we were just at a period
+
+191
+00:09:04,401 --> 00:09:07,551
+that a lot of the interest
+that was driven by
+
+192
+00:09:07,552 --> 00:09:10,240
+the ETFs, everything that
+we mentioned last year,
+
+193
+00:09:10,241 --> 00:09:13,480
+dried down a little bit,
+and now it's coming back.
+
+194
+00:09:13,481 --> 00:09:15,555
+So I think it's just, it
+was like a spring that
+
+195
+00:09:15,556 --> 00:09:17,920
+was coiled and it's
+kind of like coming out.
+
+196
+00:09:17,921 --> 00:09:20,475
+But as I said before,
+it's still a drop in
+
+197
+00:09:20,476 --> 00:09:22,760
+the bucket on the
+ocean of liquidity, right?
+
+198
+00:09:22,761 --> 00:09:27,280
+And on top of that, I think the
+recent macro events help Bitcoin.
+
+199
+00:09:27,281 --> 00:09:30,040
+Bitcoin is a monetary asset
+that different than anything else
+
+200
+00:09:30,041 --> 00:09:34,040
+that we've ever seen as
+humans, it's extremely predictable.
+
+201
+00:09:34,041 --> 00:09:36,000
+The monetary issue is written in code.
+
+202
+00:09:36,001 --> 00:09:39,443
+You don't have 12 different
+federal reserve banks making
+
+203
+00:09:39,444 --> 00:09:44,520
+determinations, or opaque, that you
+don't know what's going to happen.
+
+204
+00:09:44,521 --> 00:09:47,560
+Treasury chairs coming in and
+trying to buy the long end of the curve.
+
+205
+00:09:47,561 --> 00:09:49,280
+Nothing of that happens, right?
+
+206
+00:09:49,281 --> 00:09:50,600
+It's extremely predictable.
+
+207
+00:09:50,601 --> 00:09:53,000
+You know that every 10
+minutes and you block on average,
+
+208
+00:09:53,001 --> 00:09:55,040
+every 10 minutes and you
+block is going to come in.
+
+209
+00:09:55,041 --> 00:09:57,680
+3N18, Bitcoin is going to be issued, right?
+
+210
+00:09:57,681 --> 00:09:59,920
+You know that every four years that habs,
+
+211
+00:09:59,921 --> 00:10:02,480
+it's all written in code,
+it's all transparent,
+
+212
+00:10:02,481 --> 00:10:05,200
+it's all open source, and
+we've never seen this.
+
+213
+00:10:05,201 --> 00:10:08,720
+And going back to Berchard,
+Charlie Munger actually
+
+214
+00:10:08,721 --> 00:10:12,680
+used to say that predictability
+should trade at the premium, right?
+
+215
+00:10:12,681 --> 00:10:14,760
+And I think Bitcoin should
+trade at the premium
+
+216
+00:10:14,761 --> 00:10:18,440
+exactly because the monetary
+policy, it's exactly-- it's a line.
+
+217
+00:10:18,441 --> 00:10:22,560
+You know exactly what it's going to
+be, you know, for the foreseeable future.
+
+218
+00:10:22,561 --> 00:10:25,920
+And unfortunately, we live in a
+world with a lot of uncertainty, right?
+
+219
+00:10:25,921 --> 00:10:30,960
+So now not only politically,
+but on the monetary side as well.
+
+220
+00:10:30,961 --> 00:10:33,440
+And I think that's what
+we're seeing on Bitcoin, right?
+
+221
+00:10:33,441 --> 00:10:36,517
+Now it's a lot of like
+the realization that this is
+
+222
+00:10:36,518 --> 00:10:38,880
+a very different asset from
+what we've seen before.
+
+223
+00:10:38,881 --> 00:10:43,680
+And you mentioned earlier at the start,
+you've been a Bitcoiner for a long time.
+
+224
+00:10:43,681 --> 00:10:46,160
+Do we have a better
+understanding now what kind of asset
+
+225
+00:10:46,161 --> 00:10:48,840
+it is based on how it
+behaves in the whole relation?
+
+226
+00:10:48,841 --> 00:10:51,329
+How has that changed
+over the years up until this
+
+227
+00:10:51,330 --> 00:10:54,560
+point where it's been
+stable largely this year?
+
+228
+00:10:54,561 --> 00:10:57,674
+So David, I'll tell you, I
+think that Grocking Bitcoin
+
+229
+00:10:57,675 --> 00:11:01,440
+is very hard because Bitcoin
+is multidisciplinary, right?
+
+230
+00:11:01,441 --> 00:11:06,520
+I was very lucky or unlucky, depending how
+you want to see that I grew up in Brazil.
+
+231
+00:11:06,521 --> 00:11:11,840
+And, you know, I went my teenage years
+in the 90s in Brazil, late 80s, early 90s.
+
+232
+00:11:11,841 --> 00:11:15,640
+When inflation was wild,
+like we would have money,
+
+233
+00:11:15,641 --> 00:11:18,240
+literally losing its
+value overnight, right?
+
+234
+00:11:18,241 --> 00:11:21,120
+I remember my mother giving
+me money to school for lunch
+
+235
+00:11:21,121 --> 00:11:24,720
+and say, here's the money, don't bring
+it back because if you spend everything,
+
+236
+00:11:24,721 --> 00:11:28,360
+because if you bring it back, it's
+going to be worthless by a few days.
+
+237
+00:11:28,361 --> 00:11:30,765
+So it's kind of like
+ingrained on my mind
+
+238
+00:11:30,766 --> 00:11:33,760
+that money can lose
+value a long time, right?
+
+239
+00:11:33,761 --> 00:11:37,600
+And on top of that, so that's the social
+aspect, you have the technological aspect,
+
+240
+00:11:37,601 --> 00:11:39,320
+which is, you know,
+Bitcoin is stitched though,
+
+241
+00:11:39,321 --> 00:11:42,520
+it's globally native, it can
+be moved anywhere, right?
+
+242
+00:11:42,521 --> 00:11:46,880
+As I was saying, it's all written
+in code, it's easy to understand.
+
+243
+00:11:46,881 --> 00:11:49,626
+And I think it takes
+time for people to really
+
+244
+00:11:49,627 --> 00:11:53,480
+understand all of the
+different aspects of Bitcoin.
+
+245
+00:11:53,481 --> 00:11:55,880
+But what I can tell is I said, gradually,
+
+246
+00:11:55,881 --> 00:11:58,680
+we're starting to see more
+and more of the institutional side
+
+247
+00:11:58,681 --> 00:12:01,600
+of the world coming
+in, understanding Bitcoin
+
+248
+00:12:01,601 --> 00:12:04,560
+and adopting Bitcoin
+as a reserve asset.
+
+249
+00:12:04,561 --> 00:12:05,920
+- Half-ail, thank you so much.
+
+250
+00:12:05,921 --> 00:12:07,240
+- Yeah, sure, let's do this again.
+
+251
+00:12:07,241 --> 00:12:08,080
+- Thank you so much.
+
+252
+00:12:08,081 --> 00:12:09,000
+- Next time you're in town.
+
+253
+00:12:09,001 --> 00:12:12,200
+Half-ail Zaguri, there's CEO at 21.
+
+254
+00:12:12,201 --> 00:12:15,400
+Capital, we'll leave you again
+with a look at markets, right?
+
+255
+00:12:15,401 --> 00:12:17,160
+And that's quite their
+cross-attack when you market.
+
+256
+00:12:17,161 --> 00:12:21,080
+I think lastly, check we were
+flat and largely still are across.
+
+257
+00:12:21,081 --> 00:12:22,280
+The Hanks and Tech index at least,
+
+258
+00:12:22,281 --> 00:12:26,280
+Hospital is down, Nicky is... let's call it
+mixed, across the Asia Pacific equator.
+
