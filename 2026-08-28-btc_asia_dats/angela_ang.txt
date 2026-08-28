@@ -3,3 +3,5 @@ Angela Ang, BitGo
 One potentially resilient approach we have seen is DATs deploying their Bitcoin or other crypto assets as collateral, and then deploying that capital into other yield-generating opportunities. The treasury stays intact while the capital is working.
 
 The real test is not just whether DATs can weather a bear market by accumulating and deploying its digital assets, but how well it can leverage these assets as a financing base instead of a static balance sheet.
+
+It really depends on what these DATs are diversifying into, and whether their balance sheet is overall strong enough to weather some volatility. There are some plays, like infrastructure, that are more resilient in market cycles, but also require a mid to long term horizon.
