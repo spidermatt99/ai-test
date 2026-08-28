@@ -14,7 +14,7 @@ Twenty One Capital CEO Raphael Zagury said he sees his company as transforming i
 
 “The way we're looking to build our treasury and to give shareholder value in the long term is by finding good operating companies in the Bitcoin ecosystem,” he said. “Similar, in a sense, to what Berkshire Hathaway did.”
 
-The tone coming from the largest accumulators of cryptocurrencies stands in contrast to the rapid rebound in Bitcoin over the past two weeks. The original cryptocurrency is up roughly 27% in August, set for its best month since November 2024.
+The tone coming from the largest accumulators of cryptocurrencies stands in contrast to the rapid rebound in Bitcoin over the past two weeks. The original cryptocurrency is up roughly 27% in August to around $80,000, set for its best month since November 2024.
 
 However, the bear market that took hold for much of this year may have taken a toll on the conference.
 
@@ -24,7 +24,9 @@ The second eldest son of US President Donald Trump was the biggest draw at the c
 
 Back’s message on the DAT model last year was noticeably more bullish: “I think, eventually, probably all companies will be Bitcoin treasury companies,” he told the Bitcoin Asia audience last August.
 
+A prolonged bear market for much this year would eventually force DAT firms to start selling bitcoin. Nakamoto sold about [$20 million worth](bbg://news/stories/TCQYHYKK3NY8) of Bitcoin in March to fund operations, unloadeding 284 Bitcoin at an average price of about $70,000 — well below its reported weighted-average acquisition price of $118,171.
 
+When Strategy sold Bitcoin at the end of May for the first time in four years, it sent shockwaves through the market. Bitcoin plummeted 16% the first week of June. Yet a few weeks later, the company sold $216 Million of the token, rather than the previous $2.5 million.
 
 
 
