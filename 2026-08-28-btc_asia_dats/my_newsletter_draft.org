@@ -1,14 +1,14 @@
 #+title: My Draft
 
-The digital-asset treasury [[https://www.bloomberg.com/news/articles/2026-07-22/bitcoin-s-price-plunge-crushes-companies-that-stockpiled-tokens][bust]] has been [[https://www.bloomberg.com/news/articles/2026-06-05/bitcoin-treasury-firms-shed-62-billion-in-deepening-crypto-rout][playing out]] all year. Now founders are looking to usher in a new era for DATs with a more unconventional approach: Running an actual business.
+The digital-asset treasury [[https://www.bloomberg.com/news/articles/2026-07-22/Bitcoin-s-price-plunge-crushes-companies-that-stockpiled-tokens][bust]] has been [[https://www.bloomberg.com/news/articles/2026-06-05/bitcoin-treasury-firms-shed-62-billion-in-deepening-crypto-rout][playing out]] all year. Now founders are looking to usher in a new era for DATs with a more unconventional approach: running an actual business.
 
 Companies that once saw infinite growth in selling stock to fund the stockpiling of Bitcoin have recently been busy trying to transform themselves into a new breed of conglomerate so they can start making money. Venture capital, mergers and acquisitions, financial services and even energy infrastructure are all on the table.
 
 Twenty One Capital is hunting for profitable operating companies. Sora Ventures is raising $1 billion to help its portfolio companies build businesses from Thailand to South Korea. Nakamoto is looking for acquisitions that can generate enough cash to fund future Bitcoin purchases without leaning so heavily on new shares or debt.
 
-Mitty Chang, Sora's chief growth officer, calls this "DAT version 3.0." Whereas the first generation of DATs proved public companies could buy Bitcoin, and the second showed they could use buoyant equity markets to buy even more, the new generation has to show it can produce cash when the premium is gone retail investors beat a retreat.
+Mitty Chang, Sora's chief growth officer, calls this "DAT version 3.0." Whereas the first generation of DATs proved public companies could buy Bitcoin, and the second showed they could use buoyant equity markets to buy even more, the new generation has to show it can produce cash when the premium is gone and retail investors beat a retreat.
 
-"The companies that are sticking around are the ones that are durable, the ones that actually have either smart capital allocation plans, they can pivot, or they have underlining businesses," Chang said on the sidelines of the Bitcoin Asia conference in Hong Kong last week. "So 3.0 is really, how do you economically be more productive, and do you have a source of business revenue underneath that."
+"The companies that are sticking around are the ones that are durable, the ones that actually have either smart capital allocation plans, they can pivot, or they have underlying businesses," Chang said on the sidelines of the Bitcoin Asia conference in Hong Kong last week. "So 3.0 is really, how do you economically be more productive, and do you have a source of business revenue underneath that."
 
 Twenty One Capital Chief Executive Officer Raphael Zagury likened his company's new approach to becoming a kind of Berkshire Hathaway for crypto.
 
@@ -18,17 +18,16 @@ Zagury envisions Twenty One Capital branching into private equity, Bitcoin credi
 
 Nakamoto founder and CEO David Bailey offered a similar vision. "We have been thinking kind of from the framework of like, if we were a sovereign wealth fund for the nation of Bitcoin, what businesses could we own?" he said. "We're looking for other businesses that are scalable, that can help feed income into the business."
 
-But Bailey, whose Bitcoin treasury firm is down 97% in market value in the past year, is not ditching the original raison d'etre of a DAT. The goal is to use other profitable companies to fund more Bitcoin purchases without accumulating more debt.
+But Bailey, whose Bitcoin treasury firm is down 97% in market value in the past year, is not ditching the original raison d'être of a DAT. The goal is to use other profitable companies to fund more bitcoin purchases without accumulating more debt.
 
 This will be the real test for DATs, according to Angela Ang, APAC head at BitGo. Survival will depend on "how well it can leverage these assets as a financing base," she said. "It really depends on what these DATs are diversifying into, and whether their balance sheet is overall strong enough to weather some volatility."
 
-A Chang tells it, the goal was to always diversify revenue. "Sora's never walked into this with the thesis that you just buy Bitcoin and that's enough."
+As Chang tells it, the goal was to always diversify revenue. "Sora's never walked into this with the thesis that you just buy Bitcoin and that's enough."
 
-That is a far cry from the days of Michael Saylor, the founder of Strategy Inc. who popularized the DAT model, telling people to sell a kidney before selling their bitcoin.
+That is a far cry from the days of Michael Saylor, the founder of Strategy Inc. who popularized the DAT model, telling people to sell a kidney before selling their Bitcoin.
 
-A year ago, when Bitcoin was still on the upswing and weeks away from hitting its all-time high above $126,000, DAT founders were telling a very different story. At the last Bitcoin Asia, Adam Back — the influential cryptographer-turned Bitcoin enthusiast — told the audience that the only way companies in the future would be able to outperform Bitcoin would be to buy it.
+A year ago, when Bitcoin was still on the upswing and weeks away from hitting its all-time high above $126,000, DAT founders were telling a very different story. At the last Bitcoin Asia, Adam Back — the influential cryptographer-turned-Bitcoin enthusiast — told the audience that the only way companies in the future would be able to outperform Bitcoin would be to buy it.
 
 "Eventually, probably all companies will be Bitcoin treasury companies," he said in an on-stage interview at the time.
 
 If DATs really transform into operating businesses like any other, Back may have had a point. Call it a reverse DAT.
-
