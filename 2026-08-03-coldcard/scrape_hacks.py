@@ -4,15 +4,58 @@ from bs4 import BeautifulSoup
 import time
 import os
 
+def classify_infrastructure(method, desc, target):
+    method = method.lower()
+    desc = desc.lower()
+    
+    cefi_keywords = [
+        'hot wallet', 'cold wallet', 'phishing', 'social engineering',
+        'sim swap', 'credential', 'account compromise', 'private key',
+        'unauthorized access', 'supply chain', 'insider'
+    ]
+    
+    defi_keywords = [
+        'flash loan', 'flashloan', 'smart contract', 'oracle', 'amm',
+        'liquidity pool', 'reentrancy', 'governance', 'price manipulation',
+        'logic flaw', 'slippage', 'contract vulnerability', 'rounding',
+        'precision', 'bridge logic', 'spoofing'
+    ]
+    
+    for kw in defi_keywords:
+        if kw in method: return 'DeFi'
+    for kw in cefi_keywords:
+        if kw in method: return 'Centralized'
+        
+    for kw in defi_keywords:
+        if kw in desc: return 'DeFi'
+    for kw in cefi_keywords:
+        if kw in desc: return 'Centralized'
+        
+    return 'Unknown'
+
 def scrape_slowmist_hacks():
     base_url = "https://hacked.slowmist.io/?c=&page={}"
-    total_pages = 111
+    
+    print("Fetching total pages...")
+    req = urllib.request.Request(base_url.format(1), headers={'User-Agent': 'Mozilla/5.0'})
+    html = urllib.request.urlopen(req).read()
+    soup = BeautifulSoup(html, 'html.parser')
+    
+    total_pages = 111 # fallback
+    pagination = soup.find('ul', class_='pagination')
+    if pagination:
+        for li in pagination.find_all('li'):
+            text = li.text.strip()
+            if text.startswith("Page 1 of "):
+                total_pages = int(text.replace("Page 1 of ", ""))
+                break
+    print(f"Total pages found: {total_pages}")
     
     csv_file = "slowmist_hacks.csv"
     
     with open(csv_file, mode="w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["Date", "Target", "Description", "Loss Amount", "Attack Method", "Reference"])
+        writer.writerow(["Date", "Target", "Description", "Loss Amount", "Attack Method", "Infrastructure", "Reference"])
         
         for page in range(1, total_pages + 1):
             print(f"Scraping page {page}...")
@@ -43,14 +86,15 @@ def scrape_slowmist_hacks():
                         ref_p = li.find('p', class_='link-reference')
                         ref = ref_p.find('a')['href'] if ref_p and ref_p.find('a') else ""
                         
-                        writer.writerow([date, target, desc, loss, method, ref])
+                        infra = classify_infrastructure(method, desc, target)
+                        
+                        writer.writerow([date, target, desc, loss, method, infra, ref])
                     except Exception as e:
                         print(f"Error parsing item on page {page}: {e}")
                         
             except Exception as e:
                 print(f"Failed to fetch page {page}: {e}")
             
-            # Be polite
             time.sleep(0.5)
 
     print("Scraping complete.")

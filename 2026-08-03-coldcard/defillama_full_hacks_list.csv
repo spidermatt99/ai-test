@@ -1,0 +1,1258 @@
+Date,Protocol Name,Classification,Technique,Amount (USD),Chain
+2026-09-07,Cozy V2,Protocol Logic,Unknown,163326,Optimism
+2026-09-06,Liquid Network,Bridge & Cross-Chain,Unbacked Cross-Chain Mint,320000000,Liquid
+2026-09-05,Secured Finance Lending,Oracle Manipulation,Spot Price Manipulation,104000,Ethereum
+2026-09-05,Dream Health Chain,Protocol Logic,Reward Logic Flaw,71800,BSC
+2026-09-05,Reddio RedSonic,Token & Share Accounting,Incorrect Share Accounting,22800,Ethereum
+2026-09-04,Notional V2,Token & Share Accounting,Arithmetic Error,1727782,Ethereum
+2026-08-31,Aquifer,Access Control,Arbitrary External Call,2469729,Solana
+2026-08-31,Ankr,Token & Share Accounting,Unbacked Mint,410000,Flow
+2026-08-31,Float Protocol,Oracle Manipulation,Spot Price Manipulation,28000,Ethereum
+2026-08-30,Balancer V1,Token & Share Accounting,Rounding Error,234000,Ethereum
+2026-08-30,Tectonic,Token & Share Accounting,Donation Attack,124470000,Cronos
+2026-08-29,Full Sail,Oracle Manipulation,Oracle Misconfiguration,,Sui
+2026-08-29,Permapod,Protocol Logic,Unknown,,ZIGChain
+2026-08-28,Ajna V2,Protocol Logic,Liquidation Logic Flaw,775400,Ethereum
+2026-08-28,Virtue,Oracle Manipulation,Oracle Misconfiguration,894500,Iota
+2026-08-28,Avici,Protocol Logic,Withdrawal Logic Flaw,500859,Solana
+2026-08-28,Fogo Foundation,Key Compromise,Private Key Compromised,3000000,Fogo
+2026-08-27,Moonwell Lending,Oracle Manipulation,Spot Price Manipulation,8700000,Base
+2026-08-27,CCC,Protocol Logic,Swap Logic Flaw,117000,BSC
+2026-08-25,CometDEX,Token & Share Accounting,Incorrect Share Accounting,717000,Stellar
+2026-08-25,FH Token,Protocol Logic,Swap Logic Flaw,20000,BSC
+2026-08-25,Enjin,Access Control,Ownership Takeover,162000,Ethereum
+2026-08-23,TermFinance Vaults,Governance,Malicious Proposal,8500000,Ethereum
+2026-08-23,warp.green,Bridge & Cross-Chain,Bridge Logic Flaw,93000,"Chia, Ethereum"
+2026-08-23,Arrakis V1,Oracle Manipulation,Spot Price Manipulation,7100,Ethereum
+2026-08-22,TAC,Protocol Logic,Withdrawal Logic Flaw,7500000,TAC
+2026-08-22,The Sandbox,Access Control,Improper Access Control,675000,"Base, BSC, Ethereum"
+2026-08-22,KiiChain,Token & Share Accounting,Arithmetic Error,9700000,KiiChain
+2026-08-21,MANTRA Chain,Access Control,Improper Access Control,0,MANTRA
+2026-08-19,BounceBit,Access Control,Improper Access Control,3000000,BounceBit
+2026-08-19,Allbridge,Bridge & Cross-Chain,Bridge Logic Flaw,191000,Base
+2026-08-18,Maya Protocol,Protocol Logic,Withdrawal Logic Flaw,1700000,Mayachain
+2026-08-15,Fox Market,Oracle Manipulation,Spot Price Manipulation,120000,BSC
+2026-08-14,Bodega Market,Oracle Manipulation,Unknown,3600,Cardano
+2026-08-11,Harmony Bridge,Bridge & Cross-Chain,Bridge Logic Flaw,3200000,Harmony
+2026-08-09,Coinsbuy,Access Control,Improper Access Control,7900000,"Ethereum, Tron"
+2026-08-09,Coreum Bridge,Bridge & Cross-Chain,Bridge Logic Flaw,200000,"XRPL, Coreum"
+2026-08-09,USM,Token & Share Accounting,Arithmetic Error,136000,Ethereum
+2026-08-08,Atomic Green,Input Validation,Signature Replay,29984,Arbitrum
+2026-08-08,Oraichain,Bridge & Cross-Chain,Unbacked Cross-Chain Mint,1000000,Oraichain
+2026-08-07,Ravencoin,Input Validation,Missing Input Validation,,Ravencoin
+2026-08-06,Panther Protocol,Governance,Malicious Proposal,7578,Base
+2026-08-06,Hyperliquid Malaysia,Key Compromise,Private Key Compromised,,Solana
+2026-08-06,RRWallet,Key Compromise,Weak Key Generation,2000000,Bitcoin
+2026-08-05,KITE Foundation,Key Compromise,Private Key Compromised,13340000,Ethereum
+2026-08-05,Unistreets,Access Control,Arbitrary External Call,17750,Ethereum
+2026-08-03,RISEx,Access Control,Improper Access Control,673012,RISE
+2026-08-02,MOKE,Oracle Manipulation,Spot Price Manipulation,907000,BSC
+2026-08-02,LOOPSDAO,Oracle Manipulation,Spot Price Manipulation,693500,BSC
+2026-07-31,COLDCARD,Key Compromise,Weak Key Generation,116000000,Bitcoin
+2026-07-30,Swan Treasury,Key Compromise,Private Key Compromised,625000,BSC
+2026-07-30,Set Protocol,Reentrancy,Reentrancy,9600,Ethereum
+2026-07-28,Crypto DAO,Access Control,Improper Access Control,8200000,BSC
+2026-07-28,LULA,Access Control,Improper Access Control,578000,BSC
+2026-07-26,Garden,Frontend & Infrastructure,Database Breach,450000,"Ethereum, Base, Arbitrum, BSC"
+2026-07-26,WEMIX.FI Lend,Access Control,Improper Access Control,737000,WEMIX3.0
+2026-07-26,ChainConnect,Access Control,Improper Access Control,650000,"Ethereum, BSC, Avalanche, Polygon"
+2026-07-25,Bankr,Social Engineering,Social Account Takeover,479885,Base
+2026-07-25,Projekt,Input Validation,Missing Input Validation,560000,Ethereum
+2026-07-24,Triple-A,Key Compromise,Hot Wallet Key Compromised,9700000,"Ethereum, Tron, Arbitrum"
+2026-07-23,Solido Cash,Oracle Manipulation,Oracle Misconfiguration,900000,Supra
+2026-07-23,Lien,Input Validation,Missing Input Validation,542000,Ethereum
+2026-07-22,Verus-Ethereum Bridge,Bridge & Cross-Chain,Forged Proof,7530000,Verus
+2026-07-22,AFX Bridge,Key Compromise,Validator Key Compromised,24150000,Arbitrum
+2026-07-22,Zilliqa,Key Compromise,Weak Key Generation,1640000,Zilliqa
+2026-07-21,FlashTrade,Input Validation,Missing Input Validation,98000,Solana
+2026-07-21,42DAO,Oracle Manipulation,Spot Price Manipulation,912000,BSC
+2026-07-21,Wanchain,Input Validation,Signature Verification Flaw,10000000,Cardano
+2026-07-19,Allbridge Core,Protocol Logic,Withdrawal Logic Flaw,1650000,Solana
+2026-07-17,FlyCow,Token & Share Accounting,Incorrect Share Accounting,65300,BSC
+2026-07-17,Across,Bridge & Cross-Chain,Spoofed Event Log,4500000,Solana
+2026-07-16,DefiTuna Lending,Protocol Logic,Swap Logic Flaw,580000,Solana
+2026-07-16,CrowdRingCircle,Token & Share Accounting,Incorrect Share Accounting,209100,BSC
+2026-07-15,TeleSwap,Key Compromise,Hot Wallet Key Compromised,735000,Bitcoin
+2026-07-15,Ostium,Key Compromise,Private Key Compromised,23750000,Arbitrum
+2026-07-15,Cascade Liquidity Strategy,Oracle Manipulation,Spot Price Manipulation,1340000,Arbitrum
+2026-07-14,Drips Network,Token & Share Accounting,Arithmetic Error,24883,Ethereum
+2026-07-14,BarnBridge,Governance,Malicious Proposal,776000,Ethereum
+2026-07-13,Lumi Finance,Input Validation,Signature Verification Flaw,270000,Arbitrum
+2026-07-13,Chi Protocol,Protocol Logic,Redeem Logic Flaw,8500,Ethereum
+2026-07-12,PHX,Token & Share Accounting,Incorrect Share Accounting,89500,BSC
+2026-07-11,Bonzo Lend,Oracle Manipulation,Spot Price Manipulation,9050000,Hedera
+2026-07-11,BlueMove DEX,Token & Share Accounting,Incorrect Share Accounting,529000,Sui
+2026-07-08,BFB,Token & Share Accounting,Incorrect Share Accounting,197800,BSC
+2026-07-06,BonkDAO,Governance,Malicious Proposal,20000000,Solana
+2026-07-05,Lazy Summer Protocol,Token & Share Accounting,Donation Attack,6040000,Ethereum
+2026-07-02,Hinkal,Protocol Logic,Deposit Logic Flaw,820000,Ethereum
+2026-06-30,Edel,Oracle Manipulation,Spot Price Manipulation,403000,Ethereum
+2026-06-28,AIDC,Token & Share Accounting,Arithmetic Error,121000,BSC
+2026-06-25,Ocean Protocol,Protocol Logic,Deposit Logic Flaw,127861,Polygon
+2026-06-25,Lixir Finance,Input Validation,Signature Verification Flaw,12300,Ethereum
+2026-06-25,Polymarket International,Frontend & Infrastructure,Frontend Compromise,3000000,Polygon
+2026-06-24,DLMC,Oracle Manipulation,Spot Price Manipulation,222600,BSC
+2026-06-23,Royal.io,Token & Share Accounting,Incorrect Share Accounting,263000,Polygon
+2026-06-23,SecondFi,Key Compromise,Weak Key Generation,2400000,Cardano
+2026-06-21,Taiko Bridge,Bridge & Cross-Chain,Forged Proof,1700000,Taiko
+2026-06-21,Quicksilver Zone,Token & Share Accounting,Unbacked Mint,3500,Quicksilver
+2026-06-20,LABUBU/OLPC,Token & Share Accounting,Decimal Miscalculation,1100000,BSC
+2026-06-20,JaredFromSubway MEV Bot,Market Manipulation,MEV Bot Drained,7500000,Ethereum
+2026-06-19,Secret Network,Bridge & Cross-Chain,Unbacked Cross-Chain Mint,4670000,Secret
+2026-06-19,mySwap CL,Token & Share Accounting,Incorrect Share Accounting,305000,Starknet
+2026-06-19,JB,Oracle Manipulation,Spot Price Manipulation,50000,BSC
+2026-06-19,Namada Shielded Pools,Bridge & Cross-Chain,Unbacked Cross-Chain Mint,600000,Namada
+2026-06-17,DIP,Protocol Logic,Swap Logic Flaw,111000,BSC
+2026-06-17,Little Boy Plus,Token & Share Accounting,Arithmetic Error,367000,BSC
+2026-06-17,Aztec Bridge,Bridge & Cross-Chain,Bridge Logic Flaw,2000000,Ethereum
+2026-06-16,RetoSwap,Governance,Malicious Proposal,2700000,Monero
+2026-06-15,Thetanuts Finance,Token & Share Accounting,Rounding Error,2100000,Ethereum
+2026-06-14,Aztec Connect,Bridge & Cross-Chain,Forged Proof,2100000,Ethereum
+2026-06-10,Raydium AMM,Token & Share Accounting,Infinite Mint,1340000,Solana
+2026-06-10,Axelar Secret IBC Bridge,Bridge & Cross-Chain,Unbacked Cross-Chain Mint,4670000,"Ethereum, Secret"
+2026-06-09,NovaBox,Token & Share Accounting,Incorrect Share Accounting,107000,Ethereum
+2026-06-09,Asterix,Access Control,Token Approval Abuse,40000,Ethereum
+2026-06-09,Token of Power,Governance,Malicious Proposal,1580000,Ethereum
+2026-06-08,Humanity,Key Compromise,Private Key Compromised,32000000,"Ethereum, BSC"
+2026-06-08,Flooring Protocol,Token & Share Accounting,Infinite Mint,500000,Ethereum
+2026-06-07,Ambient,Protocol Logic,Deposit Logic Flaw,110600,Ethereum
+2026-06-07,Syscoin Bridge,Bridge & Cross-Chain,Forged Proof,10000000,Syscoin
+2026-06-03,GPU.NET,Protocol Logic,Unknown,10600,Ethereum
+2026-06-03,ATM,Protocol Logic,Swap Logic Flaw,243000,BSC
+2026-06-01,Gnosis Pay,Input Validation,Signature Verification Flaw,1500000,Gnosis Chain
+2026-06-01,TesseraDAO,Access Control,Improper Access Control,2400000,BNB
+2026-06-01,TSR,Token & Share Accounting,Infinite Mint,2500000,BSC
+2026-05-31,Fluid Lending,Frontend & Infrastructure,Key Leaked via Infrastructure,215000,Ethereum
+2026-05-31,AROS,Oracle Manipulation,Spot Price Manipulation,295000,BSC
+2026-05-30,Gravity Bridge,Key Compromise,Validator Key Compromised,5400000,Ethereum
+2026-05-30,Alephium Bridge,Bridge & Cross-Chain,Forged Proof,815000,Ethereum
+2026-05-30,AFI Protocol,Protocol Logic,Unknown,480000,Ethereum
+2026-05-28,ONTR,Access Control,Ownership Takeover,98200,Ethereum
+2026-05-28,DxSale,Rugpull,Liquidity Rug,7300000,BSC
+2026-05-27,SUPERFORTUNE AI,Access Control,Improper Access Control,15180000,Ethereum
+2026-05-27,Stake DAO Yield,Key Compromise,Deployer Key Compromised,91000,Arbitrum
+2026-05-26,SKP,Token & Share Accounting,Incorrect Share Accounting,212000,BNB
+2026-05-25,New Market Trading,Access Control,Improper Access Control,3980000,"Ethereum, Base, Arbitrum"
+2026-05-25,WUSD.fi/Glove,Protocol Logic,Reward Logic Flaw,200000,Ethereum
+2026-05-25,Bitmor,Access Control,Token Approval Abuse,6000,Base
+2026-05-24,Fractal Protocol,Reentrancy,Reentrancy,13700,Arbitrum
+2026-05-23,Mure,Input Validation,Signature Verification Flaw,11700,Ethereum
+2026-05-23,StablR,Key Compromise,Private Key Compromised,2800000,Ethereum
+2026-05-22,Polymarket,Key Compromise,Private Key Compromised,700000,Polygon
+2026-05-20,MAP Protocol,Token & Share Accounting,Infinite Mint,110000,"Ethereum, BSC"
+2026-05-20,RetoSwap,Input Validation,Missing Input Validation,2700000,Monero
+2026-05-19,HermesVault,Protocol Logic,Withdrawal Logic Flaw,30000,Algorand
+2026-05-19,Bankr,Frontend & Infrastructure,Session Key Compromised,170000,Base
+2026-05-19,ElevateFi,Oracle Manipulation,Spot Price Manipulation,16000,Polygon
+2026-05-18,Echo Bridge,Key Compromise,Private Key Compromised,821000,Monad
+2026-05-17,MetaSea,Protocol Logic,Withdrawal Logic Flaw,110000,Arbitrum
+2026-05-17,SEA Token,Oracle Manipulation,Spot Price Manipulation,153000,Arbitrum
+2026-05-17,Verus-Ethereum Bridge,Bridge & Cross-Chain,Forged Proof,11500000,Verus
+2026-05-16,Adshares,Bridge & Cross-Chain,Forged Proof,628000,Ethereum
+2026-05-15,THORChain DEX,Bridge & Cross-Chain,Bridge Logic Flaw,10700000,"Bitcoin, Ethereum, Base, BSC"
+2026-05-13,ShapeShift FOX Colony,Access Control,Arbitrary External Call,132700,Arbitrum
+2026-05-13,Transit Finance,Access Control,Improper Access Control,1880000,Tron
+2026-05-12,Aurellion,Access Control,Uninitialized Proxy,456442,Arbitrum
+2026-05-12,IEXCBP,Oracle Manipulation,Spot Price Manipulation,97000,BNB Chain
+2026-05-12,BoostHook,Oracle Manipulation,Spot Price Manipulation,187000,Ethereum
+2026-05-12,SQ Protocol,Access Control,Improper Access Control,346137,BSC
+2026-05-11,TAC Protocol,Bridge & Cross-Chain,Proof Verifier Bug,2854486,"TON, TAC"
+2026-05-11,Huma Finance V2,Access Control,Improper Access Control,101400,Polygon
+2026-05-11,INK Finance,Access Control,Caller Impersonation,140000,Polygon
+2026-05-10,Renegade,Access Control,Uninitialized Proxy,209000,Arbitrum
+2026-05-07,TrustedVolumes,Access Control,Caller Impersonation,6700000,Ethereum
+2026-05-05,Ekubo,Access Control,Token Approval Abuse,1400000,Ethereum
+2026-05-04,SmartCredit,Protocol Logic,Unknown,72000,Ethereum
+2026-05-04,SquidRouterModule,Access Control,Improper Access Control,3200000,"Ethereum, Base"
+2026-05-01,Sharwa.Finance,Oracle Manipulation,Spot Price Manipulation,32850,Arbitrum
+2026-05-01,Bisq,Input Validation,Missing Input Validation,550000,Bitcoin
+2026-04-30,Wasabi Perps,Key Compromise,Deployer Key Compromised,5500000,"Ethereum, Base, Berachain, Blast"
+2026-04-29,Aftermath Perps,Protocol Logic,Withdrawal Logic Flaw,1140000,Sui
+2026-04-29,Syndicate,Bridge & Cross-Chain,Bridge Logic Flaw,380000,Base
+2026-04-29,Sweat Foundation,Protocol Logic,Withdrawal Logic Flaw,3500000,Near
+2026-04-28,Quant,Access Control,Arbitrary External Call,138000,Ethereum
+2026-04-28,YieldCore,Access Control,Improper Access Control,398764,Ethereum
+2026-04-28,JUDAO,Token & Share Accounting,Arithmetic Error,228000,BSC
+2026-04-27,ZetaChain,Access Control,Token Approval Abuse,333868,"Ethereum, Base, Polygon, Arbitrum, Avalanche, BSC"
+2026-04-27,Singularity Finance,Oracle Manipulation,Oracle Misconfiguration,413000,Base
+2026-04-26,Scallop Lend,Protocol Logic,Reward Logic Flaw,142000,Sui
+2026-04-26,Litecoin,Input Validation,Missing Input Validation,,Litecoin
+2026-04-25,Purrlend,Access Control,Caller Impersonation,1500000,"MegaETH, Hyperliquid L1"
+2026-04-23,Giddy,Input Validation,Incomplete Signature Coverage,1300000,Ethereum
+2026-04-22,Kipseli,Input Validation,Missing Input Validation,72350,Base
+2026-04-21,Volo Vault,Key Compromise,Private Key Compromised,3500000,Sui
+2026-04-20,Thetanuts Finance,Token & Share Accounting,First Depositor Attack,50000,Ethereum
+2026-04-20,Transit Finance,Protocol Logic,Unknown,257800,Ethereum
+2026-04-20,Juicebox V3,Input Validation,Missing Input Validation,52000,Ethereum
+2026-04-19,Custom sAVAX Rebalancer,Access Control,Arbitrary External Call,64000,Avalanche
+2026-04-18,Kelp,Bridge & Cross-Chain,Cross-Chain Message Spoofing,293000000,"Ethereum, Arbitrum"
+2026-04-16,Rhea Lend,Oracle Manipulation,Spot Price Manipulation,18400000,Near
+2026-04-16,Grinex,Key Compromise,Hot Wallet Key Compromised,13740000,"Tron, Ethereum"
+2026-04-14,Zerion Wallet,Social Engineering,Phishing,100000,
+2026-04-14,CoW Swap,Frontend & Infrastructure,DNS Hijack,1200000,Ethereum
+2026-04-13,MONA,Token & Share Accounting,Incorrect Share Accounting,60950,BSC
+2026-04-13,Dango,Input Validation,Missing Input Validation,1900000,Dango
+2026-04-12,SubQuery Network,Access Control,Improper Access Control,134000,Base
+2026-04-12,Hyperbridge,Bridge & Cross-Chain,Forged Proof,2500000,"Ethereum, Base, BSC, Arbitrum"
+2026-04-09,Aethir,Access Control,Improper Access Control,400000,BSC
+2026-04-07,SquidMulticall,Access Control,Improper Access Control,517000,"Arbitrum, BNB Chain, Avalanche, Optimism, Base"
+2026-04-05,Denaria,Oracle Manipulation,Spot Price Manipulation,165618,Linea
+2026-04-04,BSC TMM/USDT,Access Control,Improper Access Control,1665000,BSC
+2026-04-03,Silo V2,Oracle Manipulation,Oracle Misconfiguration,359000,Arbitrum
+2026-04-01,Drift Trade,Access Control,Proxy Upgrade Hijack,295000000,Solana
+2026-03-31,WhaleBit,Oracle Manipulation,Spot Price Manipulation,10500,Polygon
+2026-03-31,LML/USDT staking protocol,Oracle Manipulation,Spot Price Manipulation,950000,BSC
+2026-03-28,VTSwapHook,Protocol Logic,Swap Logic Flaw,,Arbitrum
+2026-03-28,GoonFi,Protocol Logic,Swap Logic Flaw,254000,Solana
+2026-03-26,TUR Staking,Oracle Manipulation,Spot Price Manipulation,133000,BSC
+2026-03-23,BCE,Token & Share Accounting,Incorrect Share Accounting,679000,BSC
+2026-03-22,Cyrus Finance,Oracle Manipulation,Spot Price Manipulation,5000000,BSC
+2026-03-21,Resolv USR,Frontend & Infrastructure,Key Leaked via Infrastructure,24500000,Ethereum
+2026-03-18,Neutrl,Frontend & Infrastructure,DNS Hijack,,Ethereum
+2026-03-17,dTRINITY dLEND,Token & Share Accounting,First Depositor Attack,257000,Ethereum
+2026-03-16,CheckoutPool,Access Control,Improper Access Control,85700,Polygon
+2026-03-15,Venus Core Pool,Token & Share Accounting,Donation Attack,3700000,BSC
+2026-03-14,Goose Finance,Token & Share Accounting,Incorrect Share Accounting,8435,BSC
+2026-03-12,Stake DAO Yield,Access Control,Caller Impersonation,176000,"Arbitrum, Base"
+2026-03-12,AM,Token & Share Accounting,Incorrect Share Accounting,131572,BSC
+2026-03-12,Aave V3,Oracle Manipulation,Oracle Misconfiguration,862000,Ethereum
+2026-03-11,DBXen,Input Validation,Missing Input Validation,150000,Ethereum
+2026-03-11,BONK Fun,Frontend & Infrastructure,DNS Hijack,30000,Solana
+2026-03-10,Movie Token,Token & Share Accounting,Incorrect Share Accounting,242000,BSC
+2026-03-09,Gondi V3,Access Control,Token Approval Abuse,230000,Ethereum
+2026-03-07,Molt EVM,Access Control,Improper Access Control,127000,Base
+2026-03-06,SolvBTC,Token & Share Accounting,Infinite Mint,2700000,Ethereum
+2026-03-02,Curve LlamaLend,Token & Share Accounting,Donation Attack,240000,Ethereum
+2026-03-02,FOOM Cash,Bridge & Cross-Chain,Forged Proof,2260000,"Ethereum, Base"
+2026-02-28,Wise Lending V2,Access Control,Improper Access Control,66000,"Arbitrum, Ethereum"
+2026-02-26,Ploutos Money,Oracle Manipulation,Oracle Misconfiguration,390000,Ethereum
+2026-02-23,DGLD,Token & Share Accounting,Infinite Mint,250000,Base
+2026-02-22,Blend Pools V2,Oracle Manipulation,Spot Price Manipulation,10970000,Stellar
+2026-02-22,LAXO,Token & Share Accounting,Incorrect Share Accounting,190000,BSC
+2026-02-21,Veil Cash,Bridge & Cross-Chain,Proof Verifier Bug,5000,Base
+2026-02-21,IoTeX,Key Compromise,Validator Key Compromised,4400000,Ethereum
+2026-02-19,Velar Perps,Oracle Manipulation,Predictable Oracle Update,401000,Mezo
+2026-02-15,Moonwell Lending,Oracle Manipulation,Oracle Misconfiguration,1780000,Base
+2026-02-01,CrossCurve,Bridge & Cross-Chain,Cross-Chain Message Spoofing,3000000,
+2026-01-31,Step Finance,Key Compromise,Private Key Compromised,40000000,Solana
+2026-01-29,Revert Lend,Protocol Logic,Staking Logic Flaw,50000,Base
+2026-01-27,PGNLZ,Token & Share Accounting,Incorrect Share Accounting,100000,BSC
+2026-01-25,Aperture LM,Access Control,Token Approval Abuse,3670000,"Ethereum, Base, BSC"
+2026-01-25,Matcha,Frontend & Infrastructure,Frontend Compromise,13430000,"Base, Ethereum"
+2026-01-21,Saga,Token & Share Accounting,Infinite Mint,7000000,Saga
+2026-01-20,SynapLogic,Protocol Logic,Unknown,144000,Base
+2026-01-19,Makina,Oracle Manipulation,Spot Price Manipulation,4200000,Ethereum
+2026-01-17,Meteora DAMM V2,Social Engineering,Impersonation Scam,1500000,Solana
+2026-01-13,YO Protocol,Protocol Logic,Missing Slippage Check,3600000,Ethereum
+2026-01-10,FutureSwap,Protocol Logic,Withdrawal Logic Flaw,395000,Arbitrum
+2026-01-08,Truebit,Token & Share Accounting,Arithmetic Error,26400000,Ethereum
+2026-01-07,Polycule,Frontend & Infrastructure,Key Leaked via Infrastructure,230000,Polygon
+2026-01-06,Fusion by IPOR,Access Control,Arbitrary External Call,336000,Arbitrum
+2026-01-05,USDGambit and TLP,Key Compromise,Deployer Key Compromised,1500000,Arbitrum
+2026-01-05,TMX TRIBE,Token & Share Accounting,Arithmetic Error,1400000,Arbitrum
+2026-01-01,PRXVT,Protocol Logic,Staking Logic Flaw,97000,Base
+2025-12-30,Unleash Protocol,Key Compromise,Private Key Compromised,3900000,Story
+2025-12-28,MSCST,Access Control,Improper Access Control,129900,BSC
+2025-12-27,Flow,Token & Share Accounting,Infinite Mint,3900000,Flow
+2025-12-25,Trust Wallet Wallet,Frontend & Infrastructure,Supply Chain Attack,8500000,"Ethereum, Bitcoin, Solana"
+2025-12-18,Rari Capital,Access Control,Uninitialized Proxy,2000000,Ethereum
+2025-12-16,Yearn Finance,Token & Share Accounting,Donation Attack,300000,Ethereum
+2025-12-16,FutureSwap,Governance,Flashloan Governance Attack,270000,Ethereum
+2025-12-14,Mars Perps,Market Manipulation,Funding Rate Arbitrage,960000,Neutron
+2025-12-12,ZEROBASE,Access Control,Token Approval Abuse,250000,BSC
+2025-12-12,Ribbon,Access Control,Improper Access Control,2700000,Ethereum
+2025-12-11,0G Labs,Protocol Logic,Withdrawal Logic Flaw,516000,0G
+2025-12-04,US Permissionless Dollar,Access Control,Proxy Upgrade Hijack,1000000,Ethereum
+2025-12-02,Goldfinch,Access Control,Token Approval Abuse,330000,Ethereum
+2025-11-30,Yearn Ether,Token & Share Accounting,Incorrect Share Accounting,9000000,Ethereum
+2025-11-26,Upbit,Social Engineering,Malware,36000000,Solana
+2025-11-24,Agentic FoF,Protocol Logic,Unknown,531000,Ethereum
+2025-11-23,Port3 Network,Token & Share Accounting,Infinite Mint,166000,BSC
+2025-11-22,Raga Finance,Protocol Logic,Unknown,18500,Hyperliquid L1
+2025-11-21,Aerodrome V1,Frontend & Infrastructure,DNS Hijack,700000,"Ethereum, Optimism"
+2025-11-20,GANA Payment,Social Engineering,Phishing,3100000,BSC
+2025-11-20,Dexmax AI,Access Control,Token Approval Abuse,130000,Ethereum
+2025-11-11,Impermax V3,Protocol Logic,Liquidation Logic Flaw,380000,Base
+2025-11-11,Polymarket,Social Engineering,Phishing,500000,"Polygon, Ethereum"
+2025-11-10,DRLVaultV3,Oracle Manipulation,Spot Price Manipulation,100000,Ethereum
+2025-11-07,DIMO,Key Compromise,Deployer Key Compromised,40000,Ethereum
+2025-11-04,Moonwell Lending,Oracle Manipulation,Spot Price Manipulation,1000000,"Base, Optimism"
+2025-11-03,Balancer V2,Token & Share Accounting,Rounding Error,128000000,"Ethereum, Arbitrum, Base, Polygon, Sonic, Optimism"
+2025-10-30,Garden,Frontend & Infrastructure,Key Leaked via Infrastructure,11400000,"Ethereum, Arbitrum, Base, Solana"
+2025-10-27,402bridge,Frontend & Infrastructure,Key Stored Publicly,17693,Base
+2025-10-21,DoodiPals,Key Compromise,Private Key Compromised,171000,Solana
+2025-10-20,Sharwa.Finance,Protocol Logic,Swap Logic Flaw,146000,Arbitrum
+2025-10-19,Astra Nova,Key Compromise,Private Key Compromised,9090000,Ethereum
+2025-10-15,Typus Perp,Oracle Manipulation,Oracle Misconfiguration,3440000,Sui
+2025-10-09,Astera.fi,Token & Share Accounting,Incorrect Share Accounting,573000,Linea
+2025-10-07,TokenHolder,Access Control,Improper Access Control,26000,BSC
+2025-10-04,Abracadabra Spell,Access Control,Improper Access Control,1700000,Ethereum
+2025-09-28,dTRINITY,Access Control,Improper Access Control,56000,Sonic
+2025-09-27,Hyperdrive HL Lending,Access Control,Arbitrary External Call,782000,Hyperliquid L1
+2025-09-26,HyperVault,Rugpull,Admin Drain,3600000,Hyperliquid L1
+2025-09-24,GriffinAI,Bridge & Cross-Chain,Cross-Chain Message Spoofing,3000000,BSC
+2025-09-24,SBI Crypto,Key Compromise,Hot Wallet Key Compromised,21000000,"Bitcoin, Ethereum, Litecoin, Doge, BitcoinCash"
+2025-09-23,Seedify,Key Compromise,Private Key Compromised,1200000,"BSC, Avalanche"
+2025-09-23,Corepound,Rugpull,Admin Drain,400000,CORE
+2025-09-22,UXLINK,Access Control,Delegatecall Hijack,11300000,"Ethereum, Arbitrum"
+2025-09-18,New Gold Protocol,Oracle Manipulation,Spot Price Manipulation,1900000,BSC
+2025-09-14,Yala,Key Compromise,Deployer Key Compromised,7640000,"Solana, Ethereum"
+2025-09-13,Shibarium,Key Compromise,Validator Key Compromised,4100000,Shibarium
+2025-09-12,Kame Aggregator,Protocol Logic,Swap Logic Flaw,1300000,Sei
+2025-09-10,Evoq Finance,Key Compromise,Private Key Compromised,420000,BSC
+2025-09-09,SwissBorg,Frontend & Infrastructure,API Key Compromised,41500000,Solana
+2025-09-08,Nemo Yield Trading,Access Control,Improper Access Control,2590000,Sui
+2025-09-02,Bunni V2,Token & Share Accounting,Rounding Error,8400000,"Ethereum, Unichain"
+2025-09-01,OlaXBT,Social Engineering,Signer Phishing,2000000,BSC
+2025-08-30,Cozy V2,Input Validation,Missing Input Validation,427000,Optimism
+2025-08-26,BetterBank,Protocol Logic,Reward Logic Flaw,5000000,PulseChain
+2025-08-25,Panoptic V1.1,Input Validation,Hash Collision,0,"Base, Unichain, Ethereum"
+2025-08-14,BtcTurk,Key Compromise,Hot Wallet Key Compromised,48000000,"Ethereum, Avalanche, Arbitrum, Base, Optimism, Mantle, Polygon"
+2025-08-13,Grizzifi,Protocol Logic,Reward Logic Flaw,61000,BSC
+2025-08-13,Coinbase,Access Control,Token Approval Abuse,300000,Ethereum
+2025-08-12,Odin.Fun,Oracle Manipulation,Spot Price Manipulation,7000000,ICP
+2025-08-10,numa.,Token & Share Accounting,Incorrect Share Accounting,313000,Sonic
+2025-08-04,CrediX,Key Compromise,Private Key Compromised,4500000,Sonic
+2025-07-28,SuperRare,Access Control,Merkle Proof Forgery,730000,Ethereum
+2025-07-24,WOO X,Social Engineering,Phishing,14000000,"Bitcoin, Ethereum, Arbitrum, BSC"
+2025-07-20,Stepp2p,Protocol Logic,Unknown,43000,BSC
+2025-07-19,CoinDCX,Key Compromise,Hot Wallet Key Compromised,44200000,
+2025-07-16,BigONE,Frontend & Infrastructure,Supply Chain Attack,27000000,"Bitcoin, BSC, Ethereum, Solana, TRON"
+2025-07-15,Arcadia V2,Reentrancy,Reentrancy,2500000,Base
+2025-07-10,Kinto Bridge,Access Control,Uninitialized Proxy,1550000,Arbitrum
+2025-07-09,GMX V1 Perps,Reentrancy,Reentrancy,42000000,Arbitrum
+2025-07-09,Texture,Access Control,Improper Access Control,2200000,Solana
+2025-07-09,ZKSwap,Bridge & Cross-Chain,Forged Proof,5000000,Ethereum
+2025-07-08,Peapods Finance,Oracle Manipulation,Oracle Misconfiguration,207000,Ethereum
+2025-07-05,RANT,Token & Share Accounting,Incorrect Fee Accounting,204000,BSC
+2025-07-02,Future Protocol,Token & Share Accounting,Incorrect Share Accounting,4600000,BSC
+2025-06-25,Resupply,Token & Share Accounting,Donation Attack,9600000,Ethereum
+2025-06-25,Silo Finance,Input Validation,Missing Input Validation,546000,Ethereum
+2025-06-20,Hacken Token,Key Compromise,Private Key Compromised,250000,
+2025-06-19,Bankroll Network,Token & Share Accounting,Arithmetic Error,65000,Binance Smart Chain
+2025-06-18,Nobitex,Social Engineering,Malware,82000000,"Tron, Ethereum, BSC, Avalanche, Arbitrum, Polygon, Bitcoin"
+2025-06-17,Meta Pool,Token & Share Accounting,Infinite Mint,130000,Ethereum
+2025-06-15,FixedTokenBSwap,Oracle Manipulation,Spot Price Manipulation,2200,Ethereum
+2025-06-06,ALEX,Access Control,Caller Impersonation,8373000,Stacks
+2025-06-06,ForceBridge,Access Control,Improper Access Control,3900000,Nervos
+2025-05-28,Cork V1,Access Control,Improper Access Control,12000000,Ethereum
+2025-05-27,Usual USD0,Input Validation,Missing Input Validation,43000,Ethereum
+2025-05-26,Dexodus Finance,Oracle Manipulation,Stale Oracle Price,300000,Base
+2025-05-22,Cetus CLMM,Token & Share Accounting,Arithmetic Error,223000000,Sui
+2025-05-20,IRYS AI,Rugpull,Backdoor Contract,69600,Binance Smart Chain
+2025-05-16,Demex,Oracle Manipulation,Spot Price Manipulation,950559,Arbitrum
+2025-05-15,Zunami Protocol,Key Compromise,Private Key Compromised,500000,Ethereum
+2025-05-11,Mobius Token,Token & Share Accounting,Decimal Miscalculation,2150000,BSC
+2025-05-09,LND,Access Control,Improper Access Control,1180000,"Sonic, Hyperliquid L1"
+2025-05-08,BitoPro,Frontend & Infrastructure,Key Leaked via Infrastructure,11500000,"Ethereum, Tron, Solana, Polygon"
+2025-04-27,QuantMaster,Rugpull,Backdoor Contract,100000,Ethereum
+2025-04-27,Aventa,Protocol Logic,Unknown,7000,Ethereum
+2025-04-26,Term Finance,Oracle Manipulation,Oracle Misconfiguration,1650000,Ethereum
+2025-04-26,Loopscale,Oracle Manipulation,Spot Price Manipulation,5800000,Solana
+2025-04-26,Impermax V3,Token & Share Accounting,Incorrect Fee Accounting,300000,Base
+2025-04-24,ACB,Oracle Manipulation,Spot Price Manipulation,22804,BSC
+2025-04-22,Bitcoin Mission,Access Control,Improper Access Control,1300000,Arbitrum
+2025-04-20,Bitget,Market Manipulation,Market Maker Bot Exploited,100000000,
+2025-04-18,Numa,Oracle Manipulation,Spot Price Manipulation,506000,Arbitrum
+2025-04-16,R0AR,Access Control,Improper Access Control,780000,Ethereum
+2025-04-15,ZKsync,Key Compromise,Private Key Compromised,5000000,zkSync Era
+2025-04-14,KiloEx,Oracle Manipulation,Spot Price Manipulation,7500000,"BSC, Base, Taiko"
+2025-04-07,Tenderize V2,Protocol Logic,Unknown,10850,Ethereum
+2025-04-04,AIRWA,Access Control,Improper Access Control,33600,BSC
+2025-04-01,Zapper,Frontend & Infrastructure,DNS Hijack,,"Ethereum, Arbitrum, Optimism, Polygon, Base"
+2025-04-01,UPCX,Access Control,Proxy Upgrade Hijack,70000000,Ethereum
+2025-03-30,SIR,Access Control,Proxy Upgrade Hijack,355000,Ethereum
+2025-03-29,Venus Core Pool,Token & Share Accounting,Donation Attack,902000,zkSync Era
+2025-03-28,Alkimiya,Token & Share Accounting,Arithmetic Error,95500,Ethereum
+2025-03-25,Abracadabra Spell,Protocol Logic,Liquidation Logic Flaw,13000000,Arbitrum
+2025-03-21,Zoth ZeUSD,Key Compromise,Private Key Compromised,8850000,Ethereum
+2025-03-20,BBXToken,Oracle Manipulation,Spot Price Manipulation,12000,BSC
+2025-03-18,four.meme,Access Control,Improper Access Control,80000,BSC
+2025-03-18,Voltage V3,Access Control,Improper Access Control,322113,Fuse
+2025-03-16,WebKeyDAO,Access Control,Improper Access Control,73000,BSC
+2025-03-14,Berally,Key Compromise,Deployer Key Compromised,90000,Berachain
+2025-03-07,1inch Swap,Access Control,Arbitrary External Call,5000000,Ethereum
+2025-03-05,Pond.fun,Rugpull,Admin Drain,145000,Linea
+2025-03-01,Hegic(old contract),Protocol Logic,Withdrawal Logic Flaw,80000,Ethereum
+2025-03-01,Zoth ZeUSD,Protocol Logic,Swap Logic Flaw,285000,Ethereum
+2025-02-28,Wemix,Key Compromise,Private Key Compromised,6220000,Wemix
+2025-02-24,Infini,Key Compromise,Private Key Compromised,49500000,Ethereum
+2025-02-22,Unverified_35bc,Reentrancy,Reentrancy,6700,BSC
+2025-02-21,StepHeroNFTs,Reentrancy,Reentrancy,90000,BSC
+2025-02-21,Bybit,Social Engineering,Signer Phishing,1400000000,Ethereum
+2025-02-18,Cardex,Input Validation,Signature Verification Flaw,400000,Abstract
+2025-02-11,zkLend,Token & Share Accounting,First Depositor Attack,9550000,Starknet
+2025-02-11,four.meme,Protocol Logic,Swap Logic Flaw,183000,BSC
+2025-02-04,Ionic Protocol,Social Engineering,Impersonation Scam,8600000,Mode
+2025-02-01,Sirio Finance,Oracle Manipulation,Spot Price Manipulation,2000000,Hedera
+2025-01-28,DogWifTools,Frontend & Infrastructure,Key Stored Publicly,10000000,Solana
+2025-01-23,Phemex,Key Compromise,Hot Wallet Key Compromised,85000000,"Ethereum, Solana, XRP, Bitcoin, BSC, Sui, Base, Tron, Arbitrum, Avalanche, Polygon, Optimism, zkSync Era"
+2025-01-14,The Idols,Protocol Logic,Reward Logic Flaw,324000,Ethereum
+2025-01-13,Mosca2,Token & Share Accounting,Incorrect Share Accounting,37600,BSC
+2025-01-12,Unilend V2,Protocol Logic,Redeem Logic Flaw,197600,Ethereum
+2025-01-08,Orange Finance,Key Compromise,Private Key Compromised,840000,Arbitrum
+2025-01-08,Moby,Key Compromise,Private Key Compromised,1470000,Arbitrum
+2025-01-07,IPC AI,Protocol Logic,Swap Logic Flaw,590000,Binance
+2025-01-06,Mosca,Token & Share Accounting,Incorrect Share Accounting,37600,Binance
+2025-01-04,Sorra Finance,Protocol Logic,Reward Logic Flaw,41000,Ethereum
+2025-01-02,MoonHacker,Access Control,Token Approval Abuse,300000,Optimism
+2025-01-01,NoOnes,Bridge & Cross-Chain,Cross-Chain Message Spoofing,7900000,"Ethereum, Binance, Solana, Tron"
+2024-12-29,Fegex,Bridge & Cross-Chain,Cross-Chain Message Spoofing,1070000,"Ethereum, BSC, Base"
+2024-12-27,Bizness,Reentrancy,Reentrancy,15700,Base
+2024-12-18,HarryPotterObamaSonic10Inu,Oracle Manipulation,Spot Price Manipulation,243000,Ethereum
+2024-12-18,SlurpyCoin,Protocol Logic,Swap Logic Flaw,3000,Binance
+2024-12-17,GemPad,Reentrancy,Reentrancy,1900000,"Ethereum, Base, BSC"
+2024-12-16,BTC24H,Access Control,Improper Access Control,85700,Polygon
+2024-12-14,JHY Token,Token & Share Accounting,Incorrect Share Accounting,12000,Binance
+2024-12-12,BNBS,Reentrancy,Reentrancy,20300,Binance
+2024-12-10,LABUBU Token,Token & Share Accounting,Donation Attack,12000,Binance
+2024-12-10,Clober Liquidity Vault,Reentrancy,Reentrancy,500000,Base
+2024-12-07,MAAT Protocol,Protocol Logic,Withdrawal Logic Flaw,168173,Binance
+2024-12-04,Vestra DAO,Protocol Logic,Staking Logic Flaw,500000,Ethereum
+2024-12-03,BYC Token,Token & Share Accounting,Incorrect Fee Accounting,100000,Binance
+2024-12-01,Clipper,Protocol Logic,Deposit Logic Flaw,450000,"Optimism, Base"
+2024-12-01,Spectral Labs,Access Control,Token Approval Abuse,250000,Ethereum
+2024-11-28,XT Exchange,Key Compromise,Hot Wallet Key Compromised,1700000,Ethereum
+2024-11-26,NFTG,Access Control,Improper Access Control,10000,BNB Chain
+2024-11-24,Proxy_b7e1,Protocol Logic,Unknown,8500,BNB Chain
+2024-11-23,AK1111,Access Control,Improper Access Control,31500,BNB Chain
+2024-11-21,Matez,Token & Share Accounting,Arithmetic Error,80000,BNB Chain
+2024-11-20,MainnetSettler,Access Control,Token Approval Abuse,66000,Ethereum
+2024-11-18,Tectonic,Protocol Logic,Unknown,,Cronos
+2024-11-17,MFT,Protocol Logic,Unknown,33700,BNB Chain
+2024-11-16,Polter Finance,Oracle Manipulation,Spot Price Manipulation,8700000,Fantom
+2024-11-16,DEXX,Key Compromise,Private Key Compromised,21000000,Solana
+2024-11-15,ThalaSwap,Input Validation,Missing Input Validation,25500000,Aptos
+2024-11-14,vETH,Oracle Manipulation,Spot Price Manipulation,447000,Ethereum
+2024-11-11,DeltaPrime,Input Validation,Missing Input Validation,4800000,"Arbitrum, Avalanche"
+2024-11-11,zkFinance,Protocol Logic,Unknown,200000,zkSync Era
+2024-11-10,BGM,Oracle Manipulation,Spot Price Manipulation,450000,BNB Chain
+2024-11-09,X319,Access Control,Improper Access Control,12900,BNB Chain
+2024-11-08,CoinPoker,Key Compromise,Hot Wallet Key Compromised,2000000,Ethereum
+2024-11-07,VRug,Rugpull,Liquidity Rug,8400,Ethereum
+2024-11-07,ChiSale,Protocol Logic,Unknown,16300,Ethereum
+2024-11-07,CoW,Access Control,Improper Access Control,59000,Ethereum
+2024-11-05,RPP,Protocol Logic,Unknown,14100,BNB Chain
+2024-11-04,MetaWin,Frontend & Infrastructure,Key Leaked via Infrastructure,4400000,"Ethereum, Solana"
+2024-10-31,M2 Exchange,Key Compromise,Hot Wallet Key Compromised,13700000,"Ethereum, Solana, Bitcoin"
+2024-10-31,1inch Swap,Frontend & Infrastructure,Supply Chain Attack,723000,Avalanche
+2024-10-30,SUNRAY·FINANCE,Key Compromise,Private Key Compromised,2855000,Arbitrum
+2024-10-30,Shoebill Finance,Oracle Manipulation,Oracle Misconfiguration,1520000,BOB
+2024-10-29,BUBAI,Rugpull,Liquidity Rug,131000,Ethereum
+2024-10-25,AARK (Aark Digital),Token & Share Accounting,Decimal Miscalculation,1900000,Arbitrum
+2024-10-25,Base Lending,Protocol Logic,Deposit Logic Flaw,1000000,Base
+2024-10-24,Cryptobottle,Oracle Manipulation,Spot Price Manipulation,490000,Polygon
+2024-10-24,Ramses Exchange,Protocol Logic,Reward Logic Flaw,93000,Arbitrum
+2024-10-24,US Government Crypto Wallet,Key Compromise,Private Key Compromised,20000000,Ethereum
+2024-10-22,Erc20transfer,Access Control,Improper Access Control,14800,Ethereum
+2024-10-22,Vista Finance,Token & Share Accounting,Incorrect Share Accounting,28000,BSC
+2024-10-18,Tapioca DAO,Social Engineering,Impersonation Scam,4700000,Arbitrum
+2024-10-17,Ambient,Frontend & Infrastructure,DNS Hijack,,Ethereum
+2024-10-16,Radiant V2,Social Engineering,Blind Signing,50000000,"BSC, Arbitrum"
+2024-10-14,Kalax,Rugpull,Admin Drain,350000,Blast
+2024-10-14,LeadBlock's Morpho Blue Market,Oracle Manipulation,Oracle Misconfiguration,250000,Ethereum
+2024-10-05,EigenLayer,Social Engineering,Impersonation Scam,5700000,Ethereum
+2024-10-01,FireToken,Oracle Manipulation,Spot Price Manipulation,20000,Ethereum
+2024-09-26,Onyx V2,Protocol Logic,Liquidation Logic Flaw,3800000,Ethereum
+2024-09-26,uniBTC,Social Engineering,Malware,2000000,Ethereum
+2024-09-26,ReHold,Rugpull,Admin Drain,700000,Ethereum
+2024-09-25,Truflation,Social Engineering,Malware,5200000,
+2024-09-23,Bankroll Network,Input Validation,Missing Input Validation,234800,BSC
+2024-09-20,OcelotDex,Token & Share Accounting,Infinite Mint,980000,Ethereum
+2024-09-20,OcelotDex,Token & Share Accounting,Infinite Mint,4900000,Ethereum
+2024-09-20,DOGGO,Protocol Logic,Withdrawal Logic Flaw,7000,Ethereum
+2024-09-20,BingX,Key Compromise,Hot Wallet Key Compromised,43300000,Ethereum
+2024-09-19,Banana Gun,Frontend & Infrastructure,Frontend Compromise,3000000,Ethereum
+2024-09-16,WXETA,Access Control,Uninitialized Proxy,110000,"Ethereum, BSC"
+2024-09-16,Rivus DAO,Rugpull,Backdoor Contract,,Ethereum
+2024-09-16,DeltaPrime,Key Compromise,Private Key Compromised,5980000,Arbitrum
+2024-09-13,OTSea,Protocol Logic,Reward Logic Flaw,26000,Ethereum
+2024-09-11,Omnipus,Input Validation,Missing Input Validation,30000,Ethereum
+2024-09-10,Caterpillar Coin,Oracle Manipulation,Spot Price Manipulation,1400000,BSC
+2024-09-10,Indodax,Frontend & Infrastructure,Key Leaked via Infrastructure,25200000,"Ethereum, Polygon, Optimism"
+2024-09-03,Penpie,Reentrancy,Reentrancy,27000000,Ethereum
+2024-09-02,Pythia,Reentrancy,Reentrancy,53000,Ethereum
+2024-08-28,Aave,Access Control,Arbitrary External Call,56000,Ethereum
+2024-08-16,Zenterest,Oracle Manipulation,Stale Oracle Price,21000,Ethereum
+2024-08-13,Vowcurrency,Access Control,Improper Access Control,1200000,Ethereum
+2024-08-12,iVest,Protocol Logic,Unknown,190000,BSC
+2024-08-12,PolyNetwork,Protocol Logic,Unknown,5000000,PolyNetwork
+2024-08-07,Nexera,Social Engineering,Malware,449000,Ethereum
+2024-08-06,Ronin Bridge,Access Control,Uninitialized Proxy,12000000,Ethereum
+2024-08-01,Convergence,Input Validation,Missing Input Validation,210000,Ethereum
+2024-07-31,Monoswap,Social Engineering,Malware,1300000,Blast
+2024-07-31,Terra 2.0,Reentrancy,Reentrancy,6400000,Terra2
+2024-07-26,Solrise Finance,Access Control,Improper Access Control,6700000,Casper
+2024-07-24,Spectra Finance,Access Control,Arbitrary External Call,73000,Ethereum
+2024-07-23,dYdX V3,Frontend & Infrastructure,DNS Hijack,31000,Ethereum
+2024-07-23,DeltaPrime,Access Control,Ownership Takeover,1000000,Arbitrum
+2024-07-22,ETHTrustFund,Rugpull,Treasury Misappropriation,2100000,Base
+2024-07-21,UtopiaSphere,Oracle Manipulation,Spot Price Manipulation,521000,BSC
+2024-07-19,Rho Markets,Oracle Manipulation,Spot Price Manipulation,7600000,Scroll
+2024-07-18,WazirX: India,Social Engineering,Signer Phishing,234900000,Ethereum
+2024-07-16,LiFi Finance,Access Control,Token Approval Abuse,9730000,"zkSync Era, Linea, Metis"
+2024-07-15,Minterest,Reentrancy,Reentrancy,1400000,Mantle
+2024-07-12,Dough Finance,Access Control,Arbitrary External Call,1960000,Ethereum
+2024-07-12,CoinStats,Social Engineering,Phishing,2200000,
+2024-07-11,OPSEC,Key Compromise,Private Key Compromised,100000,Ethereum
+2024-07-05,DefiPlaza,Protocol Logic,Swap Logic Flaw,200000,Ethereum
+2024-07-02,MintRisesPrices,Reentrancy,Reentrancy,59000,BSC
+2024-07-02,Bittensor,Social Engineering,Malware,8000000,
+2024-06-27,APEMAGA,Protocol Logic,Unknown,32000,Ethereum
+2024-06-22,BtcTurk,Key Compromise,Hot Wallet Key Compromised,54000000,
+2024-06-20,OKX NFT Aggregator,Access Control,Improper Access Control,14000,BSC
+2024-06-16,WIFCOIN,Protocol Logic,Unknown,,Ethereum
+2024-06-14,AutoChain Global,Protocol Logic,Unknown,113000,BSC
+2024-06-13,Holograph,Token & Share Accounting,Infinite Mint,1200000,Ethereum
+2024-06-13,UwU Lend,Oracle Manipulation,Spot Price Manipulation,3700000,Ethereum
+2024-06-11,YOLO Games,Access Control,Caller Impersonation,1500000,Blast
+2024-06-10,UwU Lend,Oracle Manipulation,Spot Price Manipulation,20000000,Ethereum
+2024-06-10,JokInTheBox,Protocol Logic,Withdrawal Logic Flaw,34000,Ethereum
+2024-06-09,Loopring,Frontend & Infrastructure,API Key Compromised,5000000,Loopring
+2024-06-07,SteamSwap,Oracle Manipulation,Spot Price Manipulation,105000,BSC
+2024-06-04,Lykke,Key Compromise,Hot Wallet Key Compromised,22400000,"Ethereum, Bitcoin"
+2024-06-02,Velocore V2,Token & Share Accounting,Incorrect Fee Accounting,6800000,"Linea, zkSync Era"
+2024-05-31,TLN Protocol,Protocol Logic,Unknown,280000,BNB
+2024-05-31,DMM Bitcoin,Social Engineering,Phishing,305000000,Bitcoin
+2024-05-31,MixedSwapRouter,Access Control,Arbitrary External Call,16000,Arbitrum
+2024-05-29,MetaDragon,Access Control,Improper Access Control,181000,BNB
+2024-05-29,Scroll Token,Token & Share Accounting,Arithmetic Error,,Ethereum
+2024-05-28,EXcommunity,Protocol Logic,Unknown,37000,BNB
+2024-05-28,Orion Protocol,Access Control,Improper Access Control,645000,BNB
+2024-05-26,NORMIE,Protocol Logic,Unknown,881686,Base
+2024-05-22,TonUP,Protocol Logic,Reward Logic Flaw,107600,TON
+2024-05-22,YON,Access Control,Improper Access Control,118000,BNB
+2024-05-20,Gala,Token & Share Accounting,Infinite Mint,22300000,Ethereum
+2024-05-16,pump.fun,Key Compromise,Private Key Compromised,1900000,Solana
+2024-05-16,ALEX,Social Engineering,Phishing,4300000,Stacks
+2024-05-15,Sonne Finance,Token & Share Accounting,Donation Attack,20000000,Optimism
+2024-05-14,Predy Finance,Access Control,Improper Access Control,464000,Arbitrum
+2024-05-10,Tsuru,Protocol Logic,Unknown,410000,Base
+2024-05-10,Galaxy Fox,Access Control,Improper Access Control,330000,Ethereum
+2024-05-09,Bloom,Protocol Logic,Unknown,540000,Blast
+2024-05-08,GPU,Token & Share Accounting,Arithmetic Error,32400,BNB
+2024-05-07,SATURN,Oracle Manipulation,Spot Price Manipulation,9000,BNB
+2024-05-06,Perpy,Access Control,Uninitialized Proxy,132000,Arbitrum
+2024-05-05,GeniusAI,Social Engineering,Social Account Takeover,1270000,"Fantom, Ethereum"
+2024-04-30,Yield Protocol,Token & Share Accounting,Incorrect Share Accounting,181000,Arbitrum
+2024-04-30,Pike V1,Access Control,Proxy Upgrade Hijack,1600000,"Ethereum, Optimism, Arbitrum"
+2024-04-29,Rain,Key Compromise,Private Key Compromised,14800000,"Bitcoin, Ethereum, XRP, Solana"
+2024-04-27,BNBX,Token & Share Accounting,Arithmetic Error,,BSC
+2024-04-25,FENGSHOU,Access Control,Improper Access Control,191000,BSC
+2024-04-24,XBridge,Access Control,Improper Access Control,1440000,"Ethereum, BSC"
+2024-04-24,YIEDL,Input Validation,Missing Input Validation,150000,BSC
+2024-04-23,Magpie Protocol,Input Validation,Missing Input Validation,129000,"Ethereum, Polygon, BSC, Blast, Avalanche, Arbitrum, Optimism, Base, zkSync Era, Polygon zkEVM"
+2024-04-22,Z123,Oracle Manipulation,Spot Price Manipulation,136000,BSC
+2024-04-20,Rico,Access Control,Arbitrary External Call,,Arbitrum
+2024-04-19,Hedgey,Input Validation,Missing Input Validation,44700000,"Arbitrum, Ethereum"
+2024-04-15,Grand Base,Social Engineering,Phishing,1700000,Base
+2024-04-15,Chainge Finance,Access Control,Arbitrary External Call,716000,BSC
+2024-04-12,Sumer.money,Reentrancy,Reentrancy,350000,Base
+2024-04-12,Zest,Oracle Manipulation,Spot Price Manipulation,1000000,Stacks
+2024-04-09,xBlast,Key Compromise,Hot Wallet Key Compromised,84500,Ethereum
+2024-04-08,SQUID,Protocol Logic,Swap Logic Flaw,87000,BSC
+2024-04-01,OpenLeverage,Protocol Logic,Unknown,236000,BSC
+2024-03-31,FixedFloat,Frontend & Infrastructure,Key Leaked via Infrastructure,3000000,
+2024-03-29,Lava,Protocol Logic,Liquidation Logic Flaw,340000,Arbitrum
+2024-03-29,Solareum,Social Engineering,Social Account Takeover,1400000,Solana
+2024-03-29,ETHFIN,Access Control,Improper Access Control,1200,BSC
+2024-03-28,PrismaLST,Input Validation,Missing Input Validation,11600000,Ethereum
+2024-03-26,Munchables,Access Control,Proxy Upgrade Hijack,62500000,Blast
+2024-03-25,Curio,Access Control,Delegatecall Hijack,16000000,Ethereum
+2024-03-25,ZongZiFa,Oracle Manipulation,Spot Price Manipulation,229000,BSC
+2024-03-22,Super Sushi Samurai,Token & Share Accounting,Infinite Mint,4800000,Blast
+2024-03-21,AirDAO,Social Engineering,Malware,1050000,Ethereum
+2024-03-20,ParaSwap,Access Control,Improper Access Control,300000,Ethereum
+2024-03-20,LayerSwap,Frontend & Infrastructure,DNS Hijack,100000,Ethereum
+2024-03-20,Dolomite,Access Control,Improper Access Control,1800000,Ethereum
+2024-03-17,Remilia,Key Compromise,Private Key Compromised,6000000,Ethereum
+2024-03-15,MOBOX,Protocol Logic,Borrow Logic Flaw,750000,Optimism
+2024-03-15,NFPrompt,Key Compromise,Private Key Compromised,3000000,Ethereum
+2024-03-15,Mozaic,Key Compromise,Private Key Compromised,2000000,Arbitrum
+2024-03-12,Polyhedra Network,Key Compromise,Private Key Compromised,760000,BSC
+2024-03-12,BBT,Protocol Logic,Unknown,,Ethereum
+2024-03-11,Blastoff,Protocol Logic,Unknown,600000,Blast
+2024-03-09,Juice Finance,Protocol Logic,Reward Logic Flaw,54000,Ethereum
+2024-03-08,Unizen,Access Control,Arbitrary External Call,2100000,Ethereum
+2024-03-07,GHT,Protocol Logic,Unknown,,Ethereum
+2024-03-06,ALP,Access Control,Improper Access Control,10000,BSC
+2024-03-05,WOOFi Swap,Oracle Manipulation,Spot Price Manipulation,8750000,Arbitrum
+2024-02-29,Shido,Key Compromise,Private Key Compromised,3300000,Ethereum
+2024-02-28,Smoofs,Reentrancy,Reentrancy,,Polygon
+2024-02-28,Seneca,Access Control,Token Approval Abuse,6400000,"Ethereum, Arbitrum"
+2024-02-28,Serenity Shield,Social Engineering,Phishing,586000,Ethereum
+2024-02-25,RiskOnBlast,Rugpull,Exit Scam,1300000,Blast
+2024-02-24,ZoomerCoin,Governance,Flashloan Governance Attack,41000,Ethereum
+2024-02-24,BlueBerry,Oracle Manipulation,Spot Price Manipulation,1340000,Ethereum
+2024-02-22,Tectonic,Protocol Logic,Unknown,250000,Cronos
+2024-02-22,Swarm Markets,Access Control,Improper Access Control,472892,Ethereum
+2024-02-21,DeezNutz 404,Token & Share Accounting,Infinite Mint,170000,Ethereum
+2024-02-21,Gain,Token & Share Accounting,Infinite Mint,3010000,Ethereum
+2024-02-19,RuggedArt,Reentrancy,Reentrancy,,Ethereum
+2024-02-18,FixedFloat,Frontend & Infrastructure,Key Leaked via Infrastructure,26100000,"Ethereum, Bitcoin"
+2024-02-16,ParticleTrade,Input Validation,Missing Input Validation,140000,Ethereum
+2024-02-15,Miner,Input Validation,Missing Input Validation,466000,Ethereum
+2024-02-15,DualPools,Token & Share Accounting,Rounding Error,41000,BSC
+2024-02-13,DuelBits,Social Engineering,Malware,4600000,Ethereum
+2024-02-09,PlayDapp,Key Compromise,Hot Wallet Key Compromised,290000000,Ethereum
+2024-02-08,Starlay Finance,Protocol Logic,Redeem Logic Flaw,2100000,Acala
+2024-02-01,Affine Protocol,Input Validation,Missing Input Validation,88000,Ethereum
+2024-01-30,Abracadabra Spell,Token & Share Accounting,Rounding Error,6500000,Ethereum
+2024-01-29,Barley Finance,Token & Share Accounting,Infinite Mint,130000,Ethereum
+2024-01-28,Goledo,Oracle Manipulation,Spot Price Manipulation,1700000,Conflux
+2024-01-27,Somesing,Token & Share Accounting,Unbacked Mint,11580000,Ethereum
+2024-01-27,Citadel.one,Access Control,Improper Access Control,93000,Arbitrum
+2024-01-25,Nebula Revelation,Reentrancy,Reentrancy,180264,Optimism
+2024-01-25,Saga,Key Compromise,Private Key Compromised,65800,Solana
+2024-01-23,Gamee,Frontend & Infrastructure,Key Leaked via Infrastructure,7000000,Polygon
+2024-01-22,Concentric,Social Engineering,Phishing,1720000,Arbitrum
+2024-01-17,BasketDAO,Access Control,Arbitrary External Call,1200000,Ethereum
+2024-01-16,Hector Network,Access Control,Improper Access Control,2700000,Ethereum
+2024-01-16,Bungee,Input Validation,Missing Input Validation,3300000,Ethereum
+2024-01-12,Wise Lending V1,Token & Share Accounting,Donation Attack,464000,Ethereum
+2024-01-07,MangoFarmSol,Rugpull,Admin Drain,2000000,Solana
+2024-01-06,CoinsPaid,Key Compromise,Hot Wallet Key Compromised,7500000,"Ethereum, Binance Smart Chain"
+2024-01-04,Gamma,Oracle Manipulation,Spot Price Manipulation,4500000,Arbitrum
+2024-01-02,Radiant V2,Token & Share Accounting,Rounding Error,4500000,Arbitrum
+2023-12-31,Orbit Bridge,Input Validation,Signature Verification Flaw,81700000,Ethereum
+2023-12-30,Channels Finance,Token & Share Accounting,Infinite Mint,320000,BSC
+2023-12-30,Locus Finance,Key Compromise,Private Key Compromised,321000,"Ethereum, Arbitrum"
+2023-12-27,Levana Perps,Oracle Manipulation,Stale Oracle Price,1100000,Osmosis
+2023-12-27,Thunder Terminal,Frontend & Infrastructure,Key Leaked via Infrastructure,240000,"Ethereum, Solana"
+2023-12-25,Telcoin,Access Control,Uninitialized Proxy,1250000,Polygon
+2023-12-22,Pine Protocol,Protocol Logic,Swap Logic Flaw,95000,Ethereum
+2023-12-20,INX Digital Company,Frontend & Infrastructure,Key Leaked via Infrastructure,1600000,Ethereum
+2023-12-20,Transit Finance,Input Validation,Missing Input Validation,110000,"BSC, Ethereum"
+2023-12-17,Flooring Protocol,Access Control,Arbitrary External Call,1600000,Ethereum
+2023-12-16,GoodDollar,Reentrancy,Reentrancy,2000000,Ethereum
+2023-12-16,NFT Trader,Reentrancy,Reentrancy,3000000,Ethereum
+2023-12-14,Ledger Connect Kit,Frontend & Infrastructure,Supply Chain Attack,484000,Ethereum
+2023-12-13,OKX DEX,Key Compromise,Private Key Compromised,2700000,Ethereum
+2023-12-13,Peapods Finance,Reentrancy,Reentrancy,231192,Ethereum
+2023-12-11,Venus Protocol,Oracle Manipulation,Oracle Misconfiguration,274000,BSC
+2023-12-07,Xai,Social Engineering,Impersonation Scam,845800,Ethereum
+2023-12-06,TIME,Input Validation,Missing Input Validation,190000,Ethereum
+2023-12-06,ElephantStatus,Oracle Manipulation,Spot Price Manipulation,165000,BSC
+2023-12-04,Stargate Finance,Social Engineering,Phishing,43000,Ethereum
+2023-11-30,Florence Finance,Social Engineering,Address Poisoning,1450000,Ethereum
+2023-11-29,Velodrome,Frontend & Infrastructure,DNS Hijack,250000,Optimism
+2023-11-25,TheNFTV2,Protocol Logic,Withdrawal Logic Flaw,19000,Ethereum
+2023-11-22,Heco Bridge,Key Compromise,Hot Wallet Key Compromised,86600000,Ethereum
+2023-11-22,Huobi,Key Compromise,Hot Wallet Key Compromised,13600000,Ethereum
+2023-11-22,KyberSwap Elastic,Token & Share Accounting,Rounding Error,48000000,"Ethereum, Base, Polygon, Optimism, Arbitrum"
+2023-11-18,SpookySwap,Frontend & Infrastructure,Frontend Compromise,5000,Fantom
+2023-11-18,dYdX V3,Market Manipulation,Risk Parameter Abuse,9000000,Ethereum
+2023-11-18,Kronos Research,Frontend & Infrastructure,API Key Compromised,26000000,Ethereum
+2023-11-11,Samudai,Key Compromise,Hot Wallet Key Compromised,1250000,Ethereum
+2023-11-10,Poloniex,Social Engineering,Malware,126000000,"Tron, Ethereum, Bitcoin"
+2023-11-10,Raft,Token & Share Accounting,Infinite Mint,3300000,Ethereum
+2023-11-09,CoinSpot,Key Compromise,Hot Wallet Key Compromised,2400000,Ethereum
+2023-11-07,Curve Finance MEV Bot,Access Control,Improper Access Control,2000000,Ethereum
+2023-11-06,TheStandard.io,Protocol Logic,Swap Logic Flaw,290000,Arbitrum
+2023-11-06,TrustPad,Access Control,Improper Access Control,155000,BSC
+2023-11-01,Onyx Protocol,Token & Share Accounting,Donation Attack,2100000,Ethereum
+2023-10-31,Unibot,Access Control,Token Approval Abuse,640000,Ethereum
+2023-10-29,Astrid Finance,Input Validation,Missing Input Validation,228000,Ethereum
+2023-10-23,Maestro,Access Control,Arbitrary External Call,500000,Ethereum
+2023-10-19,Synthetify,Governance,Malicious Proposal,230000,Solana
+2023-10-18,HOPE Lend,Token & Share Accounting,Arithmetic Error,825000,Ethereum
+2023-10-18,MicDao,Oracle Manipulation,Spot Price Manipulation,13000,BSC
+2023-10-13,WiseLending,Token & Share Accounting,Rounding Error,260000,Ethereum
+2023-10-13,Beluga,Oracle Manipulation,Spot Price Manipulation,175000,Arbitrum
+2023-10-13,Platypus Finance,Oracle Manipulation,Spot Price Manipulation,2200000,Avalanche
+2023-10-12,BlackHole Token,Oracle Manipulation,Spot Price Manipulation,1275000,BSC
+2023-10-07,Arena SocialFi,Reentrancy,Reentrancy,2974530,Avalanche
+2023-10-06,Galxe,Frontend & Infrastructure,DNS Hijack,270000,Ethereum
+2023-09-25,HTX,Key Compromise,Hot Wallet Key Compromised,8000000,Ethereum
+2023-09-23,Mixin Network,Frontend & Infrastructure,Database Breach,200000000,Mixin
+2023-09-19,Balancer V2,Frontend & Infrastructure,Frontend Compromise,238000,Ethereum
+2023-09-16,uniclyNFT,Reentrancy,Reentrancy,2000,Ethereum
+2023-09-15,Remitano,Frontend & Infrastructure,Key Leaked via Infrastructure,2700000,"Ethereum, Tron, BitcoinCash"
+2023-09-12,CoinEx,Key Compromise,Hot Wallet Key Compromised,55000000,"Ethereum, BSC, Bitcoin, Tron, Kadena, Solana, Dagger, XRP, BitcoinCash, Polygon, Stellar, Arbitrum"
+2023-09-11,Milady Maker,Rugpull,Admin Drain,1000000,Ethereum
+2023-09-07,Fortress Trust,Frontend & Infrastructure,Key Leaked via Infrastructure,12000000,"Ethereum, Bitcoin"
+2023-09-06,GMBL.COMPUTER,Input Validation,Signature Verification Flaw,770000,Arbitrum
+2023-09-05,Floor Dao,Protocol Logic,Reward Logic Flaw,64200,Ethereum
+2023-09-04,Stake.com,Key Compromise,Hot Wallet Key Compromised,41300000,"Ethereum, BSC, Polygon"
+2023-09-02,DAppSocial,Access Control,Improper Access Control,16000,Ethereum
+2023-09-01,SharedStake,Access Control,Ownership Takeover,175000,Ethereum
+2023-08-29,EAC,Oracle Manipulation,Spot Price Manipulation,6376,BSC
+2023-08-27,Balancer V2,Oracle Manipulation,Spot Price Manipulation,800000,Ethereum
+2023-08-26,PEPE,Rugpull,Admin Drain,15080000,Ethereum
+2023-08-25,Magnate Finance,Rugpull,Treasury Misappropriation,6500000,Base
+2023-08-24,GSS,Token & Share Accounting,Arithmetic Error,25000,BSC
+2023-08-19,Harbor Protocol,Oracle Manipulation,Spot Price Manipulation,250000,Comdex
+2023-08-18,Exactly,Access Control,Improper Access Control,7600000,Optimism
+2023-08-15,RocketSwap Base,Frontend & Infrastructure,Key Leaked via Infrastructure,865000,Base
+2023-08-13,Zunami Protocol,Oracle Manipulation,Spot Price Manipulation,2100000,Ethereum
+2023-08-09,Earning.Farm,Reentrancy,Reentrancy,540000,Ethereum
+2023-08-08,Steadefi,Key Compromise,Deployer Key Compromised,1157000,Ethereum
+2023-08-07,Cypher,Oracle Manipulation,Spot Price Manipulation,1035000,Solana
+2023-08-02,Uwerx,Oracle Manipulation,Spot Price Manipulation,327000,Ethereum
+2023-08-02,Bald,Rugpull,Liquidity Rug,23000000,Base
+2023-08-01,LeetSwap,Access Control,Improper Access Control,620000,Base
+2023-08-01,Neutra Finance,Oracle Manipulation,Spot Price Manipulation,36450,Arbitrum
+2023-07-31,GYM Network,Access Control,Improper Access Control,1193,BSC
+2023-07-30,Kannagi,Rugpull,Admin Drain,2130000,"zkSync Era, Ethereum"
+2023-07-30,Curve DEX,Reentrancy,Vyper Compiler Bug,61700000,Ethereum
+2023-07-28,Pond0x,Access Control,Arbitrary External Call,2200000,Ethereum
+2023-07-26,AlphaPo,Key Compromise,Hot Wallet Key Compromised,60000000,"Ethereum, Tron"
+2023-07-26,Carson DeFi,Oracle Manipulation,Spot Price Manipulation,150000,BSC
+2023-07-25,MetaLabz,Access Control,Improper Access Control,,BSC
+2023-07-25,EraLend,Reentrancy,Read-Only Reentrancy,3400000,zkSync Era
+2023-07-24,Palmswap,Token & Share Accounting,Incorrect Share Accounting,900000,BSC
+2023-07-22,CoinsPaid,Social Engineering,Impersonation Scam,37300000,
+2023-07-22,Conic Finance,Oracle Manipulation,Spot Price Manipulation,300000,Ethereum
+2023-07-21,Conic Finance,Reentrancy,Read-Only Reentrancy,3300000,Ethereum
+2023-07-20,FFIST,Protocol Logic,Reward Logic Flaw,110000,BSC
+2023-07-20,Utopia,Protocol Logic,Swap Logic Flaw,119300,BSC
+2023-07-18,BNO,Access Control,Improper Access Control,500000,BNB Chain
+2023-07-13,Ethscriptions,Access Control,Improper Access Control,2828,Ethereum
+2023-07-12,Platypus Finance,Protocol Logic,Withdrawal Logic Flaw,50000,Avalanche
+2023-07-11,Libertify,Reentrancy,Reentrancy,230,"Ethereum, Polygon"
+2023-07-10,Arcadia V1,Access Control,Improper Access Control,455000,"Ethereum, Optimism"
+2023-07-09,CivFund,Access Control,Token Approval Abuse,180000,Ethereum
+2023-07-08,CIVNFT,Access Control,Improper Access Control,180000,Ethereum
+2023-07-07,Multichain,Key Compromise,Validator Key Compromised,126000000,"Moonriver, BSC, Fantom"
+2023-07-04,Rodeo,Protocol Logic,Unknown,90000,Arbitrum
+2023-07-03,AzukiDAO,Input Validation,Signature Replay,68000,Ethereum
+2023-07-02,Poly Network,Bridge & Cross-Chain,Forged Proof,5000000,"Ethereum, BSC, Polygon"
+2023-06-30,Biswap,Access Control,Improper Access Control,72000,BNB Chain
+2023-06-27,Themis Protocol,Oracle Manipulation,Spot Price Manipulation,370000,Arbitrum
+2023-06-23,Shido,Protocol Logic,Unknown,238500,BNB Chain
+2023-06-19,Ara Finance,Access Control,Token Approval Abuse,125000,BSC
+2023-06-17,Pawnfi,Token & Share Accounting,Incorrect Share Accounting,820000,Ethereum
+2023-06-17,Midas Capital,Token & Share Accounting,Rounding Error,340000,BSC
+2023-06-15,Hyperliquid,Market Manipulation,Risk Parameter Abuse,37000,Arbitrum
+2023-06-15,CFC,Token & Share Accounting,Donation Attack,16000,BSC
+2023-06-15,Hashflow,Access Control,Token Approval Abuse,605000,"Ethereum, Arbitrum, Avalanche, BSC, Polygon"
+2023-06-14,Tropykus RSK,Token & Share Accounting,Rounding Error,150000,Rootstock
+2023-06-12,Keep3r Network,Key Compromise,Weak Key Generation,200000,Ethereum
+2023-06-12,Sturdy V1,Reentrancy,Read-Only Reentrancy,775000,Ethereum
+2023-06-11,Floating Point Group,Frontend & Infrastructure,Key Leaked via Infrastructure,15000000,
+2023-06-10,Atlantis Loans,Access Control,Improper Access Control,2500000,BSC
+2023-06-03,Atomic Wallet,Frontend & Infrastructure,Supply Chain Attack,100000000,"Ethereum, Tron, BSC, Bitcoin, Polkadot, Avalanche"
+2023-06-02,Hector Lending,Access Control,Token Approval Abuse,653000,Fantom
+2023-06-01,Cellframe,Protocol Logic,Swap Logic Flaw,76112,BSC
+2023-05-31,unshETH,Frontend & Infrastructure,Key Stored Publicly,375000,Ethereum
+2023-05-30,El Dorado Exchange,Protocol Logic,Swap Logic Flaw,120000,Arbitrum
+2023-05-28,Jimbos Protocol,Oracle Manipulation,Spot Price Manipulation,7500000,Arbitrum
+2023-05-26,Patricia,Frontend & Infrastructure,Database Breach,2000000,
+2023-05-24,Local Traders,Access Control,Improper Access Control,118000,BSC
+2023-05-23,LunaFi,Protocol Logic,Reward Logic Flaw,35000,Polygon
+2023-05-20,Tornado Cash,Governance,Malicious Proposal,2173500,Ethereum
+2023-05-20,Swap-LP,Protocol Logic,Swap Logic Flaw,1100000,BSC
+2023-05-19,Swaprum,Rugpull,Backdoor Contract,3000000,Arbitrum
+2023-05-19,WDZD Swap,Protocol Logic,Swap Logic Flaw,1000000,Binance Smart Chain
+2023-05-12,LW Token,Oracle Manipulation,Spot Price Manipulation,50000,Binance Smart Chain
+2023-05-10,SNK (Snooker),Access Control,Improper Access Control,197725,Binance Smart Chain
+2023-05-07,Art Coin,Protocol Logic,Deposit Logic Flaw,331000,Ethereum
+2023-05-06,Melo,Access Control,Improper Access Control,90000,Binance Smart Chain
+2023-05-05,DEUS Finance,Token & Share Accounting,Arithmetic Error,6500000,"Arbitrum, BSC, Ethereum"
+2023-05-01,Level Perps,Protocol Logic,Reward Logic Flaw,1100000,BSC
+2023-05-01,pcash,Protocol Logic,Unknown,2000000,EOS
+2023-04-28,0vix,Oracle Manipulation,Spot Price Manipulation,2000000,Polygon
+2023-04-25,MERLIN DEX,Rugpull,Admin Drain,1820000,zkSync Era
+2023-04-24,KuCoin,Social Engineering,Social Account Takeover,22628,
+2023-04-23,FilDA,Bridge & Cross-Chain,Bridge Logic Flaw,700000,"Elastos, REI Network"
+2023-04-20,Tales of Elleria,Bridge & Cross-Chain,Forged Proof,280000,Arbitrum
+2023-04-16,Swapos V2,Protocol Logic,Swap Logic Flaw,468000,Ethereum
+2023-04-15,Hundred Finance,Token & Share Accounting,Donation Attack,7400000,Optimism
+2023-04-14,Bitrue,Key Compromise,Hot Wallet Key Compromised,23000000,
+2023-04-13,Yearn Finance,Oracle Manipulation,Oracle Misconfiguration,11539000,Ethereum
+2023-04-12,MetaPoint,Access Control,Token Approval Abuse,820000,BSC
+2023-04-11,Paribus,Reentrancy,Reentrancy,67800,Arbitrum
+2023-04-10,Terraport,Access Control,Improper Access Control,4000000,Terra Classic
+2023-04-10,SushiSwap,Input Validation,Missing Input Validation,3300000,"Ethereum, Arbitrum, Optimism, BSC"
+2023-04-08,GDAC,Key Compromise,Hot Wallet Key Compromised,13900000,
+2023-04-04,Sentiment,Reentrancy,Reentrancy,1000000,Arbitrum
+2023-04-03,MEV-Boost Relay,Frontend & Infrastructure,Key Leaked via Infrastructure,20000000,Ethereum
+2023-04-02,Allbridge Core,Protocol Logic,Swap Logic Flaw,573000,BSC
+2023-03-30,Rocket Pool,Social Engineering,Phishing,3800000,Ethereum
+2023-03-28,Safemoon,Access Control,Improper Access Control,8900000,BSC
+2023-03-27,Kokomo Finance,Rugpull,Admin Drain,4000000,Optimism
+2023-03-25,Swerve,Governance,Malicious Proposal,1300000,Ethereum
+2023-03-21,Indexed Finance,Protocol Logic,Swap Logic Flaw,9925,Ethereum
+2023-03-19,Harvest Keeper,Rugpull,Admin Drain,933000,Ethereum
+2023-03-18,Zircon Gamma,Token & Share Accounting,Incorrect Share Accounting,350000,"BSC, Moonriver"
+2023-03-17,ParaSpace Lending V1,Oracle Manipulation,Spot Price Manipulation,5000000,Ethereum
+2023-03-17,General Bytes,Frontend & Infrastructure,Key Leaked via Infrastructure,1500000,Ethereum
+2023-03-15,Poolz Network,Token & Share Accounting,Arithmetic Error,390000,BSC
+2023-03-13,Euler V1,Token & Share Accounting,Donation Attack,197000000,Ethereum
+2023-03-10,Hedera,Access Control,Improper Access Control,600000,Hedera
+2023-03-08,DKP,Oracle Manipulation,Spot Price Manipulation,80000,BSC
+2023-03-08,PeopleDAO,Social Engineering,Signer Phishing,120000,Ethereum
+2023-03-07,Tender Finance,Oracle Manipulation,Stale Oracle Price,1590000,Arbitrum
+2023-03-02,ArbiSwap,Rugpull,Liquidity Rug,100000,Arbitrum
+2023-02-27,LaunchZone,Access Control,Improper Access Control,700000,BSC
+2023-02-27,MyAlgo,Frontend & Infrastructure,CDN Compromise,9200000,Algorand
+2023-02-27,DungeonSwap,Access Control,Improper Access Control,728000,BSC
+2023-02-27,SwapX V2,Access Control,Improper Access Control,1000000,BSC
+2023-02-20,Dexible V2,Access Control,Arbitrary External Call,2047635,"Ethereum, Arbitrum"
+2023-02-20,Hope Finance,Access Control,Arbitrary External Call,2000000,Arbitrum
+2023-02-20,Revert Finance,Access Control,Arbitrary External Call,29000,Ethereum
+2023-02-16,Platypus Finance,Protocol Logic,Unknown,8500000,Avalanche
+2023-02-15,Multichain,Input Validation,Signature Verification Flaw,130000,Ethereum
+2023-02-11,fcdep,Token & Share Accounting,Infinite Mint,350000,BSC
+2023-02-10,Sheep,Token & Share Accounting,Incorrect Share Accounting,3000,BSC
+2023-02-10,dForce Lending,Reentrancy,Read-Only Reentrancy,3650000,"Arbitrum, Optimism"
+2023-02-07,LianGoPay,Rugpull,Admin Drain,1600000,BSC
+2023-02-07,CoWSwap,Access Control,Arbitrary External Call,180000,Ethereum
+2023-02-04,Sperax USD,Token & Share Accounting,Unbacked Mint,250000,Arbitrum
+2023-02-02,Orion Pools,Reentrancy,Reentrancy,3000000,BSC
+2023-02-01,BonqDAO,Oracle Manipulation,Oracle Misconfiguration,1800000,Polygon
+2023-01-30,BEVO,Token & Share Accounting,Incorrect Share Accounting,45000,BSC
+2023-01-26,Robinhood,Social Engineering,Social Account Takeover,8200,BSC
+2023-01-21,Omm,Protocol Logic,Redeem Logic Flaw,1891000,Icon
+2023-01-19,Thoreum Finance,Protocol Logic,Swap Logic Flaw,65540,BSC
+2023-01-17,OmniEstate,Input Validation,Missing Input Validation,70705,BSC
+2023-01-17,Midas Capital,Reentrancy,Reentrancy,660000,Polygon
+2023-01-16,LendHub,Token & Share Accounting,Incorrect Share Accounting,6000000,Heco
+2023-01-11,Roe Finance,Oracle Manipulation,Spot Price Manipulation,80000,"Ethereum, Polygon"
+2023-01-10,BRA,Token & Share Accounting,Incorrect Share Accounting,225000,BSC
+2023-01-03,GDS,Protocol Logic,Reward Logic Flaw,187000,BSC
+2022-12-29,Jaypeggers,Reentrancy,Reentrancy,18500,Ethereum
+2022-12-26,Amun,Access Control,Improper Access Control,300000,Polygon
+2022-12-25,Rubic,Access Control,Arbitrary External Call,1410000,Ethereum
+2022-12-24,Defrost,Key Compromise,Private Key Compromised,12000000,Avalanche
+2022-12-16,Raydium AMM,Social Engineering,Malware,4400000,Solana
+2022-12-14,FPR,Access Control,Improper Access Control,29000,BSC
+2022-12-14,Nimbus,Protocol Logic,Reward Logic Flaw,76000,BSC
+2022-12-13,ElasticSwap,Oracle Manipulation,Spot Price Manipulation,850000,"Avalanche, Ethereum"
+2022-12-12,BGLD,Oracle Manipulation,Spot Price Manipulation,18000,BSC
+2022-12-11,3Commas,Frontend & Infrastructure,Database Breach,20000000,Multi-Chain
+2022-12-10,Lodestar V0,Oracle Manipulation,Spot Price Manipulation,6900000,Arbitrum
+2022-12-10,MU&MUG,Oracle Manipulation,Spot Price Manipulation,57000,Avalanche
+2022-12-10,TiFi,Oracle Manipulation,Spot Price Manipulation,43500,BSC
+2022-12-09,NOVAToken,Rugpull,Admin Drain,,BSC
+2022-12-07,AES,Token & Share Accounting,Rounding Error,61608,BSC
+2022-12-05,RFB,Input Validation,Missing Input Validation,,BSC
+2022-12-05,BBOX,Oracle Manipulation,Spot Price Manipulation,,BSC
+2022-12-03,BTC.com,Frontend & Infrastructure,Key Leaked via Infrastructure,3000000,"Bitcoin, Ethereum"
+2022-12-03,Ratio Finance,Key Compromise,Key Brute Forced,,Solana
+2022-12-02,Ankr,Access Control,Improper Access Control,5000000,BSC
+2022-12-02,Overnight Finance,Protocol Logic,Unknown,,Avalanche
+2022-12-01,APC,Oracle Manipulation,Spot Price Manipulation,6000,BSC
+2022-11-29,SEAMAN,Protocol Logic,Unknown,7000,BSC
+2022-11-29,MBC & ZZSH,Access Control,Improper Access Control,5900,BSC
+2022-11-23,Numbers Protocol,Bridge & Cross-Chain,Bridge Logic Flaw,13836,Ethereum
+2022-11-22,AUR Protocol,Access Control,Improper Access Control,13000,BSC
+2022-11-21,sDAO,Protocol Logic,Unknown,13000,BSC
+2022-11-18,Polynomial,Input Validation,Missing Input Validation,7000,Optimism
+2022-11-17,UEarnPool,Protocol Logic,Reward Logic Flaw,16038,BSC
+2022-11-16,SheepFarm,Input Validation,Missing Input Validation,72000,BSC
+2022-11-12,FTX,Social Engineering,Phishing,450000000,"Ethereum, Solana"
+2022-11-10,DFX V2,Reentrancy,Reentrancy,4000000,Ethereum
+2022-11-09,Brahma Finance,Access Control,Arbitrary External Call,89343,Ethereum
+2022-11-07,MooCAKECTX,Token & Share Accounting,Incorrect Share Accounting,140000,BSC
+2022-11-06,Pando Rings,Oracle Manipulation,Spot Price Manipulation,22000000,Mixin
+2022-11-03,pNetwork,Frontend & Infrastructure,Key Leaked via Infrastructure,4300000,BSC
+2022-11-02,Skyward Finance,Input Validation,Missing Input Validation,3000000,Near
+2022-11-02,Rubic,Key Compromise,Private Key Compromised,1200000,Ethereum
+2022-11-02,Save,Oracle Manipulation,Spot Price Manipulation,1260000,Solana
+2022-11-01,Save,Market Manipulation,Risk Parameter Abuse,1026000,Solana
+2022-11-01,Deribit,Key Compromise,Hot Wallet Key Compromised,28000000,
+2022-10-28,FriesDAO,Key Compromise,Weak Key Generation,2300000,Ethereum
+2022-10-27,UvToken,Access Control,Improper Access Control,1500000,BSC
+2022-10-27,Team Finance,Input Validation,Missing Input Validation,15800000,Ethereum
+2022-10-26,N00dleSwap,Reentrancy,Reentrancy,29000,Ethereum
+2022-10-25,ULME,Access Control,Improper Access Control,250000,BSC
+2022-10-24,QuickSwap Market,Oracle Manipulation,Spot Price Manipulation,220000,Polygon
+2022-10-23,Layer2DAO,Social Engineering,Phishing,190000,Optimism
+2022-10-21,Bond Protocol,Input Validation,Missing Input Validation,300000,Ethereum
+2022-10-20,Ethereum Alarm Clock,Protocol Logic,Reward Logic Flaw,260000,Ethereum
+2022-10-18,Moola Market,Oracle Manipulation,Spot Price Manipulation,8400000,Celo
+2022-10-17,MTDAO,Protocol Logic,Deposit Logic Flaw,702000,BSC
+2022-10-17,LiveArtX,Key Compromise,Hot Wallet Key Compromised,39000,Ethereum
+2022-10-15,Earning.Farm,Protocol Logic,Withdrawal Logic Flaw,1200000,Ethereum
+2022-10-13,FTX,Frontend & Infrastructure,API Key Compromised,70000,Ethereum
+2022-10-11,TempleDAO,Access Control,Improper Access Control,2300000,Ethereum
+2022-10-11,Mango Markets V3,Oracle Manipulation,Spot Price Manipulation,115000000,Solana
+2022-10-11,QANplatform,Key Compromise,Weak Key Generation,2000000,Ethereum
+2022-10-09,Xave Finance,Governance,Malicious Proposal,,Ethereum
+2022-10-06,RES Token,Oracle Manipulation,Spot Price Manipulation,290000,BSC
+2022-10-06,Binance Bridge,Bridge & Cross-Chain,Proof Verifier Bug,570000000,BSC
+2022-10-04,Sovryn,Reentrancy,Reentrancy,1100000,RSK
+2022-10-02,Transit Swap,Input Validation,Missing Input Validation,28900000,"Ethereum, BSC"
+2022-09-20,Wintermute,Social Engineering,Phishing,160000000,Ethereum
+2022-09-18,GMX V1 Perps,Market Manipulation,Stale Price Arbitrage,565000,Arbitrum
+2022-09-08,Ragnarok Online Invasion,Access Control,Improper Access Control,44000,BSC
+2022-09-08,New Free DAO,Protocol Logic,Reward Logic Flaw,1250000,BSC
+2022-09-07,GERA,Key Compromise,Deployer Key Compromised,1480000,Ethereum
+2022-09-06,Nereus Finance,Oracle Manipulation,Spot Price Manipulation,371000,Avalanche
+2022-09-05,DAO Swap,Access Control,Improper Access Control,580000,Binance Smart Chain
+2022-09-02,Bad Guys by RPF,Token & Share Accounting,Incorrect Share Accounting,,Ethereum
+2022-09-02,ShadowFi,Access Control,Improper Access Control,301000,Binance Smart Chain
+2022-09-01,KyberSwap Classic,Frontend & Infrastructure,CDN Compromise,265000,Polygon
+2022-08-24,KaoyaSwap,Protocol Logic,Swap Logic Flaw,118000,Binance Smart Chain
+2022-08-23,SudoRare,Rugpull,Liquidity Rug,800000,Ethereum
+2022-08-18,Celer cBridge,Frontend & Infrastructure,DNS Hijack,240000,Multi-Chain
+2022-08-14,Acala,Token & Share Accounting,Infinite Mint,0,Acala
+2022-08-10,XSTABLE Protocol,Protocol Logic,Unknown,,Ethereum
+2022-08-10,Blur Finance,Rugpull,Exit Scam,600000,"BSC, Polygon"
+2022-08-09,Curve DEX,Frontend & Infrastructure,DNS Hijack,575000,Ethereum
+2022-08-08,Dragoma,Rugpull,Admin Drain,3500000,Polygon
+2022-08-07,EGD Finance,Oracle Manipulation,Spot Price Manipulation,36000,Binance Smart Chain
+2022-08-02,Slope Wallet,Frontend & Infrastructure,Key Stored Publicly,4100000,Solana
+2022-08-01,ZB Exchange,Key Compromise,Hot Wallet Key Compromised,4800000,Multi-Chain
+2022-08-01,Nomad,Bridge & Cross-Chain,Forged Proof,190000000,Ethereum
+2022-08-01,Reaper Farm,Access Control,Improper Access Control,1700000,Fantom
+2022-07-28,Nirvana V1,Oracle Manipulation,Spot Price Manipulation,3500000,Solana
+2022-07-25,LPC,Token & Share Accounting,Arithmetic Error,45000,Binance Smart Chain
+2022-07-25,Audius,Governance,Malicious Proposal,6000000,Ethereum
+2022-07-17,Premint,Frontend & Infrastructure,Frontend Compromise,375000,Ethereum
+2022-07-16,Impermax,Key Compromise,Private Key Compromised,9000000,"Ethereum, Polygon"
+2022-07-13,SpaceGodzilla,Oracle Manipulation,Spot Price Manipulation,25379,BSC
+2022-07-12,Citizen Finance,Key Compromise,Private Key Compromised,94300,"BSC, Polygon"
+2022-07-11,Uniswap (Phishing Attack),Social Engineering,Phishing,8000000,Ethereum
+2022-07-10,Omni,Reentrancy,Reentrancy,1400000,Ethereum
+2022-07-02,Crema Finance,Access Control,Improper Access Control,8800000,Solana
+2022-07-01,Quixotic,Input Validation,Signature Verification Flaw,100000,Optimism
+2022-06-26,XCarnival,Protocol Logic,Deposit Logic Flaw,3800000,Ethereum
+2022-06-24,Ribbon,Frontend & Infrastructure,DNS Hijack,12000,Ethereum
+2022-06-24,Convex Finance,Frontend & Infrastructure,DNS Hijack,14000,Ethereum
+2022-06-23,Harmony Bridge,Key Compromise,Validator Key Compromised,100000000,"Ethereum, BSC"
+2022-06-22,pandorachainDAO,Oracle Manipulation,Spot Price Manipulation,128000,BSC
+2022-06-16,Inverse Finance Frontier,Oracle Manipulation,Spot Price Manipulation,5800000,Ethereum
+2022-06-08,Gym Network,Access Control,Improper Access Control,2100000,BSC
+2022-06-08,ApolloX,Input Validation,Signature Verification Flaw,2150000,BSC
+2022-06-08,Osmosis,Protocol Logic,Withdrawal Logic Flaw,5000000,Osmosis
+2022-06-07,Equalizer Exchange,Protocol Logic,Withdrawal Logic Flaw,50000,"Ethereum, BSC, Polygon, Optimism"
+2022-06-05,Wintermute,Access Control,Improper Access Control,17600000,Optimism
+2022-06-05,Elrond,Token & Share Accounting,Infinite Mint,113000000,Elrond
+2022-06-04,BAYC/Otherside,Social Engineering,Phishing,257000,Ethereum
+2022-05-30,Mirror,Access Control,Improper Access Control,2000000,Terra
+2022-05-29,Anchor,Oracle Manipulation,Stale Oracle Price,800000,Terra
+2022-05-24,HackDao,Access Control,Improper Access Control,65000,Binance Smart Chain
+2022-05-20,Llamascape,Social Engineering,Signer Phishing,70000,Ethereum
+2022-05-18,QANX Bridge,Key Compromise,Private Key Compromised,707000,Ethereum
+2022-05-18,Seth Green NFTs,Social Engineering,Phishing,300000,Ethereum
+2022-05-18,Feminist Metaverse,Access Control,Improper Access Control,540000,Binance Smart Chain
+2022-05-17,FEG Token,Access Control,Improper Access Control,1900000,"Binance Smart Chain, Ethereum"
+2022-05-14,SpiritSwap V3,Frontend & Infrastructure,DNS Hijack,18000,Fantom
+2022-05-14,Quickswap V3,Frontend & Infrastructure,DNS Hijack,107600,Polygon
+2022-05-13,Blizz Finance,Oracle Manipulation,Stale Oracle Price,8300000,Avalanche
+2022-05-12,Venus Protocol,Oracle Manipulation,Stale Oracle Price,11200000,Binance Smart Chain
+2022-05-11,X2Y2,Social Engineering,Phishing,200000,Ethereum
+2022-05-11,Drift Trade,Market Manipulation,Risk Parameter Abuse,14500000,Solana
+2022-05-10,OWNLY,Protocol Logic,Withdrawal Logic Flaw,37000,Binance Smart Chain
+2022-05-08,Fortress Loans,Governance,Malicious Proposal,2976004,BSC
+2022-05-04,MM Finance Cronos,Frontend & Infrastructure,DNS Hijack,2000000,Cronos
+2022-05-01,Rari Capital,Reentrancy,Reentrancy,80000000,"Ethereum, Arbitrum"
+2022-04-30,Saddle Finance,Protocol Logic,Swap Logic Flaw,11000000,Ethereum
+2022-04-28,DEUS Finance,Oracle Manipulation,Spot Price Manipulation,13400000,Fantom
+2022-04-24,Wiener DOGE,Token & Share Accounting,Rounding Error,30000,BSC
+2022-04-21,Zeed Finance,Token & Share Accounting,Arithmetic Error,1000000,BSC
+2022-04-21,Terra (LUNA),Social Engineering,Phishing,4310000,Terra
+2022-04-17,Beanstalk,Governance,Flashloan Governance Attack,181000000,Ethereum
+2022-04-15,Rikkei Finance,Access Control,Improper Access Control,1100000,BSC
+2022-04-12,Elephant Money,Oracle Manipulation,Spot Price Manipulation,22200000,BSC
+2022-04-11,CF Token,Access Control,Improper Access Control,1900000,BSC
+2022-04-07,WonderHero,Key Compromise,Hot Wallet Key Compromised,320000,BSC
+2022-04-07,Starstream Finance,Rugpull,Admin Drain,4000000,Ethereum
+2022-04-02,Inverse Finance Frontier,Oracle Manipulation,Spot Price Manipulation,15600000,Ethereum
+2022-03-31,Ola Finance,Reentrancy,Reentrancy,4670000,Fuse
+2022-03-30,BasketDAO,Access Control,Arbitrary External Call,1200000,Ethereum
+2022-03-28,Cryptovoxels,Social Engineering,Phishing,171000,Ethereum
+2022-03-27,Revest Finance,Reentrancy,Reentrancy,2010000,Ethereum
+2022-03-26,Auctus,Access Control,Arbitrary External Call,726000,Ethereum
+2022-03-23,Cashio,Input Validation,Missing Input Validation,52800000,Solana
+2022-03-23,Ronin Bridge,Key Compromise,Validator Key Compromised,624000000,Ethereum
+2022-03-21,One Ring Finance,Access Control,Improper Access Control,1400000,Ethereum
+2022-03-21,LI.FI,Access Control,Token Approval Abuse,600000,Ethereum
+2022-03-20,Umbrella Network,Access Control,Improper Access Control,700000,"Ethereum, BSC"
+2022-03-17,ApeCoin,Governance,Flashloan Governance Attack,820000,Ethereum
+2022-03-15,Hundred Finance,Reentrancy,Reentrancy,6200000,Gnosis Chain
+2022-03-15,Agave,Reentrancy,Reentrancy,5500000,Gnosis Chain
+2022-03-15,DEUS Finance,Oracle Manipulation,Spot Price Manipulation,3000000,Fantom
+2022-03-13,Paraluni Masterchef,Reentrancy,Reentrancy,1700000,BSC
+2022-03-09,Pirate X,Access Control,Improper Access Control,78000,BSC
+2022-03-09,Fantasm Finance,Input Validation,Missing Input Validation,2622097,Fantom
+2022-03-05,Bacon Protocol,Reentrancy,Reentrancy,1000000,Ethereum
+2022-03-03,Treasure,Input Validation,Missing Input Validation,1400000,Arbitrum
+2022-02-23,Flurry Finance,Token & Share Accounting,Incorrect Share Accounting,293000,BSC
+2022-02-20,OpenSea,Social Engineering,Phishing,2000000,Ethereum
+2022-02-18,Rigoblock,Access Control,Improper Access Control,464000,Ethereum
+2022-02-17,TopGoal,Key Compromise,Hot Wallet Key Compromised,1100000,BSC
+2022-02-15,Build Finance,Governance,Malicious Proposal,470000,Ethereum
+2022-02-14,Titano Finance,Rugpull,Backdoor Contract,1949000,BSC
+2022-02-12,IRA Financial / Gemini,Frontend & Infrastructure,API Key Compromised,36000000,Ethereum
+2022-02-10,Dego Finance,Key Compromise,Deployer Key Compromised,10000000,"Ethereum, BSC, Cronos"
+2022-02-08,Superfluid,Input Validation,Missing Input Validation,8700000,Polygon
+2022-02-06,Meter,Input Validation,Missing Input Validation,7700000,Ethereum
+2022-02-03,KlaySwap,Frontend & Infrastructure,Frontend Compromise,1900000,Klaytn
+2022-02-02,Portal,Input Validation,Signature Verification Flaw,326000000,Solana
+2022-02-01,BNS,Frontend & Infrastructure,Key Leaked via Infrastructure,7500000,
+2022-01-28,Qubit,Input Validation,Missing Input Validation,80000000,BSC
+2022-01-25,OpenSea,Protocol Logic,Withdrawal Logic Flaw,1000000,Ethereum
+2022-01-18,Multichain,Input Validation,Missing Input Validation,1400000,Ethereum
+2022-01-18,Crypto.com,Frontend & Infrastructure,Session Key Compromised,33700000,"Ethereum, Bitcoin"
+2022-01-18,Crosswise,Access Control,Improper Access Control,879000,BSC
+2022-01-17,Crypto Burger,Access Control,Improper Access Control,770000,BSC
+2022-01-15,Float Protocol,Oracle Manipulation,Spot Price Manipulation,1160000,Ethereum
+2022-01-15,CityDAO,Social Engineering,Phishing,95000,Ethereum
+2022-01-10,Lympo,Key Compromise,Hot Wallet Key Compromised,18700000,Ethereum
+2022-01-08,LCX,Frontend & Infrastructure,Key Leaked via Infrastructure,7940000,Ethereum
+2022-01-04,Arbix Finance,Rugpull,Admin Drain,10000000,BSC
+2022-01-01,Tinyman,Token & Share Accounting,Incorrect Share Accounting,3000000,Algorand
+2021-12-30,SashimiSwap,Protocol Logic,Swap Logic Flaw,210000,Ethereum
+2021-12-23,Monkey Kingdom,Social Engineering,Phishing,1300000,Solana
+2021-12-21,Gamma,Token & Share Accounting,Arithmetic Error,4500000,Ethereum
+2021-12-21,Bent Finance,Rugpull,Backdoor Contract,1750000,Ethereum
+2021-12-21,Gamma,Reentrancy,Reentrancy,8200000,Ethereum
+2021-12-18,Grim Finance,Reentrancy,Reentrancy,30000000,Fantom
+2021-12-14,NerveBridge,Protocol Logic,Swap Logic Flaw,537000,BSC
+2021-12-13,Vulcan Forged,Key Compromise,Hot Wallet Key Compromised,140000000,"Ethereum, Polygon"
+2021-12-11,AscenDEX,Key Compromise,Hot Wallet Key Compromised,77000000,"Ethereum, BSC, Polygon"
+2021-12-08,8ightDAO,Social Engineering,Phishing,1750000,Harmony
+2021-12-05,Pizza DeFi,Token & Share Accounting,Arithmetic Error,5000000,EOS
+2021-12-04,Bitmart,Key Compromise,Hot Wallet Key Compromised,196000000,"Ethereum, BSC"
+2021-12-03,Polygon,Access Control,Improper Access Control,2040000,Polygon
+2021-12-02,Badger DAO,Frontend & Infrastructure,CDN Compromise,120000000,Ethereum
+2021-11-30,MonoX,Protocol Logic,Swap Logic Flaw,31400000,"Ethereum, Polygon"
+2021-11-28,Visor Finance,Oracle Manipulation,Spot Price Manipulation,975720,Ethereum
+2021-11-27,Lever,Protocol Logic,Borrow Logic Flaw,652000,BSC
+2021-11-25,Snowdog,Rugpull,Liquidity Rug,18100000,Avalanche
+2021-11-23,Ploutoz,Oracle Manipulation,Spot Price Manipulation,365000,BSC
+2021-11-19,Phantom Galaxies,Social Engineering,Malware,1100000,Ethereum
+2021-11-15,Nerve,Protocol Logic,Swap Logic Flaw,537000,BSC
+2021-11-07,ChainSwap,Access Control,Caller Impersonation,4400000,"Ethereum, BSC"
+2021-11-05,Ooki,Social Engineering,Phishing,55000000,"Polygon, BSC"
+2021-11-03,Vesper Finance,Oracle Manipulation,Spot Price Manipulation,3370000,Ethereum
+2021-11-03,Squid Games,Rugpull,Liquidity Rug,3380000,BSC
+2021-10-30,BXH,Key Compromise,Private Key Compromised,139000000,BSC
+2021-10-29,AnubisDAO,Rugpull,Admin Drain,60000000,Ethereum
+2021-10-29,AutoShark,Protocol Logic,Reward Logic Flaw,580000,BSC
+2021-10-27,CREAM Lending,Oracle Manipulation,Spot Price Manipulation,130000000,Ethereum
+2021-10-23,Alpha Homora,Oracle Manipulation,Spot Price Manipulation,147000,Ethereum
+2021-10-18,Glide Finance,Input Validation,Missing Input Validation,300000,Elastos
+2021-10-14,Indexed Finance,Oracle Manipulation,Spot Price Manipulation,16000000,Ethereum
+2021-10-08,Mirror,Access Control,Improper Access Control,90000000,Terra
+2021-10-04,pNetwork,Bridge & Cross-Chain,Spoofed Event Log,13000000,"BSC, Bitcoin"
+2021-10-01,Coinbase,Frontend & Infrastructure,Session Key Compromised,,
+2021-09-29,Compound V2,Token & Share Accounting,Arithmetic Error,147000000,Ethereum
+2021-09-21,Vee Finance,Oracle Manipulation,Spot Price Manipulation,34000000,Avalanche
+2021-09-17,JayPegs Automart,Frontend & Infrastructure,Frontend Compromise,3100000,Ethereum
+2021-09-15,NowSwap,Token & Share Accounting,Arithmetic Error,1069000,Ethereum
+2021-09-12,Zabu Finance,Protocol Logic,Deposit Logic Flaw,3200000,Avalanche
+2021-09-04,DAO Maker Vesting,Access Control,Improper Access Control,4000000,Ethereum
+2021-09-03,Siren,Reentrancy,Reentrancy,3500000,Polygon
+2021-08-30,CREAM Lending,Reentrancy,Reentrancy,18800000,Ethereum
+2021-08-29,xToken,Oracle Manipulation,Spot Price Manipulation,4500000,Ethereum
+2021-08-29,Bilaxy,Key Compromise,Hot Wallet Key Compromised,21700000,Ethereum
+2021-08-25,Dot.Finance,Oracle Manipulation,Spot Price Manipulation,429724,Binance Smart Chain
+2021-08-19,Pinecone Finance,Token & Share Accounting,Incorrect Share Accounting,200000,Binance Smart Chain
+2021-08-19,Liquid Global,Key Compromise,Hot Wallet Key Compromised,91350000,Ethereum
+2021-08-19,Solend,Access Control,Improper Access Control,16000,Solana
+2021-08-17,SurgeBNB,Reentrancy,Reentrancy,5000000,BSC
+2021-08-15,Ref Finance,Input Validation,Missing Input Validation,3203000,NEAR
+2021-08-13,NEKO,Access Control,Improper Access Control,2200000,Binance Smart Chain
+2021-08-13,Acala Network,Token & Share Accounting,Infinite Mint,1600000,Acala
+2021-08-12,DAO Maker Vesting,Access Control,Improper Access Control,7000000,Ethereum
+2021-08-10,Poly Network,Access Control,Improper Access Control,611000000,"Ethereum, BSC, Polygon"
+2021-08-10,Punk Protocol,Access Control,Delegatecall Hijack,8950000,Ethereum
+2021-08-08,Zerogoki,Oracle Manipulation,Oracle Misconfiguration,670000,Ethereum
+2021-08-04,WaultSwap,Market Manipulation,Risk Parameter Abuse,930000,Binance Smart Chain
+2021-08-03,Popsicle Finance,Protocol Logic,Reward Logic Flaw,20700000,Ethereum
+2021-07-30,Levyathan,Frontend & Infrastructure,Key Stored Publicly,1500000,BSC
+2021-07-28,PolyYeld Finance,Token & Share Accounting,Infinite Mint,250000,Polygon
+2021-07-22,THORChain DEX,Protocol Logic,Withdrawal Logic Flaw,8000000,Ethereum
+2021-07-16,Bunny,Token & Share Accounting,Unbacked Mint,2400000,BSC
+2021-07-15,THORChain DEX,Bridge & Cross-Chain,Bridge Logic Flaw,5000000,Ethereum
+2021-07-15,Bondly,Social Engineering,Phishing,5900000,Ethereum
+2021-07-14,ApeRocket,Protocol Logic,Reward Logic Flaw,1260000,BSC
+2021-07-13,DeFiPie,Reentrancy,Reentrancy,124999,"Ethereum, Binance Smart Chain"
+2021-07-11,ChainSwap Bridge,Bridge & Cross-Chain,Bridge Logic Flaw,4400000,"Ethereum, BSC"
+2021-07-10,Multichain,Key Compromise,Weak Key Generation,7900000,"Ethereum, BSC, Fantom"
+2021-07-03,Haven Protocol,Token & Share Accounting,Infinite Mint,8187000,Haven
+2021-07-02,ChainSwap,Bridge & Cross-Chain,Bridge Logic Flaw,800000,"Ethereum, Binance Smart Chain"
+2021-07-02,XDX Swap,Bridge & Cross-Chain,Bridge Logic Flaw,176000,Huobi Eco Chain
+2021-06-29,Merlin,Token & Share Accounting,Arithmetic Error,330000,BSC
+2021-06-29,THORChain DEX,Bridge & Cross-Chain,Bridge Logic Flaw,350000,Ethereum
+2021-06-28,Safe Dollar,Protocol Logic,Reward Logic Flaw,248000,Polygon
+2021-06-25,xWin Finance,Input Validation,Missing Input Validation,270000,BSC
+2021-06-24,SharedStake,Access Control,Improper Access Control,500000,Ethereum
+2021-06-23,StableMagnet,Rugpull,Backdoor Contract,27000000,BSC
+2021-06-22,Eleven Finance,Protocol Logic,Withdrawal Logic Flaw,4500000,BSC
+2021-06-21,StakeHound / Fireblocks,Key Compromise,Key Brute Forced,72000000,Ethereum
+2021-06-21,Impossible Finance,Oracle Manipulation,Spot Price Manipulation,500000,BSC
+2021-06-20,Polydex,Reentrancy,Reentrancy,500000,Polygon
+2021-06-19,Visor Finance,Access Control,Improper Access Control,504845,Ethereum
+2021-06-16,Alchemix V2,Protocol Logic,Borrow Logic Flaw,6500000,Ethereum
+2021-06-10,EvoDefi,Protocol Logic,Reward Logic Flaw,1000000,BSC
+2021-06-07,88mph,Input Validation,Missing Input Validation,,Ethereum
+2021-06-06,Fetch.ai,Key Compromise,Private Key Compromised,2600000,Multiple
+2021-06-03,Hunny Finance,Token & Share Accounting,Incorrect Share Accounting,,BSC
+2021-05-29,Belt Finance,Token & Share Accounting,Incorrect Share Accounting,6300000,BSC
+2021-05-28,BurgerSwap,Reentrancy,Reentrancy,7200000,BSC
+2021-05-26,Merlin,Protocol Logic,Reward Logic Flaw,680000,BSC
+2021-05-26,Merlin,Token & Share Accounting,Rounding Error,550000,BSC
+2021-05-24,AutoShark,Protocol Logic,Reward Logic Flaw,822800,BSC
+2021-05-23,Bogged Finance,Token & Share Accounting,Arithmetic Error,3000000,BSC
+2021-05-19,Bunny,Oracle Manipulation,Spot Price Manipulation,45000000,BSC
+2021-05-18,Venus Protocol,Oracle Manipulation,Spot Price Manipulation,100000000,BSC
+2021-05-17,FinNexus,Key Compromise,Private Key Compromised,7000000,"Ethereum, BSC"
+2021-05-17,BearnFi,Protocol Logic,Withdrawal Logic Flaw,18000000,BSC
+2021-05-14,flash.sx / vaults.sx,Reentrancy,Reentrancy,13000000,EOS
+2021-05-12,xToken,Oracle Manipulation,Spot Price Manipulation,24000000,Ethereum
+2021-05-08,Rari Capital,Access Control,Arbitrary External Call,10000000,Ethereum
+2021-05-07,ValueDefi,Token & Share Accounting,Arithmetic Error,11000000,BSC
+2021-05-05,ValueDefi,Access Control,Improper Access Control,10000000,BSC
+2021-05-02,Spartan,Token & Share Accounting,Incorrect Share Accounting,30500000,BSC
+2021-04-28,Uranium Finance,Token & Share Accounting,Arithmetic Error,57200000,BSC
+2021-04-19,EasyFi,Social Engineering,Malware,59000000,Polygon
+2021-04-12,PancakeSwap,Access Control,Improper Access Control,1800000,BSC
+2021-04-05,Polkatrain,Protocol Logic,Reward Logic Flaw,3000000,Polkadot
+2021-04-04,Force DAO,Token & Share Accounting,Donation Attack,367000,Ethereum
+2021-03-20,Turtle Dex,Rugpull,Liquidity Rug,2500000,BSC
+2021-03-16,Iron Finance,Token & Share Accounting,Incorrect Share Accounting,170000,Polygon
+2021-03-15,DEUS Finance,Oracle Manipulation,Spot Price Manipulation,3000000,Fantom
+2021-03-15,PancakeSwap / Cream Finance,Frontend & Infrastructure,DNS Hijack,,"BSC, Ethereum"
+2021-03-15,TSD (True Seigniorage Dollar),Governance,Malicious Proposal,7095000,BSC
+2021-03-14,Roll,Key Compromise,Hot Wallet Key Compromised,5700000,Ethereum
+2021-03-09,DODO AMM,Access Control,Improper Access Control,3800000,Ethereum
+2021-03-05,Paid Network,Token & Share Accounting,Infinite Mint,27000000,Ethereum
+2021-03-04,Meerkat Finance,Rugpull,Admin Drain,31000000,BSC
+2021-03-01,Seascape,Key Compromise,Private Key Compromised,500000,Ethereum
+2021-02-27,Furucombo,Access Control,Delegatecall Hijack,14000000,Ethereum
+2021-02-13,Alpha Finance,Protocol Logic,Borrow Logic Flaw,37500000,Ethereum
+2021-02-12,BT Finance,Oracle Manipulation,Spot Price Manipulation,1500000,Ethereum
+2021-02-09,Growth DeFi,Input Validation,Missing Input Validation,1400000,Ethereum
+2021-02-05,Yearn Finance,Oracle Manipulation,Spot Price Manipulation,11000000,Ethereum
+2021-02-01,Cryptopia,Key Compromise,Hot Wallet Key Compromised,45000,Multiple
+2021-01-27,SushiSwap,Protocol Logic,Swap Logic Flaw,103842,Ethereum
+2021-01-25,Badger DAO,Protocol Logic,Swap Logic Flaw,103842,Ethereum
+2020-12-29,Cover Protocol,Token & Share Accounting,Arithmetic Error,9400000,Ethereum
+2020-12-28,LuBian,Key Compromise,Weak Key Generation,3500000000,Bitcoin
+2020-12-26,Altilly,Frontend & Infrastructure,API Key Compromised,750000,Multiple
+2020-12-24,Livecoin,Frontend & Infrastructure,API Key Compromised,3300000,Multiple
+2020-12-21,Exmo,Key Compromise,Hot Wallet Key Compromised,10500000,Multiple
+2020-12-18,Warp Protocol,Oracle Manipulation,Spot Price Manipulation,7800000,Ethereum
+2020-12-14,Nexus Mutual,Frontend & Infrastructure,Key Leaked via Infrastructure,8000000,Ethereum
+2020-12-08,Aeternity,Key Compromise,Validator Key Compromised,5201000,Aeternity
+2020-12-02,Compounder Finance,Rugpull,Admin Drain,12464316,Ethereum
+2020-11-30,SushiSwap,Access Control,Improper Access Control,15000,Ethereum
+2020-11-22,Pickle,Input Validation,Missing Input Validation,19700000,Ethereum
+2020-11-17,Origin Protocol,Reentrancy,Reentrancy,7700000,Ethereum
+2020-11-16,CheeseBank,Oracle Manipulation,Spot Price Manipulation,3300000,Ethereum
+2020-11-14,ValueDefi,Oracle Manipulation,Spot Price Manipulation,7400000,Ethereum
+2020-11-12,Akropolis,Reentrancy,Reentrancy,2000000,Ethereum
+2020-11-08,Grin,Key Compromise,Validator Key Compromised,,Grin
+2020-11-06,Ledger,Social Engineering,Phishing,271000,Multiple
+2020-11-02,Axion,Token & Share Accounting,Infinite Mint,500000,Ethereum
+2020-10-30,EtherCrash,Key Compromise,Hot Wallet Key Compromised,2500000,Ethereum
+2020-10-26,Harvest Finance,Oracle Manipulation,Spot Price Manipulation,24000000,Ethereum
+2020-10-11,WLEO,Token & Share Accounting,Infinite Mint,42000,Ethereum
+2020-09-29,KuCoin,Key Compromise,Hot Wallet Key Compromised,281000000,Ethereum
+2020-09-28,Eminence,Oracle Manipulation,Spot Price Manipulation,15000000,Ethereum
+2020-09-20,Soda Protocol,Protocol Logic,Withdrawal Logic Flaw,160000,Ethereum
+2020-09-10,Coral,Reentrancy,Reentrancy,420000,EOS
+2020-09-10,SYFI,Token & Share Accounting,Arithmetic Error,250000,Ethereum
+2020-09-08,Eterbase,Key Compromise,Hot Wallet Key Compromised,5400000,"Bitcoin, Ethereum, XRP, Tezos, Algorand, TRON"
+2020-08-18,OKEx,Bridge & Cross-Chain,Forged Proof,5600000,Ethereum Classic
+2020-08-06,Ethereum Classic,Bridge & Cross-Chain,Forged Proof,1680000,Ethereum Classic
+2020-08-04,Opyn,Protocol Logic,Withdrawal Logic Flaw,371000,Ethereum
+2020-07-31,2gether,Frontend & Infrastructure,Key Leaked via Infrastructure,1183000,"Bitcoin, Ethereum"
+2020-07-11,Cashaa,Frontend & Infrastructure,Key Leaked via Infrastructure,3100000,Bitcoin
+2020-07-01,Vether,Access Control,Improper Access Control,450000,Ethereum
+2020-06-28,Balancer,Token & Share Accounting,Incorrect Share Accounting,500000,Ethereum
+2020-06-18,Bancor V3,Access Control,Improper Access Control,544885,Ethereum
+2020-04-25,Hegic,Protocol Logic,Deposit Logic Flaw,28537,Ethereum
+2020-04-19,dForce Lending,Reentrancy,Reentrancy,25000000,Ethereum
+2020-04-18,Uniswap V1,Reentrancy,Reentrancy,220000,Ethereum
+2020-04-08,Bisq,Protocol Logic,Withdrawal Logic Flaw,248000,Bitcoin
+2020-03-12,MakerDAO,Oracle Manipulation,Stale Oracle Price,8320000,Ethereum
+2020-02-18,Ooki,Oracle Manipulation,Spot Price Manipulation,650000,Ethereum
+2020-02-15,Ooki,Oracle Manipulation,Spot Price Manipulation,350000,Ethereum
+2020-02-12,Trinity Wallet,Frontend & Infrastructure,CDN Compromise,2000000,Iota
+2020-02-05,Altsbit,Frontend & Infrastructure,Key Leaked via Infrastructure,70000,"Bitcoin, Ethereum"
+2020-02-03,LuckLambo104,Protocol Logic,Unknown,1500,Tron
+2020-01-23,Bitcoin Gold,Key Compromise,Validator Key Compromised,70000,Bitcoin Gold
+2019-12-23,Nuls,Input Validation,Signature Verification Flaw,480000,NULS
+2019-12-14,VeChain,Key Compromise,Private Key Compromised,6500000,VeChain
+2019-12-02,Vertcoin,Key Compromise,Validator Key Compromised,29,Vertcoin
+2019-11-27,Upbit,Key Compromise,Hot Wallet Key Compromised,49300000,Ethereum
+2019-11-08,VinDAX,Frontend & Infrastructure,Key Leaked via Infrastructure,500000,"Ethereum, Multiple"
+2019-09-28,Chain Fusion,Key Compromise,Private Key Compromised,6400000,Ethereum
+2019-08-17,CoinTiger (PTT),Frontend & Infrastructure,Key Leaked via Infrastructure,9200000,Ethereum
+2019-07-12,BitPoint,Frontend & Infrastructure,Key Leaked via Infrastructure,27600000,"Bitcoin, Ethereum, Litecoin, XRP"
+2019-06-27,Bitrue,Access Control,Improper Access Control,4700000,"Ripple, Cardano"
+2019-06-25,Synthetix v1+v2,Oracle Manipulation,Oracle Misconfiguration,,Ethereum
+2019-06-06,GateHub,Key Compromise,Private Key Compromised,9500000,Ripple
+2019-06-02,Kraken,Access Control,Improper Access Control,10450000,Bitcoin
+2019-05-24,Poker EOS,Key Compromise,Private Key Compromised,,EOS
+2019-05-07,Binance,Key Compromise,Hot Wallet Key Compromised,40000000,Bitcoin
+2019-05-03,TronBank,Rugpull,Backdoor Contract,4270000,Tron
+2019-04-11,TronBank,Token & Share Accounting,Infinite Mint,,Tron
+2019-04-11,TronWow,Protocol Logic,Unknown,,Tron
+2019-03-29,TronCrush,Token & Share Accounting,Infinite Mint,,Tron
+2019-03-29,Bithumb,Key Compromise,Hot Wallet Key Compromised,19000000,"Ethereum, Ripple"
+2019-03-25,Coinbene,Access Control,Improper Access Control,40000000,Ethereum
+2019-03-24,DragonEx,Frontend & Infrastructure,Key Leaked via Infrastructure,7000000,"Bitcoin, Ethereum, EOS, Ripple, NEM, ETC"
+2019-03-24,Etbox,Frontend & Infrastructure,Key Leaked via Infrastructure,132000,"Bitcoin, Ethereum"
+2019-02-20,Coinbin,Rugpull,Admin Drain,26000000,Ethereum
+2019-01-26,LocalBitcoins,Frontend & Infrastructure,Key Leaked via Infrastructure,27000,Bitcoin
+2019-01-14,Cryptopia,Key Compromise,Hot Wallet Key Compromised,16000000,Ethereum
+2019-01-06,Ethereum Classic,Bridge & Cross-Chain,Forged Proof,219500,Ethereum Classic
+2018-12-19,EOS Max,Protocol Logic,Unknown,,EOS
+2018-12-19,ToBet,Protocol Logic,Unknown,,EOS
+2018-12-12,Vertcoin,Market Manipulation,Risk Parameter Abuse,100000,Vertcoin
+2018-11-19,EOS Lelego,Protocol Logic,Unknown,,EOS
+2018-11-12,AurumCoin,Market Manipulation,Risk Parameter Abuse,500000,AurumCoin
+2018-11-12,HireVibes AirDropsDAC,Key Compromise,Private Key Compromised,13600,EOS
+2018-11-11,EOS.WIN,Protocol Logic,Unknown,9180,EOS
+2018-11-10,EOSDice,Protocol Logic,Unknown,25100,EOS
+2018-11-08,FFGame,Protocol Logic,Unknown,7200,EOS
+2018-11-07,Gate,Frontend & Infrastructure,Supply Chain Attack,,"Bitcoin, Ethereum"
+2018-10-31,EOSCast,Token & Share Accounting,Infinite Mint,72912,EOS
+2018-10-26,EosRoyale,Protocol Logic,Unknown,60000,EOS
+2018-10-15,EOSBet,Token & Share Accounting,Donation Attack,338000,EOS
+2018-10-07,SpankChain,Reentrancy,Reentrancy,38000,Ethereum
+2018-09-14,NewDex,Token & Share Accounting,Infinite Mint,58000,EOS
+2018-09-14,Zaif,Key Compromise,Hot Wallet Key Compromised,60000000,Bitcoin
+2018-09-12,EOSBet,Token & Share Accounting,Infinite Mint,200000,EOS
+2018-07-26,KICKICO,Key Compromise,Hot Wallet Key Compromised,7700000,Ethereum
+2018-07-09,Bancor V3,Key Compromise,Hot Wallet Key Compromised,23500000,Ethereum
+2018-06-21,Bithumb,Frontend & Infrastructure,Key Leaked via Infrastructure,31000000,Ethereum
+2018-06-10,Coinrail,Access Control,Improper Access Control,37200000,Ethereum
+2018-06-02,ZenCash,Bridge & Cross-Chain,Forged Proof,550000,ZenCash
+2018-05-22,Verge,Protocol Logic,Withdrawal Logic Flaw,1750000,Verge
+2018-05-16,Bitcoin Gold,Bridge & Cross-Chain,Forged Proof,18000000,Bitcoin Gold
+2018-05-13,MonaCoin,Bridge & Cross-Chain,Forged Proof,90000,MonaCoin
+2018-04-24,SmartMesh,Token & Share Accounting,Infinite Mint,,Ethereum
+2018-04-22,BeautyChain,Token & Share Accounting,Infinite Mint,,Ethereum
+2018-04-21,Gate,Key Compromise,Private Key Compromised,235000000,
+2018-04-12,Coinsecure,Key Compromise,Private Key Compromised,3300000,Bitcoin
+2018-02-12,BitGrail,Access Control,Improper Access Control,170000000,Nano
+2018-01-26,Coincheck,Key Compromise,Hot Wallet Key Compromised,534000000,NEM
+2017-12-20,EtherDelta,Frontend & Infrastructure,DNS Hijack,1400000,Ethereum
+2017-12-19,Youbit,Key Compromise,Hot Wallet Key Compromised,,Bitcoin
+2017-12-08,NiceHash,Frontend & Infrastructure,Key Leaked via Infrastructure,64000000,Bitcoin
+2017-11-19,Tether,Key Compromise,Private Key Compromised,30950010,Bitcoin
+2017-11-09,Parity Multisig,Access Control,Uninitialized Proxy,150000000,Ethereum
+2017-07-18,CoinDash,Frontend & Infrastructure,Frontend Compromise,7700000,Ethereum
+2017-07-01,Parity,Access Control,Uninitialized Proxy,30000000,Ethereum
+2017-04-27,Yapizon,Key Compromise,Hot Wallet Key Compromised,4800000,Bitcoin
+2016-10-13,Bitcurex,Key Compromise,Hot Wallet Key Compromised,1500000,Bitcoin
+2016-08-02,Bitfinex,Key Compromise,Hot Wallet Key Compromised,72000000,Bitcoin
+2016-06-17,The DAO,Reentrancy,Reentrancy,60000000,Ethereum
+2016-05-14,Gatecoin,Access Control,Improper Access Control,2000000,Ethereum
+2016-04-07,ShapeShift,Key Compromise,Private Key Compromised,230000,Bitcoin
+2015-08-15,BTER,Key Compromise,Private Key Compromised,1650000,Bitcoin
+2015-05-22,Bitfinex,Key Compromise,Hot Wallet Key Compromised,329000,Bitcoin
+2015-02-18,KipCoin,Key Compromise,Private Key Compromised,728000,Bitcoin
+2015-02-17,BTER,Key Compromise,Private Key Compromised,1750000,Bitcoin
+2015-01-27,796,Access Control,Improper Access Control,270000,Bitcoin
+2015-01-05,Bitstamp,Social Engineering,Phishing,5200000,Bitcoin
+2014-07-29,Cryptsy,Key Compromise,Private Key Compromised,9580000,"Bitcoin, Litecoin"
+2014-07-13,Mintpal,Access Control,Improper Access Control,2000000,Bitcoin
+2014-03-04,Poloniex,Protocol Logic,Withdrawal Logic Flaw,50000,Bitcoin
+2014-03-02,Flexcoin,Protocol Logic,Withdrawal Logic Flaw,600000,Bitcoin
+2014-02-17,Picostocks,Key Compromise,Private Key Compromised,4430000,Bitcoin
+2014-02-07,Mt. Gox,Key Compromise,Private Key Compromised,470000000,Bitcoin
+2013-11-11,Bitcash,Access Control,Improper Access Control,100000,Bitcoin
+2013-10-23,Inputs.io,Frontend & Infrastructure,Key Leaked via Infrastructure,1200000,Bitcoin
+2012-09-05,Bitfloor,Frontend & Infrastructure,Key Stored Publicly,250000,Bitcoin
+2012-05-11,Bitcoinica,Frontend & Infrastructure,Key Leaked via Infrastructure,90000,Bitcoin
+2012-03-01,Bitcoinica,Frontend & Infrastructure,Key Leaked via Infrastructure,228000,Bitcoin
+2011-06-19,Mt. Gox,Access Control,Improper Access Control,8750000,Bitcoin
