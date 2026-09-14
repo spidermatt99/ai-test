@@ -1,0 +1,85 @@
+#+TITLE: Conversation Summary: Michael Wu (AMBR)
+#+AUTHOR: AI Assistant
+#+DATE: 2026-09-02
+
+* Summary
+The conversation features Michael Wu, founder of AMBR, discussing the company's major pivot from a prominent crypto finance firm (Amber Group) back to its original roots as an AI company. Michael details the challenges of surviving the crypto bear market and the FTX fallout, leading to his realization that he wanted to build AI agents. The discussion covers the structural split of Amber Group into two separate entities, AMBR's new product lineup featuring autonomous agents like "Mia", and Michael's profound vision for an "agentic economy" where AI works directly for users rather than platforms.
+
+*** Topics Discussed
+
+**** The Pivot from Crypto Back to AI
+- Amber originally started as "Amber AI" in 2017 but quickly pivoted to crypto finance in early 2018 to find product-market fit.
+- The company grew massively alongside the crypto boom but faced severe challenges during the 2022-2023 bear market, especially the FTX collapse which nearly bankrupted the industry.
+- By late 2023, after securing the company's survival, Michael felt unfulfilled and realized his true passion remained in AI.
+- While sitting in a hotel room during the US election in November 2024, despite crypto hitting new highs, his mind was entirely focused on AI agents.
+
+**** The Split of Amber Group
+- The shift in focus caused significant internal friction. Michael admitted that dealing with people was harder than building technology.
+- In May 2024, the company officially spun off. Amber Group retained the legacy crypto trading and hardware wallet business (led by a co-founder), while Michael took the helm of "AMBR", a separate entity focused purely on AI agents.
+- The two companies share overlapping shareholders (including Temasek) but operate independently. Some co-founders left entirely because they didn't align with the AI direction.
+
+**** The Vision for AI Agents
+- Michael defines an AI agent differently from the industry norm. Instead of just "Model + Harness", he insists on "Model + Harness + Purpose".
+- He believes current AI (like ChatGPT or coding agents) only serves a small niche. The real value is building agents that act on behalf of the consumer, not the platform.
+- AMBR's upcoming wealth management agent will sit on top of a user's various brokerage and crypto accounts to look out for their best interests, rather than trying to cross-sell platform products.
+
+**** AMBR's New Business Model
+- Michael no longer considers AMBR a crypto or fintech company. 
+- They are willing to cannibalize their high-margin premium wealth management business to offer AI agents that can scale to everyday users.
+- Products include "Mia", an AI marketing team agent currently servicing iClick customers, and upcoming agents focused on wealth management and market making.
+- They employ a "mixed model" approach (using AWS Bedrock, internal routing, and fine-tuned open-source models) and employ "experts in the loop" for high-stakes financial actions.
+
+**** Future Outlook
+- Michael predicts a massive economic shift, comparing the rise of AI agents to a new continent forming while the old one sinks.
+- He estimates he has a 24 to 36-month critical window to establish AMBR as a $100+ billion company in the AI agent space.
+- Because of this focus, he is not currently fundraising, valuing his time and focus as worth "$3 billion a month."
+
+*** My notes
+**** Meeting Details & Initial Queries
+- Date: 2026-08-31
+- Subject: Michael Wu, Amber
+- 1Stuer HK Amber AI windup petition?
+- Investor Inquiries?
+- Temasek relationship?
+- Relationship w/ partners? founders?
+**** Reflections & Company History
+- Most important moment in startup career
+- Step 1 again
+- Amber AI in HK
+- 2018 - Crypto 1st pivot right move; only asset class niche enough
+- FTX was big event for us - take credit to ensure survival
+- By late 23 - Realized further away from what want to do
+- Amber never got to where I want it to be
+- amber.AC in 23?
+- Co-founders left last year
+- Last year was difficult
+- Amber was too focused on one thing
+- DeFi was most fun
+**** AI Shift & Strategy
+- Agents in 24 - had to build own loops
+- LLM do smth w/ our software
+- Keynote: crypto for AI
+- Selfish drive of entrepreneur; macro trend is important
+- OpenClaw etc. now
+- Vertical agents; diffusion happening
+- Don't see AMBR as a crypto company anymore
+- Add AI agent - 1 choice, or use foundation grow freely
+- Agents = Model + Harness + Purpose (Who is it working for)
+- AI's Bedrock - finetune open models
+**** Business & Financial Outlook
+- Willing to derail revenue
+- Expect old business model to be destroyed
+- Q2 maybe profitable; seeing transition happen
+- MIA - started to service customers on iClick
+- New directions
+- Update Temasek - high single digits
+- Not focus to convince investors
+- Next 30 months crucial
+- Sept 1 relaunch MIA
+*** Newsworthy Quotes
+
+- *"I don't even see now we are going to be called AMBR, a crypto company anymore. I don't even see it as a FinTech. I don't even see it as a finance company."*
+- *"95% of all companies will be gone. They'll be gone in five to 10 years at most. They'll be replaced by new companies... dominated by AI agents. So it's no longer some trees falling, new trees growing. It's a whole continent sinking into the ocean. And a new continent happening."*
+- *"I think AI agents are model plus harness plus plus. This part is really important. What the AI agent is working for? Who is the AI agent working for?"*
+- *"One company can only have one dream."* (On parting ways with his co-founders over the company's direction).
+- *"Right now, my biggest resource or most experienced currency is my focus. Every month is $3 billion in my mind... if I now waste time in fundraising or do the legends of committing investors, that's $3 billion a month in my mind."*
