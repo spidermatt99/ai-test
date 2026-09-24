@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hyperliquid Historical Market Data</title>
+  <!-- TradingView Lightweight Charts CDN -->
+  <script src="https://unpkg.com/lightweight-charts@4.2.1/dist/lightweight-charts.standalone.production.js"></script>
+  <style>
+    :root {
+      --bg-primary: #0d1117;
+      --bg-secondary: #161b22;
+      --bg-tertiary: #21262d;
+      --border-color: #30363d;
+      --text-main: #f0f6fc;
+      --text-muted: #8b949e;
+      --accent: #58a6ff;
+      --accent-hover: #1f6feb;
+      --green: #238636;
+      --green-candle: #26a69a;
+      --red-candle: #ef5350;
+      --card-bg: #161b22;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-color);
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .header-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .header-title h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      border-radius: 9999px;
+      background-color: rgba(35, 134, 54, 0.2);
+      color: #3fb950;
+      border: 1px solid rgba(63, 185, 80, 0.3);
+    }
+
+    .badge-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: #3fb950;
+    }
+
+    /* Controls Panel */
+    .panel {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      align-items: flex-end;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    label {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    input[type="text"],
+    input[type="datetime-local"],
+    select {
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 9px 12px;
+      color: var(--text-main);
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s;
+      width: 100%;
+    }
+
+    input:focus, select:focus {
+      border-color: var(--accent);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 9px 16px;
+      border-radius: 6px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.15s ease-in-out;
+      color: #fff;
+    }
+
+    .btn-primary {
+      background: #238636;
+      border-color: rgba(240, 246, 252, 0.1);
+    }
+    .btn-primary:hover:not(:disabled) {
+      background: #2ea043;
+    }
+    .btn-primary:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .btn-secondary {
+      background: var(--bg-tertiary);
+      border-color: var(--border-color);
+      color: var(--text-main);
+    }
+    .btn-secondary:hover {
+      background: #30363d;
+    }
+
+    .btn-sm {
+      padding: 5px 10px;
+      font-size: 0.8rem;
+    }
+
+    .presets-row {
+      margin-top: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .presets-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .tag-btn {
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      border-radius: 4px;
+      padding: 3px 8px;
+      font-size: 0.75rem;
+      cursor: pointer;
+    }
+    .tag-btn:hover {
+      color: var(--text-main);
+      border-color: var(--accent);
+    }
+
+    /* Checkboxes */
+    .checkbox-group {
+      display: flex;
+      gap: 16px;
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border-color);
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .checkbox-label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.85rem;
+      color: var(--text-main);
+      cursor: pointer;
+    }
+
+    /* Tabs */
+    .tabs-bar {
+      display: flex;
+      gap: 8px;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 8px;
+      overflow-x: auto;
+    }
+
+    .tab-btn {
+      padding: 8px 16px;
+      border-radius: 6px;
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+
+    .tab-btn.active {
+      background: var(--bg-tertiary);
+      border-color: var(--border-color);
+      color: var(--accent);
+    }
+
+    /* Stat Cards */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+
+    .stat-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+
+    .stat-title {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .stat-value {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-top: 4px;
+      color: #fff;
+    }
+
+    /* Chart Container */
+    .chart-container-box {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .chart-tools {
+      display: flex;
+      gap: 8px;
+    }
+
+    #chart-element {
+      width: 100%;
+      height: 480px;
+      position: relative;
+    }
+
+    /* Table Section */
+    .table-container-box {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .table-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .table-scroll {
+      overflow-x: auto;
+      max-height: 500px;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      text-align: right;
+    }
+
+    th {
+      background: var(--bg-tertiary);
+      color: var(--text-muted);
+      padding: 10px 14px;
+      font-weight: 600;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    th:first-child, td:first-child {
+      text-align: left;
+    }
+
+    td {
+      padding: 8px 14px;
+      border-bottom: 1px solid rgba(48, 54, 61, 0.5);
+      color: var(--text-main);
+    }
+
+    tr:hover td {
+      background-color: rgba(255, 255, 255, 0.02);
+    }
+
+    .green-text {
+      color: var(--green-candle);
+    }
+
+    .red-text {
+      color: var(--red-candle);
+    }
+
+    /* Pagination */
+    .pagination {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .pagination-controls {
+      display: flex;
+      gap: 6px;
+    }
+
+    /* Notifications / Feedback */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-color);
+      padding: 12px 18px;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+      font-size: 0.9rem;
+      display: none;
+      z-index: 999;
+      animation: fadeIn 0.2s;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Spinner */
+    .spinner {
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="header-title">
+        <h1>Hyperliquid Market Data</h1>
+        <span class="badge">
+          <span class="badge-dot"></span>
+          Direct API (CORS Enabled)
+        </span>
+      </div>
+      <div style="font-size: 0.8rem; color: var(--text-muted);">
+        Max 5,000 candles per query
+      </div>
+    </header>
+
+    <!-- Query Panel -->
+    <div class="panel">
+      <form id="query-form">
+        <div class="form-grid">
+          <div class="form-group" style="grid-column: span 1;">
+            <label for="tickers-input">Ticker(s) (comma-separated)</label>
+            <input type="text" id="tickers-input" list="tickers-list" value="BTC, ETH" placeholder="e.g. BTC, ETH, SOL, kpepe:USDC" required>
+            <datalist id="tickers-list"></datalist>
+          </div>
+
+          <div class="form-group">
+            <label for="interval-select">Time Interval</label>
+            <select id="interval-select">
+              <option value="1m">1 minute (1m)</option>
+              <option value="3m">3 minutes (3m)</option>
+              <option value="5m">5 minutes (5m)</option>
+              <option value="15m">15 minutes (15m)</option>
+              <option value="30m">30 minutes (30m)</option>
+              <option value="1h" selected>1 hour (1h)</option>
+              <option value="2h">2 hours (2h)</option>
+              <option value="4h">4 hours (4h)</option>
+              <option value="8h">8 hours (8h)</option>
+              <option value="12h">12 hours (12h)</option>
+              <option value="1d">1 day (1d)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="timezone-select">Display Time Zone</label>
+            <select id="timezone-select">
+              <option value="local" selected>Local Browser Time</option>
+              <option value="UTC">UTC (Universal Time)</option>
+              <option value="America/New_York">US Eastern (ET)</option>
+              <option value="America/Chicago">US Central (CT)</option>
+              <option value="America/Denver">US Mountain (MT)</option>
+              <option value="America/Los_Angeles">US Pacific (PT)</option>
+              <option value="Europe/London">London (GMT/BST)</option>
+              <option value="Europe/Berlin">Central Europe (CET/CEST)</option>
+              <option value="Asia/Dubai">Dubai (GST)</option>
+              <option value="Asia/Singapore">Singapore / Hong Kong (SGT/HKT)</option>
+              <option value="Asia/Tokyo">Tokyo (JST)</option>
+              <option value="Australia/Sydney">Sydney (AEST/AEDT)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="start-date" id="start-date-label">Start Date & Time</label>
+            <input type="datetime-local" id="start-date">
+          </div>
+
+          <div class="form-group">
+            <label for="end-date" id="end-date-label">End Date & Time</label>
+            <input type="datetime-local" id="end-date">
+          </div>
+
+          <div class="form-group" style="justify-content: flex-end;">
+            <button type="submit" id="fetch-btn" class="btn btn-primary" style="height: 42px;">
+              <span id="btn-text">Fetch Market Data</span>
+              <span id="btn-spinner" class="spinner" style="display: none;"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Quick Presets -->
+        <div class="presets-row">
+          <span class="presets-label">Quick Ranges:</span>
+          <button type="button" class="tag-btn" onclick="applyPreset('24h')">Last 24 Hours</button>
+          <button type="button" class="tag-btn" onclick="applyPreset('7d')">Last 7 Days</button>
+          <button type="button" class="tag-btn" onclick="applyPreset('30d')">Last 30 Days</button>
+          <button type="button" class="tag-btn" onclick="applyPreset('max')">Max Available (5,000 candles)</button>
+        </div>
+
+        <!-- Columns Filter -->
+        <div class="checkbox-group">
+          <span class="presets-label">Data Columns:</span>
+          <label class="checkbox-label"><input type="checkbox" id="col-open" checked> Open</label>
+          <label class="checkbox-label"><input type="checkbox" id="col-high" checked> High</label>
+          <label class="checkbox-label"><input type="checkbox" id="col-low" checked> Low</label>
+          <label class="checkbox-label"><input type="checkbox" id="col-close" checked> Close</label>
+          <label class="checkbox-label"><input type="checkbox" id="col-volume" checked> Volume</label>
+          <label class="checkbox-label"><input type="checkbox" id="col-trades" checked> Trades</label>
+        </div>
+      </form>
+    </div>
+
+    <!-- Active Ticker Tabs -->
+    <div id="tabs-container" style="display: none;">
+      <div class="tabs-bar" id="ticker-tabs"></div>
+    </div>
+
+    <!-- Content Section (Chart & Table) -->
+    <div id="results-section" style="display: none; display: flex; flex-direction: column; gap: 20px;">
+      <!-- Stats Overview -->
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-title">Last Close Price</div>
+          <div class="stat-value" id="stat-last-close">-</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-title">Period High</div>
+          <div class="stat-value" id="stat-high">-</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-title">Period Low</div>
+          <div class="stat-value" id="stat-low">-</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-title">Total Volume</div>
+          <div class="stat-value" id="stat-volume">-</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-title">Candle Count</div>
+          <div class="stat-value" id="stat-count">-</div>
+        </div>
+      </div>
+
+      <!-- Data Summary & Insights (Hyperflow Spec) -->
+      <div class="panel" style="background: var(--bg-secondary); border-left: 4px solid var(--accent); padding: 18px 22px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <h2 style="font-size: 1.05rem; font-weight: 600; color: #fff;">Data Summary</h2>
+            <span id="summary-pct-badge" class="badge" style="font-size: 0.75rem;"></span>
+          </div>
+          <button type="button" class="btn btn-secondary btn-sm" onclick="copySummaryText()">Copy Summary</button>
+        </div>
+        <p id="data-summary-paragraph" style="font-size: 0.95rem; line-height: 1.6; color: var(--text-main); margin-bottom: 12px;"></p>
+        <div style="border-top: 1px solid var(--border-color); padding-top: 12px;">
+          <div style="font-size: 0.85rem; font-weight: 600; color: #fff; margin-bottom: 6px;">Newsworthy Insights</div>
+          <ul id="newsworthy-insights-list" style="margin-left: 20px; font-size: 0.88rem; line-height: 1.6; color: var(--text-muted);"></ul>
+        </div>
+      </div>
+
+      <!-- Interactive Chart -->
+      <div class="chart-container-box">
+        <div class="chart-header">
+          <div style="font-weight: 600; font-size: 1rem;" id="chart-title">Chart</div>
+          <div class="chart-tools">
+            <button type="button" class="btn btn-secondary btn-sm" id="btn-chart-mode" onclick="toggleChartType()">Switch to Line</button>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="fitChartContent()">Reset Zoom</button>
+          </div>
+        </div>
+        <div id="chart-element"></div>
+      </div>
+
+      <!-- Data Table -->
+      <div class="table-container-box">
+        <div class="table-header">
+          <div style="font-weight: 600; font-size: 1rem;">Candle Snapshot Table</div>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <button type="button" class="btn btn-secondary btn-sm" onclick="copyCSV()">Copy CSV</button>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="exportCSV()">Download CSV</button>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="copyMarkdown()">Copy Markdown</button>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="exportMarkdown()">Download Markdown</button>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="copyJSON()">Copy JSON</button>
+            <button type="button" class="btn btn-secondary btn-sm" onclick="exportJSON()">Download JSON</button>
+          </div>
+        </div>
+
+        <div class="table-scroll">
+          <table id="data-table">
+            <thead>
+              <tr id="table-head-row"></tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+
+        <div class="pagination">
+          <div id="pagination-info">Showing 0-0 of 0 candles</div>
+          <div class="pagination-controls">
+            <button type="button" class="btn btn-secondary btn-sm" id="btn-prev" onclick="prevPage()">Previous</button>
+            <button type="button" class="btn btn-secondary btn-sm" id="btn-next" onclick="nextPage()">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast">Message</div>
+
+  <script>
+    // State
+    let marketData = {}; // { ticker: [candles] }
+    let activeTicker = null;
+    let chart = null;
+    let candleSeries = null;
+    let volumeSeries = null;
+    let lineSeries = null;
+    let chartType = 'candle'; // 'candle' | 'line'
+    let currentPage = 1;
+    const rowsPerPage = 100;
+    let currentStartTimeMs = null;
+    let currentEndTimeMs = null;
+
+    // Interval durations in milliseconds
+    const INTERVAL_MS = {
+      '1m': 60 * 1000,
+      '3m': 3 * 60 * 1000,
+      '5m': 5 * 60 * 1000,
+      '15m': 15 * 60 * 1000,
+      '30m': 30 * 60 * 1000,
+      '1h': 60 * 60 * 1000,
+      '2h': 2 * 60 * 60 * 1000,
+      '4h': 4 * 60 * 60 * 1000,
+      '8h': 8 * 60 * 60 * 1000,
+      '12h': 12 * 60 * 60 * 1000,
+      '1d': 24 * 60 * 60 * 1000
+    };
+
+    // Timezone Helpers
+    function getTimezoneValue() {
+      const el = document.getElementById('timezone-select');
+      return el ? el.value : 'local';
+    }
+
+    function getTimezoneShortLabel() {
+      const tz = getTimezoneValue();
+      if (tz === 'local') {
+        const userTz = Intl.DateTimeFormat().resolvedOptions().timeZone || 'Local';
+        return `Local (${userTz})`;
+      }
+      if (tz === 'UTC') return 'UTC';
+      const labelMap = {
+        'America/New_York': 'ET',
+        'America/Chicago': 'CT',
+        'America/Denver': 'MT',
+        'America/Los_Angeles': 'PT',
+        'Europe/London': 'London',
+        'Europe/Berlin': 'CET',
+        'Asia/Dubai': 'GST',
+        'Asia/Singapore': 'SGT',
+        'Asia/Tokyo': 'JST',
+        'Australia/Sydney': 'AEST'
+      };
+      return labelMap[tz] || tz;
+    }
+
+    function formatTimestamp(timestampMs, includeSeconds = true) {
+      const tz = getTimezoneValue();
+      const d = new Date(timestampMs);
+      const options = {
+        timeZone: tz === 'local' ? undefined : tz,
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: includeSeconds ? '2-digit' : undefined,
+        hour12: false
+      };
+      return new Intl.DateTimeFormat('sv-SE', options).format(d);
+    }
+
+    function formatDateForInput(date, tz) {
+      const options = {
+        timeZone: tz === 'local' ? undefined : tz,
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      };
+      const parts = new Intl.DateTimeFormat('en-US', options).formatToParts(date);
+      const p = {};
+      parts.forEach(x => p[x.type] = x.value);
+      const hr = p.hour === '24' ? '00' : p.hour;
+      return `${p.year}-${p.month}-${p.day}T${hr}:${p.minute}`;
+    }
+
+    function parseInputDatetime(inputStr, tz) {
+      if (!inputStr) return null;
+      if (tz === 'local') return new Date(inputStr).getTime();
+      if (tz === 'UTC') return new Date(inputStr + 'Z').getTime();
+      const [datePart, timePart] = inputStr.split('T');
+      if (!datePart || !timePart) return new Date(inputStr).getTime();
+      const [y, m, d] = datePart.split('-').map(Number);
+      const [hr, min] = timePart.split(':').map(Number);
+      const utcGuess = new Date(Date.UTC(y, m - 1, d, hr, min)).getTime();
+      const formatInTz = (t) => {
+        const parts = new Intl.DateTimeFormat('en-US', {
+          timeZone: tz, year: 'numeric', month: 'numeric', day: 'numeric',
+          hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false
+        }).formatToParts(new Date(t));
+        const p = {};
+        parts.forEach(x => p[x.type] = x.value);
+        return Date.UTC(p.year, p.month - 1, p.day, p.hour === '24' ? 0 : p.hour, p.minute, p.second);
+      };
+      const offset = formatInTz(utcGuess) - utcGuess;
+      return utcGuess - offset;
+    }
+
+    function updateTimezoneUI() {
+      const tz = getTimezoneValue();
+      const tzLabel = getTimezoneShortLabel();
+
+      if (currentStartTimeMs && currentEndTimeMs) {
+        document.getElementById('start-date').value = formatDateForInput(new Date(currentStartTimeMs), tz);
+        document.getElementById('end-date').value = formatDateForInput(new Date(currentEndTimeMs), tz);
+      }
+
+      document.getElementById('start-date-label').innerText = `Start Date & Time (${tzLabel})`;
+      document.getElementById('end-date-label').innerText = `End Date & Time (${tzLabel})`;
+
+      if (marketData && Object.keys(marketData).length > 0) {
+        updateStats();
+        renderTable();
+      }
+    }
+
+    // Initialize
+    window.addEventListener('DOMContentLoaded', async () => {
+      initDates();
+      setupEventListeners();
+      initChart();
+      await fetchAvailableTickers();
+      // Auto fetch default tickers
+      fetchData();
+    });
+
+    function initDates() {
+      const userTz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      if (userTz) {
+        const opt = document.querySelector('#timezone-select option[value="local"]');
+        if (opt) opt.text = `Local Browser Time (${userTz})`;
+      }
+      const tzLabel = getTimezoneShortLabel();
+      document.getElementById('start-date-label').innerText = `Start Date & Time (${tzLabel})`;
+      document.getElementById('end-date-label').innerText = `End Date & Time (${tzLabel})`;
+      applyPreset('7d');
+    }
+
+    function setupEventListeners() {
+      document.getElementById('query-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        fetchData();
+      });
+
+      document.getElementById('timezone-select').addEventListener('change', () => {
+        updateTimezoneUI();
+      });
+
+      // Update table when column selection changes
+      ['col-open', 'col-high', 'col-low', 'col-close', 'col-volume', 'col-trades'].forEach(id => {
+        document.getElementById(id).addEventListener('change', () => {
+          renderTable();
+        });
+      });
+
+      window.addEventListener('resize', () => {
+        if (chart) {
+          const container = document.getElementById('chart-element');
+          chart.applyOptions({ width: container.clientWidth });
+        }
+      });
+    }
+
+    async function fetchAvailableTickers() {
+      try {
+        const res = await fetch('https://api.hyperliquid.xyz/info', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ type: 'meta' })
+        });
+        const data = await res.json();
+        if (data && data.universe) {
+          const datalist = document.getElementById('tickers-list');
+          datalist.innerHTML = '';
+          data.universe.forEach(coin => {
+            const opt = document.createElement('option');
+            opt.value = coin.name;
+            datalist.appendChild(opt);
+          });
+        }
+      } catch (err) {
+        console.warn('Could not populate tickers datalist:', err);
+      }
+    }
+
+    function applyPreset(preset) {
+      const tz = getTimezoneValue();
+      const now = new Date();
+      currentEndTimeMs = now.getTime();
+
+      const interval = document.getElementById('interval-select').value;
+      const intervalMs = INTERVAL_MS[interval] || 3600000;
+
+      if (preset === '24h') {
+        currentStartTimeMs = now.getTime() - 24 * 60 * 60 * 1000;
+      } else if (preset === '7d') {
+        currentStartTimeMs = now.getTime() - 7 * 24 * 60 * 60 * 1000;
+      } else if (preset === '30d') {
+        currentStartTimeMs = now.getTime() - 30 * 24 * 60 * 60 * 1000;
+      } else if (preset === 'max') {
+        currentStartTimeMs = now.getTime() - 5000 * intervalMs;
+      }
+
+      document.getElementById('start-date').value = formatDateForInput(new Date(currentStartTimeMs), tz);
+      document.getElementById('end-date').value = formatDateForInput(new Date(currentEndTimeMs), tz);
+    }
+
+    async function fetchData() {
+      const tickersInput = document.getElementById('tickers-input').value.trim();
+      if (!tickersInput) {
+        showToast('Please enter at least one ticker.');
+        return;
+      }
+
+      const tickers = tickersInput.split(',').map(t => {
+        t = t.trim();
+        if (t.includes(':')) {
+          const parts = t.split(':');
+          return `${parts[0].toLowerCase()}:${parts[1].toUpperCase()}`;
+        }
+        return t.toUpperCase();
+      }).filter(t => t.length > 0);
+
+      const interval = document.getElementById('interval-select').value;
+      const tz = getTimezoneValue();
+      const startVal = document.getElementById('start-date').value;
+      const endVal = document.getElementById('end-date').value;
+
+      let startTimeMs = parseInputDatetime(startVal, tz);
+      let endTimeMs = parseInputDatetime(endVal, tz);
+
+      if (startTimeMs === null) startTimeMs = 0;
+      if (endTimeMs === null) endTimeMs = Date.now();
+
+      currentStartTimeMs = startTimeMs;
+      currentEndTimeMs = endTimeMs;
+
+      if (startTimeMs >= endTimeMs) {
+        showToast('Start date must be earlier than end date.');
+        return;
+      }
+
+      setLoading(true);
+      marketData = {};
+
+      try {
+        for (const ticker of tickers) {
+          const candles = await fetchCandles(ticker, interval, startTimeMs, endTimeMs);
+          if (candles && candles.length > 0) {
+            // Sort ascending by time
+            candles.sort((a, b) => a.t - b.t);
+            marketData[ticker] = candles;
+          } else {
+            console.warn(`No candles returned for ${ticker}`);
+          }
+        }
+
+        const validTickers = Object.keys(marketData);
+        if (validTickers.length === 0) {
+          showToast('No data found for the given tickers/timeframe.');
+          document.getElementById('results-section').style.display = 'none';
+          document.getElementById('tabs-container').style.display = 'none';
+          return;
+        }
+
+        buildTabs(validTickers);
+        setActiveTicker(validTickers[0]);
+        document.getElementById('results-section').style.display = 'flex';
+        showToast(`Fetched data for ${validTickers.join(', ')}`);
+      } catch (err) {
+        console.error('Fetch error:', err);
+        showToast('Error fetching data: ' + err.message);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    async function fetchCandles(coin, interval, startTimeMs, endTimeMs) {
+      const url = "https://api.hyperliquid.xyz/info";
+      const payload = {
+        type: "candleSnapshot",
+        req: {
+          coin: coin,
+          interval: interval,
+          startTime: startTimeMs,
+          endTime: endTimeMs
+        }
+      };
+
+      const res = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+
+      if (!res.ok) {
+        throw new Error(`API error HTTP ${res.status}`);
+      }
+      return await res.json();
+    }
+
+    function buildTabs(tickers) {
+      const container = document.getElementById('tabs-container');
+      const tabsBar = document.getElementById('ticker-tabs');
+      tabsBar.innerHTML = '';
+
+      if (tickers.length <= 1) {
+        container.style.display = 'none';
+        return;
+      }
+
+      container.style.display = 'block';
+      tickers.forEach(t => {
+        const btn = document.createElement('button');
+        btn.className = `tab-btn ${t === activeTicker ? 'active' : ''}`;
+        btn.innerText = t;
+        btn.onclick = () => setActiveTicker(t);
+        tabsBar.appendChild(btn);
+      });
+    }
+
+    function setActiveTicker(ticker) {
+      activeTicker = ticker;
+      currentPage = 1;
+
+      // Update tab active state
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.innerText === ticker);
+      });
+
+      document.getElementById('chart-title').innerText = `${activeTicker} - ${document.getElementById('interval-select').value}`;
+
+      updateStats();
+      updateChart();
+      renderTable();
+    }
+
+    function updateStats() {
+      const candles = marketData[activeTicker] || [];
+      if (candles.length === 0) return;
+
+      const first = candles[0];
+      const latest = candles[candles.length - 1];
+      const firstOpen = parseFloat(first.o);
+      const latestClose = parseFloat(latest.c);
+      const interval = document.getElementById('interval-select').value;
+
+      let high = -Infinity;
+      let low = Infinity;
+      let totalVol = 0;
+      let peakVolCandle = candles[0];
+      let maxMoveCandle = candles[0];
+      let maxMovePct = 0;
+
+      candles.forEach(c => {
+        const o = parseFloat(c.o);
+        const h = parseFloat(c.h);
+        const l = parseFloat(c.l);
+        const cl = parseFloat(c.c);
+        const v = parseFloat(c.v);
+
+        if (h > high) high = h;
+        if (l < low) low = l;
+        totalVol += v;
+
+        if (v > parseFloat(peakVolCandle.v)) {
+          peakVolCandle = c;
+        }
+
+        const movePct = Math.abs((cl - o) / o) * 100;
+        if (movePct > maxMovePct) {
+          maxMovePct = movePct;
+          maxMoveCandle = c;
+        }
+      });
+
+      const formatPrice = (val) => {
+        if (val >= 1000) return '$' + val.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        if (val >= 1) return '$' + val.toLocaleString(undefined, { minimumFractionDigits: 4, maximumFractionDigits: 4 });
+        return '$' + val.toLocaleString(undefined, { minimumFractionDigits: 6, maximumFractionDigits: 6 });
+      };
+
+      const formatDateWithTz = (ms) => `${formatTimestamp(ms, false)} (${getTimezoneShortLabel()})`;
+
+      // Stat cards
+      document.getElementById('stat-last-close').innerText = formatPrice(latestClose);
+      document.getElementById('stat-high').innerText = formatPrice(high);
+      document.getElementById('stat-low').innerText = formatPrice(low);
+      document.getElementById('stat-volume').innerText = totalVol.toLocaleString(undefined, { maximumFractionDigits: 2 });
+      document.getElementById('stat-count').innerText = candles.length.toLocaleString();
+
+      // Percent change calculation
+      const pctChange = ((latestClose - firstOpen) / firstOpen) * 100;
+      const sign = pctChange >= 0 ? '+' : '';
+      const pctStr = `${sign}${pctChange.toFixed(2)}%`;
+
+      // Summary paragraph (Hyperflow format)
+      const summaryText = `This report covers the ${interval} interval data for ${activeTicker} on Hyperliquid. The token opened at ${formatPrice(firstOpen)} and is currently trading at ${formatPrice(latestClose)}, representing a ${pctStr} change over the period. The token saw a period high of ${formatPrice(high)} and a low of ${formatPrice(low)}.`;
+      document.getElementById('data-summary-paragraph').innerText = summaryText;
+
+      // Summary badge
+      const badge = document.getElementById('summary-pct-badge');
+      badge.innerText = pctStr;
+      if (pctChange >= 0) {
+        badge.style.backgroundColor = 'rgba(35, 134, 54, 0.2)';
+        badge.style.color = '#3fb950';
+        badge.style.borderColor = 'rgba(63, 185, 80, 0.3)';
+      } else {
+        badge.style.backgroundColor = 'rgba(239, 83, 80, 0.2)';
+        badge.style.color = '#f85149';
+        badge.style.borderColor = 'rgba(248, 81, 73, 0.3)';
+      }
+
+      // Newsworthy insights list
+      const avgVol = totalVol / candles.length;
+      const peakVol = parseFloat(peakVolCandle.v);
+      const volMultiplier = avgVol > 0 ? (peakVol / avgVol).toFixed(1) : '1.0';
+
+      const insightsHtml = `
+        <li style="margin-bottom: 6px;">
+          <strong style="color: #c9d1d9;">${pctChange >= 0 ? 'Upward Trend' : 'Significant Correction'}:</strong> 
+          Over this timeframe, ${activeTicker} recorded a ${pctChange >= 0 ? 'gain' : 'decline'} of ${Math.abs(pctChange).toFixed(2)}%, establishing a range between ${formatPrice(low)} and ${formatPrice(high)}.
+        </li>
+        <li style="margin-bottom: 6px;">
+          <strong style="color: #c9d1d9;">Volume Peak:</strong> 
+          The highest trading volume of ${peakVol.toLocaleString(undefined, {maximumFractionDigits: 2})} occurred on ${formatDateWithTz(peakVolCandle.t)} (${volMultiplier}x the period average of ${avgVol.toLocaleString(undefined, {maximumFractionDigits: 2})}).
+        </li>
+        <li>
+          <strong style="color: #c9d1d9;">Largest Single-Candle Move:</strong> 
+          The widest candle change was ${maxMovePct.toFixed(2)}% recorded on ${formatDateWithTz(maxMoveCandle.t)} (Open: ${formatPrice(parseFloat(maxMoveCandle.o))} → Close: ${formatPrice(parseFloat(maxMoveCandle.c))}).
+        </li>
+      `;
+      document.getElementById('newsworthy-insights-list').innerHTML = insightsHtml;
+    }
+
+    async function copySummaryText() {
+      const summaryP = document.getElementById('data-summary-paragraph').innerText;
+      const insightsList = Array.from(document.querySelectorAll('#newsworthy-insights-list li'))
+        .map(li => '• ' + li.innerText.replace(/\s+/g, ' ').trim())
+        .join('\n');
+
+      const fullSummary = `Data Summary\n${summaryP}\n\nNewsworthy Insights\n${insightsList}`;
+      await copyToClipboard(fullSummary, 'Copied Data Summary to clipboard!');
+    }
+
+    /* TradingView Chart */
+    function initChart() {
+      const chartElem = document.getElementById('chart-element');
+      chart = LightweightCharts.createChart(chartElem, {
+        width: chartElem.clientWidth,
+        height: 480,
+        layout: {
+          background: { color: '#161b22' },
+          textColor: '#8b949e',
+        },
+        grid: {
+          vertLines: { color: '#21262d' },
+          horzLines: { color: '#21262d' },
+        },
+        crosshair: {
+          mode: LightweightCharts.CrosshairMode.Normal,
+        },
+        timeScale: {
+          borderColor: '#30363d',
+          timeVisible: true,
+          secondsVisible: false,
+        },
+        rightPriceScale: {
+          borderColor: '#30363d',
+        }
+      });
+
+      candleSeries = chart.addCandlestickSeries({
+        upColor: '#26a69a',
+        downColor: '#ef5350',
+        borderVisible: false,
+        wickUpColor: '#26a69a',
+        wickDownColor: '#ef5350',
+      });
+
+      volumeSeries = chart.addHistogramSeries({
+        color: '#26a69a',
+        priceFormat: {
+          type: 'volume',
+        },
+        priceScaleId: '',
+        scaleMargins: {
+          top: 0.8,
+          bottom: 0,
+        },
+      });
+
+      lineSeries = chart.addLineSeries({
+        color: '#58a6ff',
+        lineWidth: 2,
+        visible: false,
+      });
+    }
+
+    function updateChart() {
+      const candles = marketData[activeTicker] || [];
+      if (!chart || candles.length === 0) return;
+
+      const candleData = [];
+      const volumeData = [];
+      const lineData = [];
+
+      candles.forEach(c => {
+        const timeSec = Math.floor(c.t / 1000);
+        const open = parseFloat(c.o);
+        const high = parseFloat(c.h);
+        const low = parseFloat(c.l);
+        const close = parseFloat(c.c);
+        const volume = parseFloat(c.v);
+
+        candleData.push({ time: timeSec, open, high, low, close });
+        lineData.push({ time: timeSec, value: close });
+        volumeData.push({
+          time: timeSec,
+          value: volume,
+          color: close >= open ? 'rgba(38, 166, 154, 0.4)' : 'rgba(239, 83, 80, 0.4)'
+        });
+      });
+
+      candleSeries.setData(candleData);
+      lineSeries.setData(lineData);
+      volumeSeries.setData(volumeData);
+      chart.timeScale().fitContent();
+    }
+
+    function toggleChartType() {
+      if (chartType === 'candle') {
+        chartType = 'line';
+        candleSeries.applyOptions({ visible: false });
+        lineSeries.applyOptions({ visible: true });
+        document.getElementById('btn-chart-mode').innerText = 'Switch to Candles';
+      } else {
+        chartType = 'candle';
+        candleSeries.applyOptions({ visible: true });
+        lineSeries.applyOptions({ visible: false });
+        document.getElementById('btn-chart-mode').innerText = 'Switch to Line';
+      }
+    }
+
+    function fitChartContent() {
+      if (chart) chart.timeScale().fitContent();
+    }
+
+    /* Table & Pagination */
+    function getSelectedColumns() {
+      const tzLabel = getTimezoneShortLabel();
+      const cols = [{ key: 'time', label: `Time (${tzLabel})` }];
+      if (document.getElementById('col-open').checked) cols.push({ key: 'o', label: 'Open' });
+      if (document.getElementById('col-high').checked) cols.push({ key: 'h', label: 'High' });
+      if (document.getElementById('col-low').checked) cols.push({ key: 'l', label: 'Low' });
+      if (document.getElementById('col-close').checked) cols.push({ key: 'c', label: 'Close' });
+      if (document.getElementById('col-volume').checked) cols.push({ key: 'v', label: 'Volume' });
+      if (document.getElementById('col-trades').checked) cols.push({ key: 'n', label: 'Trades' });
+      return cols;
+    }
+
+    function renderTable() {
+      const candles = marketData[activeTicker] || [];
+      const cols = getSelectedColumns();
+
+      // Render Header
+      const headRow = document.getElementById('table-head-row');
+      headRow.innerHTML = '';
+      cols.forEach(col => {
+        const th = document.createElement('th');
+        th.innerText = col.label;
+        headRow.appendChild(th);
+      });
+
+      // Pagination slice (display newest first in table)
+      const reversed = [...candles].reverse();
+      const total = reversed.length;
+      const totalPages = Math.ceil(total / rowsPerPage) || 1;
+      if (currentPage > totalPages) currentPage = totalPages;
+
+      const startIdx = (currentPage - 1) * rowsPerPage;
+      const endIdx = Math.min(startIdx + rowsPerPage, total);
+      const pageData = reversed.slice(startIdx, endIdx);
+
+      const tbody = document.getElementById('table-body');
+      tbody.innerHTML = '';
+
+      pageData.forEach(c => {
+        const tr = document.createElement('tr');
+        const isUp = parseFloat(c.c) >= parseFloat(c.o);
+        const colorClass = isUp ? 'green-text' : 'red-text';
+
+        cols.forEach(col => {
+          const td = document.createElement('td');
+          if (col.key === 'time') {
+            td.innerText = formatTimestamp(c.t);
+          } else if (col.key === 'c') {
+            td.className = colorClass;
+            td.innerText = c.c;
+          } else {
+            td.innerText = c[col.key] !== undefined ? c[col.key] : '-';
+          }
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+
+      document.getElementById('pagination-info').innerText =
+        total > 0 ? `Showing ${startIdx + 1}-${endIdx} of ${total} candles (Newest First)` : 'No candles';
+
+      document.getElementById('btn-prev').disabled = currentPage <= 1;
+      document.getElementById('btn-next').disabled = currentPage >= totalPages;
+    }
+
+    function prevPage() {
+      if (currentPage > 1) {
+        currentPage--;
+        renderTable();
+      }
+    }
+
+    function nextPage() {
+      const candles = marketData[activeTicker] || [];
+      const totalPages = Math.ceil(candles.length / rowsPerPage);
+      if (currentPage < totalPages) {
+        currentPage++;
+        renderTable();
+      }
+    }
+
+    /* Exports & Clipboard */
+    function generateCSVText() {
+      const candles = marketData[activeTicker];
+      if (!candles || candles.length === 0) return null;
+
+      const cols = getSelectedColumns();
+      let csv = cols.map(c => c.label).join(',') + '\n';
+
+      candles.forEach(c => {
+        const row = cols.map(col => {
+          if (col.key === 'time') {
+            return formatTimestamp(c.t);
+          }
+          return c[col.key] !== undefined ? c[col.key] : '';
+        });
+        csv += row.join(',') + '\n';
+      });
+
+      return csv;
+    }
+
+    function exportCSV() {
+      const csv = generateCSVText();
+      if (!csv) {
+        showToast('No data to export.');
+        return;
+      }
+
+      const interval = document.getElementById('interval-select').value;
+      const filename = `${activeTicker.replace(':', '_')}_data_${interval}.csv`;
+      downloadBlob(csv, filename, 'text/csv;charset=utf-8;');
+      showToast(`Exported ${filename}`);
+    }
+
+    async function copyCSV() {
+      const csv = generateCSVText();
+      if (!csv) {
+        showToast('No data to copy.');
+        return;
+      }
+
+      await copyToClipboard(csv, `Copied CSV text (${marketData[activeTicker].length} rows) to clipboard!`);
+    }
+
+    function generateMarkdownText(limit = null) {
+      const candles = marketData[activeTicker];
+      if (!candles || candles.length === 0) return null;
+
+      const summaryP = document.getElementById('data-summary-paragraph').innerText;
+      const insightsList = Array.from(document.querySelectorAll('#newsworthy-insights-list li'))
+        .map(li => '• ' + li.innerText.replace(/\s+/g, ' ').trim())
+        .join('\n');
+
+      let md = `# Market Data Report: ${activeTicker}\n\n`;
+      md += `## Data Summary\n${summaryP}\n\n`;
+      md += `## Newsworthy Insights\n${insightsList}\n\n`;
+      md += `## Full Historical Data (${activeTicker})\n`;
+
+      const cols = getSelectedColumns();
+      md += '| ' + cols.map(c => c.label).join(' | ') + ' |\n';
+      md += '|' + cols.map(() => '---').join('|') + '|\n';
+
+      const exportCandles = limit ? candles.slice(-limit) : candles;
+      exportCandles.forEach(c => {
+        const row = cols.map(col => {
+          if (col.key === 'time') {
+            return formatTimestamp(c.t);
+          }
+          return c[col.key] !== undefined ? c[col.key] : '';
+        });
+        md += '| ' + row.join(' | ') + ' |\n';
+      });
+
+      return md;
+    }
+
+    async function copyMarkdown() {
+      const md = generateMarkdownText(500);
+      if (!md) {
+        showToast('No data to copy.');
+        return;
+      }
+
+      const count = Math.min(marketData[activeTicker].length, 500);
+      await copyToClipboard(md, `Copied markdown table (${count} rows) to clipboard!`);
+    }
+
+    function exportMarkdown() {
+      const md = generateMarkdownText();
+      if (!md) {
+        showToast('No data to export.');
+        return;
+      }
+
+      const interval = document.getElementById('interval-select').value;
+      const filename = `${activeTicker.replace(':', '_')}_data_${interval}.md`;
+      downloadBlob(md, filename, 'text/markdown;charset=utf-8;');
+      showToast(`Exported ${filename}`);
+    }
+
+    async function copyJSON() {
+      const candles = marketData[activeTicker];
+      if (!candles || candles.length === 0) {
+        showToast('No data to copy.');
+        return;
+      }
+
+      const jsonStr = JSON.stringify(candles, null, 2);
+      await copyToClipboard(jsonStr, `Copied JSON data (${candles.length} candles) to clipboard!`);
+    }
+
+    function exportJSON() {
+      const candles = marketData[activeTicker];
+      if (!candles || candles.length === 0) {
+        showToast('No data to export.');
+        return;
+      }
+
+      const interval = document.getElementById('interval-select').value;
+      const filename = `${activeTicker.replace(':', '_')}_data_${interval}.json`;
+      downloadBlob(JSON.stringify(candles, null, 2), filename, 'application/json');
+      showToast(`Exported ${filename}`);
+    }
+
+    async function copyToClipboard(text, successMsg) {
+      if (navigator.clipboard && window.isSecureContext) {
+        try {
+          await navigator.clipboard.writeText(text);
+          showToast(successMsg);
+          return;
+        } catch (err) {
+          console.warn('navigator.clipboard failed, trying fallback:', err);
+        }
+      }
+      try {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        textarea.style.position = 'fixed';
+        textarea.style.left = '-999999px';
+        textarea.style.top = '-999999px';
+        document.body.appendChild(textarea);
+        textarea.focus();
+        textarea.select();
+        const successful = document.execCommand('copy');
+        document.body.removeChild(textarea);
+        if (successful) {
+          showToast(successMsg);
+        } else {
+          showToast('Failed to copy to clipboard');
+        }
+      } catch (err) {
+        console.error('Clipboard copy failed:', err);
+        showToast('Failed to copy to clipboard');
+      }
+    }
+
+    function downloadBlob(content, filename, contentType) {
+      const blob = new Blob([content], { type: contentType });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    function setLoading(isLoading) {
+      const btn = document.getElementById('fetch-btn');
+      const text = document.getElementById('btn-text');
+      const spinner = document.getElementById('btn-spinner');
+
+      btn.disabled = isLoading;
+      text.style.display = isLoading ? 'none' : 'inline';
+      spinner.style.display = isLoading ? 'inline-block' : 'none';
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      toast.innerText = msg;
+      toast.style.display = 'block';
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 3500);
+    }
+  </script>
+</body>
+</html>
