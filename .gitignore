@@ -1,2 +1,4 @@
 .venv/
 venv/
+.venv-before-uv/
+__pycache__/

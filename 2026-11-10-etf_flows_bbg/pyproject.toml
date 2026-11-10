@@ -1,0 +1,21 @@
+[project]
+name = "etf-flows-bbg"
+version = "0.1.0"
+description = "Bloomberg ETF fund flow exports"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "blpapi==3.26.9.1",
+    "pandas==3.1.1",
+    "xbbg==1.8.1",
+]
+
+[tool.uv]
+package = false
+
+[[tool.uv.index]]
+name = "bloomberg"
+url = "https://blpapi.bloomberg.com/repository/releases/python/simple/"
+explicit = true
+
+[tool.uv.sources]
+blpapi = { index = "bloomberg" }
