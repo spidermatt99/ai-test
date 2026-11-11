@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img"><title>Anthropic active perpetuals: common-period comparison</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="Arial,sans-serif" fill="#172033">
+<text x="100" y="30" font-size="20" font-weight="bold">Anthropic active perpetuals: common-period comparison</text>
+<text x="100" y="52" font-size="12">Daily trade closes; last day partial. No mark-price history. Hover points for details.</text>
+<path d="M 100 445.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="449.0" text-anchor="end" font-size="12">1,463</text>
+<path d="M 100 374.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="378.0" text-anchor="end" font-size="12">1,594</text>
+<path d="M 100 303.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="307.0" text-anchor="end" font-size="12">1,725</text>
+<path d="M 100 232.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="236.0" text-anchor="end" font-size="12">1,856</text>
+<path d="M 100 161.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="165.0" text-anchor="end" font-size="12">1,988</text>
+<path d="M 100 90.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="94.0" text-anchor="end" font-size="12">2,119</text>
+<text x="100.0" y="468" text-anchor="middle" font-size="12">2026-10-27</text>
+<text x="293.0" y="468" text-anchor="middle" font-size="12">2026-10-30</text>
+<text x="486.0" y="468" text-anchor="middle" font-size="12">2026-11-02</text>
+<text x="679.0" y="468" text-anchor="middle" font-size="12">2026-11-05</text>
+<text x="872.0" y="468" text-anchor="middle" font-size="12">2026-11-08</text>
+<text x="1065.0" y="468" text-anchor="middle" font-size="12">2026-11-11</text>
+<text x="100" y="74" fill="#2563eb" font-size="13">XYZ</text>
+<polyline points="100.00,129.00 164.33,124.35 228.67,180.55 293.00,166.43 357.33,189.26 421.67,178.56 486.00,228.21 550.33,174.29 614.67,124.73 679.00,215.23 743.33,343.81 807.67,310.36 872.00,308.35 936.33,267.34 1000.67,287.43 1065.00,249.72" fill="none" stroke="#2563eb" stroke-width="2.3"/>
+<circle cx="100.00" cy="129.00" r="3" fill="#2563eb"><title>xyz:ANT | 2026-10-27 | close 116.960 | normalized valuation $2,046.61B</title></circle>
+<circle cx="164.33" cy="124.35" r="3" fill="#2563eb"><title>xyz:ANT | 2026-10-28 | close 117.450 | normalized valuation $2,055.18B</title></circle>
+<circle cx="228.67" cy="180.55" r="3" fill="#2563eb"><title>xyz:ANT | 2026-10-29 | close 111.520 | normalized valuation $1,951.41B</title></circle>
+<circle cx="293.00" cy="166.43" r="3" fill="#2563eb"><title>xyz:ANT | 2026-10-30 | close 113.010 | normalized valuation $1,977.49B</title></circle>
+<circle cx="357.33" cy="189.26" r="3" fill="#2563eb"><title>xyz:ANT | 2026-10-31 | close 110.600 | normalized valuation $1,935.32B</title></circle>
+<circle cx="421.67" cy="178.56" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-01 | close 111.730 | normalized valuation $1,955.09B</title></circle>
+<circle cx="486.00" cy="228.21" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-02 | close 106.490 | normalized valuation $1,863.40B</title></circle>
+<circle cx="550.33" cy="174.29" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-03 | close 112.180 | normalized valuation $1,962.96B</title></circle>
+<circle cx="614.67" cy="124.73" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-04 | close 117.410 | normalized valuation $2,054.48B</title></circle>
+<circle cx="679.00" cy="215.23" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-05 | close 107.860 | normalized valuation $1,887.37B</title></circle>
+<circle cx="743.33" cy="343.81" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-06 | close 94.290 | normalized valuation $1,649.92B</title></circle>
+<circle cx="807.67" cy="310.36" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-07 | close 97.820 | normalized valuation $1,711.69B</title></circle>
+<circle cx="872.00" cy="308.35" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-08 | close 98.032 | normalized valuation $1,715.40B</title></circle>
+<circle cx="936.33" cy="267.34" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-09 | close 102.360 | normalized valuation $1,791.13B</title></circle>
+<circle cx="1000.67" cy="287.43" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-10 | close 100.240 | normalized valuation $1,754.03B</title></circle>
+<circle cx="1065.00" cy="249.72" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-11 | close 104.220 | normalized valuation $1,823.68B</title></circle>
+<text x="320" y="74" fill="#ea580c" font-size="13">Paragon</text>
+<polyline points="100.00,146.62 164.33,125.49 228.67,180.45 293.00,165.01 357.33,179.12 421.67,177.32 486.00,218.45 550.33,178.18 614.67,135.16 679.00,214.66 743.33,351.59 807.67,313.13 872.00,313.21 936.33,268.29 1000.67,319.94 1065.00,260.90" fill="none" stroke="#ea580c" stroke-width="2.3"/>
+<circle cx="100.00" cy="146.62" r="3" fill="#ea580c"><title>para:ANTH | 2026-10-27 | close 115.100 | normalized valuation $2,014.06B</title></circle>
+<circle cx="164.33" cy="125.49" r="3" fill="#ea580c"><title>para:ANTH | 2026-10-28 | close 117.330 | normalized valuation $2,053.08B</title></circle>
+<circle cx="228.67" cy="180.45" r="3" fill="#ea580c"><title>para:ANTH | 2026-10-29 | close 111.530 | normalized valuation $1,951.59B</title></circle>
+<circle cx="293.00" cy="165.01" r="3" fill="#ea580c"><title>para:ANTH | 2026-10-30 | close 113.160 | normalized valuation $1,980.11B</title></circle>
+<circle cx="357.33" cy="179.12" r="3" fill="#ea580c"><title>para:ANTH | 2026-10-31 | close 111.670 | normalized valuation $1,954.04B</title></circle>
+<circle cx="421.67" cy="177.32" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-01 | close 111.860 | normalized valuation $1,957.36B</title></circle>
+<circle cx="486.00" cy="218.45" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-02 | close 107.520 | normalized valuation $1,881.42B</title></circle>
+<circle cx="550.33" cy="178.18" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-03 | close 111.770 | normalized valuation $1,955.79B</title></circle>
+<circle cx="614.67" cy="135.16" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-04 | close 116.310 | normalized valuation $2,035.23B</title></circle>
+<circle cx="679.00" cy="214.66" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-05 | close 107.920 | normalized valuation $1,888.42B</title></circle>
+<circle cx="743.33" cy="351.59" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-06 | close 93.469 | normalized valuation $1,635.55B</title></circle>
+<circle cx="807.67" cy="313.13" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-07 | close 97.528 | normalized valuation $1,706.58B</title></circle>
+<circle cx="872.00" cy="313.21" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-08 | close 97.520 | normalized valuation $1,706.44B</title></circle>
+<circle cx="936.33" cy="268.29" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-09 | close 102.260 | normalized valuation $1,789.38B</title></circle>
+<circle cx="1000.67" cy="319.94" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-10 | close 96.809 | normalized valuation $1,694.00B</title></circle>
+<circle cx="1065.00" cy="260.90" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-11 | close 103.040 | normalized valuation $1,803.03B</title></circle>
+<text x="540" y="74" fill="#059669" font-size="13">Entropy</text>
+<polyline points="100.00,216.67 164.33,223.12 228.67,256.53 293.00,302.29 357.33,265.41 421.67,260.16 486.00,299.69 550.33,268.82 614.67,227.12 679.00,306.62 743.33,410.65 807.67,377.88 872.00,374.53 936.33,325.14 1000.67,296.82 1065.00,257.61" fill="none" stroke="#059669" stroke-width="2.3"/>
+<circle cx="100.00" cy="216.67" r="3" fill="#059669"><title>io:ANTH | 2026-10-27 | close 1,884.700 | normalized valuation $1,884.70B</title></circle>
+<circle cx="164.33" cy="223.12" r="3" fill="#059669"><title>io:ANTH | 2026-10-28 | close 1,872.800 | normalized valuation $1,872.80B</title></circle>
+<circle cx="228.67" cy="256.53" r="3" fill="#059669"><title>io:ANTH | 2026-10-29 | close 1,811.100 | normalized valuation $1,811.10B</title></circle>
+<circle cx="293.00" cy="302.29" r="3" fill="#059669"><title>io:ANTH | 2026-10-30 | close 1,726.600 | normalized valuation $1,726.60B</title></circle>
+<circle cx="357.33" cy="265.41" r="3" fill="#059669"><title>io:ANTH | 2026-10-31 | close 1,794.700 | normalized valuation $1,794.70B</title></circle>
+<circle cx="421.67" cy="260.16" r="3" fill="#059669"><title>io:ANTH | 2026-11-01 | close 1,804.400 | normalized valuation $1,804.40B</title></circle>
+<circle cx="486.00" cy="299.69" r="3" fill="#059669"><title>io:ANTH | 2026-11-02 | close 1,731.400 | normalized valuation $1,731.40B</title></circle>
+<circle cx="550.33" cy="268.82" r="3" fill="#059669"><title>io:ANTH | 2026-11-03 | close 1,788.400 | normalized valuation $1,788.40B</title></circle>
+<circle cx="614.67" cy="227.12" r="3" fill="#059669"><title>io:ANTH | 2026-11-04 | close 1,865.400 | normalized valuation $1,865.40B</title></circle>
+<circle cx="679.00" cy="306.62" r="3" fill="#059669"><title>io:ANTH | 2026-11-05 | close 1,718.600 | normalized valuation $1,718.60B</title></circle>
+<circle cx="743.33" cy="410.65" r="3" fill="#059669"><title>io:ANTH | 2026-11-06 | close 1,526.500 | normalized valuation $1,526.50B</title></circle>
+<circle cx="807.67" cy="377.88" r="3" fill="#059669"><title>io:ANTH | 2026-11-07 | close 1,587.000 | normalized valuation $1,587.00B</title></circle>
+<circle cx="872.00" cy="374.53" r="3" fill="#059669"><title>io:ANTH | 2026-11-08 | close 1,593.200 | normalized valuation $1,593.20B</title></circle>
+<circle cx="936.33" cy="325.14" r="3" fill="#059669"><title>io:ANTH | 2026-11-09 | close 1,684.400 | normalized valuation $1,684.40B</title></circle>
+<circle cx="1000.67" cy="296.82" r="3" fill="#059669"><title>io:ANTH | 2026-11-10 | close 1,736.700 | normalized valuation $1,736.70B</title></circle>
+<circle cx="1065.00" cy="257.61" r="3" fill="#059669"><title>io:ANTH | 2026-11-11 | close 1,809.100 | normalized valuation $1,809.10B</title></circle>
+<text x="100" y="500" font-size="12">USD billions; share contracts normalized using Entropy provisional 17.498334025B shares</text></g></svg>

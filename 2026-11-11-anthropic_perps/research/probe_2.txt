@@ -1,0 +1,82 @@
+https://docs.trade.xyz
+200
+About trade[XYZ] | trade[XYZ] Docs
+⌘
+Ctrl
+k
+App
+X
+Support
+More
+Overview
+About trade[XYZ]
+Relationship to Hyperliquid
+Consolidated Resources
+Perpetuals
+Events
+Legal and Disclaimers
+General Disclaimer
+Perpetuals Risks and Disclaimers
+Events Risks and Disclaimers
+S&P 500 Disclaimers
+Perpetuals Architecture
+Powered by GitBook
+On this page
+For the complete documentation index, see
+llms.txt
+. This page is also available as
+Markdown
+.
+Copy
+On this page
+Overview
+About trade[XYZ]
+trade[XYZ] and our products on Hyperliquid.
+We believe global capital markets should be broadly accessible, with deep liquidity available 24/7. Our mission is empower you
+to trade anything, anytime.
+To achieve this goal, we deploy novel financial primitives and trading experiences on Hyperliquid that extend the range of assets and events that can be traded on HyperCore while preserving the benefits of Hyperliquid's leading onchain infrastructure.
+This documentation covers two products:
+Perpetuals
+. Perpetual markets deployed through
+HIP-3
+, including stocks, equity indices, commodities, currencies, and pre-IPO markets.
+Events
+. Fully collateralized event contracts deployed through
+HIP-4
+, with fixed settlement rules and no leverage or liquidations.
+trade[XYZ] also provides a non-custodial interface for interacting with these and other Hyperliquid markets. The interface does not hold user assets or operate HyperCore, and it is not the exclusive way to access trade[XYZ] markets.
+Use these docs to understand the products’ architecture, mechanics, specifications, risks, and for other resources. Before accessing these products, please also review the
+Legal and Disclaimers
+section as well as any applicable market specifications.
+Next
+Relationship to Hyperliquid
+Last updated
+2 months ago
+Was this helpful?
+Was this helpful?
+LINKS
+/
+https://app.trade.xyz/trade
+https://x.com/tradexyz
+https://app.trade.xyz/support
+/
+/
+/overview/relationship-to-hyperliquid
+/perpetuals
+/events
+/legal-and-disclaimers/general-disclaimer
+/legal-and-disclaimers/perpetuals-risks-and-disclaimers
+/legal-and-disclaimers/events-risks-and-disclaimers
+/legal-and-disclaimers/s-and-p-500-disclaimers
+/architecture
+https://www.gitbook.com/powered-by?utm_source=content&utm_medium=trademark&utm_campaign=5p3wcpw1W9gDfXen988X&utm_content=site_5jDR3
+https://www.gitbook.com/powered-by?utm_source=content&utm_medium=trademark&utm_campaign=5p3wcpw1W9gDfXen988X&utm_content=site_5jDR3
+https://docs.trade.xyz/llms.txt
+https://docs.trade.xyz/overview/about-trade-xyz.md
+/
+/perpetuals
+https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals
+/events
+https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-4-outcome-markets
+/legal-and-disclaimers/general-disclaimer
+/overview/relationship-to-hyperliquid

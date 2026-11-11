@@ -1,0 +1,143 @@
+https://docs.entropy.io
+200
+Entropy Architecture | Entropy Markets
+Entropy is not available to users from
+Prohibited Jurisdictions
+⌘
+Ctrl
+k
+GitBook Assistant
+GitBook Assistant
+GitBook Assistant
+arrow-up-right-and-arrow-down-left-from-center
+GitBook Assistant
+I'm here to help you with the docs.
+What is this page about?
+What should I read next?
+Can you give an example?
+⌘
+Ctrl
+i
+AI
+Based on your context
+Send
+About Entropy
+Entropy Architecture
+Referrals
+Support
+Equity Perp Mechanics
+Oracle Price
+Mark Price
+Funding Rate
+Fees
+Limit Up Limit Down (LULD)
+Index Perp Mechanics
+Oracle Price
+Mark Price
+Funding Rate
+Fees
+Limit Up Limit Down (LULD)
+Pre-IPO Perp Mechanics
+Oracle Price
+Mark Price
+Extreme Mark Bounds
+Funding Rate
+Fees
+No-IPO Resolution
+Risk and Margining
+Margin Modes
+Maintenance Margin & Liquidation
+Auto-Deleveraging (ADL)
+Market Types
+Equity Perpetuals
+Index Perpetuals
+Pre-IPO Perpetuals
+Asset Directory
+Equity Assets
+Index Assets
+Pre-IPO Assets
+Pre-Listing Assets
+Legal and Disclaimers
+Legal & Disclaimers
+Restricted Jurisdictions
+Powered by GitBook
+On this page
+For the complete documentation index, see
+llms.txt
+. This page is also available as
+Markdown
+.
+GitBook Assistant
+Ask
+On this page
+About Entropy
+Entropy Architecture
+Hyperliquid is a performant blockchain created to allow permissionless access to on-chain markets. Hyperliquid Improvement Proposal 3 (HIP-3) is Hyperliquid's system that allows independent deployers to permissionlessly operate their own markets on Hyperliquid.
+Entropy (ticker: io)
+is one such HIP-3 market deployer. Entropy allows for perpetuals futures trading of global equities, commodities, and indices, as well as novel products such as long-dated pre-IPO equities.
+Deployer Information
+Value
+Name
+io
+Full Name
+io
+Deployer Address
+0xd5d18d5f4026a33ca6c8fce75551b24cbb5452ea
+Oracle Updater Address
+0x94757f8dCB4Bf73b850195660E959D1105CFeDd5
+Oracle feeds are implemented and maintained by
+RedStone
+.
+Entropy | Trade the Frontier
+Entropy
+Next
+Referrals
+Last updated
+1 month ago
+x-twitter
+discord
+LINKS
+/legal-and-disclaimers/restricted-jurisdictions
+/
+/
+/
+/about-entropy/referrals
+/about-entropy/support
+/equity-perp-mechanics/oracle-price
+/equity-perp-mechanics/mark-price
+/equity-perp-mechanics/funding-rate
+/equity-perp-mechanics/fees
+/equity-perp-mechanics/limit-up-limit-down-luld
+/index-perp-mechanics/oracle-price
+/index-perp-mechanics/mark-price
+/index-perp-mechanics/funding-rate
+/index-perp-mechanics/fees
+/index-perp-mechanics/limit-up-limit-down-luld
+/pre-ipo-perp-mechanics/oracle-price
+/pre-ipo-perp-mechanics/mark-price
+/pre-ipo-perp-mechanics/extreme-mark-bounds
+/pre-ipo-perp-mechanics/funding-rate
+/pre-ipo-perp-mechanics/fees
+/pre-ipo-perp-mechanics/no-ipo-resolution
+/risk-and-margining/margin-modes
+/risk-and-margining/maintenance-margin-and-liquidation
+/risk-and-margining/auto-deleveraging-adl
+/market-types/equity-perpetuals
+/market-types/index-perpetuals
+/market-types/pre-ipo-perpetuals
+/asset-directory/equity-assets
+/asset-directory/index-assets
+/asset-directory/pre-ipo-assets
+/asset-directory/pre-listing-assets
+/legal-and-disclaimers/legal-and-disclaimers
+/legal-and-disclaimers/restricted-jurisdictions
+https://www.gitbook.com/powered-by?utm_source=content&utm_medium=trademark&utm_campaign=2YT7q4NZswEn8ZxIJwLX&utm_content=site_RPLxv
+https://www.gitbook.com/powered-by?utm_source=content&utm_medium=trademark&utm_campaign=2YT7q4NZswEn8ZxIJwLX&utm_content=site_RPLxv
+https://docs.entropy.io/llms.txt
+https://docs.entropy.io/about-entropy/readme.md
+/
+https://www.redstone.finance/
+https://entropy.io
+/about-entropy/referrals
+https://x.com/entropyIO
+https://discord.com/invite/entropyio

@@ -1,0 +1,109 @@
+https://docs.entropy.io/market-types/pre-ipo-perpetuals.md
+200
+> For the complete documentation index, see [llms.txt](https://docs.entropy.io/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://docs.entropy.io/market-types/pre-ipo-perpetuals.md).
+
+# Pre-IPO Perpetuals
+
+Pre-IPO Perpetuals are cash-settled perpetual contracts that reference private companies before they list publicly. They allow continuous price discovery on a company’s implied valuation without private-share inventory or access to restricted secondary markets. They confer no ownership interest in the underlying company.
+
+Share counts in private financing rounds are often undisclosed or uncertain, so pre-IPO perpetuals are quoted in market cap: a price of $1 represents $1B of the company’s fully diluted valuation. This matches how private-round valuations are typically reported.
+
+**After an IPO**
+
+Entropy pre-IPO perpetuals continue trading after the company lists, and become share price perps with a scalar multiplier. This market cap perpetual is equivalent to a share price perpetual multiplied by a fixed share count:
+
+**Price = Share price × Fully diluted share count ÷ 1,000,000,000**
+
+**Source document.** The fully diluted share count is taken from the company’s final prospectus (Form 424(b)) if it is filed before the first official opening trade of the listed shares; otherwise from the most recent amended registration statement (S-1/A or equivalent) filed before that time.
+
+**Fully diluted share count.** Where the source document states a total as-converted, fully diluted share count, that figure is used as printed. For Anthropic, that is the “Total Class A and Class N Common Stock (As-Converted, Fully Diluted)” figure in The Offering section. It assumes no exercise of the underwriters’ option to purchase additional shares. Shares with no economic rights (e.g., single control shares) are not counted.
+
+If the source document does not state such a total, the count is the sum of the following, as stated in that document:
+
+* all shares outstanding immediately after the offering, across every share class 
+* all outstanding stock options, regardless of exercise price; and
+* all outstanding restricted stock units.
+* all outstanding convertible securities (such as convertible notes and warrants), counted as the number of shares they convert into at their fixed conversion price, regardless of ownership caps or when they convert.
+
+It excludes shares reserved for future grants under equity plans and any shares the company may issue after the IPO.
+
+**The share count is fixed.** It is set once at the IPO transition and does not change with later issuance, buybacks, option exercises or RSU vesting.
+
+Because the count is fully diluted and fixed, the perpetual’s implied market cap may differ from the market cap shown by public data providers. Those providers typically use the current count of basic shares outstanding.
+
+**Transition**
+
+* An estimated fully diluted share count will be published when an S-1/A with an offering price range is filed. The final count will be published as an exact number once set under the source-document rule above, before the first official opening trade.
+* The oracle switches to Share price × Fully diluted share count ÷ 1,000,000,000 at the first official opening trade of the listed shares on the listing exchange. After IPO, it is a fully standard [Equity Perpetual.](/market-types/equity-perpetuals.md)
+* If an IPO is delayed or withdrawn, the perpetual continues under the pre-IPO methodology.
+
+#### **Worked example**
+
+*Illustrative numbers only.*
+
+Suppose the fully diluted share count is set at **16,200,000,000**. One unit then represents **16.2 shares**.
+
+| Moment               | Share price | Perp price               | Your position     |
+| -------------------- | ----------- | ------------------------ | ----------------- |
+| Day before listing   | — (pre-IPO) | 1,800                    | 1 unit long       |
+| Listing opens        | $115.00     | 115 × 16.2 = **1,863**   | still 1 unit long |
+| Share price rises $1 | $116.00     | 116 × 16.2 = **1,879.2** | still 1 unit long |
+
+* The perp does **not** drop from 1,800 to $115. It stays in market cap units.
+* The move from 1,800 to 1,863 is just the valuation changing (+3.5%), the same as the share price moving from $111.11 to $115.
+* After listing, each $1 move in the share price moves one unit by **$16.20**, exactly like holding 16.2 shares.
+
+A Pre-IPO Perpetual is not equity. It conveys no ownership, voting rights, dividends, information rights, IPO allocation, or claim on the issuer. Holders have no relationship with the referenced company.
+
+Pre-IPO Perpetuals trade 24/7 with USDC collateral. Each asset configures:
+
+* $$L$$ and $$U$$ — discretionary bounds for published mark and oracle prices before listing.
+* $$a$$ — the depth normalization constant for the liquidity-driven oracle weight.
+
+Per-market values are listed under [Pre-IPO Assets](/asset-directory/pre-ipo-assets.md).
+
+### Lifecycle
+
+Each market follows one of two paths:
+
+1. **IPO or direct listing.** Three calendar days before an announced listing, the oracle becomes a 1-hour EMA of the mark. Once a public-equity price is observable, the market adopts the public-equity oracle regime and behaves as an equity perpetual. It is important to note, Hyperliquid does not yet support scaling markets by a constant. Thus, these markets will continue to behave as Market Cap perpetuals. If the listing is postponed or withdrawn, the market exits hyperp mode and resumes the standard pre-IPO oracle.
+2. **No-IPO resolution.** The market settles if the issuer remains unlisted at its resolution timestamp. See [No-IPO Resolution](/pre-ipo-perp-mechanics/no-ipo-resolution.md).
+
+Catastrophic bounds apply throughout the pre-listing regime. This includes hyperp mode and the 30-day TWAP window. They do not apply after public listing.
+
+### Mechanics
+
+* [Oracle Price](/pre-ipo-perp-mechanics/oracle-price.md)
+* [Mark Price](/pre-ipo-perp-mechanics/mark-price.md)
+* [Funding Rate](/pre-ipo-perp-mechanics/funding-rate.md)
+* [Fees](/pre-ipo-perp-mechanics/fees.md)
+* [Extreme Mark Bounds](/pre-ipo-perp-mechanics/extreme-mark-bounds.md)
+* [No-IPO Resolution](/pre-ipo-perp-mechanics/no-ipo-resolution.md)
+
+The robust aggregate of private-market data sources described is delivered onchain by[ RedStone](https://www.redstone.finance/).
+
+***
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation by asking a question.
+
+Perform an HTTP GET request on the following URL with the `ask` and `goal` query parameters:
+
+```
+GET https://docs.entropy.io/market-types/pre-ipo-perpetuals.md?ask=
+&goal=
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is what the user is ultimately trying to achieve, the reason they need the answer. Sharing it helps GitBook give you a better, more relevant answer. A goal is most helpful when it describes the outcome the user wants rather than restating the question. For example, with `ask=how do I create an API token`, a goal like `automate deployments from our CI pipeline` lets GitBook tailor the answer to that use case.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
+LINKS

@@ -1,0 +1,175 @@
+https://docs.ventuals.com
+200
+Welcome to Ventuals | Ventuals
+Ventuals
+⌘
+Ctrl
+k
+GitBook Assistant
+Ask
+GitBook Assistant
+GitBook Assistant
+arrow-up-right-and-arrow-down-left-from-center
+GitBook Assistant
+I'm here to help you with the docs.
+What is this page about?
+What should I read next?
+Can you give an example?
+⌘
+Ctrl
+i
+AI
+Based on your context
+Send
+Ventuals
+Welcome to Ventuals
+Sunset Guide
+Overview
+Why Ventuals?
+Markets
+Getting Started
+Accessing Ventuals
+Funding Your Account
+Start Trading
+Referrals
+Referrals
+Trading
+Order Types
+Margining
+Liquidations
+Fees
+Points
+Perp Specifications
+Private Companies
+Indices
+Commodities
+Liquidity
+Maker Points
+vHYPE
+vHYPE
+Benefits
+Points
+Contracts
+Audits
+Bug Bounty
+Community
+Links
+Brand Kit
+Developers
+API
+RESOURCES
+FAQs
+Terms of Use
+Privacy Policy
+Powered by GitBook
+On this page
+For the complete documentation index, see
+llms.txt
+. This page is also available as
+Markdown
+.
+GitBook Assistant
+Ask
+On this page
+Welcome to Ventuals
+As of June 15, 2026, Ventuals is sunsetting. Please see our
+Sunset Page
+and
+Sunset Guide
+for details.
+Ventuals brings you markets for frontier technology.
+Ventuals brings the power of perps to the most innovative companies in the world.
+On Ventuals, you can trade:
+Private companies (e.g. SpaceX, OpenAI, and Anthropic)
+Thematic indices of public companies (e.g. nuclear, semiconductors, and robotics)
+From private AI labs to public platforms, to the hardware and automation ecosystems beneath them, Ventuals provides one unified trading venue for the markets that are defining our future.
+Perpetual futures on Hyperliquid
+Ventuals is built on top of Hyperliquid's proven perps orderbook infrastructure, using the
+HIP-3 standard
+. Perpetual futures allow traders to go long or short with leverage on Ventuals markets.
+Trade with up to 20x leverage
+You can go long or short with up to 20x leverage on Ventuals markets. Higher leverage = higher risk, because even small price moves can push you into liquidation territory. Trade accordingly.
+Cash out in dollars
+Ventuals perpetuals are linear valuation contracts margined and settled in USDH, a US dollar-pegged stablecoin. PnL is cash-settled in USDH with no USDH/USD conversion.
+Quick links
+Why Ventuals?
+Markets
+Market types
+Learn more about our two types of perps — private companies and public stock indices.
+Private Companies
+Indices
+Ventuals points
+Learn more about how to earn Ventuals points.
+Maker Points
+vHYPE
+Next
+Sunset Guide
+Last updated
+4 months ago
+Ventuals brings you markets for frontier technology.
+Perpetual futures on Hyperliquid
+Trade with up to 20x leverage
+Cash out in dollars
+Quick links
+Market types
+Ventuals points
+LINKS
+/
+/
+/
+/sunset-guide
+/overview/why-ventuals
+/overview/markets
+/getting-started/accessing-ventuals
+/getting-started/funding-your-account
+/getting-started/start-trading
+/referrals/referrals
+/trading/order-types
+/trading/margining
+/trading/liquidations
+/trading/fees
+/trading/points
+/perp-specifications/private-companies
+/perp-specifications/indices
+/perp-specifications/commodities
+/liquidity/maker-points
+/vhype/vhype
+/vhype/benefits
+/vhype/points
+/vhype/contracts
+/vhype/audits
+/vhype/bug-bounty
+/community/links
+/community/brand-kit
+/developers/api
+/resources/faqs
+https://ventuals.com/terms
+https://ventuals.com/privacy
+https://www.gitbook.com/powered-by?utm_source=content&utm_medium=trademark&utm_campaign=XPhlu9j2erMhOQJWJOsI&utm_content=site_ZXluj
+https://www.gitbook.com/powered-by?utm_source=content&utm_medium=trademark&utm_campaign=XPhlu9j2erMhOQJWJOsI&utm_content=site_ZXluj
+https://docs.ventuals.com/llms.txt
+https://docs.ventuals.com/welcome-to-ventuals.md
+https://app.ventuals.com/sunset
+https://docs.ventuals.com/sunset-guide
+#ventuals-brings-you-markets-for-frontier-technology
+#perpetual-futures-on-hyperliquid
+https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals
+#trade-with-up-to-20x-leverage
+#cash-out-in-dollars
+#quick-links
+/overview/why-ventuals
+/overview/markets
+#market-types
+/perp-specifications/private-companies
+/perp-specifications/indices
+#ventuals-points
+/liquidity/maker-points
+/vhype/vhype
+/sunset-guide
+#ventuals-brings-you-markets-for-frontier-technology
+#perpetual-futures-on-hyperliquid
+#trade-with-up-to-20x-leverage
+#cash-out-in-dollars
+#quick-links
+#market-types
+#ventuals-points

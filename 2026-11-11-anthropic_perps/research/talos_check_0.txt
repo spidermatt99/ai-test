@@ -1,0 +1,164 @@
+https://docs.trade.xyz/perpetuals/specifications-and-schedules/pre-ipo-specification-index.md
+200
+> For the complete documentation index, see [llms.txt](https://docs.trade.xyz/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://docs.trade.xyz/perpetuals/specifications-and-schedules/pre-ipo-specification-index.md).
+
+# Pre-IPO Specification Index
+
+Specifications for active trade\[XYZ] Pre-IPO Perpetual markets.
+
+{% hint style="info" %}
+Anticipated Listing Date is for reference purposes only, and may differ significantly from the actual IPO date.
+
+Listing Grace Period defines the period following the expected listing date during which the underlying security may be delayed from listing without causing the market to enter Alternative Settlement procedures on the basis of Extraordinary Delay.
+
+Public filings and offering terms may be incomplete, preliminary, or later revised. These figures should not be treated as indicative market capitalizations or fair value references for the underlying issuer. The ultimate public price or number of fully diluted shares may differ materially.
+{% endhint %}
+Market
+Status
+Description
+Initial Price
+Discovery Bound
+Max Discovery Range  Resets
+Funding Rate Multiplier
+Margin Mode
+Discovery Bound Oracle Threshold
+Max Leverage
+Anticipated Listing Event
+Anticipated Listing Date
+Listing Grace Period
+ANT
+Live
+ANT references 1 share of Anthropic, PBC Class A common stock (Nasdaq: ANT), quoted in USD. ANT is currently a pre-IPO market reflecting the anticipated share price; upon the underlying listing, it is expected to convert to a standard XYZ perpetual. Anthropic develops AI models and the Claude assistant.
+$125
+±50%
+3
+0.005
+Cross Margin
+75%
+10x
+IPO
+November 20, 2026
+Up to 60 days (no later than January 19, 2027)
+JIO
+Converted
+JIO references 1 equity share of Jio Platforms Limited, quoted in USD. JIO is currently a pre-IPO market reflecting the anticipated share price; it is expected to convert to a standard XYZ perpetual upon the IPO. After the IPO, the oracle will convert the underlying stock's INR price to USD at the prevailing USD/INR FX rate. Jio Platforms provides digital connectivity and digital services in India.
+$13
+±50%
+2
+0.005
+Normal Isolated
+75%
+5x
+IPO
+October 28, 2026
+Up to 60 days (no later than December 27, 2026)
+OURA
+Live
+OURA references 1 share of Oura Inc. common stock (Nasdaq: OURA), quoted in USD. OURA is currently a pre-IPO market reflecting the anticipated share price; it is expected to convert to a standard XYZ perpetual upon the IPO. Oura designs the Oura Ring, a smart ring that measures sleep, activity, stress, and heart-health signals, and sells a subscription membership for health insights.
+$50
+±50%
+2
+0.005
+Normal Isolated
+75%
+5x
+IPO
+October 2, 2026
+Up to 60 days (no later than December 1, 2026)
+SHEIN
+Converted
+SHEIN is a pre-IPO market reflecting the market-implied expected price per Class B ordinary share of SHEIN Global Holdings Limited, expected to list on HKEX (code 0625). SHEIN is an online fashion and lifestyle retailer selling own-brand apparel and third-party marketplace products. After the IPO, the oracle will convert the HKD share price to USD at the prevailing USD/HKD FX rate.
+$8
+±50%
+3
+0.005
+Normal Isolated
+75%
+5x
+IPO
+September 1, 2026
+Up to 60 days (no later than October 31, 2026)
+UNITREE
+Converted
+UNITREE is a pre-IPO market reflecting the market-implied expected price per A-share of Unitree Technology Co., Ltd., expected to list on the Shanghai STAR Market (code 688836). Unitree designs and manufactures quadruped and humanoid robots and robotic arms. After the IPO, the oracle will convert the CNY share price to USD at the prevailing offshore USD/CNH rate.
+$75
+±50%
+2
+0.005
+Normal Isolated
+90%
+5x
+IPO
+August 14, 2026
+Up to 60 days (no later than October 13, 2026)
+CXMT
+Converted
+CXMT is a pre-IPO market reflecting the market-implied value of 1 ordinary share (A-share) of ChangXin Technology Group Co., Ltd. (SHE: 688825) in USD terms. CXMT manufactures semiconductor DRAM memory chips. After the IPO, the oracle will convert the underlying stock’s Renminbi price to USD at the prevailing FX rate.
+$5
+50%
+2
+0.005
+Normal Isolated
+90%
+5x
+IPO
+July 27, 2026
+Up to 60 days (no later than September 25, 2026)
+SKHY
+Converted
+SKHY tracks the value of 1 SK Hynix American Depositary Share — the Nasdaq-listed security representing one-tenth of a SK Hynix common share held on deposit with a depositary bank. It launches as a pre-IPO contract and converts to a standard XYZ perpetual after the ADS begins trading on Nasdaq.
+TradeXYZ’s existing SKHYNIX market (xyz:SKHX) is unchanged. It tracks 1 common share of SK hynix Inc. (KRX: 000660) and continues to operate normally against the company’s primary listing in Seoul.
+$150
+10%
+4
+0.005
+Normal Isolated
+90%
+10x
+IPO
+July 10, 2026
+Up to 60 days (no later than September 7, 2026)
+SpaceX (SPCX)
+Converted
+SPCX is a pre-IPO market reflecting the market-implied expected price per share of Space Exploration Technologies Corp. Class A common stock. SpaceX designs, manufactures, and launches rockets and spacecraft; operates Starlink, a satellite internet network providing global broadband connectivity; and wholly owns xAI, an artificial intelligence company developing frontier AI models.
+$150
+±30%
+3
+0.5
+Strict Isolated
+90%
+5x
+IPO
+June 12, 2026
+Up to 60 days (no later than August 12, 2026)
+Quantinuum (QNT)
+Converted
+Quantinuum is a pre-IPO market reflecting the market-implied expected price per share of Quantinuum Inc. Class A common stock. Quantinuum develops quantum computing hardware, software, and applications, including trapped-ion quantum computers, quantum software tools, and solutions for cryptography, chemistry, optimization, and machine learning.
+$75
+±25%
+8
+0.5
+Strict Isolated
+90%
+5x
+IPO
+June 4, 2026
+Up to 60 days (no later than August 3, 2026)
+Cerebras (CBRS)
+Converted
+CBRS is a pre-IPO market reflecting the market-implied expected price per share of Cerebras Systems Class A common stock. Cerebras develops AI chips, supercomputing systems, and cloud infrastructure designed to power large-scale artificial intelligence workloads.
+Converted on 5/14. See
+Specification Index
+for current specifications.
+$175
+±25%
+5
+0.5
+Strict Isolated
+90%
+5x
+IPO
+May 14, 2026
+Up to 60 days (no later than July 14, 2026)
+LINKS
+/perpetuals/specifications-and-schedules/specification-index.md

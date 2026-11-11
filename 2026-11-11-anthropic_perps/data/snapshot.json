@@ -1,0 +1,115 @@
+[
+  {
+    "dex": "xyz",
+    "market": {
+      "szDecimals": 2,
+      "name": "xyz:ANT",
+      "maxLeverage": 10,
+      "marginTableId": 10,
+      "growthMode": "enabled",
+      "lastFeeScaleChangeTime": "2026-10-26T13:55:12.038690737",
+      "deployerFeeScale": "1.0"
+    },
+    "context": {
+      "funding": "0.0000000625",
+      "openInterest": "998290.3400000001",
+      "prevDayPx": "98.235",
+      "dayNtlVlm": "109212911.0154700577",
+      "premium": "-0.0007079858",
+      "oraclePx": "104.31",
+      "markPx": "104.25",
+      "midPx": "104.225",
+      "impactPxs": [
+        "104.1493",
+        "104.323"
+      ],
+      "dayBaseVlm": "1118721.1000000017"
+    },
+    "observed_at": "2026-11-11T04:42:11.320700+00:00"
+  },
+  {
+    "dex": "vntl",
+    "market": {
+      "szDecimals": 3,
+      "name": "vntl:ANTHROPIC",
+      "maxLeverage": 3,
+      "marginTableId": 3,
+      "onlyIsolated": true,
+      "isDelisted": true,
+      "marginMode": "strictIsolated",
+      "lastFeeScaleChangeTime": "1970-01-01T00:00:00",
+      "deployerFeeScale": "1.0"
+    },
+    "context": {
+      "funding": "0.0",
+      "openInterest": "0.0",
+      "prevDayPx": "1619.3",
+      "dayNtlVlm": "0.0",
+      "premium": null,
+      "oraclePx": "1618.9",
+      "markPx": "1619.3",
+      "midPx": null,
+      "impactPxs": null,
+      "dayBaseVlm": "0.0"
+    },
+    "observed_at": "2026-11-11T04:42:11.320700+00:00"
+  },
+  {
+    "dex": "para",
+    "market": {
+      "szDecimals": 3,
+      "name": "para:ANTH",
+      "maxLeverage": 10,
+      "marginTableId": 10,
+      "onlyIsolated": true,
+      "marginMode": "strictIsolated",
+      "growthMode": "enabled",
+      "lastFeeScaleChangeTime": "2026-10-27T11:22:58.535152031",
+      "deployerFeeScale": "1.0"
+    },
+    "context": {
+      "funding": "0.0000076307",
+      "openInterest": "780.312",
+      "prevDayPx": "100.82",
+      "dayNtlVlm": "17522.930552",
+      "premium": "0.0074145963",
+      "oraclePx": "103.04",
+      "markPx": "103.7",
+      "midPx": "103.81",
+      "impactPxs": [
+        "102.645",
+        "104.963"
+      ],
+      "dayBaseVlm": "184.892"
+    },
+    "observed_at": "2026-11-11T04:42:11.320700+00:00"
+  },
+  {
+    "dex": "io",
+    "market": {
+      "szDecimals": 3,
+      "name": "io:ANTH",
+      "maxLeverage": 15,
+      "marginTableId": 15,
+      "growthMode": "enabled",
+      "lastFeeScaleChangeTime": "2026-08-19T14:12:26.461176669",
+      "deployerFeeScale": "1.0"
+    },
+    "context": {
+      "funding": "0.0000053903",
+      "openInterest": "106216.378",
+      "prevDayPx": "1649.9",
+      "dayNtlVlm": "143921099.1352000237",
+      "premium": "0.0001050246",
+      "oraclePx": "1809.1",
+      "markPx": "1809.2",
+      "midPx": "1809.0",
+      "impactPxs": [
+        "1807.892",
+        "1810.688"
+      ],
+      "dayBaseVlm": "85070.009"
+    },
+    "observed_at": "2026-11-11T04:42:11.320700+00:00"
+  }
+]

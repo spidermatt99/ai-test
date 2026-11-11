@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img"><title>xyz:ANT — raw trade-price history</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="Arial,sans-serif" fill="#172033">
+<text x="100" y="30" font-size="20" font-weight="bold">xyz:ANT — raw trade-price history</text>
+<text x="100" y="52" font-size="12">Daily trade closes; last day partial. No mark-price history. Hover points for details.</text>
+<path d="M 100 445.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="449.0" text-anchor="end" font-size="12">92</text>
+<path d="M 100 374.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="378.0" text-anchor="end" font-size="12">97</text>
+<path d="M 100 303.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="307.0" text-anchor="end" font-size="12">103</text>
+<path d="M 100 232.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="236.0" text-anchor="end" font-size="12">109</text>
+<path d="M 100 161.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="165.0" text-anchor="end" font-size="12">114</text>
+<path d="M 100 90.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="94.0" text-anchor="end" font-size="12">120</text>
+<text x="100.0" y="468" text-anchor="middle" font-size="12">2026-10-26</text>
+<text x="293.0" y="468" text-anchor="middle" font-size="12">2026-10-29</text>
+<text x="486.0" y="468" text-anchor="middle" font-size="12">2026-11-01</text>
+<text x="679.0" y="468" text-anchor="middle" font-size="12">2026-11-04</text>
+<text x="872.0" y="468" text-anchor="middle" font-size="12">2026-11-07</text>
+<text x="1065.0" y="468" text-anchor="middle" font-size="12">2026-11-11</text>
+<text x="100" y="74" fill="#2563eb" font-size="13">XYZ</text>
+<polyline points="100.00,162.68 160.31,130.41 220.62,124.35 280.94,197.66 341.25,179.24 401.56,209.03 461.88,195.06 522.19,259.84 582.50,189.50 642.81,124.85 703.12,242.90 763.44,410.65 823.75,367.01 884.06,364.39 944.38,310.89 1004.69,337.09 1065.00,287.90" fill="none" stroke="#2563eb" stroke-width="2.3"/>
+<circle cx="100.00" cy="162.68" r="3" fill="#2563eb"><title>xyz:ANT | 2026-10-26 | close 114.350 | raw contract price</title></circle>
+<circle cx="160.31" cy="130.41" r="3" fill="#2563eb"><title>xyz:ANT | 2026-10-27 | close 116.960 | raw contract price</title></circle>
+<circle cx="220.62" cy="124.35" r="3" fill="#2563eb"><title>xyz:ANT | 2026-10-28 | close 117.450 | raw contract price</title></circle>
+<circle cx="280.94" cy="197.66" r="3" fill="#2563eb"><title>xyz:ANT | 2026-10-29 | close 111.520 | raw contract price</title></circle>
+<circle cx="341.25" cy="179.24" r="3" fill="#2563eb"><title>xyz:ANT | 2026-10-30 | close 113.010 | raw contract price</title></circle>
+<circle cx="401.56" cy="209.03" r="3" fill="#2563eb"><title>xyz:ANT | 2026-10-31 | close 110.600 | raw contract price</title></circle>
+<circle cx="461.88" cy="195.06" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-01 | close 111.730 | raw contract price</title></circle>
+<circle cx="522.19" cy="259.84" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-02 | close 106.490 | raw contract price</title></circle>
+<circle cx="582.50" cy="189.50" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-03 | close 112.180 | raw contract price</title></circle>
+<circle cx="642.81" cy="124.85" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-04 | close 117.410 | raw contract price</title></circle>
+<circle cx="703.12" cy="242.90" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-05 | close 107.860 | raw contract price</title></circle>
+<circle cx="763.44" cy="410.65" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-06 | close 94.290 | raw contract price</title></circle>
+<circle cx="823.75" cy="367.01" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-07 | close 97.820 | raw contract price</title></circle>
+<circle cx="884.06" cy="364.39" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-08 | close 98.032 | raw contract price</title></circle>
+<circle cx="944.38" cy="310.89" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-09 | close 102.360 | raw contract price</title></circle>
+<circle cx="1004.69" cy="337.09" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-10 | close 100.240 | raw contract price</title></circle>
+<circle cx="1065.00" cy="287.90" r="3" fill="#2563eb"><title>xyz:ANT | 2026-11-11 | close 104.220 | raw contract price</title></circle>
+<text x="100" y="500" font-size="12">Raw contract price (not company valuation)</text></g></svg>

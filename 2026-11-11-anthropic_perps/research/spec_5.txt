@@ -1,0 +1,211 @@
+https://docs.paragon.trade/markets/equities/pre-listing-pricing.md
+200
+> For the complete documentation index, see [llms.txt](https://docs.paragon.trade/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://docs.paragon.trade/markets/equities/pre-listing-pricing.md).
+
+# Pre-Listing (“Pre-IPO”) Pricing
+
+An equity perpetual may launch with a **Pre-Listing** status while the referenced company remains privately held. If the company later completes a qualifying public listing, that same market may transition to **Listed** status.
+
+Equity perpetuals are cash-settled derivatives. They do not constitute shares, IPO allocations, tokenized equity, securities entitlements, or rights to obtain securities. Holding a position does not confer ownership, voting rights, dividend rights, information rights, allocation rights, or any claim against the referenced company. Review the [Pre-Listing Risk Disclosure](/legal/pre-listing-risk-disclosure.md) before trading.
+
+## How the Status Framework Operates
+
+A Listed equity perpetual may reference equity for which an external public-market price is already available. By contrast, a market in the Pre-Listing phase begins trading before such a price can be observed on a continuous basis.
+
+During the Pre-Listing phase, the market uses the internal oracle and funding framework described in this page, with per-market parameters set in the applicable [Contract Specifications](/resources/specifications.md#market-specifications). Once a qualifying public listing has occurred and sufficient external data is available, the same market is expected to adopt the standard external pricing and funding methodology applicable to Listed equity perpetuals.
+
+Accordingly, the contract remains continuous across the status change, while its pricing and funding framework changes when the conditions for Listed status are satisfied.
+
+## Launch Reference Values
+
+When a Pre-Listing market launches, Paragon selects a discretionary initial reference price. Trading begins from this value, which also functions as the reference anchor for any Bounds set out in the applicable market specification.
+
+The initial reference price should not be understood as a forecast, a fair-value assessment, or an estimate of the eventual listing price. It may vary substantially from an announced price range, the final offering price, the first public trade, or prices observed after public trading begins.
+
+Paragon may additionally display an indicative reference share count together with an implied reference market capitalization. These values may be estimates prepared from the public information available at launch, and that information may be incomplete, preliminary, or subsequently revised.
+
+Any displayed share count or implied market capitalization is contextual only. Neither figure is guaranteed, and either may differ materially from the referenced company’s actual, eventual, or market-implied share count or market capitalization.
+
+## Pricing While Pre-Listing
+
+An equity perpetual carrying a Pre-Listing status operates under Paragon’s internal pre-listing methodology.
+
+### Oracle Price
+
+The oracle price advances from changes in the market’s impact price, smoothed as a continuous-time exponentially weighted moving average. The mechanism is the one described under [Off Hours & Fallback](/markets/equities/off-hours-and-fallback.md); for a Pre-Listing market it runs continuously rather than only outside a session, and its time constant is set per market.
+
+This approach supports ongoing price discovery before a qualifying external public-equity price becomes available. The resulting oracle price may not match the last traded price, prices shown in the order book, private-market indications, or the price ultimately established through a public listing.
+
+#### Discovery Time Constant
+
+The **discovery time constant** is the τ applied to the pre-listing EMA. The standard value is 30 minutes.
+
+A longer time constant smooths the oracle more heavily and slows how quickly it tracks the order book. A shorter one makes the oracle more responsive to the book, at the cost of more short-term movement in the mark price, unrealized profit or loss, and margin requirements.
+
+A market may be configured to shorten its discovery time constant as the expected start of public trading approaches. The purpose is responsiveness. In the period immediately before a listing, offering terms, pricing news, and order-book positioning can change quickly, and a long time constant would hold the oracle behind the market’s own price discovery. A shorter time constant lets the oracle track the book more closely.
+
+Because the expected start of public trading is an estimate, acceleration may take effect ahead of a listing that is subsequently delayed, repriced, restructured, or abandoned. Acceleration is not a representation that a listing will occur, or that it will occur on the expected schedule. Where the expected timetable moves materially, Paragon may adjust when acceleration takes effect, or return the market to its standard discovery time constant.
+
+Per-market values are listed under [Pre-Listing Parameters](#pre-listing-parameters).
+
+#### Manual Reference Anchoring
+
+Where an offering price for the referenced equity becomes publicly established before a continuous external price feed is available, Paragon reserves the right to set the oracle price directly to that price. A new Bounds range is calculated around that reference price. The market will then continue under pre-listing methodology until the conditions for the Listed methodology are satisfied.
+
+The anchor is applied as a reset of the pricing state rather than as a movement within the existing range. It is therefore not constrained by the Bounds in effect immediately before it, and it may place the oracle outside the range that applied at the time.
+
+Manual anchoring is discretionary. It does not follow automatically from the announcement of an offering price, and Paragon may decline to apply it and instead allow the market to continue advancing from its existing oracle price.
+
+Anchoring can move the oracle price by a large amount in a single step, if the offering price differs materially from the level at which the market has been trading. Positions at or near their maintenance-margin requirements may be liquidated immediately and without prior notice. See the [Pre-Listing Risk Disclosure](/legal/pre-listing-risk-disclosure.md#discretionary-oracle-adjustments).
+
+### Funding
+
+Premium samples used for funding are calculated at 1% of the standard Paragon equity-perpetual funding treatment.
+
+The applicable funding multiplier is `0.006`, applied to HyperCore’s clamped interest-rate and premium formula.
+
+Refer to [Hyperliquid’s funding documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/funding) for the underlying protocol formula.
+
+### Bounds
+
+Bounds constrain the speed at which price discovery can move away from the relevant reference anchor. Their purpose is to limit high-velocity price movement while still permitting the market price to adjust over time.
+
+The parameters, operation, and effects of Bounds are established separately for each market. See [Bounds](/trading/bounds-and-anchors.md) for the full mechanism.
+
+For a Listed market the bound width is derived from maximum leverage. For a Pre-Listing market it may instead be set independently, because no external price constrains the market and the eventual listing price is genuinely unknown. Where the two are set independently, the value shown in the [Contract Specifications](/resources/specifications.md#market-specifications) is controlling, regardless of the width implied by the market's maximum leverage.
+
+A wider bound admits faster price discovery and a larger single-direction move before a hard cap is reached. Combined with a permitted number of re-anchors, it also widens the total range the market can traverse: a market with a `±B` bound and `n` permitted re-anchors per direction can reach `(1 + B)^(n + 1)` above, and `(1 - B)^(n + 1)` below, its original reference price before either hard cap applies.
+
+## Pre-Listing Parameters
+
+The following parameters apply to markets currently carrying Pre-Listing status. Contract-level parameters — leverage, open-interest cap, margin mode, launch reference value, expected listing date, and listing buffer — are in the [Contract Specifications](/resources/specifications.md#market-specifications).
+
+| Parameter                        | ANT                                          |
+| -------------------------------- | -------------------------------------------- |
+| Discovery time constant (τ)      | 30 minutes                                   |
+| Listing-window time constant (τ) | 3 minutes                                    |
+| Acceleration lead time           | 24 hours before first expected public trades |
+| Bound                            | ±10%                                         |
+| Oracle threshold                 | 90%                                          |
+| Permitted re-anchors             | 15 per direction                             |
+| Manual reference anchoring       | Available                                    |
+| Funding multiplier               | `0.006`                                      |
+
+## Activation of Listed Methodology
+
+Following a qualifying public listing by the referenced company, the existing equity perpetual is expected to transition from Pre-Listing to Listed status.
+
+That transition takes place after regular public trading in the referenced equity has begun and enough external market data is available to support the Listed oracle methodology. It will generally occur during the first regular trading session after listing, although the exact timing depends on data availability and the applicable market specification.
+
+The transition is gated on the quality of the external feed, not on the listing alone. Before the Listed methodology is activated, Paragon expects the qualifying external feed to be publishing continuously across the market's covered session, at a normal update cadence, without material gaps, stale values, or dislocations against other observable sources for the same security.
+
+A newly listed security may not produce a feed meeting that standard immediately. Opening auctions, volatility halts, and provider onboarding can all delay it. Until the standard is met, the market remains on the pre-listing methodology, running at its listing-window time constant if one is configured, and where an offering price has been established Paragon may apply a [manual reference anchor](#manual-reference-anchoring) so that discovery proceeds from that price rather than from the pre-listing oracle.
+
+The pre-listing methodology may therefore remain in effect for a period after public trading has begun.
+
+Upon transition to Listed status:
+
+* The internal pre-listing oracle is replaced by the applicable externally derived pricing framework;
+* The standard equity-perpetual funding methodology becomes effective; and
+* The funding multiplier is expected to change from `0.006` to `0.6`. Refer to [Contract Specifications](/resources/specifications.md#market-specifications) for the value applicable to a particular market.
+
+Price data for the referenced equity is obtained from institutional data providers. While the relevant external markets are open, periodic updates publish an externally derived fair price as the oracle price.
+
+The change in status may not produce a smooth economic transition. Adjustments to the oracle, funding treatment, or other market parameters may cause an immediate movement in the mark price, unrealized profit or loss, margin requirements, or liquidation exposure.
+
+## Alternative Events
+
+A Pre-Listing market is intended to remain active during the period leading to the expected public listing. The expected listing may, however, be postponed, cancelled, superseded by another transaction, or completed in a form that does not permit the ordinary transition to Listed status.
+
+The timing parameters and available treatment for those circumstances are set out in the applicable market specification.
+
+### Timing Parameters
+
+Two market-specific parameters address extended delay or failure of the expected listing to occur.
+
+#### Expected Listing Date
+
+The **Expected Listing Date** is the date on which public trading in the referenced company is scheduled to begin.
+
+It is an estimate rather than a fixed outcome. The date may differ from the eventual listing date and may be updated as circumstances develop. It may also be considered when assessing whether continued operation under the Pre-Listing methodology remains appropriate.
+
+The Expected Listing Date does not represent or guarantee that a listing will occur by that date.
+
+#### Listing Buffer
+
+The **Listing Buffer** begins after the Expected Listing Date. During this period, a postponement, deferral, or failure to list does not, standing alone, trigger alternative settlement.
+
+This period accommodates ordinary changes to the listing timetable without requiring the market to be closed or settled immediately.
+
+### Standard Settlement Approach for Alternative Events
+
+Unless a market specification or settlement announcement states otherwise, alternative settlement is based on the market’s time-weighted average price, or **TWAP**, measured from launch through the time at which Paragon determines that alternative settlement will be used.
+
+This calculation incorporates price discovery across the market’s operating history rather than assigning controlling weight to a short observation period or a single price. It is intended to reflect the broader evolution of market pricing through the event that leads to settlement.
+
+After the determination cutoff is fixed, subsequent trading is excluded from the settlement calculation. This is intended to reduce the incentive to trade in an effort to affect the alternative settlement value after the determination has been made public.
+
+The relevant announcement will specify the cutoff, calculation methodology, timing, and any other applicable settlement terms.
+
+### Departures From the Standard Approach
+
+Paragon may apply a methodology other than the default full-life TWAP if that methodology would not reasonably represent the economics of the market at settlement.
+
+#### Transaction Events
+
+A **Transaction Event** may arise if the referenced company is acquired, taken private, recapitalized, or completes another transaction that establishes an observable transaction value before or in place of a public listing.
+
+If the transaction replaces or effectively prevents the expected listing, the settlement value may be based on the transaction consideration or another value derived from the completed transaction.
+
+A transaction that leaves open the possibility of a later public listing, including a minority investment, partial tender offer, or limited recapitalization, is not expected to trigger settlement solely as a result of that transaction.
+
+#### Adverse Events
+
+An **Adverse Event** may occur if a development materially impairs or effectively prevents the expected listing.
+
+Examples include:
+
+* A transaction or legal restriction that prevents the expected listing;
+* Insolvency or a comparable financial distress event;
+* Cessation of operations;
+* Material regulatory or enforcement action;
+* A material accounting restatement; or
+* Another event that materially affects the value or viability of the referenced public equity.
+
+### Notice of Market Treatment
+
+The treatment applied to an alternative event depends on both the applicable market specification and the specific facts. A single general methodology cannot address every possible delay, transaction structure, or adverse development.
+
+For an affected market, Paragon will issue an announcement that describes, as applicable:
+
+* The effective time and any steps required from market participants;
+* The event or circumstance giving rise to the treatment;
+* Whether the market will remain open, transition, convert, close, or settle;
+* The relevant reference asset or transaction value;
+* The methodology used for settlement or conversion;
+* The applicable observation period and calculation cutoff; and
+* Any resulting changes to leverage, open-interest limits, or other market parameters.
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation by asking a question.
+
+Perform an HTTP GET request on the following URL with the `ask` and `goal` query parameters:
+
+```
+GET https://docs.paragon.trade/markets/equities/pre-listing-pricing.md?ask=
+&goal=
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is what the user is ultimately trying to achieve, the reason they need the answer. Sharing it helps GitBook give you a better, more relevant answer. A goal is most helpful when it describes the outcome the user wants rather than restating the question. For example, with `ask=how do I create an API token`, a goal like `automate deployments from our CI pipeline` lets GitBook tailor the answer to that use case.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
+LINKS

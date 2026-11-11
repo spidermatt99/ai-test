@@ -1,0 +1,703 @@
+https://www.talos.com/insights/countdown-to-ant-what-the-pre-ipo-perps-markets-say-about-anthropics-ipo
+200
+Countdown to ANT: What the Pre-IPO Perps Markets Say About Anthropic’s IPO | State of the Network
+Research
+Research
+Solutions
+Trading Platform
+White Label
+RFQ Platform
+Portfolio Construction
+Portfolio & Risk Management
+Treasury & Settlement
+Data
+Post-Trade Analytics
+Prediction Markets
+Clients
+Asset Managers
+ETF Issuers
+Hedge Funds
+Crypto Funds
+Proprietary Trading Firms
+Token Holders
+Banks
+Retail Investment Platforms
+OTC Desks
+Broker-Dealers
+Custodians
+Payment Service Providers
+About Talos
+Why Choose Talos?
+The Talos Story
+The Leadership Team
+Careers
+Life at Talos
+Open Roles
+Internships
+Provider Network
+Insights
+Contact
+Request a demo
+Solutions
+TradinG
+Trading Platform
+White Label
+RFQ Platform
+Portfolio management
+Portfolio Construction
+Portfolio & Risk Management
+Treasury & Settlement
+DATA & ANALYTICS
+Data
+Coin Metrics
+Overview
+Market Data Feed
+Market Data Pro
+Atlas
+Network Data Pro
+Prices
+Indexes
+datonomy
+TM
+Post-Trade Analytics
+NEW ASSET CLASSES
+Prediction Markets
+Clients
+Buy SIDE
+Asset Managers
+ETF Issuers
+Hedge Funds
+Crypto Funds
+Proprietary Trading Firms
+Token Holders
+Sell Side
+Banks
+Retail Investment Platforms
+OTC Desks
+Broker-Dealers
+Service Providers
+Custodians
+Payment Service Providers
+About Talos
+Why Choose Talos?
+The Talos Story
+The Leadership Team
+Careers
+Life at Talos
+Open Roles
+Internships
+Provider Network
+Insights
+Contact
+Request a demo
+Privacy Preferences
+Last reviewed: 26 Oct 2026
+Essential cookies
+Required
+Learn more
+These cookies enable you to use our Services. These cookies are essential to
+enable you to browse our Services and use certain features. Disabling them may prevent you from using certain parts of the Services. These cookies also help keep our Services safe and secure.
+View Cookie List
+Analytics cookies
+Optional
+Learn more
+These cookies collect information about how you use our Services such as which pages you visit regularly. These cookies are used to provide you with a high-quality experience by doing things such as tracking page load, site response times, and error messages.
+View Cookie List
+Functional cookies
+Optional
+Learn more
+Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features.
+View Cookie List
+Marketing cookies
+Optional
+Learn more
+These cookies gather information about your use of our Services so we may improve your experience and provide you with more relevant content and advertising on our Services and elsewhere online and across your devices. They are also used to gather feedback on customer satisfaction through surveys. They remember that you've visited our Services and help us understand usage of our Services. Some of these cookies are from third parties that collect information about your use of our Services in order to provide advertising (on our Services and elsewhere, across your different devices) based on your online activities (so-called "interest-based advertising") on our Services and elsewhere online, across your different devices.
+View Cookie List
+Save Cookie Preferences
+Deny all cookies
+Accept all cookies
+Essential
+fs-cc
+View Details
+Name:
+fs-cc
+Host:
+www.talos.com
+Duration:
+1 year
+Category:
+Essential
+Description:
+Stores your cookie choices (Finsweet Cookie Consent).
+fs-cc-updated
+View Details
+Name:
+fs-cc-updated
+Host:
+www.talos.com
+Duration:
+1 year
+Category:
+Essential
+Description:
+Records that your cookie choices were saved (Finsweet Cookie Consent).
+_cfuvid
+View Details
+Name:
+_cfuvid
+Host:
+.talos.com
+Duration:
+Session
+Category:
+Essential
+Description:
+Set by Cloudflare to protect the site and our forms from abuse and bots.
+Analytics
+_ga_N9JCEQKB5J
+View Details
+Name:
+_ga_N9JCEQKB5J
+Host:
+.talos.com
+Duration:
+13 months
+Category:
+Analytics
+Description:
+Google Analytics: keeps session state for site usage measurement.
+_ga
+View Details
+Name:
+_ga
+Host:
+.talos.com
+Duration:
+13 months
+Category:
+Analytics
+Description:
+Google Analytics: distinguishes visitors to measure site usage.
+Functional
+No cookies are currently used in this category.
+View Details
+Name:
+None
+Host:
+—
+Duration:
+—
+Category:
+Functional
+Description:
+No functional cookies are currently set on this site.
+Marketing
+_mkto_trk
+View Details
+Name:
+_mkto_trk
+Host:
+.talos.com
+Duration:
+13 months
+Category:
+Marketing
+Description:
+Marketo: links your visits to forms you submit.
+_gcl_au
+View Details
+Name:
+_gcl_au
+Host:
+.talos.com
+Duration:
+3 months
+Category:
+Marketing
+Description:
+Google Ads: measures ad conversions.
+LinkedIn
+View Details
+Name:
+LinkedIn Insight Tag
+Host:
+linkedin.com
+Duration:
+Up to 1 year
+Category:
+Marketing
+Description:
+LinkedIn Insight Tag: ad conversion tracking and audiences. Set by LinkedIn; may be blocked by your browser.
+_gcl_ls
+View Details
+Name:
+_gcl_ls
+Host:
+www.talos.com (local storage)
+Duration:
+Persistent
+Category:
+Marketing
+Description:
+Google Ads: stores ad click information for conversion measurement.
+Google Ads / DoubleClick
+View Details
+Name:
+Google Ads / DoubleClick
+Host:
+google.com, doubleclick.net
+Duration:
+Up to 13 months
+Category:
+Marketing
+Description:
+Google advertising and remarketing. Set by Google; may be blocked by your browser.
+Apollo
+View Details
+Name:
+apolloAnonId, <id>_canTrack, <id>_eventQueue
+Host:
+www.talos.com (local storage)
+Duration:
+Persistent
+Category:
+Marketing
+Description:
+Apollo: identifies visiting companies.
+Clay
+View Details
+Name:
+claydar_*, radar_sn_*
+Host:
+www.talos.com (session storage)
+Duration:
+Session
+Category:
+Marketing
+Description:
+Clay: identifies visiting companies.
+The Trade Desk
+View Details
+Name:
+The Trade Desk (Madison Logic)
+Host:
+adsrvr.org
+Duration:
+Up to 1 year
+Category:
+Marketing
+Description:
+Advertising measurement and audiences. Set by The Trade Desk; may be blocked by your browser.
+Wistia
+View Details
+Name:
+wistia, wistia-video-progress-*
+Host:
+www.talos.com (local storage), wistia.com
+Duration:
+Persistent
+Category:
+Marketing
+Description:
+Wistia: video viewing statistics, shared with Marketo.
+By clicking 'accept all cookies', you agree to the storing of optional cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. If you wish to adjust your cookie settings, please click 'customize cookies'. View our
+Privacy Policy
+for more information
+Deny all cookies
+Accept all cookies
+Customize cookies
+Back to Insights
+Research
+Countdown to ANT: What the Pre-IPO Perps Markets Say About Anthropic’s IPO
+By:
+Cooper Dushang, Research Associate
+November 10, 2026
+Email icon
+Twitter icon
+Linkedin icon
+State of the Network #389
+Back to Insights
+Research
+Research
+Countdown to ANT: What the Pre-IPO Perps Markets Say About Anthropic’s IPO
+By:
+Cooper Dushang, Research Associate
+November 10, 2026
+Email icon
+Twitter icon
+Linkedin icon
+Introduction
+State of the Network #389
+Key Takeaways:
+Traders continue to build exposure to the Anthropic IPO via pre-IPO perpetual futures markets. As of November 10, there is over $260M in open interest across Entropy, TradeXYZ, and OKX futures markets speculating on Anthropic’s valuation.
+Even though OKX and TradeXYZ use a per-share price for Anthropic’s valuation, the number of total shares impacts the markets differently. This can create price discrepancies due to non-uniform settlement rules.
+Anthropic’s average pre-IPO perp valuation is ~$1.4T. Anthropic’s amended S1 filing reports ~18B shares after dilution. The amended S1 sets an expected price range of $70–$78.
+Introduction
+Anthropic released its public S1 filing on October 26, 2026. With an anticipated IPO next week, speculators are building financial exposure via pre-IPO markets. We
+previously examined
+the Hyperliquid HIP-3 builder Entropy registering its own Anthropic pre-IPO market. Hyperliquid perps provided deep liquidity and tight bid-ask spreads which were competitive with centralized exchanges speculating on IPO valuation.
+OKX was the only exchange that supported a market that valued Anthropic IPO on a per-share basis until the S1 filing. Other markets used a market-cap valuation method to price the total value of the company. After the S1 filing, both HIP-3 builders Paragon and TradeXYZ support Anthropic pre-IPO markets that value Anthropic using a share price market. In this State of the Network, we examine how the amendment of a definitive share count to Anthropic’s S1 filing impacts the price and valuation of Anthropic on an individual market basis.
+Anthropic Implied Valuation
+Across pre-IPO markets, investors value Anthropic around $1.4 trillion. The valuation of the firm has crept down from highs over $2T. The valuation continued lower after Anthropic filed its public S1 filing and amended its filing with additional information on share and anticipated IPO price.
+Source:
+Talos CM Market Data Pro
+, (Entropy, Binance, Bitget, Gate.io markets)
+Why Does Share Count Matter?
+Most markets supporting the Anthropic pre-IPO use a market-cap based valuation. When Anthropic IPOs, markets convert from a market-cap based valuation to a per-share valuation. This is where markets can support price dislocations due to heterogeneous settlement rules. All markets will converge to the publicly traded ANT share price but the way in which each market reaches that point is not uniform.
+XYZ - The Baseline for ANT valuation
+Hyperliquid HIP-3 builder TradeXYZ deployed their own Anthropic pre-IPO market the same day Anthropic publicly filed its S1 filing. Since October 26, TradeXYZ has garnered over $65M in open interest, quadrupling OKX’s open interest in less than four days after launch.
+Source:
+Talos CM Market Data Pro
+TradeXYZ launched its ANT market at
+$125
+with price discovery bands of +/- 50%. Anthropic is preparing to sell 825M shares at IPO at a share price around $70-$78. As of November 10, TradeXYZ’s ANT price of ~$97 sits 23% above the top of the $70-$78 range.
+Source:
+Talos CM Market Data Pro
+, SEC S1 filing
+TradeXYZ prices each contract as one share of Anthropic Class A common stock. These Class A shares are the same unit that Anthropic is offering to sell in its S1 and the unit that will be quoted by Nasdaq. On conversion from pre-IPO perp to standard equity perp, the per-share denominator is Class A common stock only. No options, RSUs, or other classes are added, so this is the narrowest denominator of any venue. That makes TradeXYZ the baseline other pre-IPO markets are measured against.
+OKX Market Structure
+OKX deployed a price-per-share valuation market for Anthropic in May 2026. OKX initially used a share count of 1B for the price per share. A $1500 price per share implied a valuation of $1.5T. On June 30, OKX conducted a rebase to better estimate the anticipated share count, increasing the number of shares from 1B to
+10B
+. This maintained trader positions and reduced the contract price to 1/10th of its original price.
+OKX will conduct another rebase to accurately represent the number of
+common shares
+outstanding. When rebasing,
+OKX realizes PnL
+for existing positions and reopens them after rebasing.
+Source:
+Talos CM Market Data Pro
+, OKX
+OKX settles using the count of common shares outstanding immediately after the IPO. This includes Class A plus Class N common stock but excluding unexercised options and unsettled RSUs. From the S1 amendment, this is ~15.2B shares. That is larger than TradeXYZ’s Class A-only denominator. The per-share settlement value is expected to fall and converge down to the TradeXYZ baseline.
+Entropy’s Persistent Popularity
+The HIP-3 builder Entropy uses a market-cap based valuation model for Anthropic. Entropy launched its pre-IPO perp market in August. There is now more than $175M in open interest on Entropy.
+Source:
+Talos CM Market Data Pro
+, SEC S1 filing
+Entropy settles its
+converted
+equity perp as equity valuation /
+fully diluted share count
+of Class A, Class N, unexercised options, and unsettled RSUs. Spreading a similar valuation across the most shares, Entropy trades at a discount relative to other venues, pricing in maximum dilution. Traders on Entropy expect an IPO pop of ~20%.
+How Have ANT Perps Moved During pre-IPO?
+Anthropic pre-IPO trades at a Beta lower than 1 (0.72) relative to the QQQ index, indicating that it is less sensitive to larger market movements related to the technology industry. This may reflect uncertainty about how events impact Anthropic’s stock value. Anthropic however is more sensitive to movements in relation to the S&P 500 with a Beta of 1.15.
+Source:
+Talos CM Market Data Pro
+, Yahoo Finance
+SpaceX pre-IPO markets experienced similar activity with a Beta lower than 1 relative to the QQQ and S&P indices. Pre-IPO, SPCX had Betas of 0.22 and 0.45 relative to the QQQ and S&P respectively. After the IPO, SPCX Betas jumped to 1.43 and 1.97 respectively. In SpaceX’s case, sensitivity to broader market moves increased once the stock was publicly traded.
+Are Perps Good Price Discovery Mechanism?
+SpaceX’s IPO offer price was $135 while the perpetuals traded ~$176. Even with the first trading day pop, perpetuals overestimated the price ~17% above the open. The price of the perp contracts converged to the SPCX share price. Despite overestimating the jump, pre-IPO markets enabled traders to access the price pop that usually occurs with IPOs.
+Source:
+Talos CM Market Data Pro
+, Yahoo Finance
+A week after SpaceX’s IPO, SPCX perpetuals traded within 2% of the underlying SPCX stock during open market hours. Perp markets quickly converged to the underlying SPCX price after the IPO.
+If you’d like to get State of the Network in your inbox, please subscribe
+here
+. You can see previous issues of State of the Network
+here
+.
+‍
+Disclaimer: The information herein is provided for informational purposes only. Talos Trading, LLC and its affiliates (“Talos”) does not give any representations or warranties in relation to the accuracy, validity, or completeness of the information of this material, including without limitation the factual information obtained from publicly available sources considered by Talos to be reliable at the time. Talos accepts no liability for any consequences of using the information contained in this material. Any opinions or estimates expressed herein reflect a judgment made by the author(s) as of the date of publication and are subject to change without notice. Neither this material nor any copy thereof may be taken, reproduced, or redistributed, directly or indirectly, without Talos’s prior written permission. Any views or opinions expressed are those of the authors and do not necessarily reflect the views of Talos. This communication does not constitute an offer to buy or sell, or a promotion or recommendation of, any digital asset, security, derivative, commodity, financial instrument, or product or trading strategy. This document and information are not intended to constitute investment advice or a recommendation to make (or refrain from making) any kind of investment decision and may not be relied on as such.
+Subscribe
+If you’d like to get State of the Network in your inbox, please subscribe below.
+Subscribe on Substack
+Latest insights and research
+November 10, 2026
+COMMENTARY
+Regulatory Roundup #24
+Your dose of regulatory moves, missteps and melodrama, ensuring you’re always informed (and occasionally amused) by what global watchdogs are up to.
+Written by:
+Jon Blankfield, Compliance & Regulatory Strategy
+6 minute read
+November 10, 2026
+MEDIA
+Event Contracts and Prediction Markets: Welcome to 24/7
+Panel Takeaways from the FIX Americas Trading Conference 2026
+Written by:
+5 minute read
+November 9, 2026
+News
+Talos Becomes First Institutional Trading Platform to Connect Liquidity from a Solver Network
+NEAR Intents integration adds cross-chain solver liquidity to the institutional RFQ execution workflow
+Written by:
+4 minute read
+View all our latest insights
+Request a demo
+Request a demo
+Find out how Talos can simplify the way you interact with the digital asset markets.
+Trading
+White Label
+Portfolio Construction
+Portfolio & Risk Management
+Treasury & Settlement
+Analytics
+link to homepage
+Solutions
+Trading Platform
+White Label
+Portfolio Construction
+Portfolio & Risk Management
+Treasury & Settlement
+Post-Trade Analytics
+Company
+Why Talos
+Talos Story
+Meet the Team
+Working at Talos
+Life at Talos
+Open Roles
+Internships
+Contact us
+Resources
+Insights
+Provider Network
+Legal
+Terms
+Privacy
+Data Processing Addendums
+FAQs
+Employee Privacy Notice
+© 2026 Talos Global, Inc.
+link to linkedin
+‍
+link to Twitter
+‍
+link to YouTube
+‍
+Talos Global, Inc. and its affiliates (“Talos”) offer software as a service products that provide connectivity tools for institutional customers. Talos does not provide clients with any pre-negotiated arrangements with liquidity providers or other parties.  Clients are required to independently negotiate arrangements with liquidity providers and other parties bilaterally.  Talos is not party to any of these arrangements.
+‍
+In respect of recipients resident in the UK, this communication is aimed solely at high-net worth companies, associations and trusts (as defined in Article 49 of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005). These are any of the following: (i) a body corporate which has (or a body corporate which is in the same corporate group as a body corporate which has) either net assets or called-up share capital of at least £5m (or, if the body corporate has more than 20 members, £500,000); (ii) a partnership or unincorporated association with net assets of at least £5 million and (iii) a trustee of a trust which has had gross assets (i.e. total assets held before deduction of any liabilities) of at least £10 million at any time within the year preceding the date of this communication  The services described within this communication are only available to said persons. Any other persons resident in the UK must not rely or act upon this communication.
+Talos is not regulated by the Seychelles Financial Services Authority.
+‍
+All Talos product images and simulations presented are for informational and demonstrative purposes only. Not all features may be available to all Talos customers.
+LINKS
+/insights-category/research
+/insights-media-type/research
+/
+/our-solutions/trading
+/our-solutions/white-label
+/our-solutions/rfq-platform
+/our-solutions/portfolio-construction
+/our-solutions/portfolio-and-risk-management
+/our-solutions/treasury-and-settlement
+/our-solutions/data/overview
+/our-solutions/analytics
+/our-solutions/prediction-markets
+/clients/asset-managers
+/clients/etf-issuers
+/clients/hedge-funds
+/clients/crypto-funds
+/clients/proprietary-trading-firms
+/clients/token-holders
+/clients/banks
+/clients/retail-investment-platforms
+/clients/otc-desks
+/clients/broker-dealers
+/clients/custodians
+/clients/payment-service-providers
+/about/why-talos
+/about/the-talos-story
+/about/the-leadership-team
+/working/life-at-talos
+/working/open-roles
+/working/internships
+/provider-network
+/insights
+/contact
+/request-a-demo
+/
+/our-solutions/all
+/our-solutions/trading
+/our-solutions/white-label
+/our-solutions/rfq-platform
+/our-solutions/portfolio-construction
+/our-solutions/portfolio-and-risk-management
+/our-solutions/treasury-and-settlement
+/our-solutions/data/overview
+/our-solutions/data/market-data-feed
+/our-solutions/data/market-data-pro
+/our-solutions/data/atlas
+/our-solutions/data/network-data-pro
+/our-solutions/data/prices
+/our-solutions/data/indexes
+/our-solutions/data/datonomy
+/our-solutions/analytics
+/our-solutions/prediction-markets
+/clients/asset-managers
+/clients/etf-issuers
+/clients/hedge-funds
+/clients/crypto-funds
+/clients/proprietary-trading-firms
+/clients/token-holders
+/clients/banks
+/clients/retail-investment-platforms
+/clients/otc-desks
+/clients/broker-dealers
+/clients/custodians
+/clients/payment-service-providers
+/about/why-talos
+/about/the-talos-story
+/about/the-leadership-team
+/working/life-at-talos
+/working/open-roles
+/working/internships
+/provider-network
+/insights
+/contact
+/request-a-demo
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+/legals/privacy
+#
+#
+#
+/insights
+mailto:?subject=Talos: Countdown to ANT: What the Pre-IPO Perps Markets Say About Anthropic’s IPO&body=Here's an article for you from Talos: https://www.talos.com/insights/countdown-to-ant-what-the-pre-ipo-perps-markets-say-about-anthropics-ipo  
+#
+#
+#
+/insights
+#
+mailto:?subject=Talos: Countdown to ANT: What the Pre-IPO Perps Markets Say About Anthropic’s IPO&body=Here's an article for you from Talos: https://www.talos.com/insights/countdown-to-ant-what-the-pre-ipo-perps-markets-say-about-anthropics-ipo  
+#
+#
+#
+#
+https://www.talos.com/insights/the-perpification-of-pre-ipos
+https://substackcdn.com/image/fetch/$s_!g_YT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F708041e3-84f5-4682-aca0-79209c66c30f_1684x1033.png
+https://www.talos.com/our-solutions/data/market-data-pro
+https://substackcdn.com/image/fetch/$s_!xgXj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7b623b68-b2a3-4e66-9a9f-368b51f2597c_1692x1103.png
+https://www.talos.com/our-solutions/data/market-data-pro
+https://docs.trade.xyz/perpetuals/specifications-and-schedules/pre-ipo-specification-index
+https://substackcdn.com/image/fetch/$s_!6X6H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d4a8460-a574-484b-96da-502c27a87c23_1738x1199.png
+https://www.talos.com/our-solutions/data/market-data-pro
+https://www.okx.com/en-ae/help/okx-to-list-pre-ipo-openaiusd-and-anthropicusd-x-perps
+https://www.okx.com/en-ae/help/pre-ipo-perpetual-futures
+https://www.okx.com/en-us/help/pre-ipo-perpetual-futures
+https://substackcdn.com/image/fetch/$s_!bXom!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7859d32c-9f7b-40b3-92bc-fe3098d74a67_1842x1024.png
+https://www.talos.com/our-solutions/data/market-data-pro
+https://substackcdn.com/image/fetch/$s_!x0lC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61762615-fb90-4d9d-97ab-f6af7c6e0abb_1757x1073.png
+https://www.talos.com/our-solutions/data/market-data-pro
+https://docs.entropy.io/market-types/pre-ipo-perpetuals
+https://x.com/Kintsugi_IO/status/2118036964712518140?a=cJ-RiYomgjh_QeWVRHU&s=20
+https://substackcdn.com/image/fetch/$s_!rSs-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5c26edb-ade5-4979-a02f-296302e78881_1639x1072.png
+https://www.talos.com/our-solutions/data/market-data-pro
+https://substackcdn.com/image/fetch/$s_!I6jf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb3374f86-e616-4348-9ce4-0684341822e3_1636x1051.png
+https://www.talos.com/our-solutions/data/market-data-pro
+https://coinmetrics.substack.com/
+https://coinmetrics.substack.com/archive
+https://coinmetrics.substack.com/
+/insights/regulatory-roundup-24
+/insights/event-contracts-prediction-markets-welcome-to-24-7
+/insights/talos-connects-liquidity-from-near-intents-solver-network
+/insights
+/request-a-demo
+/our-solutions/trading
+/our-solutions/white-label
+/our-solutions/portfolio-construction
+/our-solutions/portfolio-and-risk-management
+/our-solutions/treasury-and-settlement
+/our-solutions/analytics
+/
+/our-solutions/trading
+/our-solutions/white-label
+/our-solutions/portfolio-construction
+/our-solutions/portfolio-and-risk-management
+/our-solutions/treasury-and-settlement
+/our-solutions/analytics
+/about/why-talos
+/about/the-talos-story
+/about/the-leadership-team
+/working/life-at-talos
+/working/open-roles
+/working/internships
+/contact
+/insights
+/provider-network
+/legals/terms
+/legals/privacy
+/legals/data-processing-addendums
+/faqs
+/legals/employee-privacy-policy
+https://www.linkedin.com/company/talos-trading
+https://twitter.com/talostrading
+https://www.youtube.com/@talostrading

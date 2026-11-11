@@ -1,0 +1,133 @@
+https://docs.ventuals.com/sunset-guide.md
+200
+> For the complete documentation index, see [llms.txt](https://docs.ventuals.com/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://docs.ventuals.com/sunset-guide.md).
+
+# Sunset Guide
+
+## Market settlement
+
+### Pre-IPO markets
+
+Effective 9:30am ET 06-15-2026, the mark prices for the OPENAI and ANTHROPIC markets have been frozen at their respective 24-hour TWAPs, calculated using mark price samples taken every 5 minutes, and funding rates have been set to 0. This is the fairest settlement mechanic considering that these markets do not have a realtime external reference price.
+
+The OPENAI market will be halted for trading at 10:30am ET 06-15-2026. The OPENAI mark price TWAP from the last 24 hours (9:30am ET 06-14-2026 — 9:30am ET 06-15-2026) is $1,341.80. This is the mark price that will be used for market settlement once trading is halted.
+
+The ANTHROPIC market will be halted for trading at 11:30am ET 06-15-2026. The ANTHROPIC mark price TWAP from the last 24 hours (9:30am ET 06-14-2026 — 9:30am ET 06-15-2026) is $1,618.90. This is the mark price that will be used for market settlement once trading is halted.
+
+Once trading is halted, PNL from all open positions will be settled automatically using the mark price TWAP from the last 24 hours. No action is required from traders.
+
+Traders may close their positions early before the market halt time, but **this is not recommended for pre-IPO markets**, as liquidity may be thin and the orderbook price may deviate from the mark price TWAP from the last 24 hours.
+
+### Commodity markets
+
+Commodity markets will be settled shortly after the end of the regular trading session on Thursday, June 18 at 2:20pm ET, to give market participants time to close any hedged positions. This includes the WHEAT and SOY markets.
+
+Effective immediately, commodity markets have entered a **settlement period**, in which the mark and oracle prices follow the latest available external price from regular trading hours. This prevents drastic mark price fluctuations and liquidations in potential low liquidity conditions.
+
+At the end of regular commodity trading hours (2:20pm ET on Thursday, June 18), the mark and oracle prices will **freeze** to the latest available external price based on CME data, and funding rates will be set to 0. After all commodity markets are frozen, each market will be halted and all positions will be settled at their respective frozen mark price.
+
+Here is the market halt schedule for commodity markets:
+
+| Market | Market halt date and time |
+| ------ | ------------------------- |
+| SOY    | June 18, 2:30pm ET        |
+| WHEAT  | June 18, 3:30pm ET        |
+
+Once trading is halted, PNL from all open positions will be settled automatically using the last available external price from the regular trading session, which will be the CME price at 2:20pm ET on June 18.
+
+Traders do not need to take any action for their positions to be settled, but may choose to close their positions early before the market halt time.
+
+### Index markets
+
+Index markets will be settled shortly after the end of the regular trading session on Thursday, June 18 at 4:00pm ET, to give market participants time to close any hedged positions. This includes the MAG7, SEMIS, ROBOT, INFOTECH, NUCLEAR, DEFENSE, ENERGY, and BIOTECH markets.
+
+Effective immediately, index markets have entered a **settlement period**, in which the mark and oracle prices follow the latest available external price from regular trading hours. This prevents drastic mark price fluctuations and liquidations in potential low liquidity conditions.
+
+At the end of regular trading hours (4pm ET on Thursday, June 18), the mark and oracle prices will **freeze** to the latest available external price based on relevant exchange data, and funding rates will be set to 0. After all index markets are frozen, each market will be halted and all positions will be settled at their respective frozen mark price.
+
+Here is the market halt schedule for index markets:
+
+| Market   | Market halt date and time |
+| -------- | ------------------------- |
+| INFOTECH | June 18, 4:30pm ET        |
+| DEFENSE  | June 18, 5:30pm ET        |
+| NUCLEAR  | June 18, 6:30pm ET        |
+| ROBOT    | June 18, 7:30pm ET        |
+| BIOTECH  | June 18, 8:30pm ET        |
+| ENERGY   | June 18, 9:30pm ET        |
+| SEMIS    | June 18, 10:30pm ET       |
+| MAG7     | June 18, 11:30pm ET       |
+
+Once trading is halted, PNL from all open positions will be settled automatically using the last available external price from the regular trading session, which will be the external price at 4:00pm ET on June 18.
+
+Traders do not need to take any action for their positions to be settled, but may choose to close their positions early before the market halt time.
+
+## vHYPE
+
+After all markets are halted per the schedule above, 100% of vHYPE holders will be able to withdraw their deposited HYPE. Users can expect to get their HYPE back 1:1, plus any accrued native staking yield since their deposit.
+
+You may initiate your withdrawal [here](https://app.ventuals.com/vhype). Effective immediately, the Ventuals frontend will no longer support new vHYPE deposits.
+
+All initiated withdrawals will be batch processed starting at 10am ET on June 19, and will be continuously processed in batch once every 24-72 hours thereafter.
+
+Once your withdrawal is processed, it will become claimable after 7.5 days (the standard 7 day Hyperliquid native unstaking period, plus a 12 hour cooldown period). This means that if you initiate a withdrawal before 10am ET on June 19, you can expect to receive your native HYPE back by 10pm ET on June 26. Your HYPE will be transferred to your HyperCore spot account (not your HyperEVM wallet).
+
+While we encourage you to withdraw promptly, there is no benefit for withdrawing earlier than others besides getting your native HYPE back sooner.
+
+As a reminder, Ventuals has never earned any fees on vHYPE. Since inception, there have been no deposit fees, no withdrawal fees, nor any cut taken from the native HYPE staking yield from depositors.
+
+We thank all vHYPE holders for their early support in helping us launch Ventuals on mainnet.
+
+## Points
+
+Effective immediately, the Ventuals points program has been discontinued.
+
+Ventuals points do not have monetary value and will not be redeemable for cash, equity, tokens, or any other consideration. There will be no Ventuals token.
+
+From the beginning, we believed that a token should only be launched if it could sustainably accrue real economic value. Because Ventuals is winding down, there is no longer a viable path to launching a value-accruing token.
+
+## Referrals
+
+Effective immediately, the Ventuals Referrals program has been discontinued.
+
+Since launch, referral rewards have been paid weekly in stablecoins based on a percentage of trading fees generated by referred users trading through the ventuals.com frontend.
+
+The final Referral Rewards disbursement has been completed. As before, no action or claim is required from users.
+
+## USDH →USDC conversion
+
+Users should redeem their Ventuals USDH collateral for USDC using one of the following methods:
+* The HyperCore [USDH/USDC order book](https://app.hyperliquid.xyz/trade/USDH/USDC)
+* Using the 1:1, zero-fee HyperEVM USDH -> HyperCore USDC bridge, via [Across Protocol](https://across.to/?from=hyperevm\&inputToken=USDH\&to=hypercore\&outputToken=USDC-PERPS)
+
+View the official [USDH sunset information](https://usdh.com/migration)
+
+## FAQs
+
+We have created a [sunset page](https://app.ventuals.com/sunset) with resources to help users wind down their Ventuals accounts, including instructions for withdrawing vHYPE, exporting Privy wallets for users who signed up with email, and answers to frequently asked questions.
+
+We plan to maintain this page at least until September 15, 2026. Please withdraw any remaining vHYPE and export your Privy wallet before that date.
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation by asking a question.
+
+Perform an HTTP GET request on the following URL with the `ask` and `goal` query parameters:
+
+```
+GET https://docs.ventuals.com/sunset-guide.md?ask=
+&goal=
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is what the user is ultimately trying to achieve, the reason they need the answer. Sharing it helps GitBook give you a better, more relevant answer. A goal is most helpful when it describes the outcome the user wants rather than restating the question. For example, with `ask=how do I create an API token`, a goal like `automate deployments from our CI pipeline` lets GitBook tailor the answer to that use case.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
+LINKS

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img"><title>para:ANTH — raw trade-price history</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="Arial,sans-serif" fill="#172033">
+<text x="100" y="30" font-size="20" font-weight="bold">para:ANTH — raw trade-price history</text>
+<text x="100" y="52" font-size="12">Daily trade closes; last day partial. No mark-price history. Hover points for details.</text>
+<path d="M 100 445.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="449.0" text-anchor="end" font-size="12">91</text>
+<path d="M 100 374.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="378.0" text-anchor="end" font-size="12">97</text>
+<path d="M 100 303.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="307.0" text-anchor="end" font-size="12">102</text>
+<path d="M 100 232.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="236.0" text-anchor="end" font-size="12">108</text>
+<path d="M 100 161.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="165.0" text-anchor="end" font-size="12">114</text>
+<path d="M 100 90.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="94.0" text-anchor="end" font-size="12">120</text>
+<text x="100.0" y="468" text-anchor="middle" font-size="12">2026-10-27</text>
+<text x="293.0" y="468" text-anchor="middle" font-size="12">2026-10-30</text>
+<text x="486.0" y="468" text-anchor="middle" font-size="12">2026-11-02</text>
+<text x="679.0" y="468" text-anchor="middle" font-size="12">2026-11-05</text>
+<text x="872.0" y="468" text-anchor="middle" font-size="12">2026-11-08</text>
+<text x="1065.0" y="468" text-anchor="middle" font-size="12">2026-11-11</text>
+<text x="100" y="74" fill="#ea580c" font-size="13">Paragon</text>
+<polyline points="100.00,151.11 164.33,124.35 228.67,193.94 293.00,174.39 357.33,192.26 421.67,189.99 486.00,242.06 550.33,191.07 614.67,136.59 679.00,237.26 743.33,410.65 807.67,361.94 872.00,362.04 936.33,305.17 1000.67,370.57 1065.00,295.81" fill="none" stroke="#ea580c" stroke-width="2.3"/>
+<circle cx="100.00" cy="151.11" r="3" fill="#ea580c"><title>para:ANTH | 2026-10-27 | close 115.100 | raw contract price</title></circle>
+<circle cx="164.33" cy="124.35" r="3" fill="#ea580c"><title>para:ANTH | 2026-10-28 | close 117.330 | raw contract price</title></circle>
+<circle cx="228.67" cy="193.94" r="3" fill="#ea580c"><title>para:ANTH | 2026-10-29 | close 111.530 | raw contract price</title></circle>
+<circle cx="293.00" cy="174.39" r="3" fill="#ea580c"><title>para:ANTH | 2026-10-30 | close 113.160 | raw contract price</title></circle>
+<circle cx="357.33" cy="192.26" r="3" fill="#ea580c"><title>para:ANTH | 2026-10-31 | close 111.670 | raw contract price</title></circle>
+<circle cx="421.67" cy="189.99" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-01 | close 111.860 | raw contract price</title></circle>
+<circle cx="486.00" cy="242.06" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-02 | close 107.520 | raw contract price</title></circle>
+<circle cx="550.33" cy="191.07" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-03 | close 111.770 | raw contract price</title></circle>
+<circle cx="614.67" cy="136.59" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-04 | close 116.310 | raw contract price</title></circle>
+<circle cx="679.00" cy="237.26" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-05 | close 107.920 | raw contract price</title></circle>
+<circle cx="743.33" cy="410.65" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-06 | close 93.469 | raw contract price</title></circle>
+<circle cx="807.67" cy="361.94" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-07 | close 97.528 | raw contract price</title></circle>
+<circle cx="872.00" cy="362.04" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-08 | close 97.520 | raw contract price</title></circle>
+<circle cx="936.33" cy="305.17" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-09 | close 102.260 | raw contract price</title></circle>
+<circle cx="1000.67" cy="370.57" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-10 | close 96.809 | raw contract price</title></circle>
+<circle cx="1065.00" cy="295.81" r="3" fill="#ea580c"><title>para:ANTH | 2026-11-11 | close 103.040 | raw contract price</title></circle>
+<text x="100" y="500" font-size="12">Raw contract price (not company valuation)</text></g></svg>

@@ -1,0 +1,723 @@
+https://docs.paragon.trade/resources/specifications.md
+200
+> For the complete documentation index, see [llms.txt](https://docs.paragon.trade/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://docs.paragon.trade/resources/specifications.md).
+
+# Contract Specifications
+
+Consolidated reference for every Paragon market — shared contract mechanics and market specifications.
+
+## Contract Basics
+
+All Paragon markets share the same contract mechanics:
+
+| Parameter      | Value                                      |
+| -------------- | ------------------------------------------ |
+| Contract Type  | Perpetual futures (no expiry)              |
+| Quote Currency | USDC                                       |
+| Settlement     | Cash-settled                               |
+| Position Unit  | USDC notional value                        |
+| PnL Formula    | (Exit Price − Entry Price) × Position Size |
+
+**Example:** a $1,000 position at 10x leverage requires $100 margin and yields $10 PnL per 1% move in the underlying.
+
+**Rates markets** track a rate rather than a price. The index is expressed in percent, margin and settlement remain in USDC, and a long position gains when the rate rises — long the yield is short the bond.
+
+## Market Specifications
+
+Markets are listed most recently added first.
+
+**Pre-Listing markets:** public filings and offering terms may be incomplete, preliminary, or later revised. The values shown for a Pre-Listing market should not be treated as indicative market capitalizations or fair-value references for the underlying issuer. The ultimate public price, or the number of fully diluted shares, may differ materially. See the [Pre-Listing Risk Disclosure](/legal/pre-listing-risk-disclosure.md).
+
+For a Pre-Listing market, the Bounds shown below may be set independently of maximum leverage rather than derived from it, and the stated value is controlling. Pre-listing oracle parameters — the discovery time constant, any listing-window acceleration, and whether manual reference anchoring is available — are listed separately under [Pre-Listing Parameters](/markets/equities/pre-listing-pricing.md#pre-listing-parameters).
+Instrument
+Status
+Description
+Data Source
+Max Leverage
+OI Cap
+Funding Multiplier
+Funding Clamp
+Margin Mode
+External Pricing Session
+Fallback Pricing Hours
+Bounds
+Launch Reference Value
+Max Re-Anchorings
+Expected Listing Date
+Listing Buffer
+HYPE²
+—
+Tracks the square of the HYPE price, rescaled by a constant fixed at launch so the index opens at HYPE's launch price. A 1% move in HYPE moves the index 2%; longs pay shorts a funding rate set by HYPE's variance. See
+Power Perpetuals
+.
+Pyth + exchanges
+3x
+$25M
+1
+0.0015
+Cross
+24/7
+—
+—
+—
+—
+—
+—
+ANT
+Pre-Listing
+Tracks the expected value of one share of Anthropic, PBC ahead of a potential public listing. Anthropic is an AI safety company that develops the Claude family of large language models, together with developer APIs, consumer applications, and enterprise products. No qualifying external public-equity price is available while the market carries Pre-Listing status.
+Internal pre-listing
+10x
+$25M
+0.006
+0.0003
+Isolated
+—
+24/7 until listing
+±10%
+$110.00
+15 (per direction)
+TBD
+60 days
+DRV
+—
+Tracks the value of one DRV token. DRV is the native token of Derive, an onchain derivatives protocol for trading crypto options, perpetual futures, and structured products, with portfolio margining and self-custodial settlement on its Ethereum-based rollup.
+Crypto spot markets
+5x
+$10M
+0.6
+0.0003
+Isolated
+24/7
+—
+—
+—
+—
+—
+—
+PAPER
+Pre-Launch
+Tracks the market-implied USD value of one PAPER token. PAPER is the token of Papertrade, an on-chain trading platform on HyperEVM, minted to traders from realized losses and stakeable for a share of platform fees. PAPER is not yet transferable and has no spot market; the contract trades as a hyperp, priced from its own order book.
+Pre-Launch (hyperp)
+3x
+$5M
+0.01
+0.0003
+Isolated
+24/7
+—
+—
+$0.01
+—
+—
+—
+SMH
+Listed
+SMH tracks the MarketVector™ US Listed Semiconductor 25 Continuous Index (MVCSMH), a 24/5 version of MarketVector’s flagship US-listed semiconductor benchmark. The index extends calculation across overnight, pre-market, and post-market sessions and is referenced directly rather than through an ETF.
+MarketVector MVCSMH
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+GDX
+Listed
+Tracks the value of one share of the VanEck Gold Miners ETF. GDX provides diversified exposure to gold mining companies worldwide, spanning major producers, developers, and royalty and streaming firms whose revenues follow the price of gold.
+Equity.US.GDX/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+Regular only, Mon–Fri 9:30AM–4PM ET
+Pre-Market, Post-Market, Overnight, weekends, and
+holidays
+±10%
+—
+1
+—
+—
+TREAD
+—
+Tracks the USD spot price of one TREAD token. TREAD is the utility token of Tread.fi, an algorithmic trading platform that provides institutional-grade execution, AI trading agents, automated strategies, and connectivity across centralized and decentralized crypto venues. The token is used for fee discounts, agent marketplace access, and participation in Tread.fi's liquidity and venue ecosystem.
+Crypto spot markets
+5x
+$10M
+0.6
+0.0003
+Isolated
+24/7
+—
+—
+—
+—
+—
+—
+CIFR
+Listed
+Tracks the value of one share of Cipher Digital. Cipher Digital develops and operates large-scale data centers for Bitcoin mining and AI/HPC workloads, combining power infrastructure, computing capacity, and specialized facilities across the United States.
+Equity.US.CIFR/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+Pre/Regular/Post, Mon–Fri 4AM–8PM ET
+Overnight, weekends, and
+holidays
+±10%
+—
+1
+—
+—
+TTWO
+Listed
+Tracks the value of one share of Take-Two Interactive. Take-Two develops and publishes interactive entertainment through its Rockstar Games, 2K, and Zynga labels, spanning console and PC franchises such as Grand Theft Auto, Red Dead Redemption, and NBA 2K alongside free-to-play mobile titles, monetized through game sales, in-game purchases, and advertising worldwide.
+Equity.US.TTWO/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+Pre/Regular/Post, Mon–Fri 4AM–8PM ET
+Overnight, weekends, and
+holidays
+±10%
+—
+1
+—
+—
+SOFI
+Listed
+Tracks the value of one share of SoFi Technologies. SoFi operates a digital financial-services platform spanning banking, lending, investing, credit cards, and other consumer financial products, while also providing technology infrastructure to banks, fintechs, and brands.
+Equity.US.SOFI/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+IGV
+Listed
+Tracks the value of one share of the iShares Expanded Tech-Software Sector ETF. IGV provides diversified exposure to software companies across enterprise applications, cybersecurity, cloud computing, infrastructure, and other technology services.
+Equity.US.IGV/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+0
+—
+—
+2Y
+—
+Tracks the yield on the most recently issued (on-the-run) 2-year US Treasury note, expressed in percent. A key gauge of near-term US interest rate and monetary policy expectations.
+Rates.US2Y
+20x
+$25M
+0.1
+0.005
+Isolated
+02:30–17:00 ET, Mon–Fri
+17:00–02:30 ET, weekends, and
+holidays
+±5%
+—
+0
+—
+—
+30Y
+—
+Tracks the yield on the most recently issued (on-the-run) 30-year US Treasury bond, expressed in percent. The benchmark for long-dated US dollar borrowing costs.
+Rates.US30Y
+20x
+$25M
+0.1
+0.005
+Isolated
+02:30–17:00 ET, Mon–Fri
+17:00–02:30 ET, weekends, and
+holidays
+±5%
+—
+0
+—
+—
+ANSEM
+—
+Tracks the USD spot price of ANSEM, a creator coin associated with Ansem and its community.
+Crypto spot markets
+3x
+$5M
+0.6
+0.0003
+Isolated
+24/7
+—
+—
+—
+—
+—
+—
+SMCI
+Listed
+Tracks the value of one share of Supermicro. Supermicro designs and manufactures high-performance servers, GPU systems, storage, networking, and liquid-cooling infrastructure used to build and operate AI, cloud, high-performance computing, and enterprise data centers worldwide.
+Equity.US.SMCI/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+MELI
+Listed
+Tracks the value of one share of MercadoLibre. MercadoLibre operates Latin America's largest e-commerce and fintech ecosystem, spanning online marketplaces, digital payments, credit, logistics, advertising, and merchant services across major markets including Brazil, Mexico, and Argentina.
+Equity.US.MELI/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+Pre/Regular/Post, Mon–Fri 4AM–8PM ET
+Overnight, weekends, and
+holidays
+±10%
+—
+1
+—
+—
+CRWD
+Listed
+Tracks the value of one share of CrowdStrike. CrowdStrike provides cloud-native cybersecurity software that helps organizations protect endpoints, identities, cloud workloads, and data while detecting and responding to threats across enterprise environments worldwide.
+Equity.US.CRWD/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+UNITREE
+Listed
+Tracks the USD value of one A share of Unitree Robotics Co., Ltd. (688836.SH), listed on the Shanghai Stock Exchange STAR Market. The CNY share price is converted to USD using the USD/CNH rate. Unitree develops quadruped and humanoid robots, motion-control actuators, and embodied AI systems for research, industrial, and consumer applications.
+Equity.CN.688836/CNY
++ USD/CNH
+10x
+$25M
+0.6
+0.0003
+Isolated
+09:30–11:30, 13:00–14:57 CST, Mon–Fri
+Outside the Shanghai regular session, weekends, and
+holidays
+±10%
+—
+4
+—
+—
+RDDT
+Listed
+Tracks the value of one share of Reddit. Reddit operates a community-driven social platform organized around user-created forums covering news, entertainment, and niche interests, powering advertising, community commerce, and AI content licensing worldwide.
+Equity.US.RDDT/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+Regular only, Mon–Fri 9:30AM–4PM ET
+Pre-Market, Post-Market, Overnight, weekends, and
+holidays
+±10%
+—
+1
+—
+—
+CIEN
+Listed
+CIEN tracks the value of one share of Ciena. Ciena builds optical networking systems, routing platforms, and software that help cloud providers, telecom operators, and data centers move large volumes of data across high-speed networks worldwide.
+Equity.US.CIEN/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+10Y
+—
+Tracks the yield on the most recently issued (on-the-run) 10-year US Treasury note, expressed in percent. The standard reference for long-term US dollar borrowing costs.
+Rates.US10Y
+20x
+$25M
+0.1
+0.005
+Isolated
+02:30–17:00 ET, Mon–Fri
+17:00–02:30 ET, weekends, and
+holidays
+±5%
+—
+0
+—
+—
+AAOI
+Listed
+Tracks the value of one share of Applied Optoelectronics. Applied Optoelectronics designs and manufactures lasers, optical transceivers, and networking equipment used across AI data centers, cloud networks, cable broadband, telecom, and fiber access systems worldwide.
+Equity.US.AAOI/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+TER
+Listed
+Tracks the value of one share of Teradyne. Teradyne makes automated test equipment and robotics used to validate semiconductors, powering quality assurance for the chips behind AI systems, data centers, and consumer electronics worldwide.
+Equity.US.TER/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+VST
+Listed
+Tracks the value of one share of Vistra. Vistra generates and sells electricity through a diverse fleet of nuclear, natural gas, coal, solar, and battery storage facilities, powering homes, businesses, and data centers across the United States.
+Equity.US.VST/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+IREN
+Listed
+IREN tracks the value of one share of IREN Limited. IREN develops and operates renewable-powered data centers for AI cloud computing and Bitcoin mining, providing GPU infrastructure and high-performance computing capacity across North America.
+Equity.US.IREN/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+STX
+Listed
+Tracks the value of one share of Seagate Technology. Seagate manufactures hard drives and mass-capacity storage systems used to store and manage data across AI infrastructure, cloud data centers, enterprise systems, and edge applications worldwide.
+Equity.US.STX/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+NET
+Listed
+Tracks the value of one share of Cloudflare. Cloudflare provides cloud networking, cybersecurity, content delivery, and developer infrastructure that helps businesses secure and accelerate websites, applications, and AI workloads worldwide.
+Equity.US.NET/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+Pre/Regular/Post, Mon–Fri 4AM–8PM ET
+Overnight, weekends, and
+holidays
+±10%
+—
+1
+—
+—
+LRCX
+Listed
+Tracks the value of one share of Lam Research. Lam Research builds wafer fabrication equipment for etch, deposition, and cleaning processes essential to manufacturing the advanced chips that power AI, data centers, and mobile devices worldwide.
+Equity.US.LRCX/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+CRDO
+Listed
+Tracks the value of one share of Credo Technology. Credo provides high-speed connectivity solutions, including active electrical cables, SerDes, and retimers, that move data efficiently across AI data centers and hyperscale networks worldwide.
+Equity.US.CRDO/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+GLW
+Listed
+Tracks the value of one share of Corning. Corning manufactures specialty glass and optical fiber used in AI data center connectivity, telecom networks, display screens, and advanced materials worldwide.
+Equity.US.GLW/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+COHR
+Listed
+Tracks the value of one share of Coherent. Coherent designs lasers, optical transceivers, and photonics components that power AI data center interconnects, optical networking, semiconductor manufacturing, and industrial systems worldwide.
+Equity.US.COHR/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+AVGO
+Listed
+Tracks the value of one share of Broadcom. Broadcom designs and supplies a broad range of semiconductors and infrastructure software, powering data centers, AI systems, cloud networks, and wireless devices worldwide.
+Equity.US.AVGO/USD
+10x
+$25M
+0.6
+0.0003
+Isolated
+24/5, Sun 8PM–Fri 8PM ET
+Fri 8PM–Sun 8PM ET, and
+holidays
+±10%
+—
+1
+—
+—
+BTC.D
+—
+Tracks Bitcoin's share of total crypto market capitalization (0–100%). A core gauge of capital rotation between Bitcoin and the broader altcoin market.
+Pyth + exchanges
+20x
+$10M
+0.6
+0.0003
+Cross / Isolated
+24/7
+—
+—
+—
+—
+—
+—
+OTHERS
+—
+Tracks the aggregate market capitalization of all crypto assets excluding the top 10. Exposure to mid- and small-cap rotation.
+Pyth + exchanges
+10x
+$5M
+0.6
+0.0003
+Cross / Isolated
+24/7
+—
+—
+—
+—
+—
+—
+TOTAL2
+—
+Tracks the aggregate market capitalization of all crypto assets excluding Bitcoin. A broad proxy for altcoin market direction.
+Pyth + exchanges
+20x
+$5M
+0.6
+0.0003
+Cross / Isolated
+24/7
+—
+—
+—
+—
+—
+—
+All market parameters are subject to change as liquidity and market conditions evolve — OI caps, in particular, are expected to rise over time. Updates are published in advance through Paragon's [official channels](/resources/links.md#stay-updated).
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation by asking a question.
+
+Perform an HTTP GET request on the following URL with the `ask` and `goal` query parameters:
+
+```
+GET https://docs.paragon.trade/resources/specifications.md?ask=
+&goal=
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is what the user is ultimately trying to achieve, the reason they need the answer. Sharing it helps GitBook give you a better, more relevant answer. A goal is most helpful when it describes the outcome the user wants rather than restating the question. For example, with `ask=how do I create an API token`, a goal like `automate deployments from our CI pipeline` lets GitBook tailor the answer to that use case.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
+LINKS
+/markets/power-perpetuals.md
+/markets/crypto-indices/external-pricing.md
+/markets/equities/pre-listing-pricing.md
+/markets/crypto-indices/external-pricing.md
+/markets/crypto-indices/pre-launch-pricing.md
+/markets/equities/external-pricing.md
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.GDX%2FUSD
+/markets/equities/off-hours-and-fallback.md
+/markets/crypto-indices/external-pricing.md
+https://app.pyth.com/explore/Equity.US.CIFR%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.TTWO%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.SOFI%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.IGV%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/InterestRate.US2Y
+/resources/holiday-closures.md
+https://app.pyth.com/explore/InterestRate.US30Y
+/resources/holiday-closures.md
+/markets/crypto-indices/external-pricing.md
+https://app.pyth.com/explore/Equity.US.SMCI%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.MELI%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.CRWD%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.CN.688836%2FCNY
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.RDDT%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.CIEN%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/InterestRate.US10Y
+/resources/holiday-closures.md
+https://app.pyth.com/explore/Equity.US.AAOI%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.TER%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.VST%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.IREN%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.STX%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.NET%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.LRCX%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.CRDO%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.GLW%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.COHR%2FUSD
+/markets/equities/off-hours-and-fallback.md
+https://app.pyth.com/explore/Equity.US.AVGO%2FUSD
+/markets/equities/off-hours-and-fallback.md
+/markets/crypto-indices/external-pricing.md
+/markets/crypto-indices/external-pricing.md
+/markets/crypto-indices/external-pricing.md

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img"><title>io:ANTH — raw trade-price history</title>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="Arial,sans-serif" fill="#172033">
+<text x="100" y="30" font-size="20" font-weight="bold">io:ANTH — raw trade-price history</text>
+<text x="100" y="52" font-size="12">Daily trade closes; last day partial. No mark-price history. Hover points for details.</text>
+<path d="M 100 445.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="449.0" text-anchor="end" font-size="12">1,436</text>
+<path d="M 100 374.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="378.0" text-anchor="end" font-size="12">1,623</text>
+<path d="M 100 303.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="307.0" text-anchor="end" font-size="12">1,810</text>
+<path d="M 100 232.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="236.0" text-anchor="end" font-size="12">1,996</text>
+<path d="M 100 161.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="165.0" text-anchor="end" font-size="12">2,183</text>
+<path d="M 100 90.0 H 1065" stroke="#e5e7eb"/>
+<text x="88" y="94.0" text-anchor="end" font-size="12">2,370</text>
+<text x="100.0" y="468" text-anchor="middle" font-size="12">2026-08-19</text>
+<text x="293.0" y="468" text-anchor="middle" font-size="12">2026-09-04</text>
+<text x="486.0" y="468" text-anchor="middle" font-size="12">2026-09-21</text>
+<text x="679.0" y="468" text-anchor="middle" font-size="12">2026-10-08</text>
+<text x="872.0" y="468" text-anchor="middle" font-size="12">2026-10-25</text>
+<text x="1065.0" y="468" text-anchor="middle" font-size="12">2026-11-11</text>
+<text x="100" y="74" fill="#059669" font-size="13">Entropy</text>
+<polyline points="100.00,306.09 111.49,295.60 122.98,276.02 134.46,270.92 145.95,264.27 157.44,244.69 168.93,228.07 180.42,235.53 191.90,248.83 203.39,251.42 214.88,263.55 226.37,277.39 237.86,253.62 249.35,243.36 260.83,242.94 272.32,244.95 283.81,249.82 295.30,238.38 306.79,236.97 318.27,221.76 329.76,157.93 341.25,124.35 352.74,172.18 364.23,162.83 375.71,191.23 387.20,176.44 398.69,152.72 410.18,160.51 421.67,165.76 433.15,171.46 444.64,165.95 456.13,171.77 467.62,175.99 479.11,167.47 490.60,158.57 502.08,168.08 513.57,195.41 525.06,195.49 536.55,205.38 548.04,186.52 559.52,201.27 571.01,216.40 582.50,198.91 593.99,197.35 605.48,201.80 616.96,201.46 628.45,198.80 639.94,196.93 651.43,178.00 662.92,186.75 674.40,205.49 685.89,203.59 697.38,196.17 708.87,199.25 720.36,208.61 731.85,218.68 743.33,253.09 754.82,284.72 766.31,259.29 777.80,272.78 789.29,258.83 800.77,237.16 812.26,248.41 823.75,243.62 835.24,254.27 846.73,254.12 858.21,263.77 869.70,268.18 881.19,275.94 892.68,274.46 904.17,278.98 915.65,302.44 927.14,334.57 938.63,308.68 950.12,304.99 961.61,332.74 973.10,311.07 984.58,281.80 996.07,337.61 1007.56,410.65 1019.05,387.64 1030.54,385.29 1042.02,350.61 1053.51,330.73 1065.00,303.20" fill="none" stroke="#059669" stroke-width="2.3"/>
+<circle cx="100.00" cy="306.09" r="3" fill="#059669"><title>io:ANTH | 2026-08-19 | close 1,801.500 | raw contract price</title></circle>
+<circle cx="111.49" cy="295.60" r="3" fill="#059669"><title>io:ANTH | 2026-08-20 | close 1,829.100 | raw contract price</title></circle>
+<circle cx="122.98" cy="276.02" r="3" fill="#059669"><title>io:ANTH | 2026-08-21 | close 1,880.600 | raw contract price</title></circle>
+<circle cx="134.46" cy="270.92" r="3" fill="#059669"><title>io:ANTH | 2026-08-22 | close 1,894.000 | raw contract price</title></circle>
+<circle cx="145.95" cy="264.27" r="3" fill="#059669"><title>io:ANTH | 2026-08-23 | close 1,911.500 | raw contract price</title></circle>
+<circle cx="157.44" cy="244.69" r="3" fill="#059669"><title>io:ANTH | 2026-08-24 | close 1,963.000 | raw contract price</title></circle>
+<circle cx="168.93" cy="228.07" r="3" fill="#059669"><title>io:ANTH | 2026-08-25 | close 2,006.700 | raw contract price</title></circle>
+<circle cx="180.42" cy="235.53" r="3" fill="#059669"><title>io:ANTH | 2026-08-26 | close 1,987.100 | raw contract price</title></circle>
+<circle cx="191.90" cy="248.83" r="3" fill="#059669"><title>io:ANTH | 2026-08-27 | close 1,952.100 | raw contract price</title></circle>
+<circle cx="203.39" cy="251.42" r="3" fill="#059669"><title>io:ANTH | 2026-08-28 | close 1,945.300 | raw contract price</title></circle>
+<circle cx="214.88" cy="263.55" r="3" fill="#059669"><title>io:ANTH | 2026-08-29 | close 1,913.400 | raw contract price</title></circle>
+<circle cx="226.37" cy="277.39" r="3" fill="#059669"><title>io:ANTH | 2026-08-30 | close 1,877.000 | raw contract price</title></circle>
+<circle cx="237.86" cy="253.62" r="3" fill="#059669"><title>io:ANTH | 2026-08-31 | close 1,939.500 | raw contract price</title></circle>
+<circle cx="249.35" cy="243.36" r="3" fill="#059669"><title>io:ANTH | 2026-09-01 | close 1,966.500 | raw contract price</title></circle>
+<circle cx="260.83" cy="242.94" r="3" fill="#059669"><title>io:ANTH | 2026-09-02 | close 1,967.600 | raw contract price</title></circle>
+<circle cx="272.32" cy="244.95" r="3" fill="#059669"><title>io:ANTH | 2026-09-03 | close 1,962.300 | raw contract price</title></circle>
+<circle cx="283.81" cy="249.82" r="3" fill="#059669"><title>io:ANTH | 2026-09-04 | close 1,949.500 | raw contract price</title></circle>
+<circle cx="295.30" cy="238.38" r="3" fill="#059669"><title>io:ANTH | 2026-09-05 | close 1,979.600 | raw contract price</title></circle>
+<circle cx="306.79" cy="236.97" r="3" fill="#059669"><title>io:ANTH | 2026-09-06 | close 1,983.300 | raw contract price</title></circle>
+<circle cx="318.27" cy="221.76" r="3" fill="#059669"><title>io:ANTH | 2026-09-07 | close 2,023.300 | raw contract price</title></circle>
+<circle cx="329.76" cy="157.93" r="3" fill="#059669"><title>io:ANTH | 2026-09-08 | close 2,191.200 | raw contract price</title></circle>
+<circle cx="341.25" cy="124.35" r="3" fill="#059669"><title>io:ANTH | 2026-09-09 | close 2,279.500 | raw contract price</title></circle>
+<circle cx="352.74" cy="172.18" r="3" fill="#059669"><title>io:ANTH | 2026-09-10 | close 2,153.700 | raw contract price</title></circle>
+<circle cx="364.23" cy="162.83" r="3" fill="#059669"><title>io:ANTH | 2026-09-11 | close 2,178.300 | raw contract price</title></circle>
+<circle cx="375.71" cy="191.23" r="3" fill="#059669"><title>io:ANTH | 2026-09-12 | close 2,103.600 | raw contract price</title></circle>
+<circle cx="387.20" cy="176.44" r="3" fill="#059669"><title>io:ANTH | 2026-09-13 | close 2,142.500 | raw contract price</title></circle>
+<circle cx="398.69" cy="152.72" r="3" fill="#059669"><title>io:ANTH | 2026-09-14 | close 2,204.900 | raw contract price</title></circle>
+<circle cx="410.18" cy="160.51" r="3" fill="#059669"><title>io:ANTH | 2026-09-15 | close 2,184.400 | raw contract price</title></circle>
+<circle cx="421.67" cy="165.76" r="3" fill="#059669"><title>io:ANTH | 2026-09-16 | close 2,170.600 | raw contract price</title></circle>
+<circle cx="433.15" cy="171.46" r="3" fill="#059669"><title>io:ANTH | 2026-09-17 | close 2,155.600 | raw contract price</title></circle>
+<circle cx="444.64" cy="165.95" r="3" fill="#059669"><title>io:ANTH | 2026-09-18 | close 2,170.100 | raw contract price</title></circle>
+<circle cx="456.13" cy="171.77" r="3" fill="#059669"><title>io:ANTH | 2026-09-19 | close 2,154.800 | raw contract price</title></circle>
+<circle cx="467.62" cy="175.99" r="3" fill="#059669"><title>io:ANTH | 2026-09-20 | close 2,143.700 | raw contract price</title></circle>
+<circle cx="479.11" cy="167.47" r="3" fill="#059669"><title>io:ANTH | 2026-09-21 | close 2,166.100 | raw contract price</title></circle>
+<circle cx="490.60" cy="158.57" r="3" fill="#059669"><title>io:ANTH | 2026-09-22 | close 2,189.500 | raw contract price</title></circle>
+<circle cx="502.08" cy="168.08" r="3" fill="#059669"><title>io:ANTH | 2026-09-23 | close 2,164.500 | raw contract price</title></circle>
+<circle cx="513.57" cy="195.41" r="3" fill="#059669"><title>io:ANTH | 2026-09-24 | close 2,092.600 | raw contract price</title></circle>
+<circle cx="525.06" cy="195.49" r="3" fill="#059669"><title>io:ANTH | 2026-09-25 | close 2,092.400 | raw contract price</title></circle>
+<circle cx="536.55" cy="205.38" r="3" fill="#059669"><title>io:ANTH | 2026-09-26 | close 2,066.400 | raw contract price</title></circle>
+<circle cx="548.04" cy="186.52" r="3" fill="#059669"><title>io:ANTH | 2026-09-27 | close 2,116.000 | raw contract price</title></circle>
+<circle cx="559.52" cy="201.27" r="3" fill="#059669"><title>io:ANTH | 2026-09-28 | close 2,077.200 | raw contract price</title></circle>
+<circle cx="571.01" cy="216.40" r="3" fill="#059669"><title>io:ANTH | 2026-09-29 | close 2,037.400 | raw contract price</title></circle>
+<circle cx="582.50" cy="198.91" r="3" fill="#059669"><title>io:ANTH | 2026-09-30 | close 2,083.400 | raw contract price</title></circle>
+<circle cx="593.99" cy="197.35" r="3" fill="#059669"><title>io:ANTH | 2026-10-01 | close 2,087.500 | raw contract price</title></circle>
+<circle cx="605.48" cy="201.80" r="3" fill="#059669"><title>io:ANTH | 2026-10-02 | close 2,075.800 | raw contract price</title></circle>
+<circle cx="616.96" cy="201.46" r="3" fill="#059669"><title>io:ANTH | 2026-10-03 | close 2,076.700 | raw contract price</title></circle>
+<circle cx="628.45" cy="198.80" r="3" fill="#059669"><title>io:ANTH | 2026-10-04 | close 2,083.700 | raw contract price</title></circle>
+<circle cx="639.94" cy="196.93" r="3" fill="#059669"><title>io:ANTH | 2026-10-05 | close 2,088.600 | raw contract price</title></circle>
+<circle cx="651.43" cy="178.00" r="3" fill="#059669"><title>io:ANTH | 2026-10-06 | close 2,138.400 | raw contract price</title></circle>
+<circle cx="662.92" cy="186.75" r="3" fill="#059669"><title>io:ANTH | 2026-10-07 | close 2,115.400 | raw contract price</title></circle>
+<circle cx="674.40" cy="205.49" r="3" fill="#059669"><title>io:ANTH | 2026-10-08 | close 2,066.100 | raw contract price</title></circle>
+<circle cx="685.89" cy="203.59" r="3" fill="#059669"><title>io:ANTH | 2026-10-09 | close 2,071.100 | raw contract price</title></circle>
+<circle cx="697.38" cy="196.17" r="3" fill="#059669"><title>io:ANTH | 2026-10-10 | close 2,090.600 | raw contract price</title></circle>
+<circle cx="708.87" cy="199.25" r="3" fill="#059669"><title>io:ANTH | 2026-10-11 | close 2,082.500 | raw contract price</title></circle>
+<circle cx="720.36" cy="208.61" r="3" fill="#059669"><title>io:ANTH | 2026-10-12 | close 2,057.900 | raw contract price</title></circle>
+<circle cx="731.85" cy="218.68" r="3" fill="#059669"><title>io:ANTH | 2026-10-13 | close 2,031.400 | raw contract price</title></circle>
+<circle cx="743.33" cy="253.09" r="3" fill="#059669"><title>io:ANTH | 2026-10-14 | close 1,940.900 | raw contract price</title></circle>
+<circle cx="754.82" cy="284.72" r="3" fill="#059669"><title>io:ANTH | 2026-10-15 | close 1,857.700 | raw contract price</title></circle>
+<circle cx="766.31" cy="259.29" r="3" fill="#059669"><title>io:ANTH | 2026-10-16 | close 1,924.600 | raw contract price</title></circle>
+<circle cx="777.80" cy="272.78" r="3" fill="#059669"><title>io:ANTH | 2026-10-17 | close 1,889.100 | raw contract price</title></circle>
+<circle cx="789.29" cy="258.83" r="3" fill="#059669"><title>io:ANTH | 2026-10-18 | close 1,925.800 | raw contract price</title></circle>
+<circle cx="800.77" cy="237.16" r="3" fill="#059669"><title>io:ANTH | 2026-10-19 | close 1,982.800 | raw contract price</title></circle>
+<circle cx="812.26" cy="248.41" r="3" fill="#059669"><title>io:ANTH | 2026-10-20 | close 1,953.200 | raw contract price</title></circle>
+<circle cx="823.75" cy="243.62" r="3" fill="#059669"><title>io:ANTH | 2026-10-21 | close 1,965.800 | raw contract price</title></circle>
+<circle cx="835.24" cy="254.27" r="3" fill="#059669"><title>io:ANTH | 2026-10-22 | close 1,937.800 | raw contract price</title></circle>
+<circle cx="846.73" cy="254.12" r="3" fill="#059669"><title>io:ANTH | 2026-10-23 | close 1,938.200 | raw contract price</title></circle>
+<circle cx="858.21" cy="263.77" r="3" fill="#059669"><title>io:ANTH | 2026-10-24 | close 1,912.800 | raw contract price</title></circle>
+<circle cx="869.70" cy="268.18" r="3" fill="#059669"><title>io:ANTH | 2026-10-25 | close 1,901.200 | raw contract price</title></circle>
+<circle cx="881.19" cy="275.94" r="3" fill="#059669"><title>io:ANTH | 2026-10-26 | close 1,880.800 | raw contract price</title></circle>
+<circle cx="892.68" cy="274.46" r="3" fill="#059669"><title>io:ANTH | 2026-10-27 | close 1,884.700 | raw contract price</title></circle>
+<circle cx="904.17" cy="278.98" r="3" fill="#059669"><title>io:ANTH | 2026-10-28 | close 1,872.800 | raw contract price</title></circle>
+<circle cx="915.65" cy="302.44" r="3" fill="#059669"><title>io:ANTH | 2026-10-29 | close 1,811.100 | raw contract price</title></circle>
+<circle cx="927.14" cy="334.57" r="3" fill="#059669"><title>io:ANTH | 2026-10-30 | close 1,726.600 | raw contract price</title></circle>
+<circle cx="938.63" cy="308.68" r="3" fill="#059669"><title>io:ANTH | 2026-10-31 | close 1,794.700 | raw contract price</title></circle>
+<circle cx="950.12" cy="304.99" r="3" fill="#059669"><title>io:ANTH | 2026-11-01 | close 1,804.400 | raw contract price</title></circle>
+<circle cx="961.61" cy="332.74" r="3" fill="#059669"><title>io:ANTH | 2026-11-02 | close 1,731.400 | raw contract price</title></circle>
+<circle cx="973.10" cy="311.07" r="3" fill="#059669"><title>io:ANTH | 2026-11-03 | close 1,788.400 | raw contract price</title></circle>
+<circle cx="984.58" cy="281.80" r="3" fill="#059669"><title>io:ANTH | 2026-11-04 | close 1,865.400 | raw contract price</title></circle>
+<circle cx="996.07" cy="337.61" r="3" fill="#059669"><title>io:ANTH | 2026-11-05 | close 1,718.600 | raw contract price</title></circle>
+<circle cx="1007.56" cy="410.65" r="3" fill="#059669"><title>io:ANTH | 2026-11-06 | close 1,526.500 | raw contract price</title></circle>
+<circle cx="1019.05" cy="387.64" r="3" fill="#059669"><title>io:ANTH | 2026-11-07 | close 1,587.000 | raw contract price</title></circle>
+<circle cx="1030.54" cy="385.29" r="3" fill="#059669"><title>io:ANTH | 2026-11-08 | close 1,593.200 | raw contract price</title></circle>
+<circle cx="1042.02" cy="350.61" r="3" fill="#059669"><title>io:ANTH | 2026-11-09 | close 1,684.400 | raw contract price</title></circle>
+<circle cx="1053.51" cy="330.73" r="3" fill="#059669"><title>io:ANTH | 2026-11-10 | close 1,736.700 | raw contract price</title></circle>
+<circle cx="1065.00" cy="303.20" r="3" fill="#059669"><title>io:ANTH | 2026-11-11 | close 1,809.100 | raw contract price</title></circle>
+<text x="100" y="500" font-size="12">Raw contract price (not company valuation)</text></g></svg>

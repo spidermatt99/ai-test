@@ -1,0 +1,85 @@
+https://docs.trade.xyz/perpetuals/markets/pre-ipo-perpetuals.md
+200
+> For the complete documentation index, see [llms.txt](https://docs.trade.xyz/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://docs.trade.xyz/perpetuals/markets/pre-ipo-perpetuals.md).
+
+# Pre-IPO Perpetuals
+
+trade\[XYZ] Pre-IPO Perpetual Markets and conversion mechanics.
+
+Pre-IPO Perpetuals (IPOPs) are cash-settled perpetual derivative contracts that reference the anticipated public listing of a private company. They are designed to create a continuous market for pre-listing price discovery: the market’s evolving view of where a company’s future public equity may trade before the company is freely tradable on a traditional public exchange.
+
+*Pre-IPO Perpetuals are not shares. They are not IPO allocations. They are not tokenized equity, securities entitlements, or rights to receive any security. A position in a Pre-IPO Perpetual does not give the holder ownership, voting rights, information rights, dividends, allocation rights, or any claim against the referenced issuer.*
+
+### Why IPOPs Exist
+
+IPO pricing is one of the most important valuation events in public markets, but the process leading into that price is not itself a continuous public market.
+
+During the listing process, information may emerge through filings, investor meetings, bookbuilding, private-market activity, price-range updates, press reports, and exchange-opening data. These signals can be meaningful, but they do not form a continuous public market.
+
+That absence matters. A market price can aggregate dispersed information, reveal changes in demand, and convert competing views into a single observable signal. For issuers, that signal may help contextualize demand. For underwriters and market makers, it may improve risk assessment. For public market participants, it may provide a way to evaluate an event that is often difficult to access directly.
+
+IPOPs create a venue for that price formation. They are cash-settled derivatives that allow participants to trade and hedge views on a referenced issuer’s anticipated public equity value before, during, and after the listing process.
+
+They do not provide IPO shares, ownership, allocation rights, or any claim on the issuer. They are not a replacement for the IPO process. Their role is to make pre-listing price discovery open, continuous, and risk-bearing.
+
+### Specification
+
+Each Pre-IPO Perpetual has a market-specific specification. Users should review the applicable specification in [Pre-IPO Specification Index](/perpetuals/specifications-and-schedules/pre-ipo-specification-index.md) before trading.
+Item
+Description
+Instrument
+Cash-settled linear perpetual contract
+Reference
+Anticipated public equity of a named issuer
+Pricing Methodology
+XYZ Internal Oracle Mechanism
+Trading Hours
+24/7 continuous trading
+Ownership Rights
+None
+IPO Allocation Rights
+None
+Post-listing treatment
+The contract converts to a standard equity perp shortly after the underlying begins regular trading
+Alternative event treatment
+Market may settle under predefined market-specific rules
+### Market Design
+
+A standard listed-equity perpetual references an equity that already trades on an external market. A Pre-IPO Perpetual begins earlier.
+
+Before listing, there is no public equity price to use as an external oracle. The market therefore operates with an internal pricing mechanism. After a qualifying public listing, and once sufficient external data is available, the market is expected to convert to the standard oracle and funding methodology for the listed equity.
+
+The result is a single derivative market that can span the pre-listing and post-listing phases of an issuer’s transition to public trading.
+
+#### Initial Reference
+
+At launch, XYZ initializes the market at a discretionary reference price for each IPOP market. The reference is a starting value from which the market begins to trade, and serves as the anchor price to which *Discovery Bound* market protections are enforced. 
+
+*The initial reference price is not a forecast and not an indication of a public listing price. It may differ significantly from any IPO price range, final IPO price, opening public trade, or post-listing market price.*
+
+XYZ may also display an initial reference share count and an implied initial reference market cap. These figures are intended solely as initial references and may be estimates based on the best available public information at launch, which may be incomplete, preliminary, or later revised.
+
+Any displayed reference share count or implied initial reference market cap is indicative only. It is not guaranteed. It is not a fair value reference. It may differ materially from the issuer’s actual, eventual, or market-implied fully diluted share count or market capitalization.
+
+#### Pre-Listing Mechanism
+
+IPOPs trade via XYZ's internal pricing mechanism, similar to how standard XYZ perpetuals operate over weekends. 
+
+**The oracle price** is derived from a 30-minute exponentially-weighted moving average which advances via the market's impact price difference. 
+
+**Funding rate** premium samples are computed as 1% of the standard XYZ perpetual funding calculation. This is a funding multiplier of $$0.005$$ on [HyperCore's](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/funding) clamped interest rate and premium formula.
+
+**Discovery Bounds** are in place to mitigate risk and reduce high velocity movements while facilitating continuous price discovery.
+
+#### **Conversion to Normal XYZ Equity Perpetual**
+
+When the referenced issuer completes its public listing, the corresponding IPOP is expected to convert into a normal equity perpetual with external pricing and the standard ($$0.5$$) funding multiplier. Conversion occurs after the underlying asset begins regular trading and external market data is sufficient to support standard oracle pricing, typically the first regular session after listing. External pricing begins similar to how it resumes for standard XYZ perpetuals at the start of the traditional trading week.
+
+Conversion presumes a public listing on a recognized exchange, in the expected jurisdiction, in the expected structure. Where the listing diverges materially (e.g., a foreign exchange, depositary receipts, a direct listing, a SPAC combination), XYZ may treat the event as a conversion with an adjusted reference asset, a settlement trigger, or a composite of the two, depending on which best preserves the economics of the original market. Treatment is specified in the corresponding announcement.
+
+### Risks
+
+IPOP markets are cash-settled perpetual contracts and do not represent ownership of shares, rights to IPO allocation, or any claim on the underlying equity. IPOP markets carry risks beyond those of standard XYZ markets, and users should review the [Pre-IPO Perpetual Markets Risks and Disclaimers](/legal-and-disclaimers/perpetuals-risks-and-disclaimers/pre-ipo-perpetual-markets-risks-and-disclaimers.md) before trading IPOP markets.
+
+\
+LINKS

@@ -1,0 +1,725 @@
+https://www.talos.com/insights/state-of-the-network-367
+200
+State of the Network: Hyperliquid: Pre-IPO Price Discovery on Crypto Rails
+Research
+Research
+Solutions
+Trading Platform
+White Label
+RFQ Platform
+Portfolio Construction
+Portfolio & Risk Management
+Treasury & Settlement
+Data
+Post-Trade Analytics
+Prediction Markets
+Clients
+Asset Managers
+ETF Issuers
+Hedge Funds
+Crypto Funds
+Proprietary Trading Firms
+Token Holders
+Banks
+Retail Investment Platforms
+OTC Desks
+Broker-Dealers
+Custodians
+Payment Service Providers
+About Talos
+Why Choose Talos?
+The Talos Story
+The Leadership Team
+Careers
+Life at Talos
+Open Roles
+Internships
+Provider Network
+Insights
+Contact
+Request a demo
+Solutions
+TradinG
+Trading Platform
+White Label
+RFQ Platform
+Portfolio management
+Portfolio Construction
+Portfolio & Risk Management
+Treasury & Settlement
+DATA & ANALYTICS
+Data
+Coin Metrics
+Overview
+Market Data Feed
+Market Data Pro
+Atlas
+Network Data Pro
+Prices
+Indexes
+datonomy
+TM
+Post-Trade Analytics
+NEW ASSET CLASSES
+Prediction Markets
+Clients
+Buy SIDE
+Asset Managers
+ETF Issuers
+Hedge Funds
+Crypto Funds
+Proprietary Trading Firms
+Token Holders
+Sell Side
+Banks
+Retail Investment Platforms
+OTC Desks
+Broker-Dealers
+Service Providers
+Custodians
+Payment Service Providers
+About Talos
+Why Choose Talos?
+The Talos Story
+The Leadership Team
+Careers
+Life at Talos
+Open Roles
+Internships
+Provider Network
+Insights
+Contact
+Request a demo
+Privacy Preferences
+Last reviewed: 26 Oct 2026
+Essential cookies
+Required
+Learn more
+These cookies enable you to use our Services. These cookies are essential to
+enable you to browse our Services and use certain features. Disabling them may prevent you from using certain parts of the Services. These cookies also help keep our Services safe and secure.
+View Cookie List
+Analytics cookies
+Optional
+Learn more
+These cookies collect information about how you use our Services such as which pages you visit regularly. These cookies are used to provide you with a high-quality experience by doing things such as tracking page load, site response times, and error messages.
+View Cookie List
+Functional cookies
+Optional
+Learn more
+Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features.
+View Cookie List
+Marketing cookies
+Optional
+Learn more
+These cookies gather information about your use of our Services so we may improve your experience and provide you with more relevant content and advertising on our Services and elsewhere online and across your devices. They are also used to gather feedback on customer satisfaction through surveys. They remember that you've visited our Services and help us understand usage of our Services. Some of these cookies are from third parties that collect information about your use of our Services in order to provide advertising (on our Services and elsewhere, across your different devices) based on your online activities (so-called "interest-based advertising") on our Services and elsewhere online, across your different devices.
+View Cookie List
+Save Cookie Preferences
+Deny all cookies
+Accept all cookies
+Essential
+fs-cc
+View Details
+Name:
+fs-cc
+Host:
+www.talos.com
+Duration:
+1 year
+Category:
+Essential
+Description:
+Stores your cookie choices (Finsweet Cookie Consent).
+fs-cc-updated
+View Details
+Name:
+fs-cc-updated
+Host:
+www.talos.com
+Duration:
+1 year
+Category:
+Essential
+Description:
+Records that your cookie choices were saved (Finsweet Cookie Consent).
+_cfuvid
+View Details
+Name:
+_cfuvid
+Host:
+.talos.com
+Duration:
+Session
+Category:
+Essential
+Description:
+Set by Cloudflare to protect the site and our forms from abuse and bots.
+Analytics
+_ga_N9JCEQKB5J
+View Details
+Name:
+_ga_N9JCEQKB5J
+Host:
+.talos.com
+Duration:
+13 months
+Category:
+Analytics
+Description:
+Google Analytics: keeps session state for site usage measurement.
+_ga
+View Details
+Name:
+_ga
+Host:
+.talos.com
+Duration:
+13 months
+Category:
+Analytics
+Description:
+Google Analytics: distinguishes visitors to measure site usage.
+Functional
+No cookies are currently used in this category.
+View Details
+Name:
+None
+Host:
+—
+Duration:
+—
+Category:
+Functional
+Description:
+No functional cookies are currently set on this site.
+Marketing
+_mkto_trk
+View Details
+Name:
+_mkto_trk
+Host:
+.talos.com
+Duration:
+13 months
+Category:
+Marketing
+Description:
+Marketo: links your visits to forms you submit.
+_gcl_au
+View Details
+Name:
+_gcl_au
+Host:
+.talos.com
+Duration:
+3 months
+Category:
+Marketing
+Description:
+Google Ads: measures ad conversions.
+LinkedIn
+View Details
+Name:
+LinkedIn Insight Tag
+Host:
+linkedin.com
+Duration:
+Up to 1 year
+Category:
+Marketing
+Description:
+LinkedIn Insight Tag: ad conversion tracking and audiences. Set by LinkedIn; may be blocked by your browser.
+_gcl_ls
+View Details
+Name:
+_gcl_ls
+Host:
+www.talos.com (local storage)
+Duration:
+Persistent
+Category:
+Marketing
+Description:
+Google Ads: stores ad click information for conversion measurement.
+Google Ads / DoubleClick
+View Details
+Name:
+Google Ads / DoubleClick
+Host:
+google.com, doubleclick.net
+Duration:
+Up to 13 months
+Category:
+Marketing
+Description:
+Google advertising and remarketing. Set by Google; may be blocked by your browser.
+Apollo
+View Details
+Name:
+apolloAnonId, <id>_canTrack, <id>_eventQueue
+Host:
+www.talos.com (local storage)
+Duration:
+Persistent
+Category:
+Marketing
+Description:
+Apollo: identifies visiting companies.
+Clay
+View Details
+Name:
+claydar_*, radar_sn_*
+Host:
+www.talos.com (session storage)
+Duration:
+Session
+Category:
+Marketing
+Description:
+Clay: identifies visiting companies.
+The Trade Desk
+View Details
+Name:
+The Trade Desk (Madison Logic)
+Host:
+adsrvr.org
+Duration:
+Up to 1 year
+Category:
+Marketing
+Description:
+Advertising measurement and audiences. Set by The Trade Desk; may be blocked by your browser.
+Wistia
+View Details
+Name:
+wistia, wistia-video-progress-*
+Host:
+www.talos.com (local storage), wistia.com
+Duration:
+Persistent
+Category:
+Marketing
+Description:
+Wistia: video viewing statistics, shared with Marketo.
+By clicking 'accept all cookies', you agree to the storing of optional cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. If you wish to adjust your cookie settings, please click 'customize cookies'. View our
+Privacy Policy
+for more information
+Deny all cookies
+Accept all cookies
+Customize cookies
+Back to Insights
+Research
+Hyperliquid: Pre-IPO Price Discovery on Crypto Rails
+By:
+Tanay Ved, Senior Research Associate
+June 9, 2026
+Email icon
+Twitter icon
+Linkedin icon
+State of the Network #367
+Back to Insights
+Research
+Research
+Hyperliquid: Pre-IPO Price Discovery on Crypto Rails
+By:
+Tanay Ved, Senior Research Associate
+June 9, 2026
+Email icon
+Twitter icon
+Linkedin icon
+Introduction
+State of the Network #367
+Coin Metrics State of the Network is an unbiased, weekly view of the crypto market informed by our own network (on-chain) and market data.
+Key Takeaways
+Pre-IPO perpetual futures create synthetic, 24/7 derivative markets for private companies like SpaceX, OpenAI and Anthropic, providing exposure to their expected valuations before they go public.
+Cerebras’ (CBRS) Nasdaq debut showed Hyperliquid’s pre-IPO perp had already priced it within 1.3% of the $350 opening price, showing that these markets can provide a credible signal for IPO pricing.
+Ahead of SpaceX’s June 12th IPO, SPCX perps are trading at an aggregated VWAP of $155 across venues against a $135 IPO price, with over $215M in open interest and $2.2B in cumulative volume across Hyperliquid, Binance and other venues.
+Introduction
+With digital asset markets facing another drawdown, Bitcoin (BTC) has slipped ~50% from its all time high in October 2025. At the same time, the largest IPO pipeline in history is about to open. SpaceX is set to make its Nasdaq debut on June 12th in what would be the largest public offering in history, with Anthropic and
+OpenAI
+slated to follow. For ordinary investors, access to these companies before they list has been limited. Private market exposure has historically been gated to accredited investors and private fund allocations, while valuations are opaque, pricing is infrequent, and liquidity is shallow.
+However, perpetual futures contracts on crypto rails are helping close this gap. Hyperliquid has already demonstrated real demand for
+24/7 price discovery
+across macro assets while traditional markets are closed, with Hyperliquid’s HIP-3 builder deployed perpetuals accumulating ~$290B in cumulative trading volume and $3B in total open interest across equities, indices and commodities. This is now extending to pre-IPO markets at a time when demand for continuous pricing and access to private markets is higher than ever.
+In this issue of
+State of the Network
+, we examine how pre-IPO perpetual futures work, trace Cerebras Systems (CBRS) through its IPO as a case study in on-chain price discovery, and gauge what SpaceX is pricing across venues ahead of June 12th. Alongside this issue, we have built a dashboard tracking these markets in real time.
+Access the Dashboard
+What are Pre-IPO Perpetuals?
+Pre-IPO perpetual futures are synthetic derivative contracts designed to create a continuous market for the implied valuation or share price of a private company. They allow participants to express directional views on where a company’s equity might trade, hedge portfolio exposure, or monitor how the market is pricing a name into its public listing.
+These contracts do not represent real shares or IPO allocations and carry no ownership or voting rights. Positions are maintained through funding rates exchanged between longs and shorts based on whether the contract trades above or below its mark price.
+Contracts on companies like SpaceX now trade on Hyperliquid as well as centralized exchanges (CEXs) including Binance,
+Coinbase International
+, Gate.io and OKX. On Hyperliquid, they are deployed under the HIP-3 permissionless framework on
+TradeXYZ
+and
+Ventuals
+, two builders that follow different conventions and pricing mechanisms for
+pre-IPO perps
+.
+Trade.xyz (CBRS, SPCX):
+Contracts are priced in
+expected share price
+The mark price is derived entirely from Trade.xyz’s own
+internal
+orderbook
+, with no external data feed. The market itself functions as the oracle until IPO.
+Post-IPO
+, the contract automatically converts to a standard externally-priced equity perpetual.
+Ventuals (SPACEX, OPENAI, ANTHROPIC):
+Contracts are priced in
+implied company valuation
+denominated in billions of dollars. A price of $1300 means the market implies a $1.3T valuation.
+Pricing uses a
+hybrid oracle
+, combining off‑chain private‑market data (funding rounds, secondaries, etc.) with onchain trading activity.
+Source: Talos Pre-IPO Perps Market Data Dashboard
+Across the above Hyperliquid pre-IPO markets, total open interest currently stands at approximately $106M with $1.46B in cumulative volume since launch. Trade.xyz accounts for 95% of this volume.
+Cerebras Systems (CBRS) into Nasdaq IPO
+Cerebras Systems Inc. (CBRS)
+, an artificial intelligence chip manufacturing company listed on Nasdaq on May 14, 2026. The IPO came 13 days after Trade.xyz launched its pre-IPO perpetual on Hyperliquid. This window offers a clear validation of onchain price discovery for private companies.
+From launch, CBRS was priced well above the $175 reference level, trading in the $280–320 range in the days leading into the IPO. Underwriters ultimately priced the IPO at $185, while CBRS
+opened on Nasdaq
+at $350. Over the final hour before the Nasdaq opening print, Hyperliquid’s CBRS perp traded at a VWAP of roughly
+$354.54,
+just
+1.3% above
+the eventual cash open and about 89% above the IPO price.
+Source: CM Market Data Feed
+& Yahoo Finance
+The liquidity picture reinforces the story of price discovery. CBRS perps on Hyperliquid traded modestly in the first 13 days after launch, with daily volume between $0.6M and $9.6M as the market slowly formed around the $300 area.
+Bid‑ask spreads started extremely wide at launch, with initial peaks near 50% and a first‑day median of 1.04% which tightened to 0.26% by the eve of the IPO, reflecting rising conviction in the pre‑IPO range. Volume then surged on May 14, jumping to
+$281M in a single session
+, almost six times the entire 13‑day pre‑IPO cumulative volume, and roughly
+85% of lifetime CBRS perpetuals volume
+on Hyperliquid as traders converged on the Nasdaq open in real time.
+Source: CM Market Data Feed
+Open interest peaked at $57M on the day after Nasdaq listing, before rolling off as positions were unwound. Once Nasdaq provided an external reference price, spreads compressed further to a
+0.07% median
+, validating pre-IPO perpetuals as a source of valuable price discovery.
+SpaceX (SPCX) Moves Towards Public Launch
+While Cerebras provided a tangible proof-of-concept, attention is now shifting to the largest IPO in history.
+SpaceX
+, Elon Musk’s rocket and satellite company, is set to go public on June 12th targeting a $1.77T valuation selling over 555M shares priced at $135 each.
+The SpaceX pre‑IPO market on Hyperliquid went live on May 18th under the ticker xyz:SPCX on Trade.xyz, the same builder that listed CBRS. From launch, SPCX traded above the $135 IPO reference, with prices clustering around the $180–200 range and implying a valuation closer to $2.5T. As of June 8th, however, the implied share price has started to converge towards the IPO level, slipping into the $160-170 range, suggesting that some of that early optimism is being priced out as the listing approaches.
+Source: CM Market Data Feed
+Beyond Hyperliquid, SpaceX perps now trade across multiple centralized exchanges, including Binance, Coinbase International, Gate.io and OKX. Total open interest across these markets has risen to
+over $250M
+, with daily volumes
+exceeding $250M
+on peak days. Most liquidity and trading activity is concentrated on Hyperliquid and Binance, together accounting for approximately $1.9B of the ~$2.7B cumulative volume.
+Source: CM Market Data Feed
+‍
+Execution Quality & Market Impact
+Execution quality on SpaceX perps has
+improved significantly
+as the market has matured. On launch, spreads and market impact were very wide on Hyperliquid, but hourly median spreads have since tightened from 1.0 bps to around 0.05 bps as of June 2nd. Based on
+Talos’ Market Impact Model
+, total execution costs on Hyperliquid now sit near 5.0 bps for trade sizes of 1000 and 10,000 contracts.
+Conclusion
+As this analysis showed, pre‑IPO perpetual markets can contribute meaningfully to IPO price discovery. CBRS demonstrated that a synthetic perp can trade within a few percent of the eventual cash open, and allow participation in continuous valuation discovery.
+With the SpaceX IPO nearing, liquidity, open interest, and execution quality in SPCX have been building across Hyperliquid and major exchanges, illustrating how trillion‑dollar deals can develop deep perp markets even before listing. Looking ahead to offerings like OpenAI and Anthropic, we will continue to track how early signals from these 24/7 perps line up with IPO outcomes, and how secondary trading evolves as they sit alongside tokenized assets and other synthetic exposures across instruments and venues.
+‍
+‍
+‍
+Disclaimer: The information herein is provided for informational purposes only. Talos Trading, LLC and its affiliates (“Talos”) does not give any representations or warranties in relation to the accuracy, validity, or completeness of the information of this material, including without limitation the factual information obtained from publicly available sources considered by Talos to be reliable at the time. Talos accepts no liability for any consequences of using the information contained in this material. Any opinions or estimates expressed herein reflect a judgment made by the author(s) as of the date of publication and are subject to change without notice. Neither this material nor any copy thereof may be taken, reproduced, or redistributed, directly or indirectly, without Talos’s prior written permission. Any views or opinions expressed are those of the authors and do not necessarily reflect the views of Talos. This communication does not constitute an offer to buy or sell, or a promotion or recommendation of, any digital asset, security, derivative, commodity, financial instrument, or product or trading strategy. This document and information are not intended to constitute investment advice or a recommendation to make (or refrain from making) any kind of investment decision and may not be relied on as such.
+Subscribe
+If you’d like to get State of the Network in your inbox, please subscribe below.
+Subscribe on Substack
+Latest insights and research
+November 10, 2026
+Research
+Countdown to ANT: What the Pre-IPO Perps Markets Say About Anthropic’s IPO
+State of the Network #389
+Written by:
+Cooper Dushang, Research Associate
+4 minute read
+November 10, 2026
+COMMENTARY
+Regulatory Roundup #24
+Your dose of regulatory moves, missteps and melodrama, ensuring you’re always informed (and occasionally amused) by what global watchdogs are up to.
+Written by:
+Jon Blankfield, Compliance & Regulatory Strategy
+6 minute read
+November 10, 2026
+MEDIA
+Event Contracts and Prediction Markets: Welcome to 24/7
+Panel Takeaways from the FIX Americas Trading Conference 2026
+Written by:
+5 minute read
+View all our latest insights
+Request a demo
+Request a demo
+Find out how Talos can simplify the way you interact with the digital asset markets.
+Trading
+White Label
+Portfolio Construction
+Portfolio & Risk Management
+Treasury & Settlement
+Analytics
+link to homepage
+Solutions
+Trading Platform
+White Label
+Portfolio Construction
+Portfolio & Risk Management
+Treasury & Settlement
+Post-Trade Analytics
+Company
+Why Talos
+Talos Story
+Meet the Team
+Working at Talos
+Life at Talos
+Open Roles
+Internships
+Contact us
+Resources
+Insights
+Provider Network
+Legal
+Terms
+Privacy
+Data Processing Addendums
+FAQs
+Employee Privacy Notice
+© 2026 Talos Global, Inc.
+link to linkedin
+‍
+link to Twitter
+‍
+link to YouTube
+‍
+Talos Global, Inc. and its affiliates (“Talos”) offer software as a service products that provide connectivity tools for institutional customers. Talos does not provide clients with any pre-negotiated arrangements with liquidity providers or other parties.  Clients are required to independently negotiate arrangements with liquidity providers and other parties bilaterally.  Talos is not party to any of these arrangements.
+‍
+In respect of recipients resident in the UK, this communication is aimed solely at high-net worth companies, associations and trusts (as defined in Article 49 of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005). These are any of the following: (i) a body corporate which has (or a body corporate which is in the same corporate group as a body corporate which has) either net assets or called-up share capital of at least £5m (or, if the body corporate has more than 20 members, £500,000); (ii) a partnership or unincorporated association with net assets of at least £5 million and (iii) a trustee of a trust which has had gross assets (i.e. total assets held before deduction of any liabilities) of at least £10 million at any time within the year preceding the date of this communication  The services described within this communication are only available to said persons. Any other persons resident in the UK must not rely or act upon this communication.
+Talos is not regulated by the Seychelles Financial Services Authority.
+‍
+All Talos product images and simulations presented are for informational and demonstrative purposes only. Not all features may be available to all Talos customers.
+LINKS
+/insights-category/research
+/insights-media-type/research
+/
+/our-solutions/trading
+/our-solutions/white-label
+/our-solutions/rfq-platform
+/our-solutions/portfolio-construction
+/our-solutions/portfolio-and-risk-management
+/our-solutions/treasury-and-settlement
+/our-solutions/data/overview
+/our-solutions/analytics
+/our-solutions/prediction-markets
+/clients/asset-managers
+/clients/etf-issuers
+/clients/hedge-funds
+/clients/crypto-funds
+/clients/proprietary-trading-firms
+/clients/token-holders
+/clients/banks
+/clients/retail-investment-platforms
+/clients/otc-desks
+/clients/broker-dealers
+/clients/custodians
+/clients/payment-service-providers
+/about/why-talos
+/about/the-talos-story
+/about/the-leadership-team
+/working/life-at-talos
+/working/open-roles
+/working/internships
+/provider-network
+/insights
+/contact
+/request-a-demo
+/
+/our-solutions/all
+/our-solutions/trading
+/our-solutions/white-label
+/our-solutions/rfq-platform
+/our-solutions/portfolio-construction
+/our-solutions/portfolio-and-risk-management
+/our-solutions/treasury-and-settlement
+/our-solutions/data/overview
+/our-solutions/data/market-data-feed
+/our-solutions/data/market-data-pro
+/our-solutions/data/atlas
+/our-solutions/data/network-data-pro
+/our-solutions/data/prices
+/our-solutions/data/indexes
+/our-solutions/data/datonomy
+/our-solutions/analytics
+/our-solutions/prediction-markets
+/clients/asset-managers
+/clients/etf-issuers
+/clients/hedge-funds
+/clients/crypto-funds
+/clients/proprietary-trading-firms
+/clients/token-holders
+/clients/banks
+/clients/retail-investment-platforms
+/clients/otc-desks
+/clients/broker-dealers
+/clients/custodians
+/clients/payment-service-providers
+/about/why-talos
+/about/the-talos-story
+/about/the-leadership-team
+/working/life-at-talos
+/working/open-roles
+/working/internships
+/provider-network
+/insights
+/contact
+/request-a-demo
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+/legals/privacy
+#
+#
+#
+/insights
+mailto:?subject=Talos: Hyperliquid: Pre-IPO Price Discovery on Crypto Rails&body=Here's an article for you from Talos: https://www.talos.com/insights/state-of-the-network-367  
+#
+#
+#
+/insights
+#
+mailto:?subject=Talos: Hyperliquid: Pre-IPO Price Discovery on Crypto Rails&body=Here's an article for you from Talos: https://www.talos.com/insights/state-of-the-network-367  
+#
+#
+#
+#
+https://openai.com/index/openai-submits-confidential-s-1/
+https://coinmetrics.substack.com/p/state-of-the-network-issue-354
+https://www.talos.com/dashboards/pre-ipo-perps-market-data?utm_source=newsletter&utm_medium=partner&utm_campaign=hyperliquid-pre-ipo-dash_glbl\
+https://www.coinbase.com/blog/pre-ipos-are-launching-on-coinbase-starting-with-spacex
+https://docs.trade.xyz/asset-directory/pre-ipo-perpetuals-ipops
+https://substackcdn.com/image/fetch/$s_!Mmqx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F571f1764-f310-4413-a5e8-33eb45df0299_2914x1520.png
+https://www.talos.com/dashboards/pre-ipo-perps-market-data?utm_source=newsletter&utm_medium=partner&utm_campaign=hyperliquid-pre-ipo-dash_glbl
+https://www.cerebras.ai/
+https://finance.yahoo.com/markets/stocks/articles/cerebras-opened-350-nearly-double-004000135.html
+https://substackcdn.com/image/fetch/$s_!C7AH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92e6edd0-db48-45fc-83c8-35f7a0a8fe7a_2048x1473.png
+https://www.talos.com/our-solutions/data/market-data-feed
+https://substackcdn.com/image/fetch/$s_!f8z-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F147da35b-c380-40cc-816e-9665b5c5599d_2048x1460.png
+https://www.talos.com/our-solutions/data/market-data-feed
+https://www.spacex.com/
+https://substackcdn.com/image/fetch/$s_!uy9G!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd41636aa-ee7b-4594-a7f4-19896cce5d46_2048x1457.png
+https://www.talos.com/our-solutions/data/market-data-feed
+https://www.talos.com/our-solutions/data/market-data-feed
+https://www.talos.com/dashboards/pre-ipo-perps-market-data?utm_source=newsletter&utm_medium=partner&utm_campaign=hyperliquid-pre-ipo-dash_glbl
+https://www.talos.com/insights/an-empirical-model-of-market-impact-in-cryptocurrency-trading
+https://coinmetrics.substack.com/
+/insights/countdown-to-ant-what-the-pre-ipo-perps-markets-say-about-anthropics-ipo
+/insights/regulatory-roundup-24
+/insights/event-contracts-prediction-markets-welcome-to-24-7
+/insights
+/request-a-demo
+/our-solutions/trading
+/our-solutions/white-label
+/our-solutions/portfolio-construction
+/our-solutions/portfolio-and-risk-management
+/our-solutions/treasury-and-settlement
+/our-solutions/analytics
+/
+/our-solutions/trading
+/our-solutions/white-label
+/our-solutions/portfolio-construction
+/our-solutions/portfolio-and-risk-management
+/our-solutions/treasury-and-settlement
+/our-solutions/analytics
+/about/why-talos
+/about/the-talos-story
+/about/the-leadership-team
+/working/life-at-talos
+/working/open-roles
+/working/internships
+/contact
+/insights
+/provider-network
+/legals/terms
+/legals/privacy
+/legals/data-processing-addendums
+/faqs
+/legals/employee-privacy-policy
+https://www.linkedin.com/company/talos-trading
+https://twitter.com/talostrading
+https://www.youtube.com/@talostrading

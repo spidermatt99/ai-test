@@ -1,0 +1,22 @@
+https://entropy.io/llms.txt
+200
+# Entropy
+
+> Entropy is a trading platform for perpetual futures tied to private market assets and other hard-to-access markets.
+
+## Pages
+
+- [Home](https://entropy.trade/): product overview
+- [About](https://entropy.trade/about): who builds Entropy
+- [Features](https://entropy.trade/features): trading features and portfolio tools
+- [Pricing](https://entropy.trade/pricing): trading fees and rebates
+- [Security](https://entropy.trade/security): official domains, wallet-signing policy, and vulnerability contact
+- [Support](https://entropy.trade/support): account and platform help
+- [Terms](https://entropy.trade/terms): terms of service
+- [Privacy](https://entropy.trade/privacy): privacy policy
+- [Risk disclosure](https://entropy.trade/risk-disclosure): important trading risk information
+
+## Notes
+
+- The trading terminal at /trade requires an account and is intentionally not indexable.
+LINKS

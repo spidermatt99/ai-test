@@ -1,0 +1,66 @@
+https://docs.paragon.trade/llms.txt
+200
+# Paragon Documentation
+
+## Docs
+
+- [Introduction](https://docs.paragon.trade/about-paragon/readme.md)
+- [HIP-3 Integration](https://docs.paragon.trade/about-paragon/hip-3.md)
+- [Accessing Paragon](https://docs.paragon.trade/trading/accessing-paragon.md)
+- [Oracle Price](https://docs.paragon.trade/trading/oracle-price.md)
+- [Mark Price](https://docs.paragon.trade/trading/mark-price.md)
+- [Bounds & Anchors](https://docs.paragon.trade/trading/bounds-and-anchors.md)
+- [Order Types](https://docs.paragon.trade/trading/order-types.md)
+- [Margining](https://docs.paragon.trade/trading/margining.md)
+- [Risk & Liquidations](https://docs.paragon.trade/trading/liquidations.md)
+- [Fees](https://docs.paragon.trade/trading/fees.md)
+- [Crypto](https://docs.paragon.trade/markets/crypto-indices.md)
+- [External Pricing](https://docs.paragon.trade/markets/crypto-indices/external-pricing.md)
+- [Methodology](https://docs.paragon.trade/markets/crypto-indices/methodology.md)
+- [Pre-Launch Pricing](https://docs.paragon.trade/markets/crypto-indices/pre-launch-pricing.md)
+- [Equities](https://docs.paragon.trade/markets/equities.md)
+- [Pre-Listing (“Pre-IPO”) Pricing](https://docs.paragon.trade/markets/equities/pre-listing-pricing.md)
+- [External Pricing](https://docs.paragon.trade/markets/equities/external-pricing.md)
+- [Off Hours & Fallback](https://docs.paragon.trade/markets/equities/off-hours-and-fallback.md)
+- [Power Perpetuals](https://docs.paragon.trade/markets/power-perpetuals.md)
+- [Index & Payoff](https://docs.paragon.trade/markets/power-perpetuals/index-and-payoff.md)
+- [Funding](https://docs.paragon.trade/markets/power-perpetuals/funding.md)
+- [Hedging & Risk](https://docs.paragon.trade/markets/power-perpetuals/hedging-and-risk.md)
+- [Rates & Yields](https://docs.paragon.trade/markets/rates-and-yields.md)
+- [External Pricing](https://docs.paragon.trade/markets/rates-and-yields/external-pricing.md)
+- [Off Hours & Fallback](https://docs.paragon.trade/markets/rates-and-yields/off-hours-and-fallback.md)
+- [API Overview](https://docs.paragon.trade/developers/api.md)
+- [Index Composition API](https://docs.paragon.trade/developers/index-composition-api.md)
+- [Contract Specifications](https://docs.paragon.trade/resources/specifications.md)
+- [2026 Holiday Closures](https://docs.paragon.trade/resources/holiday-closures.md)
+- [Links](https://docs.paragon.trade/resources/links.md)
+- [Brand Kit](https://docs.paragon.trade/resources/brand-kit.md)
+- [Support](https://docs.paragon.trade/resources/support.md)
+- [FAQ](https://docs.paragon.trade/resources/faq.md)
+- [Glossary](https://docs.paragon.trade/resources/glossary.md)
+- [Terms of Use](https://docs.paragon.trade/legal/terms_of_use.md)
+- [Legal & Disclaimers](https://docs.paragon.trade/legal/legal.md)
+- [Pre-Listing Risk Disclosure](https://docs.paragon.trade/legal/pre-listing-risk-disclosure.md)
+- [Privacy Policy](https://docs.paragon.trade/legal/privacy_policy.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+This site has an agentic ask interface you may use to query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the following URL with the `ask` and `goal` query parameters:
+
+```
+GET https://docs.paragon.trade/index.md?ask=
+&goal=
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is what the user is ultimately trying to achieve, the reason they need the answer. Sharing it helps GitBook give you a better, more relevant answer. A goal is most helpful when it describes the outcome the user wants rather than restating the question. For example, with `ask=how do I create an API token`, a goal like `automate deployments from our CI pipeline` lets GitBook tailor the answer to that use case.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+LINKS

@@ -1,0 +1,177 @@
+https://docs.paragon.trade
+200
+Introduction | Paragon Documentation
+⌘
+Ctrl
+k
+GitBook Assistant
+Ask
+GitBook Assistant
+GitBook Assistant
+arrow-up-right-and-arrow-down-left-from-center
+GitBook Assistant
+I'm here to help you with the docs.
+What is this page about?
+What should I read next?
+Can you give an example?
+⌘
+Ctrl
+i
+AI
+Based on your context
+Send
+About Paragon
+Introduction
+HIP-3 Integration
+Trading
+Accessing Paragon
+Oracle Price
+Mark Price
+Bounds & Anchors
+Order Types
+Margining
+Risk & Liquidations
+Fees
+Markets
+Crypto
+Equities
+Power Perpetuals
+Rates & Yields
+Developers
+API Overview
+Index Composition API
+Resources
+Contract Specifications
+2026 Holiday Closures
+Links
+Brand Kit
+Support
+FAQ
+Glossary
+Legal
+Terms of Use
+Legal & Disclaimers
+Pre-Listing Risk Disclosure
+Privacy Policy
+Powered by GitBook
+On this page
+For the complete documentation index, see
+llms.txt
+. This page is also available as
+Markdown
+.
+GitBook Assistant
+Ask
+On this page
+About Paragon
+Introduction
+Why Paragon?
+Native Hyperliquid listing
+- Trade on app.hyperliquid.xyz where your capital sits
+Standard perp mechanics
+- Same margin, liquidation, and order types you know
+Transparent methodology
+- Published index constituents and weightings
+Quick Links
+Action
+Link
+Start trading
+app.hyperliquid.xyz
+Browse markets
+Crypto
+|
+Equities
+|
+Rates & Yields
+Built on Hyperliquid
+Paragon deploys via
+HIP-3
+, inheriting Hyperliquid's:
+Low-latency order matching
+Deep liquidity infrastructure
+Battle-tested margin and liquidation systems
+Direct listing on app.hyperliquid.xyz
+No new venue. No fragmented liquidity. Your capital stays where it is.
+→
+Learn about HIP-3 Integration
+HIP-3 Metadata
+Field
+Value
+Name
+para
+Full Name
+Paragon
+Deployer
+0x8888888c43cbb7e1c4132542e46831bffd866ed3
+Oracle Updater
+0x764Ed9D59C91a2C653Fd50C43585917366244335
+Transparent Methodology
+Every index follows a published, auditable methodology:
+Constituent list and weightings publicly available
+Real-time price updates from multiple data sources
+Daily rebalancing with clear rules
+Market makers can hedge efficiently. Traders can verify what they're trading.
+→
+External Pricing
+Next
+HIP-3 Integration
+Last updated
+2 months ago
+Why Paragon?
+Quick Links
+Built on Hyperliquid
+HIP-3 Metadata
+Transparent Methodology
+LINKS
+/
+/
+/
+/about-paragon/hip-3
+/trading/accessing-paragon
+/trading/oracle-price
+/trading/mark-price
+/trading/bounds-and-anchors
+/trading/order-types
+/trading/margining
+/trading/liquidations
+/trading/fees
+/markets/crypto-indices
+/markets/equities
+/markets/power-perpetuals
+/markets/rates-and-yields
+/developers/api
+/developers/index-composition-api
+/resources/specifications
+/resources/holiday-closures
+/resources/links
+/resources/brand-kit
+/resources/support
+/resources/faq
+/resources/glossary
+/legal/terms_of_use
+/legal/legal
+/legal/pre-listing-risk-disclosure
+/legal/privacy_policy
+https://www.gitbook.com/powered-by?utm_source=content&utm_medium=trademark&utm_campaign=1LFipJJCs0Ri6aw7btUs&utm_content=site_6HCND
+https://www.gitbook.com/powered-by?utm_source=content&utm_medium=trademark&utm_campaign=1LFipJJCs0Ri6aw7btUs&utm_content=site_6HCND
+https://docs.paragon.trade/llms.txt
+https://docs.paragon.trade/about-paragon/readme.md
+/
+#why-paragon
+#quick-links
+https://app.hyperliquid.xyz
+/markets/crypto-indices
+/markets/equities
+/markets/rates-and-yields
+#built-on-hyperliquid
+/about-paragon/hip-3
+/about-paragon/hip-3
+#hip-3-metadata
+#transparent-methodology
+/markets/crypto-indices/external-pricing
+/about-paragon/hip-3
+#why-paragon
+#quick-links
+#built-on-hyperliquid
+#hip-3-metadata
+#transparent-methodology

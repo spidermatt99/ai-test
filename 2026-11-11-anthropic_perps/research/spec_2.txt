@@ -1,0 +1,213 @@
+https://docs.ventuals.com/perp-specifications/private-companies.md
+200
+> For the complete documentation index, see [llms.txt](https://docs.ventuals.com/llms.txt). Markdown versions of documentation pages are available by appending `.md` to page URLs; this page is available as [Markdown](https://docs.ventuals.com/perp-specifications/private-companies.md).
+
+# Private Companies
+
+{% hint style="info" %}
+For private companies on Ventuals, you trade valuations, not shares.\
+\
+The price of the perp contract is the company valuation divided by 1 billion for easy readability. For example: if the valuation of SpaceX on Ventuals is at $420.69B, then the price of 1 SPACEX= $420.69.
+{% endhint %}
+
+## Oracle Price
+
+Price oracles are data feeds that provide a reliable reference price for a perp asset. Combined with funding rates, they serve to align the perp price with the reference price of the asset.
+
+Ventuals constructs and publishes oracle prices for each market using a weighted combination of:
+
+1. The latest external valuation estimate based on industry-leading offchain data sources
+   1. Data comes from [Notice](https://notice.co/); you can read about their sources and methodology [here](https://learn.notice.co/en/articles/8338741-how-is-notice-price-determined)
+2. The 2-hour incremental EMA of the mark price
+
+$$
+P\_{\text{oracle}} = \frac{1}{3} \cdot P\_{\text{Notice}} + \frac{2}{3} \cdot \text{EMA}\_{2h}(\text{MarkPx})
+$$
+
+Notice data is polled at least once per minute and incorporates offchain valuation data, such as: secondary transactions, secondary bids and offers, official fundraising announcements, mutual fund marks, 409A valuations, and a group of relevant public companies.
+
+The combined value is pushed onchain as the oracle price, and used in funding rate calculations. Oracle prices are updated approximately every 3 seconds.
+
+### Why the weighted oracle?
+
+Ventuals approaches the oracle price for pre-IPO companies differently than typical crypto perps.
+
+This is because unlike an asset like BTC, there are no highly liquid spot markets for pre-IPO companies. At the same time, there is some real information about the valuation of these companies offchain, from funding rounds and secondary markets.
+
+Our goal for the Ventuals price oracle is to incorporate information from offchain markets, while allowing room for some price discovery — this is a much needed mechanism for private markets, as shown by the “IPO pop” phenomenon of companies instantly trading multiples higher than secondary transactions once they've gone public.
+
+***
+
+## Mark Price
+
+Mark price is the fair price of a perpetual contract, and is used for margining, liquidations, stop/limit triggers, funding rates, and computing unrealized PnL. Mark prices, along with oracle prices, are updated approximately every 3 seconds.
+
+The mark price on Ventuals smooths short-term volatility while staying responsive to genuine market movements. It’s updated using a liquidity-weighted impact price and a dynamic coefficient `k`.
+
+$$
+\text{MarkPx}*t = (1 - k) \cdot \text{MarkPx}*{t-1} + k \cdot \text{ImpactPx}\_t
+$$
+
+Where:
+
+* ImpactPx = median(impactBidPx, impactAskPx)
+* k = dynamic adjustment coefficient
+
+**Dynamic Adjustment Coefficient (k)**
+
+The coefficient `k` controls how aggressively the mark price follows the impact price. It adapts based on the short-term deviation between the current impact price and its 1-minute EMA:
+
+| Δ (ImpactPx vs EMA) | k value | Max Δ MarkPx (per update) |
+| ------------------- | ------- | ------------------------- |
+|
+<
+0.25%              | 0.5     | 0.125%                    |
+| \[0.25, 0.5)%       | 0.4     | 0.2%                      |
+| \[0.5, 1)%          | 0.2     | 0.2%                      |
+| \[1, 2)%            | 0.1     | 0.2%                      |
+| ≥2%                 | 0       | 0%                        |
+
+This means that sudden impact price changes need to sustain for some time before the mark price follows accordingly.
+
+### Mark price bands
+
+To protect against price manipulation during periods of thin liquidity, the mark price for each market is constrained to remain within a price band relative to its oracle price and an external price feed.
+
+$$
+\text{Mark} \in \left\[ 0.8\cdot\text{Oracle},; 1.2\cdot\text{Oracle} \right]
+$$
+
+This constraint is enforced directly at the Hyperliquid order and matching engine level.
+
+Precisely, the highest allowable long order is 20% above the oracle price, and the lowest allowable short order price is 20% below the oracle price. These limits effectively constrain the achievable mark price.
+
+Based on the price oracle definition, it follows that the mark price for each market is also constrained to a price band relative to the latest price from the external data feed provided by [Notice](https://notice.co/).
+
+$$
+\text{Mark} \in \left\[ \frac{4}{7} \cdot\text{Notice},; 2\cdot\text{Notice} \right]
+$$
+
+Therefore, the mark price band limits the possible mark price deviation relative to the Notice price.
+
+### Mark price velocity limit
+
+Hyperliquid restricts mark price movements to a max 1% move every 3 second update. This prevents overly large price moves over a short period of time, further protecting against manipulation.
+
+***
+
+## Funding Rate
+
+Funding rates are a way to keep the price of a perp contract in line with the reference price of the asset.
+
+Every hour, traders on one side of the market (either longs or shorts) pay a small fee to the other side, depending on whether the contract is trading above or below the oracle price of the asset. If the perp is priced higher than the oracle price, longs pay shorts. If it’s lower, shorts pay longs.
+
+These payments go directly between traders (Ventuals doesn’t take a cut), and they help keep the market balanced by nudging prices back towards the reference price.
+
+### How is the funding rate calculated?
+
+Ventuals pre-IPO markets have a dynamic multiplier applied to Hyperliquid's [funding rate formula](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/funding#overview).
+
+This funding rate multiplier is set based on the deviation between the average mark price (sampled every \~1s) and the oracle price.
+
+#### Low deviation (
+<
+5%)
+
+If the average mark-to-oracle deviation is within 5%, then the multiplier is set such that the annualized funding rate will be roughly 15%.
+
+#### Medium deviation (5-19%)
+
+If the average mark-to-oracle deviation is between 5-19%, then the multiplier follows an exponential curve.
+
+R is the average mark-to-oracle difference expressed as a fraction of a 19% range. For example, a 9.5% difference corresponds to R = 0.095 / 0.19 = 0.5.
+
+$$
+R = \frac{\text{avg. mark-to-oracle difference}}{0.19}
+$$
+
+The funding-rate multiplier is then computed as:
+
+$$
+\text{Multiplier} = 0.003 \times \left(\frac{0.4}{0.003}\right)^{R^{20}}
+$$
+
+As the mark-to-oracle difference increases, the funding multiplier increases exponentially from 0.003 to 0.4, increasing the incentive for traders on the other side to step in.
+
+#### High deviation (>19%)
+
+If the average mark-to-oracle deviation is greater than 19%, then the multiplier is set such that the hourly funding rate maxes out at \~1%. This quickly incentivizes traders on the other side to step in, before the 20% mark-to-oracle price bound is hit.
+
+### Example funding chart
+
+The table below illustrates what the implied mark-to-notice difference and funding rates roughly would be, based on the average mark-to-oracle deviation.
+
+Note that the actual values seen in production may be different because the mark price used is an average of samples, and also the mark price EMA component of the price oracle (i.e. the mark price needs to persist for some time in order for the Mark-to-Notice difference to hold true).
+
+| Mark-to-Oracle Diff | Mark-to-Notice Diff | Hourly FR | Annualized FR |
+| ------------------- | ------------------- | --------- | ------------- |
+| 0%                  | 0.00%               | 0.00171%  | 15.00%        |
+| 1%                  | 3.06%               | 0.00171%  | 15.00%        |
+| 2%                  | 6.25%               | 0.00171%  | 15.00%        |
+| 3%                  | 9.57%               | 0.00171%  | 15.00%        |
+| 4%                  | 13.04%              | 0.00171%  | 15.00%        |
+| 5%                  | 16.67%              | 0.00186%  | 16.26%        |
+| 6%                  | 20.45%              | 0.00223%  | 19.55%        |
+| 7%                  | 24.42%              | 0.00261%  | 22.83%        |
+| 8%                  | 28.57%              | 0.00298%  | 26.12%        |
+| 9%                  | 32.93%              | 0.00336%  | 29.40%        |
+| 10%                 | 37.50%              | 0.00373%  | 32.69%        |
+| 11%                 | 42.31%              | 0.00411%  | 35.97%        |
+| 12%                 | 47.37%              | 0.00448%  | 39.28%        |
+| 13%                 | 52.70%              | 0.00487%  | 42.68%        |
+| 14%                 | 58.33%              | 0.00529%  | 46.33%        |
+| 15%                 | 64.29%              | 0.00585%  | 51.28%        |
+| 16%                 | 70.59%              | 0.00700%  | 61.32%        |
+| 17%                 | 77.27%              | 0.01079%  | 94.50%        |
+| 18%                 | 84.38%              | 0.03538%  | 309.92%       |
+| 19%                 | 91.94%              | 0.94750%  | 8300.10%      |
+| 20%                 | 100.00%             | 0.99750%  | 8738.10%      |
+
+***
+
+## Market Resolution
+
+When a company goes public, Ventuals pre-IPO markets resolve.
+
+The resolution price is the company's total valuation, based on the number of basic shares outstanding multiplied by the market close price at the end of the first day of trading on the relevant stock exchange.
+
+Once the stock market opens on the first day of trading (9:30am ET):
+
+* Funding rates are set to 0
+* The oracle price is always set to the mark price
+* The valuation implied by the live stock price is included in `externalPerpPxs`, which limits the price that orders can be placed at to ![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)±20% away from `externalPerpPxs`
+
+When the stock market closes on the first day of trading (4:00pm ET):
+
+* The Ventuals mark price is overriden to the valuation implied by the stock market close price
+* Once the Ventuals mark price is set – `haltTrading` is called, settling all open positions at the final mark price
+
+Settlement or conversion may occur at a price that differs materially from the market price at which you entered a position, from your expected value, from public valuations or offering prices associated with the referenced issuer, or from any subsequent public market price for the referenced issuer's securities. If no reliable public reference price becomes available, if extraordinary circumstances affect the referenced issuer or listing event, or if circumstances arise that prevent Ventuals from maintain the deployment of the market, trading in the market may be halted and settled or closed.
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation by asking a question.
+
+Perform an HTTP GET request on the following URL with the `ask` and `goal` query parameters:
+
+```
+GET https://docs.ventuals.com/perp-specifications/private-companies.md?ask=
+&goal=
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is what the user is ultimately trying to achieve, the reason they need the answer. Sharing it helps GitBook give you a better, more relevant answer. A goal is most helpful when it describes the outcome the user wants rather than restating the question. For example, with `ask=how do I create an API token`, a goal like `automate deployments from our CI pipeline` lets GitBook tailor the answer to that use case.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
+LINKS
