@@ -1,0 +1,1223 @@
+1
+00:00:00,000 --> 00:00:02,240
+usually the circulating market cap.
+
+2
+00:00:02,241 --> 00:00:05,360
+And then the circulating market
+cap is changing all the time, right?
+
+3
+00:00:05,361 --> 00:00:06,960
+People are not very sure.
+
+4
+00:00:06,961 --> 00:00:09,000
+So some exchanges,
+they just take a view, right?
+
+5
+00:00:09,001 --> 00:00:11,560
+That's just assume it's a billion shares.
+
+6
+00:00:11,561 --> 00:00:14,080
+And then the price will basically float,
+
+7
+00:00:14,081 --> 00:00:18,160
+but the market cap will
+just be that price times
+
+8
+00:00:18,161 --> 00:00:21,080
+a billion shares, which is
+a case for Binance, right?
+
+9
+00:00:21,081 --> 00:00:23,307
+Then some people will say,
+"Hey, I will adjust whenever
+
+10
+00:00:23,308 --> 00:00:25,858
+there's new information
+"coming out for the
+
+11
+00:00:25,859 --> 00:00:29,760
+share count," which is
+what OKX did earlier on.
+
+12
+00:00:29,761 --> 00:00:34,080
+But then you can see it could
+calculate a lot of confusion, right?
+
+13
+00:01:01,840 --> 00:01:10,537
+Yeah, so it depends on, again,
+we can talk about what investors
+
+14
+00:01:10,538 --> 00:01:14,320
+usually look at, which will
+be circulating market cap.
+
+15
+00:01:14,321 --> 00:01:16,960
+That's when people evaluate
+public companies, right?
+
+16
+00:01:16,961 --> 00:01:21,600
+If you use that convention, then
+you should multiply that $100 or so
+
+17
+00:01:21,601 --> 00:01:25,920
+to the circulating market share,
+which I believe is around $13 billion,
+
+18
+00:01:25,921 --> 00:01:30,640
+or $14 billion, to get to
+that $1.4 trillion number.
+
+19
+00:01:30,641 --> 00:01:36,560
+And then specifically, Encho B,
+they use fully diluted market share.
+
+20
+00:01:36,561 --> 00:01:41,080
+That's why you see a code of $1.8 trillion.
+
+21
+00:01:41,081 --> 00:01:44,840
+And then ultimately, it's
+what's a market convention.
+
+22
+00:01:44,841 --> 00:01:48,640
+Because when we evaluate private companies,
+people usually do fully dilute it,
+
+23
+00:01:48,641 --> 00:01:52,200
+because people don't really know
+how much it's going to be circulating.
+
+24
+00:01:52,201 --> 00:01:55,800
+But once it's public, usually
+people refer to the circulating.
+
+25
+00:01:55,801 --> 00:01:59,300
+[MUSIC PLAYING]
+
+26
+00:02:28,800 --> 00:02:36,800
+That's a venues choice, right?
+
+27
+00:02:36,801 --> 00:02:40,360
+So in a case for trade XYZ, they
+want to make a simple, right?
+
+28
+00:02:40,361 --> 00:02:43,320
+You think, eventually, you're asking,
+
+29
+00:02:43,321 --> 00:02:46,160
+so although the bad is on
+the valuation of the company,
+
+30
+00:02:46,161 --> 00:02:49,840
+a certain venue choose to say,
+hey, I want you to bet on the price.
+
+31
+00:02:49,841 --> 00:02:51,320
+But if I want to bet on the price,
+
+32
+00:02:51,321 --> 00:02:54,440
+obviously, I need to know how
+many share counts are all there, right?
+
+33
+00:02:54,441 --> 00:02:56,320
+And then some venue are saying, it's easy.
+
+34
+00:02:56,321 --> 00:02:58,080
+Just bet on the market cap will always
+
+35
+00:02:58,081 --> 00:03:02,120
+adjust as a share count
+information go to the market.
+
+36
+00:03:02,121 --> 00:03:04,280
+But what it really means
+for investors, right?
+
+37
+00:03:04,281 --> 00:03:07,100
+I think the first thing
+is, you cannot compare
+
+38
+00:03:07,101 --> 00:03:12,000
+trade XYZ $100 price to
+buy as $1,800 price, right?
+
+39
+00:03:12,001 --> 00:03:15,040
+Not because there is really
+10, 20 times difference.
+
+40
+00:03:15,041 --> 00:03:17,480
+It's just because the
+convention is different.
+
+41
+00:03:17,481 --> 00:03:19,080
+Second is, there is still.
+
+42
+00:03:19,081 --> 00:03:21,259
+I mean, you had just for
+convention, a happy to do
+
+43
+00:03:21,260 --> 00:03:24,240
+a calculation for you,
+whatever convention you want.
+
+44
+00:03:24,241 --> 00:03:26,040
+And even if you adjust for that,
+
+45
+00:03:26,041 --> 00:03:29,160
+I think our research is trying to
+show there is still a wide bit of,
+
+46
+00:03:29,161 --> 00:03:33,040
+not a bit of, it's a wide price
+range amount of different venues.
+
+47
+00:03:33,041 --> 00:03:38,040
+That's truly actually representing
+investors' expectation of the price.
+
+48
+00:03:38,041 --> 00:03:42,080
+I think the share can sort of
+add this technical complexity,
+
+49
+00:03:42,081 --> 00:03:44,901
+but even if you peel
+the onion and just try to
+
+50
+00:03:44,902 --> 00:03:47,640
+normalize everything,
+there is still difference.
+
+51
+00:04:03,680 --> 00:04:11,680
+Yeah. So given it's a frontier market,
+
+52
+00:04:11,681 --> 00:04:14,279
+there are not a lot of
+like clearly written rules
+
+53
+00:04:14,280 --> 00:04:17,200
+on how we're going to
+define a pre-acchio market.
+
+54
+00:04:17,201 --> 00:04:20,959
+We do some research searching
+based on all public information.
+
+55
+00:04:20,960 --> 00:04:23,360
+For example, encho piece specifically say,
+
+56
+00:04:23,361 --> 00:04:25,702
+hey, we want to target the
+number actually if you go
+
+57
+00:04:25,703 --> 00:04:29,960
+to the website, numbers
+at FDB is 1.8 trillion, right?
+
+58
+00:04:29,961 --> 00:04:33,720
+I think OKX is sort of
+giving all public information,
+
+59
+00:04:33,721 --> 00:04:37,440
+especially they have adjusted
+the share count once, right?
+
+60
+00:04:37,441 --> 00:04:41,600
+Which created a big price job because they
+inflated a share number from 1 billion,
+
+61
+00:04:41,601 --> 00:04:43,720
+which is how to set a
+goal to like 13 billion.
+
+62
+00:04:43,721 --> 00:04:46,520
+And then the price needs
+to be cut by 1/13, right?
+
+63
+00:04:46,521 --> 00:04:51,320
+They actually close all the
+investor positions and re-open,
+
+64
+00:04:51,321 --> 00:04:54,417
+which is inconvenient,
+right, because you're forced
+
+65
+00:04:54,441 --> 00:04:57,727
+to monetize whatever P&L
+you have at that time, right?
+
+66
+00:04:57,728 --> 00:05:00,195
+And by now, this is
+more of, that's just assume
+
+67
+00:05:00,219 --> 00:05:02,807
+1 billion share count
+when we refer to the price.
+
+68
+00:05:02,808 --> 00:05:06,120
+So it's easier for investors
+to say, if I see a number of 1.8,
+
+69
+00:05:06,121 --> 00:05:09,240
+I think the market
+value is 1.8 trillion, right?
+
+70
+00:05:09,241 --> 00:05:11,520
+That's what they choose to do.
+
+71
+00:05:11,521 --> 00:05:13,560
+There's public information
+referring to that,
+
+72
+00:05:13,561 --> 00:05:16,480
+but I haven't been
+able to find exact rules.
+
+73
+00:05:16,481 --> 00:05:20,600
+So that speaks to the fact that
+now people are really like a SpaceX.
+
+74
+00:05:20,601 --> 00:05:23,579
+But I think there are not
+much ambiguity around
+
+75
+00:05:23,603 --> 00:05:26,207
+share count because
+they as well as fire.
+
+76
+00:05:26,208 --> 00:05:31,160
+And for, for, for, for anthropic, now
+this becomes an interesting issue, right?
+
+77
+00:05:31,161 --> 00:05:36,640
+So for like a frontier market, the
+complexity is not just what is the price?
+
+78
+00:05:36,641 --> 00:05:39,493
+Because price means
+nothing if you don't actually
+
+79
+00:05:39,517 --> 00:05:41,967
+tie it into how many
+shares are out there.
+
+80
+00:05:41,968 --> 00:05:44,585
+Because $100 price could
+mean a billion market
+
+81
+00:05:44,609 --> 00:05:47,532
+share, a billion market
+value or a trillion, right?
+
+82
+00:05:47,533 --> 00:05:51,360
+So those are the interesting
+observations we have.
+
+83
+00:06:09,520 --> 00:06:13,400
+That's, that's actually a
+million dollar question too.
+
+84
+00:06:13,401 --> 00:06:15,960
+So if you're really looking
+to the park market, right?
+
+85
+00:06:15,961 --> 00:06:19,840
+Either for crypto perks, let's say
+I, I, I, I, I long Bitcoin per, right?
+
+86
+00:06:19,841 --> 00:06:24,640
+Who says Bitcoin prices does
+what I try to settle my position, right?
+
+87
+00:06:24,641 --> 00:06:26,840
+Different exchange have different rules.
+
+88
+00:06:26,841 --> 00:06:31,200
+I think for big exchange like finance,
+they have their own pricing index, right?
+
+89
+00:06:31,201 --> 00:06:35,720
+Based on trees that happen and it is
+public information that they can calculate.
+
+90
+00:06:35,721 --> 00:06:38,326
+Obviously for a market
+that's very liquid like
+
+91
+00:06:38,350 --> 00:06:41,247
+Bitcoin, you can't really
+fudge it too much, right?
+
+92
+00:06:41,248 --> 00:06:45,003
+But for a very liquid market,
+again, based on the methodology,
+
+93
+00:06:45,004 --> 00:06:48,080
+what defines as a tree, how
+do you calculate the average?
+
+94
+00:06:48,081 --> 00:06:51,973
+There could be a lot of, I
+think a lot of parameters
+
+95
+00:06:51,997 --> 00:06:55,440
+could impact what the
+price actually would be.
+
+96
+00:06:55,441 --> 00:06:58,264
+And this is an area which
+can pretty interesting if
+
+97
+00:06:58,288 --> 00:07:01,012
+you look at the regulated
+market like CME, right?
+
+98
+00:07:01,013 --> 00:07:04,988
+Those futures have like a third
+party index that are passing
+
+99
+00:07:05,012 --> 00:07:08,800
+certain compliance criteria
+to develop like a third party
+
+100
+00:07:08,801 --> 00:07:11,742
+mutual index, but it's
+not necessarily the case
+
+101
+00:07:11,766 --> 00:07:14,532
+in crypto, but I think
+as the market mature,
+
+102
+00:07:14,533 --> 00:07:17,933
+there will be more demand,
+even from a regulatory
+
+103
+00:07:17,957 --> 00:07:20,880
+perspective, to say,
+hey, for park market,
+
+104
+00:07:20,881 --> 00:07:25,760
+we need a more mutual rules based index
+to truly reflect what's the fair price.
+
+105
+00:07:39,800 --> 00:07:47,800
+You never know, it's always a
+bad time or it's always a good time.
+
+106
+00:08:30,200 --> 00:08:38,200
+[BLANK_AUDIO]
+
+107
+00:08:43,520 --> 00:08:51,520
+So, I think, exactly, you have to otherwise
+there is arbitrage opportunity, right?
+
+108
+00:08:51,521 --> 00:08:57,040
+So I think, again, I'm not
+an AI stocks expert, right?
+
+109
+00:08:57,041 --> 00:09:01,200
+But I will focus on data and what
+does market really provide, right?
+
+110
+00:09:01,201 --> 00:09:07,680
+So if you think of all pre-IPO market,
+it's a natural evolution of the marketing
+
+111
+00:09:07,681 --> 00:09:10,614
+infrastructure, started
+with crypto, and now
+
+112
+00:09:10,638 --> 00:09:13,840
+was the innovative
+exchanges, like hyper-liquid.
+
+113
+00:09:13,841 --> 00:09:15,800
+You can pretty much
+trade everything, right?
+
+114
+00:09:15,801 --> 00:09:18,531
+I think it really allows
+the market we call it
+
+115
+00:09:18,555 --> 00:09:22,247
+perpetification or financialization
+of pretty much everything.
+
+116
+00:09:22,248 --> 00:09:25,142
+And then you can create a
+market whenever and that
+
+117
+00:09:25,166 --> 00:09:28,367
+market, the price is really
+reflecting the traders that
+
+118
+00:09:28,368 --> 00:09:31,040
+trading the market and the
+review of the market, right?
+
+119
+00:09:31,041 --> 00:09:34,144
+And then, if it's
+created very early on, it's
+
+120
+00:09:34,168 --> 00:09:37,480
+very uncertain, I could
+be very volatile, right?
+
+121
+00:09:37,481 --> 00:09:40,435
+But one research we
+did is, as you, you know,
+
+122
+00:09:40,459 --> 00:09:43,480
+the private market,
+there is a long history in
+
+123
+00:09:43,481 --> 00:09:46,438
+tri-FI where people are
+trying to put a valuation
+
+124
+00:09:46,462 --> 00:09:50,680
+on private market by looking at
+a couple of public factors, right?
+
+125
+00:09:50,681 --> 00:09:52,680
+So our research is trying
+to do the same thing.
+
+126
+00:09:52,681 --> 00:09:55,451
+So yes, you may have a
+view on a traffic, but that
+
+127
+00:09:55,475 --> 00:09:58,087
+view would fluctuate as
+the market move, right?
+
+128
+00:09:58,088 --> 00:10:00,873
+So we actually roll a
+regression of the price
+
+129
+00:10:00,897 --> 00:10:05,840
+as a function of QQQ or SMP because there
+is always a market beta component, right?
+
+130
+00:10:05,841 --> 00:10:08,403
+So if you think about
+the pre-ideal price, it's
+
+131
+00:10:08,427 --> 00:10:12,689
+really reflecting three things, a market
+beta because that's how people anchor their
+
+132
+00:10:12,713 --> 00:10:15,007
+valuation based on when
+you say, "Hey, it's hot,
+
+133
+00:10:15,008 --> 00:10:17,586
+AI's not hot," and you
+obviously, the public
+
+134
+00:10:17,610 --> 00:10:19,967
+market will reflect
+it, b is the sort of
+
+135
+00:10:19,968 --> 00:10:23,589
+liquidity print, the only
+liquidity premium people is trying
+
+136
+00:10:23,590 --> 00:10:26,880
+to assign to how desirable
+that company is self it is.
+
+137
+00:10:26,881 --> 00:10:29,800
+It's more related to the
+company's own business.
+
+138
+00:10:29,801 --> 00:10:33,560
+S3 is the sort of the
+speculative interest, right?
+
+139
+00:10:33,561 --> 00:10:35,869
+So if you look at the
+open interest, obviously
+
+140
+00:10:35,893 --> 00:10:38,007
+the crypto market
+overall is hot, if their
+
+141
+00:10:38,008 --> 00:10:42,760
+risk sentiment is high, people are
+willing to put more money into that, right?
+
+142
+00:10:42,761 --> 00:10:47,400
+So in the end, the valuation is
+really reflecting all three aspects.
+
+143
+00:10:47,401 --> 00:10:51,160
+I think the valuation of a company
+doesn't change that much, right?
+
+144
+00:10:51,161 --> 00:10:53,574
+Because it's sort of,
+it's a very new business,
+
+145
+00:10:53,598 --> 00:10:55,612
+but the beta to the
+market can actually
+
+146
+00:10:55,613 --> 00:11:00,840
+have very big short-term impact, right,
+as we see all the events unfold recently.
+
+147
+00:11:00,841 --> 00:11:03,467
+And then sort of, as
+you can see the volume
+
+148
+00:11:03,491 --> 00:11:06,252
+grows on the crypto
+market, more participants
+
+149
+00:11:06,253 --> 00:11:10,840
+participate, sort of also improve
+the price discovery process.
+
+150
+00:11:31,840 --> 00:11:35,592
+Yeah, I can get you
+the exact number if you
+
+151
+00:11:35,616 --> 00:11:41,880
+want to compare a throwbacks per trading
+volume and open interest versus SpaceX.
+
+152
+00:11:41,881 --> 00:11:46,560
+I mean, this market is very new, we don't
+have a lot of presidences either, right?
+
+153
+00:11:46,561 --> 00:11:49,168
+Another interesting
+development you will see
+
+154
+00:11:49,192 --> 00:11:53,840
+is, I mean, there's this issue people
+talk about forever saying access, right?
+
+155
+00:11:53,841 --> 00:11:56,345
+So the venture capitalists
+can access a strong
+
+156
+00:11:56,369 --> 00:12:00,615
+back and there are multiple ways for
+high networks to sort of access the pre-IPO
+
+157
+00:12:00,639 --> 00:12:03,092
+shares, but no more
+people, they don't, right?
+
+158
+00:12:03,093 --> 00:12:06,497
+So pre-IPO market, for
+per market is becoming
+
+159
+00:12:06,521 --> 00:12:09,480
+sort of a democratized
+market place for
+
+160
+00:12:09,481 --> 00:12:13,920
+regular people to access
+this very hot market, right?
+
+161
+00:12:13,921 --> 00:12:16,659
+And not even see
+financial products or
+
+162
+00:12:16,683 --> 00:12:20,000
+derived products from
+this per market to offer
+
+163
+00:12:20,001 --> 00:12:23,720
+people access for those people who
+don't know how to trade on perks, right?
+
+164
+00:12:23,721 --> 00:12:29,720
+So I think the market offers alternative
+access to this hot stuff that not everybody
+
+165
+00:12:29,721 --> 00:12:34,040
+have access to, which in
+itself is innovation, right?
+
+166
+00:12:34,041 --> 00:12:36,433
+And then obviously
+you're getting this hot
+
+167
+00:12:36,457 --> 00:12:39,087
+stuff based on sort of
+the expected valuation,
+
+168
+00:12:39,088 --> 00:12:41,609
+which may, which
+definitely doesn't exactly
+
+169
+00:12:41,633 --> 00:12:44,287
+match if you actually
+over the shares, right?
+
+170
+00:12:44,288 --> 00:12:49,040
+Because of the three factors we talk about,
+but you can see and I'm going to follow up
+
+171
+00:12:49,041 --> 00:12:53,191
+with the exact number of
+sort of the growth in this
+
+172
+00:12:53,192 --> 00:12:57,000
+market given a lot of
+stuff started trade, right?
+
+173
+00:12:57,001 --> 00:12:59,989
+And now you see the
+CFTC new rule enabling
+
+174
+00:13:00,013 --> 00:13:03,360
+sort of allowing equity
+per trading and college
+
+175
+00:13:03,361 --> 00:13:05,920
+you already have a
+market sort of doing that.
+
+176
+00:13:05,921 --> 00:13:08,414
+So you're just seeing
+this financial innovation,
+
+177
+00:13:08,438 --> 00:13:10,892
+again, depending on the
+regulatory environment,
+
+178
+00:13:10,893 --> 00:13:14,320
+there's natural demand
+for more and more of that.
+
+179
+00:13:14,321 --> 00:13:17,640
+And we'll see it's becoming,
+as the market grow, right?
+
+180
+00:13:17,641 --> 00:13:20,324
+And I think it's
+becoming a more accurate
+
+181
+00:13:20,348 --> 00:13:23,360
+prediction because if
+more people participate,
+
+182
+00:13:23,361 --> 00:13:25,160
+the market is getting
+more efficient, right?
+
+183
+00:13:25,161 --> 00:13:29,280
+There's more liquidity opportunities,
+information can be arbitrage of the way.
+
+184
+00:13:29,281 --> 00:13:33,560
+So that's where we think longer
+term direction is how it evolves.
+
+185
+00:13:33,561 --> 00:13:36,640
+I get there is very interesting to watch.
+
+186
+00:13:49,640 --> 00:13:57,640
+[BLANK_AUDIO]
+
+187
+00:14:23,520 --> 00:14:29,077
+So whether that's pricing
+convention is good or not, is
+
+188
+00:14:29,078 --> 00:14:33,280
+subject to how people prefer
+to think of evaluation, right?
+
+189
+00:14:33,281 --> 00:14:37,960
+I think it's most intuitive because that
+price is indicating what the actual trading
+
+190
+00:14:37,961 --> 00:14:40,272
+price will be on
+NASDAQ, but that's also
+
+191
+00:14:40,296 --> 00:14:42,852
+forcing you or implying
+you are placing your
+
+192
+00:14:42,853 --> 00:14:48,960
+own bad on the share cost, right? Because
+you don't know until the amended NASDAQ.
+
+193
+00:14:48,961 --> 00:14:51,389
+In terms of why trade
+X, Y is so popular,
+
+194
+00:14:51,413 --> 00:14:54,092
+you know, it's part of
+the HIP street, right?
+
+195
+00:14:54,093 --> 00:14:57,886
+It's one of the earliest
+sort of independent sort
+
+196
+00:14:57,910 --> 00:15:01,560
+of perfect change that's
+living on hyperliquid,
+
+197
+00:15:01,561 --> 00:15:05,267
+being the first and
+also having, being the
+
+198
+00:15:05,291 --> 00:15:09,440
+hyperliquid ecosystem,
+it basically have access
+
+199
+00:15:09,441 --> 00:15:12,560
+to all the hyperliquid
+traders, right?
+
+200
+00:15:12,584 --> 00:15:17,000
+So I would say first to
+market, living the hyperliquid
+
+201
+00:15:17,001 --> 00:15:20,800
+system because it's permissionless, right?
+So it's entirely different.
+
+202
+00:15:20,801 --> 00:15:23,515
+I mean, we can talk
+about why hyperliquid is
+
+203
+00:15:23,539 --> 00:15:26,447
+getting so much
+traction. So it's part of that.
+
+204
+00:15:26,448 --> 00:15:29,686
+And entropy is actually rising
+quickly to the second, right?
+
+205
+00:15:29,710 --> 00:15:33,927
+So if you look at the hyperliquid
+market now, now there is this IO market,
+
+206
+00:15:33,951 --> 00:15:36,732
+which is entropy and
+there is this XYZ market,
+
+207
+00:15:36,733 --> 00:15:39,685
+which is trade of XYZ. I
+think what hyperliquid
+
+208
+00:15:39,709 --> 00:15:42,047
+did is very interesting,
+a sense that
+
+209
+00:15:42,048 --> 00:15:46,880
+they actually opened it up for builders to
+build on top of it. And it's more like they
+
+210
+00:15:46,881 --> 00:15:51,247
+are charging the toll, right?
+But they provide the highway.
+
+211
+00:15:51,271 --> 00:15:54,040
+And I think I expect
+more independent
+
+212
+00:15:54,041 --> 00:15:58,920
+builders would build on that. And trade X,
+Y is obviously a very successful example.
+
+213
+00:15:58,921 --> 00:16:02,218
+But again, like anything, once you see
+profit, everyone is trying to jump in, right?
+
+214
+00:16:02,219 --> 00:16:07,440
+The competition makes it
+better, which is not a bad thing.
+
+215
+00:16:49,300 --> 00:16:53,587
+I know, I know even for
+ask for like you, right?
+
+216
+00:16:53,611 --> 00:16:59,710
+So it's like, what's the intuitive versus
+what is easier to understand, maybe two
+
+217
+00:16:59,734 --> 00:17:03,459
+different things? And I think
+I'm happy to fall on with you.
+
+218
+00:17:03,460 --> 00:17:08,200
+Again, based on today's market close,
+what does the, if you want the apples
+
+219
+00:17:08,201 --> 00:17:11,112
+to apples compare on what
+does the indicated price?
+
+220
+00:17:11,136 --> 00:17:13,686
+What is the indicated
+price and market value?
+
+221
+00:17:13,687 --> 00:17:15,030
+I can generate that for you.
+
+222
+00:17:15,054 --> 00:17:17,611
+And also I'm curious, since
+you asked the question
+
+223
+00:17:18,319 --> 00:17:22,401
+on how much has the
+growth really be, right,
+
+224
+00:17:22,425 --> 00:17:26,331
+for from SpaceX to,
+to, and I can get that
+
+225
+00:17:26,640 --> 00:17:30,628
+number for you. Yeah,
+I think for the readers,
+
+226
+00:17:30,652 --> 00:17:34,640
+it's like explaining the
+complexity, but maybe
+
+227
+00:17:34,641 --> 00:17:37,104
+the beauty of the
+market is there no answer.
+
+228
+00:17:37,128 --> 00:17:39,767
+Because there are many
+other different answers.
+
+229
+00:17:39,768 --> 00:17:42,448
+It's a very frontier
+market. That's a reality
+
+230
+00:17:42,472 --> 00:17:45,047
+of the world, right?
+And then we can either
+
+231
+00:17:45,048 --> 00:17:50,040
+anchor on price or we can anchor on market
+value. But whatever you anchor, you have to
+
+232
+00:17:50,041 --> 00:17:52,443
+make sure you're
+comparing apples to apples.
+
+233
+00:17:52,467 --> 00:17:54,772
+So sort of that's just
+the message we want
+
+234
+00:17:58,960 --> 00:18:06,960
+to provide to the market. Thank you, man.
+We love to see in touch. And here are your
+
+235
+00:18:06,961 --> 00:18:09,504
+challenging questions.
+We're always interested
+
+236
+00:18:09,528 --> 00:18:12,710
+in, you know, good questions
+and interesting viewpoints.
+
+237
+00:18:12,711 --> 00:18:14,330
+So fascinating, right?
+
+238
+00:18:14,354 --> 00:18:18,200
+It's just always changing
+and evolving and it's helpful
+
+239
+00:18:18,201 --> 00:18:21,151
+to have people like Kelly
+who can break it down
+
+240
+00:18:21,175 --> 00:18:24,007
+and translate it in a
+way that we understand.
+
+241
+00:18:24,008 --> 00:18:26,317
+I think Kelly's mentioned
+a couple of follow
+
+242
+00:18:26,341 --> 00:18:28,512
+up points there that
+will send over that.
+
+243
+00:18:28,513 --> 00:18:32,600
+Is there a deadline for this
+piece that you're working on?
+
+244
+00:19:02,380 --> 00:19:09,356
+Yeah, I can send you up to the number
+based on I can write after this call.
+
+245
+00:19:09,357 --> 00:19:14,200
+And if you want to refresh,
+we can always provide.
+
+246
+00:19:14,201 --> 00:19:17,622
+I'll connect us along
+and email Kelly and
+
+247
+00:19:17,646 --> 00:19:23,194
+then you've got access to all the time
+zones at whichever time zone you're in.
+
+248
+00:19:23,218 --> 00:19:29,280
+So yeah, great chatting. And thank you for
+all of the questions and for reaching out.
+
+249
+00:19:29,281 --> 00:19:35,160
+Thank you, Madison. Thanks, Matt.
+Thanks, luckily. Thank you, bye.
+
